@@ -1,0 +1,35 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: LEGO® Chima Tribe Fighters_v1.00_apkpure.com.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- res/raw/amazon_gc_prototype.zip
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '19'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  placeholder.txt: '8'
+  com/tapjoy/res/tj_close_button.png: '8'
+  com/turbomanage/httpclient/License: '8'
+  js/closebutton.html: '8'
+  js/mraid.js: '8'
+  .idea/compiler.xml: '8'
+  .idea/encodings.xml: '8'
+  .idea/misc.xml: '8'
+  .idea/modules.xml: '8'
+  .idea/workspace.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.5.0
+versionInfo:
+  versionCode: '4100'
+  versionName: '1.00'
