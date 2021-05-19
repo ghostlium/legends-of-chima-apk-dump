@@ -1,0 +1,194 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 893
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 19,
+    "m_PathID": 34
+  },
+  "m_Name": "",
+  "isClosedPath": 0,
+  "showRacingLine": 1,
+  "showTrack": 1,
+  "showWalls": 1,
+  "showNodes": 1,
+  "showHandles": 1,
+  "showLocalAxis": 1,
+  "trackColor": {
+    "r": 0.216783047,
+    "g": 0.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "wallColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "nodeColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "loadDelay": 0.2,
+  "_nodes": [
+    {
+      "position": {
+        "x": 398.8182,
+        "y": 0.6,
+        "z": 1035.61194
+      },
+      "leftBorderDistance": 3.09,
+      "rightBorderDistance": 3.19,
+      "leftWallDistance": 3.32,
+      "rightWallDistance": 3.5,
+      "banking": 0.0,
+      "maxSpeed": 19.62503,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.145213157,
+        "z": 0.0,
+        "w": 0.9894004
+      }
+    },
+    {
+      "position": {
+        "x": 392.5172,
+        "y": 0.6,
+        "z": 1055.10889
+      },
+      "leftBorderDistance": 4.7,
+      "rightBorderDistance": 3.5,
+      "leftWallDistance": 5.06,
+      "rightWallDistance": 3.81,
+      "banking": 0.0,
+      "maxSpeed": 19.5011463,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.166322485,
+        "z": 0.0,
+        "w": 0.9860714
+      }
+    },
+    {
+      "position": {
+        "x": 385.47583,
+        "y": 0.6,
+        "z": 1068.29382
+      },
+      "leftBorderDistance": 4.42092943,
+      "rightBorderDistance": 4.68,
+      "leftWallDistance": 4.93,
+      "rightWallDistance": 5.04,
+      "banking": 0.0,
+      "maxSpeed": 19.3883762,
+      "rotation": {
+        "x": 0.00640749745,
+        "y": -0.268400937,
+        "z": 0.00178532756,
+        "w": 0.9632844
+      }
+    },
+    {
+      "position": {
+        "x": 378.12146,
+        "y": -3.12,
+        "z": 1080.39209
+      },
+      "leftBorderDistance": 4.72,
+      "rightBorderDistance": 5.11,
+      "leftWallDistance": 5.12,
+      "rightWallDistance": 5.61,
+      "banking": 0.0,
+      "maxSpeed": 19.3039265,
+      "rotation": {
+        "x": 0.131277382,
+        "y": -0.265902758,
+        "z": 0.03657795,
+        "w": 0.954318643
+      }
+    },
+    {
+      "position": {
+        "x": 369.316528,
+        "y": -10.46,
+        "z": 1091.19629
+      },
+      "leftBorderDistance": 5.1,
+      "rightBorderDistance": 5.43,
+      "leftWallDistance": 5.46,
+      "rightWallDistance": 5.93,
+      "banking": 0.0,
+      "maxSpeed": 19.2161064,
+      "rotation": {
+        "x": 0.2654467,
+        "y": -0.283163548,
+        "z": 0.08188241,
+        "w": 0.917960644
+      }
+    },
+    {
+      "position": {
+        "x": 352.5357,
+        "y": -11.92,
+        "z": 1100.71179
+      },
+      "leftBorderDistance": 5.487997,
+      "rightBorderDistance": 13.3,
+      "leftWallDistance": 7.309362,
+      "rightWallDistance": 13.91,
+      "banking": 0.0,
+      "maxSpeed": 19.1209431,
+      "rotation": {
+        "x": 0.0378535949,
+        "y": -0.4774414,
+        "z": 0.0205933731,
+        "w": 0.8776063
+      }
+    },
+    {
+      "position": {
+        "x": 340.532654,
+        "y": -13.27,
+        "z": 1104.14172
+      },
+      "leftBorderDistance": 4.79023027,
+      "rightBorderDistance": 16.5049133,
+      "leftWallDistance": 6.755461,
+      "rightWallDistance": 19.0,
+      "banking": 0.0,
+      "maxSpeed": 18.99857,
+      "rotation": {
+        "x": 0.0398538,
+        "y": -0.5654744,
+        "z": 0.0273715556,
+        "w": 0.823347569
+      }
+    }
+  ],
+  "_sectors": [
+    {
+      "lookAheadDistance": 0.01,
+      "gripModifier": 0.5,
+      "decelerationModifier": 0.1,
+      "percentageEndOfSector": 1.0,
+      "color": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "influenceWeightRight": 1.0,
+      "influenceWeightLeft": 1.0,
+      "usePreviousParticleSystem": 1,
+      "particleSystem": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 63
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 9,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Canyon_Straight3a",
+    "SCN_Canyon_Straight3a_g3",
+    "SCN_Canyon_Straight3a_g4",
+    "SCN_Canyon_Straight3a_g5",
+    "SCN_Canyon_Straight3a_g6",
+    "Dynamic_Scene_Canyon_Straight3a",
+    "Dynamic_Scene_Canyon_Straight3a_g8"
+  ]
+}

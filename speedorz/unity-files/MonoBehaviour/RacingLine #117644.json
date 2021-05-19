@@ -1,0 +1,270 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 935
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 22,
+    "m_PathID": 34
+  },
+  "m_Name": "",
+  "isClosedPath": 0,
+  "showRacingLine": 1,
+  "showTrack": 1,
+  "showWalls": 1,
+  "showNodes": 1,
+  "showHandles": 0,
+  "showLocalAxis": 1,
+  "trackColor": {
+    "r": 1.0,
+    "g": 0.5,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "wallColor": {
+    "r": 1.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "nodeColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "loadDelay": 0.0,
+  "_nodes": [
+    {
+      "position": {
+        "x": -437.5186,
+        "y": 1.72821259,
+        "z": 1489.4541
+      },
+      "leftBorderDistance": 3.57,
+      "rightBorderDistance": 5.44,
+      "leftWallDistance": 5.05,
+      "rightWallDistance": 7.987193,
+      "banking": 0.0,
+      "maxSpeed": 22.40791,
+      "rotation": {
+        "x": 0.0149382474,
+        "y": -0.3020536,
+        "z": 0.004733876,
+        "w": 0.953162134
+      }
+    },
+    {
+      "position": {
+        "x": -446.974976,
+        "y": 1.21335888,
+        "z": 1502.738
+      },
+      "leftBorderDistance": 2.16,
+      "rightBorderDistance": 4.58,
+      "leftWallDistance": 4.02231455,
+      "rightWallDistance": 6.30973339,
+      "banking": 0.0,
+      "maxSpeed": 22.2467575,
+      "rotation": {
+        "x": -0.0010169351,
+        "y": -0.256147,
+        "z": -0.000269475335,
+        "w": 0.966637254
+      }
+    },
+    {
+      "position": {
+        "x": -454.07193,
+        "y": 2.3685205,
+        "z": 1522.86926
+      },
+      "leftBorderDistance": 3.24,
+      "rightBorderDistance": 2.16,
+      "leftWallDistance": 4.463227,
+      "rightWallDistance": 3.031835,
+      "banking": 0.0,
+      "maxSpeed": 24.2407265,
+      "rotation": {
+        "x": -0.0216151681,
+        "y": -0.139924511,
+        "z": -0.0030552845,
+        "w": 0.9899215
+      }
+    },
+    {
+      "position": {
+        "x": -462.07843,
+        "y": 1.942207,
+        "z": 1557.73694
+      },
+      "leftBorderDistance": 4.8,
+      "rightBorderDistance": 2.72,
+      "leftWallDistance": 5.590538,
+      "rightWallDistance": 3.69914913,
+      "banking": 0.0,
+      "maxSpeed": 23.9832935,
+      "rotation": {
+        "x": 0.008750278,
+        "y": -0.106209643,
+        "z": 0.000934686861,
+        "w": 0.994304836
+      }
+    },
+    {
+      "position": {
+        "x": -464.947662,
+        "y": 2.02557588,
+        "z": 1572.61658
+      },
+      "leftBorderDistance": 4.72,
+      "rightBorderDistance": 3.81,
+      "leftWallDistance": 5.52288771,
+      "rightWallDistance": 4.838113,
+      "banking": 0.0,
+      "maxSpeed": 23.6309071,
+      "rotation": {
+        "x": -0.0072480985,
+        "y": -0.09095585,
+        "z": -0.0006620187,
+        "w": 0.995828331
+      }
+    },
+    {
+      "position": {
+        "x": -467.0556,
+        "y": 1.971695,
+        "z": 1583.85535
+      },
+      "leftBorderDistance": 7.5,
+      "rightBorderDistance": 6.46,
+      "leftWallDistance": 8.72447,
+      "rightWallDistance": 7.74696827,
+      "banking": 0.0,
+      "maxSpeed": 23.5140133,
+      "rotation": {
+        "x": 0.00400224235,
+        "y": -0.09853682,
+        "z": 0.0003963001,
+        "w": 0.9951253
+      }
+    },
+    {
+      "position": {
+        "x": -471.388763,
+        "y": 1.92365623,
+        "z": 1612.45166
+      },
+      "leftBorderDistance": 9.38,
+      "rightBorderDistance": 5.72,
+      "leftWallDistance": 10.7560291,
+      "rightWallDistance": 7.539809,
+      "banking": 0.0,
+      "maxSpeed": 23.4162922,
+      "rotation": {
+        "x": 0.000733915833,
+        "y": -0.0701298639,
+        "z": 5.15964639E-05,
+        "w": 0.9975376
+      }
+    },
+    {
+      "position": {
+        "x": -479.693634,
+        "y": 1.83693469,
+        "z": 1654.39014
+      },
+      "leftBorderDistance": 7.65,
+      "rightBorderDistance": 4.76,
+      "leftWallDistance": 9.369375,
+      "rightWallDistance": 6.414315,
+      "banking": 0.0,
+      "maxSpeed": 23.4162922,
+      "rotation": {
+        "x": 0.00102834229,
+        "y": -0.100131169,
+        "z": 0.000103489292,
+        "w": 0.9949737
+      }
+    },
+    {
+      "position": {
+        "x": -482.762756,
+        "y": 1.80082607,
+        "z": 1672.91956
+      },
+      "leftBorderDistance": 4.14,
+      "rightBorderDistance": 1.79,
+      "leftWallDistance": 5.28630447,
+      "rightWallDistance": 2.68814015,
+      "banking": 0.0,
+      "maxSpeed": 22.9417953,
+      "rotation": {
+        "x": 0.000955304946,
+        "y": -0.09345186,
+        "z": 8.966747E-05,
+        "w": 0.99562335
+      }
+    },
+    {
+      "position": {
+        "x": -483.9429,
+        "y": 1.7638092,
+        "z": 1691.56226
+      },
+      "leftBorderDistance": 3.46,
+      "rightBorderDistance": 3.39,
+      "leftWallDistance": 5.603943,
+      "rightWallDistance": 4.72109365,
+      "banking": 0.0,
+      "maxSpeed": 22.75074,
+      "rotation": {
+        "x": 0.00100120134,
+        "y": -0.0522048,
+        "z": 5.23389026E-05,
+        "w": 0.9986359
+      }
+    },
+    {
+      "position": {
+        "x": -482.278473,
+        "y": 1.73742759,
+        "z": 1705.03845
+      },
+      "leftBorderDistance": 2.44,
+      "rightBorderDistance": 3.9,
+      "leftWallDistance": 4.92869425,
+      "rightWallDistance": 4.71671724,
+      "banking": 0.0,
+      "maxSpeed": 22.5558434,
+      "rotation": {
+        "x": 0.0010155302,
+        "y": 0.0260152072,
+        "z": -2.642819E-05,
+        "w": 0.999661
+      }
+    }
+  ],
+  "_sectors": [
+    {
+      "lookAheadDistance": 0.01,
+      "gripModifier": 0.5,
+      "decelerationModifier": 0.1,
+      "percentageEndOfSector": 1.0,
+      "color": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "influenceWeightRight": 1.0,
+      "influenceWeightLeft": 1.0,
+      "usePreviousParticleSystem": 1,
+      "particleSystem": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ]
+}

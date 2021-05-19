@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 779
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Swamp_Split1_g4",
+    "SCN_Swamp_Split1_g3",
+    "SCN_Swamp_Split1_g5",
+    "SCN_Swamp_Split1_g1"
+  ]
+}

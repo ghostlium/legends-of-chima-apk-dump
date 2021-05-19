@@ -1,0 +1,191 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1780
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 255
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_titleText_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35671
+  },
+  "_countText_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 37015
+  },
+  "_tutorialData": [
+    {
+      "_type": 0,
+      "_flashRate": 1.0,
+      "_titleTextId": "BOOST_WEB",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 37053
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35537
+        }
+      ]
+    },
+    {
+      "_type": 1,
+      "_flashRate": 1.0,
+      "_titleTextId": "CHI",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36948
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36733
+        }
+      ]
+    },
+    {
+      "_type": 2,
+      "_flashRate": 1.0,
+      "_titleTextId": "HAZARD",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36206
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36221
+        }
+      ]
+    },
+    {
+      "_type": 3,
+      "_flashRate": 1.0,
+      "_titleTextId": "STEER_WEB",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36560
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36452
+        }
+      ]
+    },
+    {
+      "_type": 4,
+      "_flashRate": 1.0,
+      "_titleTextId": "CHALLENGE_TARGET_PRACTISE",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35618
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 37061
+        }
+      ]
+    },
+    {
+      "_type": 5,
+      "_flashRate": 1.0,
+      "_titleTextId": "CHALLENGE_CHI_WATERFALL",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36386
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36904
+        }
+      ]
+    },
+    {
+      "_type": 6,
+      "_flashRate": 1.0,
+      "_titleTextId": "CHALLENGE_FIRE_RING",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36846
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 34964
+        }
+      ]
+    },
+    {
+      "_type": 7,
+      "_flashRate": 1.0,
+      "_titleTextId": "CHALLENGE_JUNGLE_GATES",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36425
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35344
+        }
+      ]
+    },
+    {
+      "_type": 8,
+      "_flashRate": 1.0,
+      "_titleTextId": "CHALLENGE_BOULDER_BOWLING",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35310
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36304
+        }
+      ]
+    },
+    {
+      "_type": 9,
+      "_flashRate": 1.0,
+      "_titleTextId": "CHALLENGE_ICE_TOWER",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36124
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35270
+        }
+      ]
+    },
+    {
+      "_type": 10,
+      "_flashRate": 1.0,
+      "_titleTextId": "WIN",
+      "_flashObject_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36892
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36839
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1117
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 20,
+    "m_PathID": 34
+  },
+  "m_Name": "",
+  "isClosedPath": 0,
+  "showRacingLine": 1,
+  "showTrack": 1,
+  "showWalls": 1,
+  "showNodes": 1,
+  "showHandles": 0,
+  "showLocalAxis": 1,
+  "trackColor": {
+    "r": 1.0,
+    "g": 0.5,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "wallColor": {
+    "r": 1.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "nodeColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "loadDelay": 0.0,
+  "_nodes": [
+    {
+      "position": {
+        "x": -0.1402385,
+        "y": 0.7418576,
+        "z": 227.85
+      },
+      "leftBorderDistance": 3.2,
+      "rightBorderDistance": 4.14,
+      "leftWallDistance": 3.46,
+      "rightWallDistance": 4.29,
+      "banking": 0.0,
+      "maxSpeed": 68.31076,
+      "rotation": {
+        "x": 0.0003255042,
+        "y": 0.004516463,
+        "z": -1.47014271E-06,
+        "w": 0.999989748
+      }
+    },
+    {
+      "position": {
+        "x": 0.02484189,
+        "y": 0.7307883,
+        "z": 245.848068
+      },
+      "leftBorderDistance": 6.36,
+      "rightBorderDistance": 5.59,
+      "leftWallDistance": 7.1,
+      "rightWallDistance": 6.3,
+      "banking": 0.0,
+      "maxSpeed": 77.5531,
+      "rotation": {
+        "x": 0.000332429045,
+        "y": 0.004622941,
+        "z": -1.53681606E-06,
+        "w": 0.9999893
+      }
+    },
+    {
+      "position": {
+        "x": -0.9,
+        "y": 0.719718933,
+        "z": 262.4
+      },
+      "leftBorderDistance": 13.2,
+      "rightBorderDistance": 19.5,
+      "leftWallDistance": 14.0,
+      "rightWallDistance": 20.3,
+      "banking": 0.0,
+      "maxSpeed": 316.227753,
+      "rotation": {
+        "x": 0.000362650026,
+        "y": -0.0281957928,
+        "z": 1.02292724E-05,
+        "w": 0.9996024
+      }
+    }
+  ],
+  "_sectors": [
+    {
+      "lookAheadDistance": 0.01,
+      "gripModifier": 0.5,
+      "decelerationModifier": 0.1,
+      "percentageEndOfSector": 1.0,
+      "color": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "influenceWeightRight": 0.5,
+      "influenceWeightLeft": 0.5,
+      "usePreviousParticleSystem": 1,
+      "particleSystem": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ]
+}

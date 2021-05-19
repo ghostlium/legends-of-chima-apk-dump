@@ -1,0 +1,86 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2675
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 171
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_nameText_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35512
+  },
+  "_bioText_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35798
+  },
+  "_pageText_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35724
+  },
+  "_bioData": [
+    {
+      "_nameStringId": "Laval",
+      "_bioStringId": "LAVAL1",
+      "_bioImage_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35594
+      }
+    },
+    {
+      "_nameStringId": "Laval",
+      "_bioStringId": "LAVAL2",
+      "_bioImage_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35594
+      }
+    },
+    {
+      "_nameStringId": "Laval",
+      "_bioStringId": "LAVAL3",
+      "_bioImage_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35594
+      }
+    },
+    {
+      "_nameStringId": "Cragger",
+      "_bioStringId": "CRAGGER1",
+      "_bioImage_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36279
+      }
+    },
+    {
+      "_nameStringId": "Cragger",
+      "_bioStringId": "CRAGGER2",
+      "_bioImage_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36279
+      }
+    },
+    {
+      "_nameStringId": "Cragger",
+      "_bioStringId": "CRAGGER3",
+      "_bioImage_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36279
+      }
+    },
+    {
+      "_nameStringId": "Cragger",
+      "_bioStringId": "CRAGGER4",
+      "_bioImage_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36279
+      }
+    }
+  ]
+}

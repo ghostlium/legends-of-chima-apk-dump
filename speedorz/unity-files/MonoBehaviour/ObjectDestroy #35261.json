@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1738
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Canyon_Straight1b",
+    "Pickups_SCN_Canyon_Straight1b",
+    "SCN_Canyon_Straight1b_g3",
+    "SCN_Canyon_Straight1b_g4",
+    "SCN_Canyon_Straight1b_g5"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2483
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 130
+  },
+  "m_Name": "",
+  "levelName": "Game",
+  "forceLoadIfAlreadyLoaded": 1,
+  "onLoadComplete": {
+    "onlyOnce": 0,
+    "receivers": [
+      {
+        "receiver": {
+          "m_FileID": 0,
+          "m_PathID": 1247
+        },
+        "action": "OnHide",
+        "delay": 0.0,
+        "receiveSender": 0
+      }
+    ]
+  }
+}

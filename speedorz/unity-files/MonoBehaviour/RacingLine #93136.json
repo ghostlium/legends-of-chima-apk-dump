@@ -1,0 +1,118 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 593
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 19,
+    "m_PathID": 34
+  },
+  "m_Name": "",
+  "isClosedPath": 0,
+  "showRacingLine": 1,
+  "showTrack": 1,
+  "showWalls": 1,
+  "showNodes": 1,
+  "showHandles": 0,
+  "showLocalAxis": 1,
+  "trackColor": {
+    "r": 1.0,
+    "g": 0.5,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "wallColor": {
+    "r": 1.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "nodeColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "loadDelay": 0.0,
+  "_nodes": [
+    {
+      "position": {
+        "x": -389.902649,
+        "y": 3.0,
+        "z": 1137.77075
+      },
+      "leftBorderDistance": 2.29,
+      "rightBorderDistance": 4.35,
+      "leftWallDistance": 3.83921719,
+      "rightWallDistance": 5.17,
+      "banking": 0.0,
+      "maxSpeed": 10.0,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.06213744,
+        "z": 0.0,
+        "w": 0.9980676
+      }
+    },
+    {
+      "position": {
+        "x": -388.7033,
+        "y": 3.0,
+        "z": 1149.99133
+      },
+      "leftBorderDistance": 11.3,
+      "rightBorderDistance": 5.23,
+      "leftWallDistance": 13.8,
+      "rightWallDistance": 5.91,
+      "banking": 0.0,
+      "maxSpeed": 10.0,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.06213744,
+        "z": 0.0,
+        "w": 0.9980676
+      }
+    },
+    {
+      "position": {
+        "x": -389.0,
+        "y": 3.0,
+        "z": 1165.0
+      },
+      "leftBorderDistance": 22.3,
+      "rightBorderDistance": 14.7,
+      "leftWallDistance": 27.0,
+      "rightWallDistance": 16.6,
+      "banking": 0.0,
+      "maxSpeed": 10.0,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      }
+    }
+  ],
+  "_sectors": [
+    {
+      "lookAheadDistance": 0.01,
+      "gripModifier": 0.5,
+      "decelerationModifier": 0.1,
+      "percentageEndOfSector": 1.0,
+      "color": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "influenceWeightRight": 1.0,
+      "influenceWeightLeft": 1.0,
+      "usePreviousParticleSystem": 1,
+      "particleSystem": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ]
+}

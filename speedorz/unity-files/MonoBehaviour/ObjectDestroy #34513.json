@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 809
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Swamp_Split2a",
+    "SCN_Swamp_Straight2a",
+    "SCN_Swamp_Straight2_End2",
+    "SCN_Arena_Swamp_Straight2_End2",
+    "Collision_SCN_Swamp_Straight2a",
+    "Collision_SCN_Swamp_Straight2_End2",
+    "Floor_SCN_Swamp_Straight2a",
+    "Floor_SCN_Swamp_Straight2_End2"
+  ]
+}

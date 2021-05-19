@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 974
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 199
+  },
+  "m_Name": "",
+  "waitForStartCommand": 1,
+  "initialDelay": 0.1,
+  "levelNames": [
+    "SCN_Swamp_Straight5_Geom5",
+    "SCN_Swamp_Straight5_Geom4",
+    "SCN_Swamp_Straight5_Geom3",
+    "SCN_Swamp_Straight5_Geom2",
+    "SCN_Arena_Swamp_Straight5",
+    "SCN_Swamp_Straight5a",
+    "SCN_Swamp_Straight5b"
+  ],
+  "noDelayYielding": 0
+}

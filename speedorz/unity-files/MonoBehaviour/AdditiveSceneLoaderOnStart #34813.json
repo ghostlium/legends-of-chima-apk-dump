@@ -1,0 +1,32 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 947
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 199
+  },
+  "m_Name": "",
+  "waitForStartCommand": 1,
+  "initialDelay": 0.1,
+  "levelNames": [
+    "SCN_Canyon_Straight1b_Geom1",
+    "SCN_Canyon_Straight1b_Geom2",
+    "SCN_Canyon_Straight1b_Geom3",
+    "SCN_Canyon_Straight1b_Geom4",
+    "SCN_Canyon_Straight1b_Geom5",
+    "SCN_Canyon_Straight1c_Geom1",
+    "SCN_Canyon_Straight1c_Geom2",
+    "SCN_Canyon_Straight1c_Geom3",
+    "SCN_Canyon_Straight1c_Geom4",
+    "SCN_Canyon_Straight1c_Geom5",
+    "SCN_Swamp_Split1_Geom1",
+    "SCN_Swamp_Split1_Geom2",
+    "SCN_Swamp_Split1_Geom3",
+    "SCN_Swamp_Split1_Geom4",
+    "SCN_Swamp_Split1_Geom5"
+  ],
+  "noDelayYielding": 0
+}

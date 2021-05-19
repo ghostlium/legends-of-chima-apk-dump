@@ -1,0 +1,63 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1238
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 110
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_incentives": [
+    {
+      "_incentiveValue": 15,
+      "_buttonId": 1,
+      "_incentiveActive": 1,
+      "_incentiveName": "bios",
+      "_linkOnPress": "CoolStuff_Bio",
+      "_incentiveImage_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35894
+      },
+      "_incentiveLable_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35823
+      }
+    },
+    {
+      "_incentiveValue": 25,
+      "_buttonId": 2,
+      "_incentiveActive": 1,
+      "_incentiveName": "news",
+      "_linkOnPress": "",
+      "_incentiveImage_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36004
+      },
+      "_incentiveLable_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35983
+      }
+    },
+    {
+      "_incentiveValue": 35,
+      "_buttonId": 3,
+      "_incentiveActive": 1,
+      "_incentiveName": "videos",
+      "_linkOnPress": "",
+      "_incentiveImage_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35700
+      },
+      "_incentiveLable_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35725
+      }
+    }
+  ]
+}

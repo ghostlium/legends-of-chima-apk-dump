@@ -1,0 +1,31 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 18
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 6,
+    "m_PathID": 243
+  },
+  "m_Name": "",
+  "bkg": {
+    "m_FileID": 0,
+    "m_PathID": 31
+  },
+  "_spinner": {
+    "m_FileID": 0,
+    "m_PathID": 20
+  },
+  "_camera": {
+    "m_FileID": 0,
+    "m_PathID": 19
+  },
+  "bkgResourceLocations": [
+    "NewChimaSplash_960x640",
+    "NewChimaSplash_1024x768",
+    "NewChimaSplash_1136x640",
+    "NewChimaSplash_2048x1536"
+  ],
+  "bkgResourceLocation": "loader2"
+}

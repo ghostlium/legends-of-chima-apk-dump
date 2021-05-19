@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 253
+  },
+  "m_Name": "",
+  "resourceNames": [
+    "Challenges_SCN_Jungle_Straight1c",
+    "Challenges_SCN_Jungle_Straight1b"
+  ],
+  "loadOnAwake": 0,
+  "highPriorityList": 0
+}

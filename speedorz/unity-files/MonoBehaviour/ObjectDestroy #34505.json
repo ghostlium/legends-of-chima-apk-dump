@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 801
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Swamp_Straight1b",
+    "PickupPool",
+    "Dynamic_Scene_SCN_Swamp_Straight1b",
+    "SCN_Swamp_Straight1b",
+    "SCN_Swamp_Straight1b_g3",
+    "SCN_Swamp_Straight1b_g5"
+  ]
+}

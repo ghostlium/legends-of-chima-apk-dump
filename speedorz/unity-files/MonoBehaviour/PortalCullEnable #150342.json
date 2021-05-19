@@ -1,0 +1,69 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1000
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 23,
+    "m_PathID": 10
+  },
+  "m_Name": "",
+  "gameObjectsToEnable": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1768
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 23
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1648
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2473
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2701
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 552
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2437
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1265
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2326
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1754
+    }
+  ],
+  "delayBetweenObjects": 0.0,
+  "delayBetweenRenderers": 0.0,
+  "samplerOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

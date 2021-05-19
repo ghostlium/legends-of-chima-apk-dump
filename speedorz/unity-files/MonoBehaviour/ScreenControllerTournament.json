@@ -1,0 +1,141 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4354
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 96
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_tournamentElements": [
+    {
+      "_unlocked": 1,
+      "_raceUnlockBlocks_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36503
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36492
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36482
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36471
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36461
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36449
+        }
+      ],
+      "_lockIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_characters_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_raceButton_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "_unlocked": 0,
+      "_raceUnlockBlocks_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35992
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36084
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36118
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36135
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36151
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36167
+        }
+      ],
+      "_lockIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36686
+      },
+      "_characters_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 34335
+      },
+      "_raceButton_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35810
+      }
+    },
+    {
+      "_unlocked": 0,
+      "_raceUnlockBlocks_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35397
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35361
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35327
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35287
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35157
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35105
+        }
+      ],
+      "_lockIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36678
+      },
+      "_characters_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36665
+      },
+      "_raceButton_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36422
+      }
+    }
+  ]
+}

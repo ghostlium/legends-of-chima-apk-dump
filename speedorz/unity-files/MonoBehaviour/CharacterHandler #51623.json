@@ -1,0 +1,207 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 133
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 279
+  },
+  "m_Name": "",
+  "_enemy": 0,
+  "_helmets": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 365
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 379
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 377
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 363
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 271
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 273
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 275
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 275
+    }
+  ],
+  "_speedors": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 185
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 193
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 151
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 187
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 191
+    }
+  ],
+  "_headParts": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 381
+    }
+  ],
+  "_torsoParts": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 351
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 345
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 339
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 215
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 229
+    }
+  ],
+  "_legParts": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 347
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 335
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 383
+    }
+  ],
+  "_wingParts": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 225
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 219
+    }
+  ],
+  "_superArmor": {
+    "m_FileID": 0,
+    "m_PathID": 287
+  },
+  "_tail": {
+    "m_FileID": 0,
+    "m_PathID": 293
+  },
+  "_weaponCragger": {
+    "m_FileID": 0,
+    "m_PathID": 167
+  },
+  "_weaponLaval": {
+    "m_FileID": 0,
+    "m_PathID": 159
+  },
+  "_materialCharachterLocations": [
+    "Lion_Warrior_Diffuse",
+    "Laval_Diffuse",
+    "Leonidas_Diffuse",
+    "Longtooth_Diffuse",
+    "Lennox_Diffuse",
+    "Lagravis_Diffuse",
+    "Laval_Diffuse",
+    "Crawley_Diffuse",
+    "Cragger_Diffuse",
+    "Crooler_Diffuse",
+    "Crug_Diffuse",
+    "Crominus_Diffuse",
+    "Cragger_Diffuse",
+    "Eglor_Diffuse",
+    "Eris_Diffuse",
+    "Wolf_Warrior_Diffuse",
+    "Worris_Diffuse",
+    "Windra_Diffuse",
+    "Rawzom_Diffuse",
+    "Gorzan_Diffuse",
+    "Grizzam_Diffuse",
+    "Fox_diffuse",
+    "Skunk_diffuse"
+  ],
+  "_materialSpeedorLocations": [
+    "SpeedorLion",
+    "SpeedorLaval",
+    "SpeedorLeonidas",
+    "SpeedorLongtooth",
+    "SpeedorLennox",
+    "SpeedorLagravis",
+    "SpeedorLaval",
+    "SpeedorCroc",
+    "SpeedorCragger",
+    "SpeedorCroc",
+    "SpeedorCrug",
+    "SpeedorCrominus",
+    "SpeedorCragger",
+    "SpeedorEglor",
+    "SpeedorEagle",
+    "SpeedorWolf",
+    "SpeedorWorriz",
+    "SpeedorWolf",
+    "SpeedorRaven",
+    "SpeedorGorzan",
+    "SpeedorGrizzam",
+    "SpeedorFox",
+    "SpeedorSkunk"
+  ],
+  "_materialWingLocations": [
+    "Eglor_Diffuse",
+    "Rawzom_Diffuse"
+  ]
+}

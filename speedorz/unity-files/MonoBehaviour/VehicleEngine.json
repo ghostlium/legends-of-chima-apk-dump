@@ -1,0 +1,130 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 90
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 220
+  },
+  "m_Name": "",
+  "_physicsDebugRendering": 0,
+  "_movementDebugRendering": 0,
+  "_boostDebugRendering": 0,
+  "_allowBrake": 0,
+  "_allowReverse": 0,
+  "_autoThrottle": 1,
+  "_autoThrottleDecreaseRate": 0.03,
+  "_minAutoThrottlePercent": 0.45,
+  "_autoThrottleControl": 0,
+  "_stationaryRipStart": 1,
+  "_numberOfGears": 3,
+  "_canAlwaysBoost": 0,
+  "_maxAngleFromSpline": 40.0,
+  "_gearCurvePower": 1.0,
+  "_minSpeed": 20.0,
+  "_bottomSpeed": 45.0,
+  "_topSpeed": 75.0,
+  "_topSpeedBoost": 80.0,
+  "_maxEngineForce": 2500.0,
+  "_minEngineForce": 750.0,
+  "_angVelInputVec": 90.0,
+  "_angVelMove": 85.0,
+  "_angVelOri": 75.0,
+  "_angVelInAirMultiplier": 0.75,
+  "_angVelCollisionMultiplier": 2.0,
+  "_boostDurationMax": 2.5,
+  "_boostDurationMin": 0.75,
+  "_boostEngineForceChi": 50.0,
+  "_boostEngineForceRip": 125.0,
+  "_boostEngineForceMax": 215.0,
+  "_seat": {
+    "m_FileID": 0,
+    "m_PathID": 157
+  },
+  "_centreOfMass": {
+    "m_FileID": 0,
+    "m_PathID": 157
+  },
+  "_rotationPoint": {
+    "m_FileID": 0,
+    "m_PathID": 158
+  },
+  "_model": {
+    "m_FileID": 0,
+    "m_PathID": 157
+  },
+  "_maxRespawnSpeed": 999.0,
+  "_aWheels": [
+    {
+      "_collider": {
+        "m_FileID": 0,
+        "m_PathID": 298
+      },
+      "_frictionForwards": {
+        "_extremumSlip": 1.0,
+        "_extreamValue": 300.0,
+        "_asymptoteSlip": 2.0,
+        "_asymptotsValue": 150.0,
+        "_stiffness": 1.0
+      },
+      "_frictionSidways": {
+        "_extremumSlip": 1.0,
+        "_extreamValue": 1000.0,
+        "_asymptoteSlip": 2.0,
+        "_asymptotsValue": 500.0,
+        "_stiffness": 1.0
+      },
+      "_wheelGraphic": {
+        "m_FileID": 0,
+        "m_PathID": 187
+      },
+      "_driveWheel": 1,
+      "_steerWheel": 0,
+      "_steerWheelVisualTurnReduction": 0.0,
+      "_dirtParticles": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_wheelVelo": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "_groundSpeed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "_previousGroundSpeed": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "_lastEmitPosition": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "_previousSteeringAngle": 0.0,
+      "_lastSkidmark": 0
+    }
+  ],
+  "_aGearSpeeds": [],
+  "_inAir": 0,
+  "_prevInAir": 0,
+  "_reversing": 0,
+  "_currentEngineForce": 0.0,
+  "_throttleInput": 0.0,
+  "_autoThrottleValue": 1.0,
+  "_steerInput": 0.0,
+  "_boostTimer": 0.0,
+  "_boostDurationCurrent": 0.0,
+  "_boostPowerCumulative": 0.0,
+  "_currentGear": 0,
+  "_currentSpeed": 0.0,
+  "_speedFraction": 0.0,
+  "_canUpdate": 1,
+  "_justCollided": 0
+}

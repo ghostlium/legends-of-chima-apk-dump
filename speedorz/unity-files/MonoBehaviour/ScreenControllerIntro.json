@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1915
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 283
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_username_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35268
+  },
+  "_loginButton_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35412
+  }
+}

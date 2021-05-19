@@ -1,0 +1,32 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1449
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 277
+  },
+  "m_Name": "",
+  "aascale": 0.29,
+  "edge": 0.62,
+  "outline": 0.4,
+  "outlinesize": 0.0,
+  "glowx": 0.0,
+  "glowy": 0.0,
+  "glowstart": 0.0,
+  "glowend": 1.11,
+  "outlineColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "glowColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  }
+}

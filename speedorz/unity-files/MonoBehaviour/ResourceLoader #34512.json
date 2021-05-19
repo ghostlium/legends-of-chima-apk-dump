@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3509
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 253
+  },
+  "m_Name": "",
+  "resourceNames": [
+    "Pickups_SCN_Jungle_Split",
+    "Collision_SCN_Jungle_Split",
+    "Dynamic_Scene_Jungle_Split",
+    "RacingLine_SCN_Jungle_Split",
+    "Setup_Jungle_Split",
+    "Floor_SCN_Jungle_Split"
+  ],
+  "loadOnAwake": 0,
+  "highPriorityList": 0
+}

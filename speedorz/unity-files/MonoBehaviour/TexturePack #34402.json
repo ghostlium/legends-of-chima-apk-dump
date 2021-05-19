@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 618
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 206
+  },
+  "m_Name": "",
+  "textureOverride": {
+    "m_FileID": 0,
+    "m_PathID": 235
+  },
+  "map": {
+    "m_FileID": 0,
+    "m_PathID": 479
+  },
+  "originalSize": {
+    "x": 512.0,
+    "y": 512.0
+  },
+  "resourceLocation": "",
+  "resourceLocationLowMemory": ""
+}

@@ -1,0 +1,35 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 334
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 6,
+    "m_PathID": 80
+  },
+  "m_Name": "",
+  "_numChis": 1.0,
+  "_maxRotation": 160.0,
+  "_maxSinkDist": 6.0,
+  "_rotationPoint": {
+    "m_FileID": 0,
+    "m_PathID": 383
+  },
+  "_rotationPiece": {
+    "m_FileID": 0,
+    "m_PathID": 284
+  },
+  "_targetRotationPoint": {
+    "m_FileID": 0,
+    "m_PathID": 551
+  },
+  "_rotationTarget": {
+    "m_FileID": 0,
+    "m_PathID": 219
+  },
+  "_parent": {
+    "m_FileID": 0,
+    "m_PathID": 54
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1577
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Canyon_Straight1c",
+    "SCN_Canyon_Straight1c_g3",
+    "SCN_Canyon_Straight1c_g4",
+    "SCN_Canyon_Straight1c_g5",
+    "Dynamic_Scene_SCN_Canyon_Straight1c",
+    "Pickups_SCN_Canyon_Straight1c",
+    "Collision_SCN_Canyon_Straight1a",
+    "Collision_SCN_Canyon_Straight1b",
+    "Collision_SCN_Canyon_Straight1c",
+    "Challenges_SCN_Canyon_Straight1a",
+    "Challenges_SCN_Canyon_Straight1b"
+  ]
+}

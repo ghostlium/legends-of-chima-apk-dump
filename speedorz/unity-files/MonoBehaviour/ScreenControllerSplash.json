@@ -1,0 +1,61 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1658
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 36
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_notSupportedMessage": {
+    "_reverseAlpha": 0,
+    "_objects_Ed": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 35158
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 34683
+      }
+    ]
+  },
+  "_screens": [
+    {
+      "_reverseAlpha": 1,
+      "_objects_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35433
+        }
+      ]
+    },
+    {
+      "_reverseAlpha": 0,
+      "_objects_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35398
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35288
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35328
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35245
+        }
+      ]
+    }
+  ]
+}

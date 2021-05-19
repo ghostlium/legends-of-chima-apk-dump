@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 283
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 32
+  },
+  "m_Name": "",
+  "targetObject": {
+    "m_FileID": 0,
+    "m_PathID": 283
+  },
+  "spawnOnStart": 0
+}

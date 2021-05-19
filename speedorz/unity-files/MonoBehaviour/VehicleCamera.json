@@ -1,0 +1,88 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 64
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 278
+  },
+  "m_Name": "",
+  "previewCameraTime": 0.0,
+  "_topCamera": {
+    "AvailableInScene": 1,
+    "_minFov": 35.0,
+    "_maxFov": 75.0,
+    "_topCamDebugRendering": 0
+  },
+  "_splineCamera": {
+    "AvailableInScene": 1,
+    "_minFov": 40.0,
+    "_maxFov": 60.0,
+    "_splineCamDebugRendering": 0,
+    "_leanAngleMultiplier": 1.0,
+    "_leanInterpSpeed": 1.0,
+    "_fovBumpOnBoost": 25.0,
+    "_fovInterpSpeed": 5.0,
+    "_maxRotation": 20.0,
+    "_rotationMultiplier": 1.0,
+    "_followDistY": {
+      "x": 1.5,
+      "y": 3.0
+    },
+    "_followDistZ": {
+      "x": -2.25,
+      "y": -3.0
+    },
+    "_targetPosInterpSpeeds": {
+      "x": 1.5,
+      "y": 3.0,
+      "z": 1.5
+    },
+    "_camPosInterpSpeeds": {
+      "x": 4.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "_animationCamera": {
+    "AvailableInScene": 1,
+    "_minFov": 35.0,
+    "_maxFov": 75.0,
+    "_splineCamDebugRendering": 0
+  },
+  "_challengeCamera": {
+    "AvailableInScene": 1,
+    "_minFov": 40.0,
+    "_maxFov": 50.0,
+    "_challengeCamDebugRendering": 0,
+    "_leanInterpSpeed": 1.0,
+    "_fovBumpOnBoost": 0.0,
+    "_fovInterpSpeed": 1.0,
+    "_maxRotation": 15.0,
+    "_followDistY": {
+      "x": 1.5,
+      "y": 1.75
+    },
+    "_followDistZ": {
+      "x": -4.0,
+      "y": -6.0
+    },
+    "_targetPosInterpSpeeds": {
+      "x": 1.5,
+      "y": 3.0,
+      "z": 1.5
+    },
+    "_camPosInterpSpeeds": {
+      "x": 4.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "_currentCameraType": 0,
+  "_lookAtPoint": {
+    "m_FileID": 0,
+    "m_PathID": 193
+  }
+}

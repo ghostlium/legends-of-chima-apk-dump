@@ -1,0 +1,58 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 133
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 22
+  },
+  "m_Name": "",
+  "streaks": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 191
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 206
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 207
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 208
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 209
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 210
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 211
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 212
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 213
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 214
+    }
+  ],
+  "spawnDist": 20.0,
+  "travelSpeed": 70.0,
+  "variance": 10.0,
+  "_playEffect": 0
+}

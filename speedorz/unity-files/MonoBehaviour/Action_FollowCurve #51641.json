@@ -1,0 +1,40 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 213
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 256
+  },
+  "m_Name": "",
+  "curve": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "overrideCurve": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "matchTag": "",
+  "position": 0.00467199134,
+  "distanceBasedPosition": 0,
+  "autoLookDirection": 1,
+  "target": {
+    "m_FileID": 0,
+    "m_PathID": 568
+  },
+  "roll": 0.2031918,
+  "overrideTarget": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "debugLookPos": {
+    "x": -0.149500251,
+    "y": 1.477646,
+    "z": -1.37993026
+  },
+  "softFocus": 0,
+  "targetFocusStrength": 2.0
+}

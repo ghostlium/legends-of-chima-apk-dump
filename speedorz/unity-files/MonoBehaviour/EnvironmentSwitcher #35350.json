@@ -1,0 +1,42 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1895
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 274
+  },
+  "m_Name": "",
+  "lightProbes": {
+    "m_FileID": 0,
+    "m_PathID": 587
+  },
+  "newSkyboxMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "skyDesiredTint1": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "skyDesiredTint2": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "skyColorTransitionTime": 2.0,
+  "changeFogSettings": 0,
+  "fogDensity": 0.01,
+  "fogColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "fogTransitionTime": 2.0
+}

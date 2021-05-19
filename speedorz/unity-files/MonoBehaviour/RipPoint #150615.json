@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2775
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 23,
+    "m_PathID": 165
+  },
+  "m_Name": "",
+  "_numPoints": 100,
+  "_distAboveGround": -6.33,
+  "_width": 10.0,
+  "_ripDistance": 22.0,
+  "_countDownLength": 3.0
+}

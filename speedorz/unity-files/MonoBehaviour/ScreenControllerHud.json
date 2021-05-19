@@ -1,0 +1,111 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1630
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 109
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_hudDebugRendering": 1,
+  "_imageStud_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35023
+  },
+  "_challengeBackDrop_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36273
+  },
+  "_challengeChiText_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36187
+  },
+  "_challengeResultText_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36289
+  },
+  "_timerText_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 34761
+  },
+  "_textStuds_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 34956
+  },
+  "_challengeIcons_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 36232
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36218
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36301
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36203
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36259
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36246
+    }
+  ],
+  "chiNumber": {
+    "m_FileID": 0,
+    "m_PathID": 36153
+  },
+  "_position1_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36052
+  },
+  "_position2_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36137
+  },
+  "_chiMover_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36169
+  },
+  "_chiMoverEndPos_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_boostHintFx": {
+    "_element_Ed": {
+      "m_FileID": 0,
+      "m_PathID": 35408
+    }
+  },
+  "_ripWheelFx": {
+    "_element_Ed": {
+      "m_FileID": 0,
+      "m_PathID": 35531
+    }
+  },
+  "_chiBallFx": {
+    "_element_Ed": {
+      "m_FileID": 0,
+      "m_PathID": 35441
+    }
+  },
+  "_chiUseFx": {
+    "_element_Ed": {
+      "m_FileID": 0,
+      "m_PathID": 35373
+    }
+  }
+}

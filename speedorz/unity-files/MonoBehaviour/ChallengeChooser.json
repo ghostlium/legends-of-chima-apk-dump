@@ -1,0 +1,86 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 311
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 6,
+    "m_PathID": 296
+  },
+  "m_Name": "",
+  "_childList": [
+    {
+      "_useThis": 1,
+      "_inUse": 0,
+      "_useCount": 0,
+      "_gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 147
+      }
+    },
+    {
+      "_useThis": 1,
+      "_inUse": 0,
+      "_useCount": 0,
+      "_gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 322
+      }
+    },
+    {
+      "_useThis": 1,
+      "_inUse": 0,
+      "_useCount": 0,
+      "_gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 282
+      }
+    },
+    {
+      "_useThis": 1,
+      "_inUse": 0,
+      "_useCount": 0,
+      "_gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 349
+      }
+    },
+    {
+      "_useThis": 1,
+      "_inUse": 0,
+      "_useCount": 0,
+      "_gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 173
+      }
+    },
+    {
+      "_useThis": 1,
+      "_inUse": 0,
+      "_useCount": 0,
+      "_gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 54
+      }
+    },
+    {
+      "_useThis": 1,
+      "_inUse": 0,
+      "_useCount": 0,
+      "_gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 181
+      }
+    },
+    {
+      "_useThis": 1,
+      "_inUse": 0,
+      "_useCount": 0,
+      "_gameObject": {
+        "m_FileID": 0,
+        "m_PathID": 177
+      }
+    }
+  ]
+}

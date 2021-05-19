@@ -1,0 +1,718 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1792
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 103
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_map_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 36618
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37188
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36756
+    }
+  ],
+  "TournamentNames": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 37148
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37209
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 34976
+    }
+  ],
+  "_routeElements": [
+    {
+      "_charUnLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36522
+      },
+      "_charLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37103
+      },
+      "_charUnLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 36993
+      },
+      "_charLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37077
+      },
+      "_charUnLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37080
+      },
+      "_charLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37107
+      },
+      "_charName_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37154
+      },
+      "_charName_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37221
+      },
+      "_charName_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 36907
+      },
+      "_lockIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37063
+      },
+      "_highlight_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36963
+      },
+      "_starsOn_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36242
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36255
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36268
+        }
+      ],
+      "_starsOff_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36329
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36297
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36284
+        }
+      ]
+    },
+    {
+      "_charUnLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36511
+      },
+      "_charLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37111
+      },
+      "_charUnLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 36458
+      },
+      "_charLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37115
+      },
+      "_charUnLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37272
+      },
+      "_charLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37257
+      },
+      "_charName_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37163
+      },
+      "_charName_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37224
+      },
+      "_charName_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 36889
+      },
+      "_lockIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36380
+      },
+      "_highlight_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36842
+      },
+      "_starsOn_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36228
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36213
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36196
+        }
+      ],
+      "_starsOff_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36148
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36164
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36181
+        }
+      ]
+    },
+    {
+      "_charUnLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36500
+      },
+      "_charLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37119
+      },
+      "_charUnLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 36446
+      },
+      "_charLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37123
+      },
+      "_charUnLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37254
+      },
+      "_charLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37266
+      },
+      "_charName_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37166
+      },
+      "_charName_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37230
+      },
+      "_charName_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 36566
+      },
+      "_lockIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36366
+      },
+      "_highlight_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36913
+      },
+      "_starsOn_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36009
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36028
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36046
+        }
+      ],
+      "_starsOff_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 36098
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36081
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 36064
+        }
+      ]
+    },
+    {
+      "_charUnLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36489
+      },
+      "_charLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37127
+      },
+      "_charUnLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 36432
+      },
+      "_charLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37132
+      },
+      "_charUnLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37251
+      },
+      "_charLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37269
+      },
+      "_charName_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37157
+      },
+      "_charName_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37236
+      },
+      "_charName_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 36870
+      },
+      "_lockIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36354
+      },
+      "_highlight_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36919
+      },
+      "_starsOn_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35987
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35966
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35945
+        }
+      ],
+      "_starsOff_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35875
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35899
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35922
+        }
+      ]
+    },
+    {
+      "_charUnLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36479
+      },
+      "_charLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37136
+      },
+      "_charUnLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 36419
+      },
+      "_charLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37139
+      },
+      "_charUnLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37260
+      },
+      "_charLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37248
+      },
+      "_charName_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37178
+      },
+      "_charName_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37212
+      },
+      "_charName_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 36856
+      },
+      "_lockIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36342
+      },
+      "_highlight_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36925
+      },
+      "_starsOn_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35546
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35573
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35706
+        }
+      ],
+      "_starsOff_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35804
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35781
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35731
+        }
+      ]
+    },
+    {
+      "_charUnLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36468
+      },
+      "_charLocked_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37142
+      },
+      "_charUnLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 36393
+      },
+      "_charLocked_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37145
+      },
+      "_charUnLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37263
+      },
+      "_charLocked_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 37275
+      },
+      "_charName_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37181
+      },
+      "_charName_Ed_T1": {
+        "m_FileID": 0,
+        "m_PathID": 37233
+      },
+      "_charName_Ed_T2": {
+        "m_FileID": 0,
+        "m_PathID": 35042
+      },
+      "_lockIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36308
+      },
+      "_highlight_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36932
+      },
+      "_starsOn_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35355
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35281
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35601
+        }
+      ],
+      "_starsOff_Ed": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 35519
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35489
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 35425
+        }
+      ]
+    }
+  ],
+  "_routeUnlockFx": [
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37044
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37017
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37012
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37008
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37003
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36998
+      }
+    }
+  ],
+  "_routeGoldChiFx": [
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37041
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37036
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36533
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37022
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37028
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37032
+      }
+    }
+  ],
+  "_mapElements": [
+    {
+      "tournamentTitle": {
+        "m_FileID": 0,
+        "m_PathID": 37148
+      },
+      "_maps": [
+        {
+          "_yPercent": 0.276,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 36882
+          }
+        },
+        {
+          "_yPercent": 0.276,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 37074
+          }
+        },
+        {
+          "_yPercent": 0.185,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 37099
+          }
+        },
+        {
+          "_yPercent": 0.185,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 36877
+          }
+        },
+        {
+          "_yPercent": 0.093,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 37071
+          }
+        },
+        {
+          "_yPercent": 0.093,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 36635
+          }
+        }
+      ]
+    },
+    {
+      "tournamentTitle": {
+        "m_FileID": 0,
+        "m_PathID": 37209
+      },
+      "_maps": [
+        {
+          "_yPercent": 0.15,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 37197
+          }
+        },
+        {
+          "_yPercent": 0.2569,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 37206
+          }
+        },
+        {
+          "_yPercent": 0.144,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 37203
+          }
+        },
+        {
+          "_yPercent": 0.263,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 37194
+          }
+        },
+        {
+          "_yPercent": 0.111,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 37200
+          }
+        },
+        {
+          "_yPercent": 0.189,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 37191
+          }
+        }
+      ]
+    },
+    {
+      "tournamentTitle": {
+        "m_FileID": 0,
+        "m_PathID": 34976
+      },
+      "_maps": [
+        {
+          "_yPercent": 0.22,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 36749
+          }
+        },
+        {
+          "_yPercent": 0.118,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 36736
+          }
+        },
+        {
+          "_yPercent": 0.21,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 36742
+          }
+        },
+        {
+          "_yPercent": 0.16,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 36729
+          }
+        },
+        {
+          "_yPercent": 0.22,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 36722
+          }
+        },
+        {
+          "_yPercent": 0.17,
+          "_path_Ed": {
+            "m_FileID": 0,
+            "m_PathID": 36706
+          }
+        }
+      ]
+    }
+  ]
+}

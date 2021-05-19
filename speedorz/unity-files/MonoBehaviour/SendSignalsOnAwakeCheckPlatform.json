@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 18
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 6,
+    "m_PathID": 177
+  },
+  "m_Name": "",
+  "signals": {
+    "onlyOnce": 0,
+    "receivers": [
+      {
+        "receiver": {
+          "m_FileID": 0,
+          "m_PathID": 18
+        },
+        "action": "OnSignal",
+        "delay": 0.0,
+        "receiveSender": 0
+      }
+    ]
+  }
+}

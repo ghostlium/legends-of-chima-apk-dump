@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1357
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "Challenges_SCN_Jungle_Split1",
+    "Setup_Jungle_Split1",
+    "Pickups_SCN_Jungle_Split1",
+    "Collision_SCN_Jungle_Split1",
+    "SCN_Jungle_Split1_g3",
+    "SCN_Jungle_Split1_g4"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 974
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 253
+  },
+  "m_Name": "",
+  "resourceNames": [
+    "Floor_SCN_Swamp_Straight5",
+    "Collision_SCN_Swamp_Straight5",
+    "Collision_SCN_Swamp_Straight5b",
+    "Collision_SCN_Swamp_Straight5a",
+    "Floor_SCN_Swamp_Straight5a",
+    "Floor_SCN_Swamp_Straight5b",
+    "SlowdownAreas_Swamp_Straight5a",
+    "Dynamic_Scene_SCN_Swamp_Straight5b",
+    "Dynamic_Scene_SCN_Swamp_Straight5a",
+    "Dynamic_Scene_SCN_Swamp_Straight5",
+    "Dynamic_Scene_SCN_Swamp_Straight5_g7",
+    "RacingLine_SCN_Swamp_Straight5",
+    "RacingLine_SCN_Swamp_Straight5a",
+    "RacingLine_SCN_Swamp_Straight5b"
+  ],
+  "loadOnAwake": 0,
+  "highPriorityList": 0
+}

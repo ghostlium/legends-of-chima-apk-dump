@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 24
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 20,
+    "m_PathID": 193
+  },
+  "m_Name": "",
+  "objects": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 79
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 910
+    }
+  ]
+}

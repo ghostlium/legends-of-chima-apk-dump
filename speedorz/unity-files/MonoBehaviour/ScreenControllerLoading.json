@@ -1,0 +1,130 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1247
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 92
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_spinner_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 34977
+  },
+  "_screensElements": [
+    {
+      "_screen1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35100
+      },
+      "_screen2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35043
+      },
+      "_text1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35988
+      },
+      "_text2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35322
+      }
+    },
+    {
+      "_screen1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35426
+      },
+      "_screen2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35490
+      },
+      "_text1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35946
+      },
+      "_text2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35356
+      }
+    },
+    {
+      "_screen1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35602
+      },
+      "_screen2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35574
+      },
+      "_text1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35967
+      },
+      "_text2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35657
+      }
+    },
+    {
+      "_screen1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35732
+      },
+      "_screen2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35758
+      },
+      "_text1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36010
+      },
+      "_text2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35682
+      }
+    },
+    {
+      "_screen1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35805
+      },
+      "_screen2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35782
+      },
+      "_text1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35900
+      },
+      "_text2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35852
+      }
+    },
+    {
+      "_screen1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 34891
+      },
+      "_screen2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35547
+      },
+      "_text1_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35923
+      },
+      "_text2_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35520
+      }
+    }
+  ]
+}

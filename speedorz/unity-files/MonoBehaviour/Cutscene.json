@@ -1,0 +1,4291 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 137
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 330
+  },
+  "m_Name": "",
+  "cutsceneName": "Victory_01",
+  "playOnStart": 1,
+  "loop": 0,
+  "loopCount": 0,
+  "resetOnStop": 0,
+  "resetPlayCountOnStop": 1,
+  "curves": [
+    {
+      "name": "Player_Move",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 133
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 404
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 674
+      },
+      "startTime": 0.0,
+      "length": 3.3,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": 20.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -180.0,
+            "inSlope": 0.972649455,
+            "outSlope": 0.972649455
+          },
+          {
+            "time": 0.4,
+            "value": -180.0,
+            "inSlope": -1.07946062,
+            "outSlope": -1.07946062
+          },
+          {
+            "time": 3.3,
+            "value": 20.0,
+            "inSlope": 66.77971,
+            "outSlope": 66.77971
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 385
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 656
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 0.0,
+      "length": 1.0,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": 0.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 1.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 199
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 470
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 0.0,
+      "length": 1.0,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.y",
+      "expression": "",
+      "lastValue": -0.3,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -0.3,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 1.0,
+            "value": -0.3,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 385
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 656
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 0.0,
+      "length": 1.0,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.y",
+      "expression": "",
+      "lastValue": 18.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 18.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 1.0,
+            "value": 18.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "CAM_01_Move_Up",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 283
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 554
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 956
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 674
+      },
+      "startTime": 0.0,
+      "length": 3.3,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.y",
+      "expression": "",
+      "lastValue": -20.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 50.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 3.3,
+            "value": -20.0,
+            "inSlope": -44.8542557,
+            "outSlope": -44.8542557
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "Opponent_Move",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 135
+      },
+      "extraTargets": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 359
+        }
+      ],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 406
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 672
+      },
+      "startTime": 3.2,
+      "length": 3.4,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": 20.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 150.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 3.4,
+            "value": 20.0,
+            "inSlope": -98.3380356,
+            "outSlope": -98.3380356
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "Cam_Move_Towards",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 283
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 554
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 956
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 674
+      },
+      "startTime": 0.0,
+      "length": 3.3,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.z",
+      "expression": "",
+      "lastValue": -10.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -30.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 3.3,
+            "value": -10.0,
+            "inSlope": 14.6909494,
+            "outSlope": 14.6909494
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "CAM_02_Move_Toward",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 263
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 534
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 956
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 3.2,
+      "length": 3.4,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.z",
+      "expression": "",
+      "lastValue": 10.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -50.0,
+            "inSlope": 10.2878084,
+            "outSlope": 10.2878084
+          },
+          {
+            "time": 3.4,
+            "value": 10.0,
+            "inSlope": 19.83798,
+            "outSlope": 19.83798
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 173
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 444
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 0.0,
+      "length": 6.6,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localEulerAngles.y",
+      "expression": "",
+      "lastValue": 270.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 270.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 6.6,
+            "value": 270.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 173
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 444
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 0.0,
+      "length": 6.6,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localEulerAngles.x",
+      "expression": "",
+      "lastValue": 0.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 6.6,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "Crash_Opponent",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 135
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 406
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 670
+      },
+      "startTime": 6.4,
+      "length": 1.9,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": 1.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 50.0,
+            "inSlope": -24.5350266,
+            "outSlope": -24.5350266
+          },
+          {
+            "time": 1.9,
+            "value": 1.0,
+            "inSlope": -23.6869278,
+            "outSlope": -23.6869278
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 217
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 488
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 670
+      },
+      "startTime": 6.4,
+      "length": 3.9,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.eulerAngles.x",
+      "expression": "",
+      "lastValue": -10.2656136,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": -1.97709489,
+            "outSlope": -1.97709489
+          },
+          {
+            "time": 1.9,
+            "value": -10.0,
+            "inSlope": -3.76960373,
+            "outSlope": -3.76960373
+          },
+          {
+            "time": 3.9,
+            "value": 0.0,
+            "inSlope": -5.56211233,
+            "outSlope": -5.56211233
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "Crash_Player",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 133
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 404
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 6.4,
+      "length": 1.9,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": 1.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -35.0,
+            "inSlope": 17.4026279,
+            "outSlope": 17.4026279
+          },
+          {
+            "time": 1.9,
+            "value": 1.0,
+            "inSlope": 17.2747326,
+            "outSlope": 17.2747326
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 213
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 484
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 982
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 6.4,
+      "length": 1.9,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.z",
+      "expression": "",
+      "lastValue": -2.5,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -2.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 1.9,
+            "value": -2.5,
+            "inSlope": -0.462351143,
+            "outSlope": -0.462351143
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 213
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 950
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 6.4,
+      "length": 2.10000014,
+      "smoothKeys": 0,
+      "updateEvent": "SetRoll",
+      "expression": "",
+      "lastValue": 0.2031918,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 0,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [
+        {
+          "name": "overrideCurve",
+          "value": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "systemValueStore": {
+            "booleanValue": 0,
+            "colorValue": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.0
+            },
+            "floatValue": 0.0,
+            "intValue": 0,
+            "UInt64Value": 0.0,
+            "vector2Value": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "vector3Value": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "vector4Value": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+            },
+            "stringValue": "",
+            "objectValue": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "isBoolean": 0,
+            "isColor": 0,
+            "isFloat": 0,
+            "isInt": 0,
+            "isUInt64": 0,
+            "isVector2": 0,
+            "isVector3": 0,
+            "isVector4": 0,
+            "isString": 0,
+            "isObject": 0,
+            "type": ""
+          }
+        },
+        {
+          "name": "overrideTarget",
+          "value": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "systemValueStore": {
+            "booleanValue": 0,
+            "colorValue": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.0
+            },
+            "floatValue": 0.0,
+            "intValue": 0,
+            "UInt64Value": 0.0,
+            "vector2Value": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "vector3Value": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "vector4Value": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+            },
+            "stringValue": "",
+            "objectValue": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "isBoolean": 0,
+            "isColor": 0,
+            "isFloat": 0,
+            "isInt": 0,
+            "isUInt64": 0,
+            "isVector2": 0,
+            "isVector3": 0,
+            "isVector4": 0,
+            "isString": 0,
+            "isObject": 0,
+            "type": ""
+          }
+        }
+      ],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 1.15555561,
+            "outSlope": 1.15555561
+          },
+          {
+            "time": 1.0,
+            "value": 3.0,
+            "inSlope": 1.23888886,
+            "outSlope": 1.23888886
+          },
+          {
+            "time": 2.10000014,
+            "value": 0.0,
+            "inSlope": -3.23593569,
+            "outSlope": -3.23593569
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "CAM_Knockout",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 359
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 630
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 988
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 681
+      },
+      "startTime": 8.3,
+      "length": 4.0,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.z",
+      "expression": "",
+      "lastValue": -0.3724458,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": -2.71916127,
+            "outSlope": -2.71916127
+          },
+          {
+            "time": 4.0,
+            "value": -5.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 359
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 630
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 988
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 8.3,
+      "length": 4.0,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": 0.0709781945,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.5177662,
+            "outSlope": 0.5177662
+          },
+          {
+            "time": 4.0,
+            "value": 1.0,
+            "inSlope": 0.023835985,
+            "outSlope": 0.023835985
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 385
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 656
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 8.3,
+      "length": 0.4,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.z",
+      "expression": "",
+      "lastValue": -53.3136139,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -35.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 0.4,
+            "value": -100.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "KnockedOut_Up",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 143
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 414
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 8.3,
+      "length": 2.4,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.y",
+      "expression": "",
+      "lastValue": 80.83718,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 19.0,
+            "inSlope": 494.303772,
+            "outSlope": 494.303772
+          },
+          {
+            "time": 0.8,
+            "value": 200.0,
+            "inSlope": -2.33362532,
+            "outSlope": -2.33362532
+          },
+          {
+            "time": 1.5,
+            "value": -11.0,
+            "inSlope": -471.3999,
+            "outSlope": -471.3999
+          },
+          {
+            "time": 2.4,
+            "value": -11.0,
+            "inSlope": "Infinity",
+            "outSlope": "Infinity"
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "KnockedOut_Back",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 143
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 414
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 8.3,
+      "length": 2.4,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.z",
+      "expression": "",
+      "lastValue": -78.44339,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -35.0,
+            "inSlope": -321.100769,
+            "outSlope": -321.100769
+          },
+          {
+            "time": 2.4,
+            "value": -400.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "CloseUp_Player",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 285
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 556
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 964
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 676
+      },
+      "startTime": 2.0,
+      "length": 1.30000007,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": 0.5,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 1.30000007,
+            "value": 0.5,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "CloseUp_Enemy",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 359
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 630
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 988
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 681
+      },
+      "startTime": 5.1,
+      "length": 1.30000007,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": -0.5,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 1.30000007,
+            "value": -0.5,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 385
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 656
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 680
+      },
+      "startTime": 12.2,
+      "length": 8.400001,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.z",
+      "expression": "",
+      "lastValue": 0.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 8.400001,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 199
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 470
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 12.2,
+      "length": 8.400001,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.y",
+      "expression": "",
+      "lastValue": -0.6,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -0.6,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 8.400001,
+            "value": -0.6,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 385
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 656
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 12.2,
+      "length": 8.400001,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": -100.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -100.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 8.400001,
+            "value": -100.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 385
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 656
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 12.2,
+      "length": 8.400001,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.y",
+      "expression": "",
+      "lastValue": -14.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -14.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 8.400001,
+            "value": -14.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 357
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 628
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 982
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 12.2,
+      "length": 8.400001,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.z",
+      "expression": "",
+      "lastValue": -1.5,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -1.5,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 8.400001,
+            "value": 10.5,
+            "inSlope": 1.11826968,
+            "outSlope": 1.11826968
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 173
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 444
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 8.6,
+      "length": 3.7,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": 0.4,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.4,
+            "inSlope": 8.116638,
+            "outSlope": 8.116638
+          },
+          {
+            "time": 3.7,
+            "value": 13.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 361
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 632
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 12.2,
+      "length": 8.400001,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.y",
+      "expression": "",
+      "lastValue": 0.6,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.6,
+            "inSlope": 0.0512591824,
+            "outSlope": 0.0512591824
+          },
+          {
+            "time": 3.10000014,
+            "value": 0.6,
+            "inSlope": 0.0109504536,
+            "outSlope": 0.0109504536
+          },
+          {
+            "time": 8.400001,
+            "value": 12.0,
+            "inSlope": 7.6998477,
+            "outSlope": 7.6998477
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 357
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 628
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 982
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 12.2,
+      "length": 8.400001,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": 6.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 6.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 8.400001,
+            "value": -3.0,
+            "inSlope": -0.0102794,
+            "outSlope": -0.0102794
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 361
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 632
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 16.8000011,
+      "length": 3.8,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.z",
+      "expression": "",
+      "lastValue": 0.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.210091636,
+            "outSlope": 0.210091636
+          },
+          {
+            "time": 3.8,
+            "value": 5.0,
+            "inSlope": 3.12029243,
+            "outSlope": 3.12029243
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 357
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 984
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 680
+      },
+      "startTime": 18.5,
+      "length": 2.10000014,
+      "smoothKeys": 0,
+      "updateEvent": "SetFadeValue",
+      "expression": "",
+      "lastValue": 0.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 0,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.251304418,
+            "outSlope": 0.251304418
+          },
+          {
+            "time": 2.10000014,
+            "value": 1.0,
+            "inSlope": 0.937346,
+            "outSlope": 0.937346
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 173
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 444
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 8.3,
+      "length": 3.60000014,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.z",
+      "expression": "",
+      "lastValue": -0.624843836,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -0.25,
+            "inSlope": -2.73905349,
+            "outSlope": -2.73905349
+          },
+          {
+            "time": 3.60000014,
+            "value": -5.0,
+            "inSlope": -0.07050306,
+            "outSlope": -0.07050306
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 173
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 444
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 8.3,
+      "length": 3.60000014,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localEulerAngles.y",
+      "expression": "",
+      "lastValue": -53.0152321,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": -90.0,
+            "inSlope": 273.686646,
+            "outSlope": 273.686646
+          },
+          {
+            "time": 3.60000014,
+            "value": 270.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 173
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 444
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 10.5,
+      "length": 1.1,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.eulerAngles.z",
+      "expression": "",
+      "lastValue": 0.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 1.1,
+            "value": -90.0,
+            "inSlope": -266.777954,
+            "outSlope": -266.777954
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 143
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 414
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 8.3,
+      "length": 2.2,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localEulerAngles.y",
+      "expression": "",
+      "lastValue": 111.521027,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 841.2455,
+            "outSlope": 841.2455
+          },
+          {
+            "time": 2.2,
+            "value": 720.0,
+            "inSlope": 13.9503632,
+            "outSlope": 13.9503632
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 143
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 414
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 0.0,
+      "length": 6.5,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.y",
+      "expression": "",
+      "lastValue": 18.5,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 18.5,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 6.5,
+            "value": 18.5,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 359
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 986
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 8.1,
+      "length": 0.6,
+      "smoothKeys": 0,
+      "updateEvent": "SetFadeValue",
+      "expression": "",
+      "lastValue": 0.9769348,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 0,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 1.0368,
+            "outSlope": 1.0368
+          },
+          {
+            "time": 0.3,
+            "value": 1.0,
+            "inSlope": 0.9968,
+            "outSlope": 0.9968
+          },
+          {
+            "time": 0.6,
+            "value": 0.0,
+            "inSlope": 0.9568,
+            "outSlope": 0.9568
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    },
+    {
+      "name": "curve clip",
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 143
+      },
+      "extraTargets": [],
+      "targetComponent": {
+        "m_FileID": 0,
+        "m_PathID": 414
+      },
+      "targetAction": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "activeCamera": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "startTime": 0.0,
+      "length": 1.0,
+      "smoothKeys": 0,
+      "updateEvent": "Transform.localPosition.x",
+      "expression": "",
+      "lastValue": 0.0,
+      "usePreValue": 0,
+      "preValue": 0.0,
+      "usePostValue": 0,
+      "postValue": 0.0,
+      "activeCalculateOnly": 0,
+      "updateMode": 1,
+      "colorIndex": 0,
+      "ignoreTarget": 0,
+      "customProperties": [],
+      "animCurve": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          },
+          {
+            "time": 1.0,
+            "value": 0.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2
+      }
+    }
+  ],
+  "events": [
+    {
+      "name": "END",
+      "startTime": 20.6,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 137
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 940
+      },
+      "targetFunction": "OnCutsceneComplete",
+      "paramVariationIndex": 0,
+      "params": [],
+      "guiExpanded": 1
+    },
+    {
+      "name": "Opponent_Idle",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 385
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 850
+      },
+      "targetFunction": "Play",
+      "paramVariationIndex": 3,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "CIN_Idle",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 1,
+          "isObject": 0,
+          "type": "System.String"
+        }
+      ],
+      "guiExpanded": 0
+    },
+    {
+      "name": "Player_Idle",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 385
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 850
+      },
+      "targetFunction": "Play",
+      "paramVariationIndex": 3,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "CIN_Idle",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 1,
+          "isObject": 0,
+          "type": "System.String"
+        }
+      ],
+      "guiExpanded": 0
+    },
+    {
+      "name": "Knock_Out",
+      "startTime": 7.3,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 143
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 838
+      },
+      "targetFunction": "CrossFade",
+      "paramVariationIndex": 1,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "CIN_Knocked_Out",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 1,
+          "isObject": 0,
+          "type": "System.String"
+        },
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 1.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 1,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Single"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "Player_Lean_Forward",
+      "startTime": 2.4,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 385
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 850
+      },
+      "targetFunction": "CrossFade",
+      "paramVariationIndex": 1,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "CIN_Lean_Forward",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 1,
+          "isObject": 0,
+          "type": "System.String"
+        },
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 1.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 1,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Single"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "Opponent_Lean_Forward",
+      "startTime": 5.6,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 143
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 838
+      },
+      "targetFunction": "CrossFade",
+      "paramVariationIndex": 1,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "CIN_Lean_Forward",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 1,
+          "isObject": 0,
+          "type": "System.String"
+        },
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 1.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 1,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Single"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "Moonwalk",
+      "startTime": 8.8,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 385
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 850
+      },
+      "targetFunction": "Play",
+      "paramVariationIndex": 3,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "CIN_Moonwalk",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 1,
+          "isObject": 0,
+          "type": "System.String"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_01_Destroy",
+      "startTime": 2.10000014,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 283
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 980
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_01_Spawn",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 283
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 980
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 1,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_04_Destroy",
+      "startTime": 3.3,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 285
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 978
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_04_Spawn",
+      "startTime": 2.10000014,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 285
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 978
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 1,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_02_Spawn",
+      "startTime": 3.3,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 263
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1000
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 1,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_02_Destroy",
+      "startTime": 5.1,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 263
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1000
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_05_Spawn",
+      "startTime": 5.1,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 359
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1004
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 1,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_05_Disable",
+      "startTime": 6.4,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 359
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1004
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_07_Activate",
+      "startTime": 12.2,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 357
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1001
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 1,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_02_Disable",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 263
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1000
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_03_Disable",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 343
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1002
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_07_Disable",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 357
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1001
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_04_Disable",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 285
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 978
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_05_Disable",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 359
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1004
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_06_Disable",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 213
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1003
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_06_Activate",
+      "startTime": 6.4,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 213
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1003
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 1,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_06_Destroy",
+      "startTime": 12.2,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 213
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1003
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_05_Activate",
+      "startTime": 8.1,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 359
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1004
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 1,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_06_Disable",
+      "startTime": 8.3,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 213
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1003
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "CAM_05_Disable",
+      "startTime": 12.2,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 359
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1004
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "Speed_Up",
+      "startTime": 6.4,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 143
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 838
+      },
+      "targetFunction": "CrossFade",
+      "paramVariationIndex": 1,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "CIN_Idle_Fast",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 1,
+          "isObject": 0,
+          "type": "System.String"
+        },
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 1.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 0,
+          "isColor": 0,
+          "isFloat": 1,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Single"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "Opponent_Wheel_Elec_Off",
+      "startTime": 10.2,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 207
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1005
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "Wheel_Electricity_On",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 207
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1005
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 1,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "Wheel_Electricity_On",
+      "startTime": 0.0,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 181
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 954
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 1,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    },
+    {
+      "name": "Player_Wheel_Elec_Off",
+      "startTime": 12.2,
+      "target": {
+        "m_FileID": 0,
+        "m_PathID": 181
+      },
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 954
+      },
+      "targetFunction": "SetState",
+      "paramVariationIndex": 0,
+      "params": [
+        {
+          "booleanValue": 0,
+          "colorValue": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "floatValue": 0.0,
+          "intValue": 0,
+          "UInt64Value": 0.0,
+          "vector2Value": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "vector3Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "vector4Value": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "stringValue": "",
+          "objectValue": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "isBoolean": 1,
+          "isColor": 0,
+          "isFloat": 0,
+          "isInt": 0,
+          "isUInt64": 0,
+          "isVector2": 0,
+          "isVector3": 0,
+          "isVector4": 0,
+          "isString": 0,
+          "isObject": 0,
+          "type": "System.Boolean"
+        }
+      ],
+      "guiExpanded": 1
+    }
+  ],
+  "cutsceneEvents": [],
+  "startTime": 0.0,
+  "playing": 0,
+  "playReverse": 0,
+  "totalPlays": 0,
+  "doneStartReset": 0
+}

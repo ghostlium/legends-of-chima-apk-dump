@@ -1,0 +1,56 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2691
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 201
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "royalCupImg": {
+    "m_FileID": 0,
+    "m_PathID": 35688
+  },
+  "cupWon_RoyalLbl": {
+    "m_FileID": 0,
+    "m_PathID": 35608
+  },
+  "royalCupUnlock": {
+    "m_FileID": 0,
+    "m_PathID": 35738
+  },
+  "tribalCupImg": {
+    "m_FileID": 0,
+    "m_PathID": 35204
+  },
+  "cupWon_TribalLbl": {
+    "m_FileID": 0,
+    "m_PathID": 35713
+  },
+  "tribalCupUnlock": {
+    "m_FileID": 0,
+    "m_PathID": 35951
+  },
+  "superCupImg": {
+    "m_FileID": 0,
+    "m_PathID": 35663
+  },
+  "cupWon_SuperLbl": {
+    "m_FileID": 0,
+    "m_PathID": 35497
+  },
+  "superCupUnlock": {
+    "m_FileID": 0,
+    "m_PathID": 35526
+  },
+  "studRewardLbl": {
+    "m_FileID": 0,
+    "m_PathID": 35811
+  }
+}

@@ -1,0 +1,726 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1464
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 26,
+    "m_PathID": 34
+  },
+  "m_Name": "",
+  "isClosedPath": 0,
+  "showRacingLine": 1,
+  "showTrack": 1,
+  "showWalls": 1,
+  "showNodes": 1,
+  "showHandles": 0,
+  "showLocalAxis": 1,
+  "trackColor": {
+    "r": 0.216783047,
+    "g": 0.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "wallColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "nodeColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "loadDelay": 0.0,
+  "_nodes": [
+    {
+      "position": {
+        "x": 470.2135,
+        "y": 0.6,
+        "z": 1091.689
+      },
+      "leftBorderDistance": 2.90002537,
+      "rightBorderDistance": 2.89997458,
+      "leftWallDistance": 4.330025,
+      "rightWallDistance": 4.29997444,
+      "banking": 0.0,
+      "maxSpeed": 25.07561,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.4509994,
+        "z": 0.0,
+        "w": 0.892524242
+      }
+    },
+    {
+      "position": {
+        "x": 487.302429,
+        "y": 0.6,
+        "z": 1104.34436
+      },
+      "leftBorderDistance": 3.45001626,
+      "rightBorderDistance": 3.4499836,
+      "leftWallDistance": 4.350016,
+      "rightWallDistance": 4.56998348,
+      "banking": 0.0,
+      "maxSpeed": 23.9901981,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.440991938,
+        "z": 0.0,
+        "w": 0.897511065
+      }
+    },
+    {
+      "position": {
+        "x": 494.76886,
+        "y": 0.600000143,
+        "z": 1110.39465
+      },
+      "leftBorderDistance": 5.44498634,
+      "rightBorderDistance": 5.44501352,
+      "leftWallDistance": 7.454986,
+      "rightWallDistance": 8.475014,
+      "banking": 0.0,
+      "maxSpeed": 23.6363125,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.44654128,
+        "z": 0.0,
+        "w": 0.894763052
+      }
+    },
+    {
+      "position": {
+        "x": 521.136,
+        "y": 0.6000003,
+        "z": 1129.3457
+      },
+      "leftBorderDistance": 7.43497658,
+      "rightBorderDistance": 7.435024,
+      "leftWallDistance": 8.074976,
+      "rightWallDistance": 8.565023,
+      "banking": 0.0,
+      "maxSpeed": 22.80051,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.4547222,
+        "z": 0.0,
+        "w": 0.890633345
+      }
+    },
+    {
+      "position": {
+        "x": 554.819641,
+        "y": 0.6000005,
+        "z": 1154.2312
+      },
+      "leftBorderDistance": 6.24499226,
+      "rightBorderDistance": 6.24500751,
+      "leftWallDistance": 7.534992,
+      "rightWallDistance": 7.66500759,
+      "banking": 0.0,
+      "maxSpeed": 21.445879,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.4526948,
+        "z": 0.0,
+        "w": 0.8916656
+      }
+    },
+    {
+      "position": {
+        "x": 575.920654,
+        "y": 0.600000441,
+        "z": 1169.25122
+      },
+      "leftBorderDistance": 2.11008763,
+      "rightBorderDistance": 2.1099124,
+      "leftWallDistance": 3.93625188,
+      "rightWallDistance": 3.4383266,
+      "banking": 0.0,
+      "maxSpeed": 20.31161,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.4611776,
+        "z": 0.0,
+        "w": 0.8873079
+      }
+    },
+    {
+      "position": {
+        "x": 585.229858,
+        "y": 0.6000006,
+        "z": 1175.35376
+      },
+      "leftBorderDistance": 3.28496456,
+      "rightBorderDistance": 3.28503537,
+      "leftWallDistance": 4.26496458,
+      "rightWallDistance": 4.12503529,
+      "banking": 0.0,
+      "maxSpeed": 19.7240238,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.433188736,
+        "z": 0.0,
+        "w": 0.901303232
+      }
+    },
+    {
+      "position": {
+        "x": 593.6493,
+        "y": 0.600000858,
+        "z": 1186.85156
+      },
+      "leftBorderDistance": 3.84004474,
+      "rightBorderDistance": 3.839955,
+      "leftWallDistance": 4.33004475,
+      "rightWallDistance": 5.449955,
+      "banking": 0.0,
+      "maxSpeed": 36.54312,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.279800355,
+        "z": 0.0,
+        "w": 0.9600582
+      }
+    },
+    {
+      "position": {
+        "x": 602.7767,
+        "y": 0.600001037,
+        "z": 1203.45129
+      },
+      "leftBorderDistance": 3.2849884,
+      "rightBorderDistance": 3.28501153,
+      "leftWallDistance": 4.274988,
+      "rightWallDistance": 4.2385664,
+      "banking": 0.0,
+      "maxSpeed": 35.98036,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.229752943,
+        "z": 0.0,
+        "w": 0.973249
+      }
+    },
+    {
+      "position": {
+        "x": 608.1869,
+        "y": 0.6000012,
+        "z": 1221.43579
+      },
+      "leftBorderDistance": 3.85999942,
+      "rightBorderDistance": 3.86000085,
+      "leftWallDistance": 4.50999928,
+      "rightWallDistance": 5.300001,
+      "banking": 0.0,
+      "maxSpeed": 35.3339577,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.1256447,
+        "z": 0.0,
+        "w": 0.9920753
+      }
+    },
+    {
+      "position": {
+        "x": 611.7473,
+        "y": 0.600001156,
+        "z": 1239.03308
+      },
+      "leftBorderDistance": 4.169971,
+      "rightBorderDistance": 4.170029,
+      "leftWallDistance": 5.109971,
+      "rightWallDistance": 5.55002928,
+      "banking": 0.0,
+      "maxSpeed": 34.70239,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0891277343,
+        "z": 0.0,
+        "w": 0.9960202
+      }
+    },
+    {
+      "position": {
+        "x": 612.5696,
+        "y": 0.600001037,
+        "z": 1252.9895
+      },
+      "leftBorderDistance": 4.18999434,
+      "rightBorderDistance": 4.1900053,
+      "leftWallDistance": 4.66999435,
+      "rightWallDistance": 5.78000546,
+      "banking": 0.0,
+      "maxSpeed": 34.13671,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0101335747,
+        "z": 0.0,
+        "w": 0.9999487
+      }
+    },
+    {
+      "position": {
+        "x": 610.1736,
+        "y": 0.6000013,
+        "z": 1269.86877
+      },
+      "leftBorderDistance": 3.94496846,
+      "rightBorderDistance": 3.945032,
+      "leftWallDistance": 4.944968,
+      "rightWallDistance": 5.435032,
+      "banking": 0.0,
+      "maxSpeed": 33.65015,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.08164724,
+        "z": 0.0,
+        "w": 0.9966613
+      }
+    },
+    {
+      "position": {
+        "x": 605.1201,
+        "y": 0.600001335,
+        "z": 1282.59058
+      },
+      "leftBorderDistance": 3.39500833,
+      "rightBorderDistance": 3.39499164,
+      "leftWallDistance": 4.2550087,
+      "rightWallDistance": 4.87499142,
+      "banking": 0.0,
+      "maxSpeed": 33.08518,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.2116997,
+        "z": 0.0,
+        "w": 0.9773348
+      }
+    },
+    {
+      "position": {
+        "x": 595.69,
+        "y": 0.600001156,
+        "z": 1298.852
+      },
+      "leftBorderDistance": 2.89499235,
+      "rightBorderDistance": 2.89500761,
+      "leftWallDistance": 3.77499247,
+      "rightWallDistance": 4.10500765,
+      "banking": 0.0,
+      "maxSpeed": 32.6025429,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.2714763,
+        "z": 0.0,
+        "w": 0.96244514
+      }
+    },
+    {
+      "position": {
+        "x": 587.872864,
+        "y": 0.6000009,
+        "z": 1316.94849
+      },
+      "leftBorderDistance": 3.56998587,
+      "rightBorderDistance": 3.570014,
+      "leftWallDistance": 4.339986,
+      "rightWallDistance": 4.48063755,
+      "banking": 0.0,
+      "maxSpeed": 31.93633,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.195771337,
+        "z": 0.0,
+        "w": 0.9806496
+      }
+    },
+    {
+      "position": {
+        "x": 579.9613,
+        "y": 0.600000858,
+        "z": 1338.9939
+      },
+      "leftBorderDistance": 3.15003967,
+      "rightBorderDistance": 3.14996052,
+      "leftWallDistance": 3.76003981,
+      "rightWallDistance": 4.1699605,
+      "banking": 0.0,
+      "maxSpeed": 31.248682,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.169027552,
+        "z": 0.0,
+        "w": 0.9856113
+      }
+    },
+    {
+      "position": {
+        "x": 577.0257,
+        "y": 0.600001037,
+        "z": 1347.75488
+      },
+      "leftBorderDistance": 4.620024,
+      "rightBorderDistance": 4.61997557,
+      "leftWallDistance": 7.410024,
+      "rightWallDistance": 7.16997576,
+      "banking": 0.0,
+      "maxSpeed": 30.4607048,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.14314729,
+        "z": 0.0,
+        "w": 0.9897014
+      }
+    },
+    {
+      "position": {
+        "x": 564.4294,
+        "y": 0.6000013,
+        "z": 1383.23975
+      },
+      "leftBorderDistance": 7.52,
+      "rightBorderDistance": 7.52,
+      "leftWallDistance": 8.81,
+      "rightWallDistance": 8.93,
+      "banking": 0.0,
+      "maxSpeed": 31.0617161,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.169664755,
+        "z": 0.0,
+        "w": 0.9855018
+      }
+    },
+    {
+      "position": {
+        "x": 552.2353,
+        "y": 0.600001335,
+        "z": 1417.25757
+      },
+      "leftBorderDistance": 6.51002026,
+      "rightBorderDistance": 6.50997972,
+      "leftWallDistance": 8.03002,
+      "rightWallDistance": 7.82998,
+      "banking": 0.0,
+      "maxSpeed": 29.4663582,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.170199275,
+        "z": 0.0,
+        "w": 0.9854097
+      }
+    },
+    {
+      "position": {
+        "x": 543.870361,
+        "y": 0.600001156,
+        "z": 1440.82666
+      },
+      "leftBorderDistance": 2.405035,
+      "rightBorderDistance": 2.404965,
+      "leftWallDistance": 3.54763412,
+      "rightWallDistance": 3.59421682,
+      "banking": 0.0,
+      "maxSpeed": 28.23681,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.1699784,
+        "z": 0.0,
+        "w": 0.9854478
+      }
+    },
+    {
+      "position": {
+        "x": 538.7876,
+        "y": 0.6000009,
+        "z": 1454.5083
+      },
+      "leftBorderDistance": 2.64005017,
+      "rightBorderDistance": 2.6399498,
+      "leftWallDistance": 3.3426373,
+      "rightWallDistance": 3.79915023,
+      "banking": 0.0,
+      "maxSpeed": 27.424921,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.17620492,
+        "z": 0.0,
+        "w": 0.984353542
+      }
+    },
+    {
+      "position": {
+        "x": 532.9734,
+        "y": 0.600000858,
+        "z": 1468.62012
+      },
+      "leftBorderDistance": 2.34502554,
+      "rightBorderDistance": 2.34497452,
+      "leftWallDistance": 3.30760527,
+      "rightWallDistance": 3.04497433,
+      "banking": 0.0,
+      "maxSpeed": 26.9791374,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.2040883,
+        "z": 0.0,
+        "w": 0.9789525
+      }
+    },
+    {
+      "position": {
+        "x": 528.709167,
+        "y": 0.600001037,
+        "z": 1482.679
+      },
+      "leftBorderDistance": 3.0850122,
+      "rightBorderDistance": 3.08498788,
+      "leftWallDistance": 3.965012,
+      "rightWallDistance": 4.014988,
+      "banking": 0.0,
+      "maxSpeed": 26.455328,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.164067075,
+        "z": 0.0,
+        "w": 0.9864492
+      }
+    },
+    {
+      "position": {
+        "x": 526.7886,
+        "y": 0.6000013,
+        "z": 1499.074
+      },
+      "leftBorderDistance": 3.12001514,
+      "rightBorderDistance": 3.11998487,
+      "leftWallDistance": 4.220015,
+      "rightWallDistance": 4.019122,
+      "banking": 0.0,
+      "maxSpeed": 25.9638786,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0713253543,
+        "z": 0.0,
+        "w": 0.997453153
+      }
+    },
+    {
+      "position": {
+        "x": 525.002563,
+        "y": 0.600001335,
+        "z": 1528.0177
+      },
+      "leftBorderDistance": 3.42000866,
+      "rightBorderDistance": 3.41999149,
+      "leftWallDistance": 4.37000847,
+      "rightWallDistance": 4.169121,
+      "banking": 0.0,
+      "maxSpeed": 25.4463768,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0373468027,
+        "z": 0.0,
+        "w": 0.9993024
+      }
+    },
+    {
+      "position": {
+        "x": 526.101746,
+        "y": 0.600001156,
+        "z": 1546.87109
+      },
+      "leftBorderDistance": 3.280004,
+      "rightBorderDistance": 3.279996,
+      "leftWallDistance": 4.130004,
+      "rightWallDistance": 3.849121,
+      "banking": 0.0,
+      "maxSpeed": 24.3771725,
+      "rotation": {
+        "x": 0.0,
+        "y": 0.01738342,
+        "z": 0.0,
+        "w": 0.9998489
+      }
+    },
+    {
+      "position": {
+        "x": 528.1086,
+        "y": 0.6000009,
+        "z": 1559.62817
+      },
+      "leftBorderDistance": 3.47999954,
+      "rightBorderDistance": 3.48000026,
+      "leftWallDistance": 4.87999964,
+      "rightWallDistance": 4.22000027,
+      "banking": 0.0,
+      "maxSpeed": 23.72964,
+      "rotation": {
+        "x": 0.0193833243,
+        "y": 0.0568545945,
+        "z": -0.00110402517,
+        "w": 0.9981937
+      }
+    },
+    {
+      "position": {
+        "x": 533.041138,
+        "y": 3.867345,
+        "z": 1578.97192
+      },
+      "leftBorderDistance": 1.90002584,
+      "rightBorderDistance": 1.89997411,
+      "leftWallDistance": 2.860026,
+      "rightWallDistance": 2.74909472,
+      "banking": 0.0,
+      "maxSpeed": 23.3340454,
+      "rotation": {
+        "x": -0.07975725,
+        "y": 0.132696867,
+        "z": 0.0107133361,
+        "w": 0.9878844
+      }
+    },
+    {
+      "position": {
+        "x": 532.9207,
+        "y": 3.867345,
+        "z": 1593.468
+      },
+      "leftBorderDistance": 1.74499345,
+      "rightBorderDistance": 1.74500656,
+      "leftWallDistance": 2.38499355,
+      "rightWallDistance": 2.754126,
+      "banking": 0.0,
+      "maxSpeed": 22.60835,
+      "rotation": {
+        "x": -0.0207067858,
+        "y": 0.04811715,
+        "z": 0.0009977219,
+        "w": 0.99862653
+      }
+    },
+    {
+      "position": {
+        "x": 527.6675,
+        "y": 3.867345,
+        "z": 1606.6543
+      },
+      "leftBorderDistance": 3.50002217,
+      "rightBorderDistance": 3.499978,
+      "leftWallDistance": 4.24002171,
+      "rightWallDistance": 4.689097,
+      "banking": 0.0,
+      "maxSpeed": 22.1099072,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.141964227,
+        "z": 0.0,
+        "w": 0.9898718
+      }
+    },
+    {
+      "position": {
+        "x": 519.4023,
+        "y": 3.867345,
+        "z": 1629.30078
+      },
+      "leftBorderDistance": 3.20496726,
+      "rightBorderDistance": 3.20503283,
+      "leftWallDistance": 4.764967,
+      "rightWallDistance": 3.97415113,
+      "banking": 0.0,
+      "maxSpeed": 27.9633827,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.181255564,
+        "z": 0.0,
+        "w": 0.983436048
+      }
+    },
+    {
+      "position": {
+        "x": 515.28125,
+        "y": 3.867345,
+        "z": 1647.29126
+      },
+      "leftBorderDistance": 3.724984,
+      "rightBorderDistance": 3.72501636,
+      "leftWallDistance": 4.66498375,
+      "rightWallDistance": 4.44413471,
+      "banking": 0.0,
+      "maxSpeed": 27.136982,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.138101012,
+        "z": 0.0,
+        "w": 0.9904182
+      }
+    },
+    {
+      "position": {
+        "x": 512.4164,
+        "y": 3.867345,
+        "z": 1666.06787
+      },
+      "leftBorderDistance": 3.02503467,
+      "rightBorderDistance": 3.02496529,
+      "leftWallDistance": 3.87503481,
+      "rightWallDistance": 3.83408332,
+      "banking": 0.0,
+      "maxSpeed": 26.493618,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.09283895,
+        "z": 0.0,
+        "w": 0.995681167
+      }
+    },
+    {
+      "position": {
+        "x": 510.0667,
+        "y": 3.867345,
+        "z": 1690.4939
+      },
+      "leftBorderDistance": 3.38501048,
+      "rightBorderDistance": 3.3849895,
+      "leftWallDistance": 4.325011,
+      "rightWallDistance": 4.114107,
+      "banking": 0.0,
+      "maxSpeed": 25.8760033,
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0591142848,
+        "z": 0.0,
+        "w": 0.998251259
+      }
+    }
+  ],
+  "_sectors": [
+    {
+      "lookAheadDistance": 0.01,
+      "gripModifier": 0.5,
+      "decelerationModifier": 0.1,
+      "percentageEndOfSector": 1.0,
+      "color": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "influenceWeightRight": 1.0,
+      "influenceWeightLeft": 1.0,
+      "usePreviousParticleSystem": 1,
+      "particleSystem": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 6,
+    "m_PathID": 281
+  },
+  "m_Name": "",
+  "_numChis": 1.0,
+  "_rotationPoint": {
+    "m_FileID": 0,
+    "m_PathID": 511
+  },
+  "_rotationPiece": {
+    "m_FileID": 0,
+    "m_PathID": 212
+  },
+  "_parent": {
+    "m_FileID": 0,
+    "m_PathID": 181
+  }
+}

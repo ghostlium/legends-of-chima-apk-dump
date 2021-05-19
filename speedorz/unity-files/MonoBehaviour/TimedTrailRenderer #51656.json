@@ -1,0 +1,33 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 200
+  },
+  "m_Enabled": 0,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 65
+  },
+  "m_Name": "",
+  "emit": 1,
+  "emitTime": 0.0,
+  "material": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "lifeTime": 0.1,
+  "colors": [],
+  "sizes": [
+    1.0,
+    0.0
+  ],
+  "uvLengthScale": 0.01,
+  "higherQualityUVs": 1,
+  "movePixelsForRebuild": 6,
+  "maxRebuildTime": 0.1,
+  "minVertexDistance": 0.1,
+  "maxVertexDistance": 10.0,
+  "maxAngle": 3.0,
+  "autoDestruct": 0,
+  "randomizeMaterialOffset": 0
+}

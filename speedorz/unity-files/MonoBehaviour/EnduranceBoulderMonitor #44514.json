@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 154
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 6,
+    "m_PathID": 184
+  },
+  "m_Name": "",
+  "_parent": {
+    "m_FileID": 0,
+    "m_PathID": 147
+  },
+  "_numChis": 1.0
+}

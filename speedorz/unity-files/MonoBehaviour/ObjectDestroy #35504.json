@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2023
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Jungle_Straight1b",
+    "Pickups_SCN_Jungle_Straight1b",
+    "Collision_SCN_Jungle_Straight1b",
+    "Dynamic_Scene_SCN_Jungle_Straight1b",
+    "SCN_Jungle_Straight1b_g3",
+    "SCN_Jungle_Straight1b_g4",
+    "SCN_Jungle_Straight1a_g1"
+  ]
+}

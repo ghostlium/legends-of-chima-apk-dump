@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2024
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Jungle_Straight2b",
+    "SCN_Jungle_Straight2b_g3",
+    "SCN_Jungle_Straight2b_g4"
+  ]
+}

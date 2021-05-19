@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 90
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 156
+  },
+  "m_Name": "",
+  "particlePrefab": {
+    "m_FileID": 0,
+    "m_PathID": 53
+  },
+  "particleAnchor": {
+    "m_FileID": 0,
+    "m_PathID": 198
+  },
+  "forceLowMem": 0
+}

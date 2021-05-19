@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 384
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 18,
+    "m_PathID": 207
+  },
+  "m_Name": "",
+  "_challengeDebugRendering": 0,
+  "_type": 3,
+  "_chiCount": 0.0,
+  "_possibleNumberOfChi": 6.0,
+  "_chiCount1": 0.0,
+  "_possibleNumberOfChi1": 7.0
+}

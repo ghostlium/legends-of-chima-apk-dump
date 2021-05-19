@@ -1,0 +1,16 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 64
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 136
+  },
+  "m_Name": "",
+  "_playAnim": 1,
+  "_countDownTime": 3.0,
+  "_animSpeedChangePress": 3.5,
+  "_animName": "CameraStart"
+}

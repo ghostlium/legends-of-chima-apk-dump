@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 962
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 253
+  },
+  "m_Name": "",
+  "resourceNames": [
+    "Floor_SCN_Swamp_Straight2",
+    "Collision_SCN_Swamp_Straight2",
+    "Floor_SCN_Swamp_Straight2_End",
+    "Collision_SCN_Swamp_Straight2_End",
+    "Setup_Arena_Swamp_Straight2_End"
+  ],
+  "loadOnAwake": 0,
+  "highPriorityList": 0
+}

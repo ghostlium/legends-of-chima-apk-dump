@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 922
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 18,
+    "m_PathID": 299
+  },
+  "m_Name": "",
+  "_numChis": 1.0,
+  "_parent": {
+    "m_FileID": 0,
+    "m_PathID": 384
+  },
+  "_nextGates": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 5041
+    }
+  ],
+  "_manager": {
+    "m_FileID": 0,
+    "m_PathID": 4987
+  }
+}

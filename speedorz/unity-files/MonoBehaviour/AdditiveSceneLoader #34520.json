@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 817
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 104
+  },
+  "m_Name": "",
+  "levelName": "SCN_Arena_Swamp_Straight1",
+  "onLoadComplete": {
+    "onlyOnce": 1,
+    "receivers": []
+  }
+}

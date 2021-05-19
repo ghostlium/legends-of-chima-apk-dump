@@ -1,0 +1,144 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4691
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 144
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_bars": [
+    {
+      "_nameText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35844
+      },
+      "_descText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35868
+      },
+      "_lockedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36237
+      },
+      "_tickedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 34965
+      },
+      "_chi_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35772
+      },
+      "_flag_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35748
+      },
+      "_head_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35697
+      },
+      "_parts_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35722
+      },
+      "_stud_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35796
+      },
+      "_timer_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35647
+      }
+    },
+    {
+      "_nameText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35914
+      },
+      "_descText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35891
+      },
+      "_lockedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36250
+      },
+      "_tickedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36190
+      },
+      "_chi_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36001
+      },
+      "_flag_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36022
+      },
+      "_head_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36074
+      },
+      "_parts_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36039
+      },
+      "_stud_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35938
+      },
+      "_timer_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36091
+      }
+    },
+    {
+      "_nameText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35480
+      },
+      "_descText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35672
+      },
+      "_lockedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36277
+      },
+      "_tickedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36263
+      },
+      "_chi_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36174
+      },
+      "_flag_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35032
+      },
+      "_head_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35185
+      },
+      "_parts_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35089
+      },
+      "_stud_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 34879
+      },
+      "_timer_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 35271
+      }
+    }
+  ]
+}

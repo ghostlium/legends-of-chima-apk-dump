@@ -1,0 +1,49 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 958
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 253
+  },
+  "m_Name": "",
+  "resourceNames": [
+    "Collision_SCN_Jungle_Straight2",
+    "Collision_SCN_Jungle_Straight2a",
+    "Collision_SCN_Jungle_Straight2b",
+    "Collision_SCN_Jungle_Straight2c",
+    "Floor_SCN_Jungle_Straight2",
+    "Floor_SCN_Jungle_Straight2a",
+    "Floor_SCN_Jungle_Straight2b",
+    "Floor_SCN_Jungle_Straight2c",
+    "Floor_SCN_Jungle_Split2",
+    "Collision_SCN_Jungle_Split2",
+    "Dynamic_Scene_SCN_Jungle_Straight2",
+    "Dynamic_Scene_SCN_Jungle_Straight2a",
+    "Dynamic_Scene_SCN_Jungle_Straight2b",
+    "Dynamic_Scene_SCN_Jungle_Straight2c",
+    "Dynamic_Scene_SCN_Canyon_Split2",
+    "Setup_Jungle_Straight2",
+    "Setup_Canyon_Split2",
+    "Setup_Jungle_Straight2c",
+    "Setup_Jungle_Straight2b",
+    "Setup_Jungle_Split2",
+    "Setup_Jungle_Straight2a",
+    "RacingLine_SCN_Canyon_Split2",
+    "RacingLine_SCN_Jungle_Split2",
+    "RacingLine_SCN_Canyon_Split2",
+    "RacingLine_SCN_Jungle_Straight2b",
+    "RacingLine_SCN_Jungle_Straight2c",
+    "RacingLine_SCN_Jungle_Straight2",
+    "RacingLine_SCN_Jungle_Straight2a",
+    "Pickups_SCN_Jungle_Straight2",
+    "Pickups_SCN_Jungle_Straight2a",
+    "Pickups_SCN_Jungle_Straight2c",
+    "Pickups_SCN_Jungle_Straight2b",
+    "Collision_SCN_Canyon_Split2"
+  ],
+  "loadOnAwake": 0,
+  "highPriorityList": 1
+}

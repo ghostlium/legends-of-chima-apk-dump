@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2025
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 253
+  },
+  "m_Name": "",
+  "resourceNames": [
+    "SCN_Swamp_Straight1_Loader_Resources"
+  ],
+  "loadOnAwake": 0,
+  "highPriorityList": 1
+}

@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 55
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 5,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Swamp_Straight3_End",
+    "Swamp_Broken_Ruins",
+    "Swamp_ends_Ruins",
+    "Swamp_Ripzone_Arena_Ends",
+    "Swamp_Walls_Ruins",
+    "PickupPool"
+  ]
+}

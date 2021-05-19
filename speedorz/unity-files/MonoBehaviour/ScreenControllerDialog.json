@@ -1,0 +1,38 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2773
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 190
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "message": {
+    "m_FileID": 0,
+    "m_PathID": 34324
+  },
+  "title": {
+    "m_FileID": 0,
+    "m_PathID": 34777
+  },
+  "popups": [
+    {
+      "name": "SAFE_SIGN_IN",
+      "message": "SAFE_SIGN_IN_MSG",
+      "title": "SAFE_SIGN_IN_TITLE",
+      "confirmAction": "signIn"
+    },
+    {
+      "name": "CONNECT_TO_INTERNET",
+      "message": "CONNECT_TO_INTERNET",
+      "title": "SAFE_SIGN_IN_TITLE",
+      "confirmAction": "checkConnection"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1879
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 22,
+    "m_PathID": 288
+  },
+  "m_Name": "",
+  "duelControllerPrefab": {
+    "m_FileID": 3,
+    "m_PathID": 128
+  }
+}

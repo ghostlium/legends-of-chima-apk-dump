@@ -1,0 +1,20 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 966
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 199
+  },
+  "m_Name": "",
+  "waitForStartCommand": 1,
+  "initialDelay": 0.1,
+  "levelNames": [
+    "SCN_Swamp_Straight2b",
+    "SCN_Swamp_Straight2_End3",
+    "SCN_Arena_Swamp_Straight2_End3"
+  ],
+  "noDelayYielding": 0
+}

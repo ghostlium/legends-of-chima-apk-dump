@@ -1,0 +1,98 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 142
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 5,
+    "m_PathID": 314
+  },
+  "m_Name": "",
+  "_pickUpTypes": [
+    {
+      "_type": 1,
+      "_studType": 0,
+      "_numberInPool": 700,
+      "_value": 10,
+      "_material": {
+        "m_FileID": 1,
+        "m_PathID": 22
+      },
+      "_pickupPrefab": {
+        "m_FileID": 1,
+        "m_PathID": 834
+      }
+    },
+    {
+      "_type": 1,
+      "_studType": 1,
+      "_numberInPool": 400,
+      "_value": 100,
+      "_material": {
+        "m_FileID": 1,
+        "m_PathID": 20
+      },
+      "_pickupPrefab": {
+        "m_FileID": 1,
+        "m_PathID": 834
+      }
+    },
+    {
+      "_type": 1,
+      "_studType": 2,
+      "_numberInPool": 220,
+      "_value": 1000,
+      "_material": {
+        "m_FileID": 1,
+        "m_PathID": 19
+      },
+      "_pickupPrefab": {
+        "m_FileID": 1,
+        "m_PathID": 834
+      }
+    },
+    {
+      "_type": 1,
+      "_studType": 3,
+      "_numberInPool": 30,
+      "_value": 10000,
+      "_material": {
+        "m_FileID": 2,
+        "m_PathID": 7
+      },
+      "_pickupPrefab": {
+        "m_FileID": 1,
+        "m_PathID": 834
+      }
+    },
+    {
+      "_type": 1,
+      "_studType": 4,
+      "_numberInPool": 2,
+      "_value": 100000,
+      "_material": {
+        "m_FileID": 2,
+        "m_PathID": 6
+      },
+      "_pickupPrefab": {
+        "m_FileID": 1,
+        "m_PathID": 834
+      }
+    },
+    {
+      "_type": 2,
+      "_studType": 5,
+      "_numberInPool": 5,
+      "_value": 1,
+      "_material": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_pickupPrefab": {
+        "m_FileID": 1,
+        "m_PathID": 833
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 607
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 27
+  },
+  "m_Name": "",
+  "fontsets": [
+    {
+      "name": "default",
+      "font": {
+        "m_FileID": 0,
+        "m_PathID": 482
+      },
+      "textures": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 158
+        }
+      ]
+    },
+    {
+      "name": "Chinese",
+      "font": {
+        "m_FileID": 0,
+        "m_PathID": 458
+      },
+      "textures": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 258
+        }
+      ]
+    },
+    {
+      "name": "Japanese",
+      "font": {
+        "m_FileID": 0,
+        "m_PathID": 520
+      },
+      "textures": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 182
+        }
+      ]
+    },
+    {
+      "name": "Korean",
+      "font": {
+        "m_FileID": 0,
+        "m_PathID": 517
+      },
+      "textures": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 266
+        }
+      ]
+    }
+  ]
+}

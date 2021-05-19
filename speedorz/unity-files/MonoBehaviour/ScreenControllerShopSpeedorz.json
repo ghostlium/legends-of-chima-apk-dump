@@ -1,0 +1,438 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1935
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 295
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36795
+  },
+  "_buyButton_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36460
+  },
+  "_equipButton_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36953
+  },
+  "_lockedButton_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 37069
+  },
+  "_equippedButton_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 37009
+  },
+  "_needStudsButton_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36013
+  },
+  "_lockedIcon_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36724
+  },
+  "_lockedIconLeft_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36602
+  },
+  "_lockedIconRight_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36716
+  },
+  "_studsLabel_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36134
+  },
+  "_spaceCentre_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36286
+  },
+  "_spaceLeft_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36299
+  },
+  "_spaceRight_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35104
+  },
+  "_speedorName_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35201
+  },
+  "_speedorPrice_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35243
+  },
+  "_speedorImages_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 36692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36671
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36708
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36909
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36921
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36685
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36816
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36692
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36994
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36987
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36872
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36664
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36897
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36809
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36837
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36809
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36934
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37112
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37108
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37116
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37104
+    }
+  ],
+  "_speedorImagesRight_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 36244
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36310
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36230
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36244
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36244
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36844
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36700
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36270
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36580
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36244
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36884
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36823
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36677
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36257
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36830
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36858
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36568
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36851
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37096
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37092
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37100
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37088
+    }
+  ],
+  "_speedorImagesLeft_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 36628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36652
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36611
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36915
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36927
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36637
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36620
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36628
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36999
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36891
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36879
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36658
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36903
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36645
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36865
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36645
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36940
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37128
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37124
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37133
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37120
+    }
+  ],
+  "_speedBlocks_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 35833
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35809
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35786
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35762
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35736
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35711
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35686
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35661
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35633
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35606
+    }
+  ],
+  "_handleBlocks_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 35326
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35360
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35430
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35395
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35462
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35494
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35524
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35551
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35578
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35047
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1926
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 151
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 34515
+  },
+  "_timeRace_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35517
+  },
+  "_studsThisRace_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35388
+  },
+  "_chiNormal_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 34887
+  },
+  "_chiGold_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35827
+  },
+  "_resultText_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36417
+  },
+  "_starOne_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 37086
+  },
+  "_starTwo_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 37090
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37262
+    }
+  ],
+  "_starThree_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 37256
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37147
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37250
+    }
+  ],
+  "_imagesHead_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 37205
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37283
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37131
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37156
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37094
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35729
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37199
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35704
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37291
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37229
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37238
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37247
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35755
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35679
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35626
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37168
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35803
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37184
+    }
+  ],
+  "_imagesTorso_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 36179
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37241
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37287
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37171
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37153
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37253
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37259
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37232
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37126
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37274
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37174
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36113
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36130
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36096
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37235
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36146
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36162
+    }
+  ],
+  "_imagesLegs_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 35897
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37135
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37244
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37141
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36079
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36062
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37220
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37226
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37214
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37122
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37217
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35873
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35850
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37102
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37208
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37162
+    }
+  ],
+  "_timesToBeat_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 37118
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37265
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37106
+    }
+  ],
+  "_lockedIcons_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 37202
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37271
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 37289
+    }
+  ],
+  "_partsParent_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 37211
+  },
+  "_achisParent_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 36318
+  },
+  "_bars": [
+    {
+      "_nameText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36937
+      },
+      "_descText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_lockedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_tickedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36943
+      },
+      "_chi_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36906
+      },
+      "_flag_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36924
+      },
+      "_head_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36900
+      },
+      "_parts_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36918
+      },
+      "_stud_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36888
+      },
+      "_timer_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36931
+      }
+    },
+    {
+      "_nameText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36855
+      },
+      "_descText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_lockedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_tickedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36862
+      },
+      "_chi_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36820
+      },
+      "_flag_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36841
+      },
+      "_head_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36813
+      },
+      "_parts_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36834
+      },
+      "_stud_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36799
+      },
+      "_timer_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36848
+      }
+    },
+    {
+      "_nameText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36763
+      },
+      "_descText_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_lockedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_tickedIcon_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36771
+      },
+      "_chi_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36721
+      },
+      "_flag_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36748
+      },
+      "_head_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36713
+      },
+      "_parts_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36735
+      },
+      "_stud_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36697
+      },
+      "_timer_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 36755
+      }
+    }
+  ],
+  "_rewardFx": [
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37110
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37196
+      }
+    },
+    {
+      "_element_Ed": {
+        "m_FileID": 0,
+        "m_PathID": 37159
+      }
+    }
+  ],
+  "_vaultPanel_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35964
+  },
+  "_vaultCodeText_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35423
+  },
+  "_resultPanel_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35236
+  },
+  "_goldenChiFx": {
+    "_element_Ed": {
+      "m_FileID": 0,
+      "m_PathID": 35599
+    }
+  }
+}

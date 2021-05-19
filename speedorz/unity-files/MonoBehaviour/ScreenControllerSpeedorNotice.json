@@ -1,0 +1,110 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7881
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 231
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_speedorImages_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35461
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35493
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35879
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35926
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35550
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35523
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35855
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35903
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35632
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35832
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35605
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35808
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35605
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35429
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35990
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35948
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36012
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35969
+    }
+  ]
+}

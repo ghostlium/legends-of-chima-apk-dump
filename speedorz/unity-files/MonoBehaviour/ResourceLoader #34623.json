@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 948
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 253
+  },
+  "m_Name": "",
+  "resourceNames": [
+    "Dynamic_Scene_SCN_Canyon_Straight1c",
+    "Pickups_SCN_Canyon_Straight1b",
+    "Pickups_SCN_Canyon_Straight1c",
+    "Setup_Canyon_Straight1b",
+    "Setup_Canyon_Straight1c",
+    "Pickups_SCN_Swamp_Split1",
+    "Dynamic_Scene_SCN_Swamp_Split1",
+    "Setup_Swamp_Split1"
+  ],
+  "loadOnAwake": 1,
+  "highPriorityList": 0
+}

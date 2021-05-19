@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1571
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "jungleCommon_02End",
+    "SCN_Jungle_Common_Straight1_01",
+    "SCN_Jungle_Common_Straight2_01",
+    "SCN_Jungle_Common_Straight2_02",
+    "SCN_Jungle_Common_Middle"
+  ]
+}

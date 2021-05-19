@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 973
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 253
+  },
+  "m_Name": "",
+  "resourceNames": [
+    "Challenges_SCN_Swamp_Straight4",
+    "Dynamic_Scene_SCN_Swamp_Straight4",
+    "Pickups_SCN_Swamp_Straight4",
+    "RacingLine_SCN_Swamp_Straight4",
+    "Setup_SCN_Swamp_Straight4",
+    "Challenges_SCN_Swamp_Straight4_End",
+    "Pickups_SCN_Swamp_Straight4_End",
+    "Setup_SCN_Swamp_Straight4_End",
+    "RacingLine_SCN_Swamp_Straight4_End",
+    "RacingLine_SCN_Swamp_Straight4"
+  ],
+  "loadOnAwake": 1,
+  "highPriorityList": 1
+}

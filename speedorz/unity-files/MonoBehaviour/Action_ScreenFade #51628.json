@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 144
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 39
+  },
+  "m_Name": "",
+  "fadeValue": 0.0,
+  "fadeColor": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "whiteTex": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

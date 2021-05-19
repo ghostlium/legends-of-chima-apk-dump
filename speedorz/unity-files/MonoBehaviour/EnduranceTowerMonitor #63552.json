@@ -1,0 +1,43 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 5,
+    "m_PathID": 150
+  },
+  "m_Name": "",
+  "_numChis": 1.0,
+  "_parent": {
+    "m_FileID": 0,
+    "m_PathID": 303
+  },
+  "_towerPieces": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 174
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 150
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 175
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 39
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 10
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 164
+    }
+  ]
+}

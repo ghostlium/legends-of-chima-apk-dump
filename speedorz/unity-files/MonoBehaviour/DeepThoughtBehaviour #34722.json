@@ -1,0 +1,54 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 739
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 74
+  },
+  "m_Name": "",
+  "rootXml": {
+    "m_FileID": 0,
+    "m_PathID": 524
+  },
+  "uplinkPort": 1987,
+  "createUplink": 0,
+  "preInitialisationPrefabs": [],
+  "delayedInitialisationPrefabs": [],
+  "launchPrefabs": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1658
+    }
+  ],
+  "launchPrefabs_Web": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1780
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1779
+    }
+  ],
+  "launchPrefabs_Mobile": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1775
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3857
+    }
+  ],
+  "trustedDomains": [
+    "http://www.lego.com",
+    "https://www.lego.com",
+    "http://4t2.3rd.corp.lego.com",
+    "http://demos.4t2.co.uk"
+  ],
+  "allowAllDomains": 1,
+  "totalFadeAlpha": 0.0
+}

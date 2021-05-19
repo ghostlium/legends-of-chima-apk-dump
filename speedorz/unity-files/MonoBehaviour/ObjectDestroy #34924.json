@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1356
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Jungle_Split",
+    "SCN_Jungle_Split1",
+    "Pickups_SCN_Jungle_Split1",
+    "Collision_SCN_Jungle_Split1",
+    "Dynamic_Scene_Jungle_Split",
+    "Pickups_SCN_Jungle_Split",
+    "Collision_SCN_Jungle_Split",
+    "SCN_Jungle_Split_g3",
+    "SCN_Jungle_Split_g4",
+    "SCN_Jungle_Split1_g3",
+    "SCN_Jungle_Split1_g4",
+    "SCN_Jungle_Split_g3",
+    "SCN_Jungle_Split_g4"
+  ]
+}

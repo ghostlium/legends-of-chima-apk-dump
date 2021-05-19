@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 960
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 199
+  },
+  "m_Name": "",
+  "waitForStartCommand": 1,
+  "initialDelay": 0.1,
+  "levelNames": [
+    "SCN_Swamp_Straight1_Geom1",
+    "SCN_Swamp_Straight1_Geom2",
+    "SCN_Swamp_Straight1_Geom3",
+    "SCN_Swamp_Straight1_Geom4",
+    "SCN_Swamp_Straight1_Geom5",
+    "SCN_Swamp_Straight1a_Geom1",
+    "SCN_Swamp_Straight1a_Geom2",
+    "SCN_Swamp_Straight1a_Geom3",
+    "SCN_Swamp_Straight1a_Geom4",
+    "SCN_Swamp_Straight1a_Geom5",
+    "SCN_Swamp_Straight1a_Geom6",
+    "SCN_Swamp_Straight1b_Geom1",
+    "SCN_Swamp_Straight1b_Geom2",
+    "SCN_Swamp_Straight1b_Geom3",
+    "SCN_Swamp_Straight1b_Geom4",
+    "SCN_Swamp_Straight1b_Geom5",
+    "SCN_Arena_Swamp_Straight1_Geom1",
+    "SCN_Arena_Swamp_Straight1_Geom2",
+    "SCN_Arena_Swamp_Straight1_Geom3",
+    "SCN_Arena_Swamp_Straight1_Geom4"
+  ],
+  "noDelayYielding": 0
+}

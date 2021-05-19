@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1433
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 17,
+    "m_PathID": 227
+  },
+  "m_Name": "",
+  "_numUnitsToGive": 1,
+  "distAboveFloor": 0.5,
+  "deleteOnCollect": 1,
+  "wasCollected": 0,
+  "isCollecting": 0,
+  "_type": 2,
+  "snapToFloor": 0,
+  "isDroppedPickup": 0,
+  "isPooled": 0,
+  "currentGenerationName": ""
+}

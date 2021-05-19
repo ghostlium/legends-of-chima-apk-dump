@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1142
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Swamp_Split1",
+    "Collision_SCN_Swamp_Split1",
+    "Pickups_SCN_Swamp_Split1",
+    "Dynamic_Scene_SCN_Swamp_Split1",
+    "SCN_Swamp_Split1_g3",
+    "SCN_Swamp_Split1_g4",
+    "SCN_Swamp_Split1_g5"
+  ]
+}

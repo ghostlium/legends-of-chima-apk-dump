@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 45
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 7,
+    "m_PathID": 208
+  },
+  "m_Name": "",
+  "objects": [
+    "SCN_Canyon_Split2",
+    "SCN_Canyon_Split2_g3",
+    "SCN_Canyon_Split2_g4"
+  ]
+}

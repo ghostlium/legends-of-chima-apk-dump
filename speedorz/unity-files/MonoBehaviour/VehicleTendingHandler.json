@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 90
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 246
+  },
+  "m_Name": "",
+  "_tendingEnabled": 1,
+  "_tendingDebugRendering": 0,
+  "_lookAheadDist": 4.5,
+  "_consideredAccurate": 0,
+  "_dataAccurate": 0,
+  "_currentLineIndex": 0,
+  "_tendingWeight": 0.0
+}

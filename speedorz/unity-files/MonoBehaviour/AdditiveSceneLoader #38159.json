@@ -1,0 +1,45 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 104
+  },
+  "m_Name": "",
+  "levelName": "SCN_Start_LOW_MEM",
+  "onLoadComplete": {
+    "onlyOnce": 1,
+    "receivers": [
+      {
+        "receiver": {
+          "m_FileID": 0,
+          "m_PathID": 8
+        },
+        "action": "OnSignal",
+        "delay": 0.0,
+        "receiveSender": 0
+      },
+      {
+        "receiver": {
+          "m_FileID": 0,
+          "m_PathID": 7
+        },
+        "action": "OnSignal",
+        "delay": 0.0,
+        "receiveSender": 0
+      },
+      {
+        "receiver": {
+          "m_FileID": 0,
+          "m_PathID": 6
+        },
+        "action": "OnSignal",
+        "delay": 0.0,
+        "receiveSender": 0
+      }
+    ]
+  }
+}

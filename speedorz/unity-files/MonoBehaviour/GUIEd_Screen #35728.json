@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2782
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 203
+  },
+  "m_Name": "",
+  "isActive": 0,
+  "overlay": 0,
+  "modal": 0,
+  "interactive": 1,
+  "solo": 0,
+  "localisationRoot": "",
+  "renderObject": {
+    "m_FileID": 0,
+    "m_PathID": 2782
+  },
+  "dontDestroyOnLoad": 1
+}

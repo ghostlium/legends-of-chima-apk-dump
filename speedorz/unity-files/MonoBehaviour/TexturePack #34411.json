@@ -1,0 +1,26 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 627
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 206
+  },
+  "m_Name": "",
+  "textureOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "map": {
+    "m_FileID": 0,
+    "m_PathID": 462
+  },
+  "originalSize": {
+    "x": 2048.0,
+    "y": 2048.0
+  },
+  "resourceLocation": "routeAtlas126",
+  "resourceLocationLowMemory": "routeAtlas126LowRes"
+}

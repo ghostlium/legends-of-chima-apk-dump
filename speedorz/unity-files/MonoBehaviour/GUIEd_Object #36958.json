@@ -1,0 +1,266 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7951
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 196
+  },
+  "m_Name": "",
+  "isActive": 1,
+  "isVisible": 1,
+  "isInteractive": 1,
+  "zdepth": 1.0,
+  "showBounds": 1,
+  "xoffset": 0.00251953118,
+  "yoffset": 0.0,
+  "width": 0.119140625,
+  "height": 0.125,
+  "xoffsetunit": 1,
+  "yoffsetunit": 1,
+  "widthunit": 1,
+  "heightunit": 1,
+  "showAnchor": 1,
+  "showVerticalAnchor": 1,
+  "showHorizontalAnchor": 1,
+  "top": 0,
+  "bottom": 1,
+  "left": 1,
+  "right": 0,
+  "anchorModeV": 0,
+  "anchorModeH": 0,
+  "lockaspect": 0,
+  "lockratio": 1.0,
+  "showText": 0,
+  "overrideLocalisationRoot": "",
+  "textid": "",
+  "textstyle": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "textscale": 0.5,
+  "textscaleAsPercentage": 0,
+  "textfont": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "fontPack": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "textalign": 1,
+  "textanchor": 1,
+  "textfitting": 1,
+  "lineheight": 0.8,
+  "textrotation": 0.0,
+  "wordwrap": 0,
+  "shader": "Custom/VertexColorUnlit",
+  "gradient": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "gradientY": 0.0,
+  "showImage": 1,
+  "image": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "texturePack": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "texturePackIndex": 10.0,
+  "showImageAlpha": 0,
+  "imageAlpha": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "texturePackAlpha": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "texturePackIndexAlpha": 0.0,
+  "showImageProperties": 0,
+  "imagefitting": 1,
+  "imageanchor": 0,
+  "imageoffsetx": 0.0,
+  "imageoffsety": 0.0,
+  "imagescalex": 1.0,
+  "imagescaley": 1.0,
+  "horizontalskew": 0.0,
+  "imagerot": 0.0,
+  "showVertexColors": 1,
+  "topLeft": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "topRight": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "bottomLeft": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "bottomRight": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "guiAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "showInteractiveOptions": 1,
+  "buttonMask": 0,
+  "ellipseMaskPercent": 100.0,
+  "showInteractiveOptions_Over": 1,
+  "onOverAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onOverEvents": [],
+  "onOverSignals": {
+    "onlyOnce": 0,
+    "receivers": [
+      {
+        "receiver": {
+          "m_FileID": 0,
+          "m_PathID": 1792
+        },
+        "action": "OnButtonHover",
+        "delay": 0.0,
+        "receiveSender": 0
+      }
+    ]
+  },
+  "onOverState": {
+    "m_FileID": 0,
+    "m_PathID": 36779
+  },
+  "showInteractiveOptions_Leave": 1,
+  "onLeaveAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onLeaveEvents": [],
+  "onLeaveSignals": {
+    "onlyOnce": 0,
+    "receivers": [
+      {
+        "receiver": {
+          "m_FileID": 0,
+          "m_PathID": 1792
+        },
+        "action": "OnButtonLeave",
+        "delay": 0.0,
+        "receiveSender": 0
+      }
+    ]
+  },
+  "onLeaveState": {
+    "m_FileID": 0,
+    "m_PathID": 35628
+  },
+  "showInteractiveOptions_Press": 1,
+  "onPressAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onPressEvents": [],
+  "onPressSignals": {
+    "onlyOnce": 0,
+    "receivers": [
+      {
+        "receiver": {
+          "m_FileID": 0,
+          "m_PathID": 1792
+        },
+        "action": "OnButtonPress",
+        "delay": 0.0,
+        "receiveSender": 0
+      }
+    ]
+  },
+  "onPressState": {
+    "m_FileID": 0,
+    "m_PathID": 36772
+  },
+  "showInteractiveOptions_Release": 1,
+  "onReleaseAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onReleaseEvents": [
+    {
+      "target": "/flow",
+      "message": "followLink",
+      "arguments": [
+        {
+          "key": "link",
+          "value": "MainMenu"
+        }
+      ]
+    }
+  ],
+  "onReleaseSignals": {
+    "onlyOnce": 0,
+    "receivers": [
+      {
+        "receiver": {
+          "m_FileID": 0,
+          "m_PathID": 1792
+        },
+        "action": "OnBackButtonRelease",
+        "delay": 0.0,
+        "receiveSender": 0
+      }
+    ]
+  },
+  "onReleaseState": {
+    "m_FileID": 0,
+    "m_PathID": 35628
+  },
+  "showInteractiveOptions_Held": 1,
+  "dragOnHeld": 0,
+  "leaveOnDrag": 0,
+  "onHeldAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onHeldEvents": [],
+  "onHeldSignals": {
+    "onlyOnce": 0,
+    "receivers": []
+  },
+  "onHeldState": {
+    "m_FileID": 0,
+    "m_PathID": 36772
+  },
+  "gizmoColor": {
+    "r": 0.0,
+    "g": 2.0,
+    "b": 1.0,
+    "a": 2.0
+  },
+  "_xml": "",
+  "renderObject": {
+    "m_FileID": 0,
+    "m_PathID": 7951
+  },
+  "hasEvents": 1,
+  "hasOverEvents": 1,
+  "hasLeaveEvents": 1,
+  "hasPressEvents": 1,
+  "hasReleaseEvents": 1,
+  "hasHeldEvents": 0
+}

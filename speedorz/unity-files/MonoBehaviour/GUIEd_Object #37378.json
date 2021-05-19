@@ -1,0 +1,215 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 9797
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 196
+  },
+  "m_Name": "",
+  "isActive": 1,
+  "isVisible": 1,
+  "isInteractive": 1,
+  "zdepth": 10.0,
+  "showBounds": 1,
+  "xoffset": 0.01828125,
+  "yoffset": 0.066,
+  "width": 0.190625,
+  "height": 0.369098723,
+  "xoffsetunit": 1,
+  "yoffsetunit": 1,
+  "widthunit": 1,
+  "heightunit": 1,
+  "showAnchor": 1,
+  "showVerticalAnchor": 1,
+  "showHorizontalAnchor": 1,
+  "top": 1,
+  "bottom": 0,
+  "left": 0,
+  "right": 1,
+  "anchorModeV": 0,
+  "anchorModeH": 0,
+  "lockaspect": 0,
+  "lockratio": 1.0,
+  "showText": 1,
+  "overrideLocalisationRoot": "",
+  "textid": "",
+  "textstyle": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "textscale": 0.7,
+  "textscaleAsPercentage": 0,
+  "textfont": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "fontPack": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "textalign": 1,
+  "textanchor": 2,
+  "textfitting": 0,
+  "lineheight": 1.0,
+  "textrotation": 0.0,
+  "wordwrap": 1,
+  "shader": "Custom/VertexColorUnlit",
+  "gradient": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "gradientY": 0.0,
+  "showImage": 1,
+  "image": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "texturePack": {
+    "m_FileID": 0,
+    "m_PathID": 34090
+  },
+  "texturePackIndex": 17.0,
+  "showImageAlpha": 0,
+  "imageAlpha": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "texturePackAlpha": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "texturePackIndexAlpha": 0.0,
+  "showImageProperties": 0,
+  "imagefitting": 1,
+  "imageanchor": 8,
+  "imageoffsetx": 0.0,
+  "imageoffsety": 0.0,
+  "imagescalex": 1.0,
+  "imagescaley": 1.0,
+  "horizontalskew": 0.0,
+  "imagerot": 0.0,
+  "showVertexColors": 1,
+  "topLeft": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "topRight": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "bottomLeft": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "bottomRight": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "guiAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "showInteractiveOptions": 0,
+  "buttonMask": 0,
+  "ellipseMaskPercent": 100.0,
+  "showInteractiveOptions_Over": 0,
+  "onOverAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onOverEvents": [],
+  "onOverSignals": {
+    "onlyOnce": 0,
+    "receivers": []
+  },
+  "onOverState": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "showInteractiveOptions_Leave": 0,
+  "onLeaveAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onLeaveEvents": [],
+  "onLeaveSignals": {
+    "onlyOnce": 0,
+    "receivers": []
+  },
+  "onLeaveState": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "showInteractiveOptions_Press": 0,
+  "onPressAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onPressEvents": [],
+  "onPressSignals": {
+    "onlyOnce": 0,
+    "receivers": []
+  },
+  "onPressState": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "showInteractiveOptions_Release": 0,
+  "onReleaseAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onReleaseEvents": [],
+  "onReleaseSignals": {
+    "onlyOnce": 0,
+    "receivers": []
+  },
+  "onReleaseState": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "showInteractiveOptions_Held": 0,
+  "dragOnHeld": 0,
+  "leaveOnDrag": 1,
+  "onHeldAnimation": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "onHeldEvents": [],
+  "onHeldSignals": {
+    "onlyOnce": 0,
+    "receivers": []
+  },
+  "onHeldState": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "gizmoColor": {
+    "r": 1.0,
+    "g": 0.921568632,
+    "b": 0.0156862754,
+    "a": 1.0
+  },
+  "_xml": "",
+  "renderObject": {
+    "m_FileID": 0,
+    "m_PathID": 9797
+  },
+  "hasEvents": 0,
+  "hasOverEvents": 0,
+  "hasLeaveEvents": 0,
+  "hasPressEvents": 0,
+  "hasReleaseEvents": 0,
+  "hasHeldEvents": 0
+}

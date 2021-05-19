@@ -1,0 +1,16 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 90
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 3,
+    "m_PathID": 174
+  },
+  "m_Name": "",
+  "_collisionHandlingEnabled": 1,
+  "_collisionDebugRendering": 0,
+  "_upForceOnImpact": 0.0,
+  "_numCollisions": 0
+}

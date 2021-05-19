@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 949
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 199
+  },
+  "m_Name": "",
+  "waitForStartCommand": 1,
+  "initialDelay": 0.1,
+  "levelNames": [
+    "SCN_Canyon_Straight1a_Geom1",
+    "SCN_Canyon_Straight1a_Geom5",
+    "SCN_Canyon_Straight1a_Geom2",
+    "SCN_Canyon_Straight1a_Geom4",
+    "SCN_Canyon_Straight1a_Geom3"
+  ],
+  "noDelayYielding": 0
+}

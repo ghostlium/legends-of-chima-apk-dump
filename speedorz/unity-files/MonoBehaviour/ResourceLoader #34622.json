@@ -1,0 +1,28 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 947
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 253
+  },
+  "m_Name": "",
+  "resourceNames": [
+    "RacingLine_SCN_Canyon_Straight1a",
+    "RacingLine_SCN_Canyon_Straight1c",
+    "Floor_SCN_Canyon_Straight1a",
+    "Collision_SCN_Canyon_Straight1a",
+    "Floor_SCN_Canyon_Straight1b",
+    "Floor_SCN_Canyon_Straight1c",
+    "Collision_SCN_Canyon_Straight1b",
+    "Collision_SCN_Canyon_Straight1c",
+    "RacingLine_SCN_Canyon_Straight1b",
+    "Floor_SCN_Swamp_Split1",
+    "Collision_SCN_Swamp_Split1",
+    "RacingLine_SCN_Swamp_Split1"
+  ],
+  "loadOnAwake": 0,
+  "highPriorityList": 0
+}

@@ -1,0 +1,396 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2170
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 294
+  },
+  "m_Name": "",
+  "_textDummy_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_studsLabel_Ed": {
+    "m_FileID": 0,
+    "m_PathID": 35854
+  },
+  "_speedorImages_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 36099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36149
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36065
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36801
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36794
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36116
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36952
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36099
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36829
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36815
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36822
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36165
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36808
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36780
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36133
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36780
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36787
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36970
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36082
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36958
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36964
+    }
+  ],
+  "_charImagesHead_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 36433
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36447
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36469
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35807
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35925
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36029
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36914
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36407
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 35760
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36567
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36545
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36556
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36920
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36420
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36534
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36394
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36737
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36480
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36743
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36939
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36933
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36945
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36926
+    }
+  ],
+  "_charImagesTorso_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 36381
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36355
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36197
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36765
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36610
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36619
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36836
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36579
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36285
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36636
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36627
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36644
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36843
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36269
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36320
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36229
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36590
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36773
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36601
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36864
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36857
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36871
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36850
+    }
+  ],
+  "_charImagesLegs_Ed": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 36343
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36309
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36243
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36651
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36657
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36663
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36878
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36182
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36699
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36684
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36676
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36691
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36883
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36298
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36670
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36330
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36757
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36750
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36214
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36902
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36896
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36908
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36890
+    }
+  ]
+}

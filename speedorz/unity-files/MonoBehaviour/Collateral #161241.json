@@ -1,0 +1,50 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 247
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 21,
+    "m_PathID": 264
+  },
+  "m_Name": "",
+  "explodableBits": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1162
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1224
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 947
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 36
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1021
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 356
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 620
+    }
+  ],
+  "destroyDelay": 1.0,
+  "explodeDirection": {
+    "x": -0.91,
+    "y": 0.0,
+    "z": 0.25
+  },
+  "force": 30.0,
+  "disableRandomly": 0
+}
