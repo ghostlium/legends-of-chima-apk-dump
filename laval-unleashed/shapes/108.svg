@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="502.0px" width="829.0px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 403.0, 240.0)">
+    <path d="M426.0 262.0 L-400.0 262.0 -400.0 -240.0 426.0 -240.0 426.0 262.0" fill="#666666" fill-rule="evenodd" stroke="none"/>
+    <pattern height="15" id="PatternID_108_1" overflow="visible" patternTransform="matrix(1.0, 0.0, 0.0, 1.0, 113.0, -41.5)" patternUnits="userSpaceOnUse" viewBox="0 0 15 15" width="15">
+      <image height="15" width="15" xlink:href="data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGUlEQVR42mNgYGD4D8VkAYo0j4JRMArQAACwnAP9/r4cIQAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <path d="M377.95 159.95 L377.95 -239.0 407.05 -239.0 407.05 159.95 377.95 159.95" style="fill:url(#PatternID_108_1)"/>
+    <pattern height="15" id="PatternID_108_2" overflow="visible" patternTransform="matrix(1.0, 0.0, 0.0, 1.0, 83.0, -41.5)" patternUnits="userSpaceOnUse" viewBox="0 0 15 15" width="15">
+      <image height="15" width="15" xlink:href="data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGUlEQVR42mNgYGD4D8VkAYo0j4JRMArQAACwnAP9/r4cIQAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <path d="M195.95 -239.0 L377.05 -239.0 377.05 159.95 195.95 159.95 195.95 -239.0" style="fill:url(#PatternID_108_2)"/>
+    <pattern height="15" id="PatternID_108_3" overflow="visible" patternTransform="matrix(1.0, 0.0, 0.0, 1.0, 113.0, 48.5)" patternUnits="userSpaceOnUse" viewBox="0 0 15 15" width="15">
+      <image height="15" width="15" xlink:href="data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGUlEQVR42mNgYGD4D8VkAYo0j4JRMArQAACwnAP9/r4cIQAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <path d="M407.05 159.95 L407.05 251.0 377.95 251.0 377.95 159.95 407.05 159.95" style="fill:url(#PatternID_108_3)"/>
+    <pattern height="15" id="PatternID_108_4" overflow="visible" patternTransform="matrix(1.0, 0.0, 0.0, 1.0, 83.0, 48.5)" patternUnits="userSpaceOnUse" viewBox="0 0 15 15" width="15">
+      <image height="15" width="15" xlink:href="data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGUlEQVR42mNgYGD4D8VkAYo0j4JRMArQAACwnAP9/r4cIQAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <path d="M195.95 159.95 L377.05 159.95 377.05 251.0 195.95 251.0 195.95 159.95" style="fill:url(#PatternID_108_4)"/>
+    <pattern height="15" id="PatternID_108_5" overflow="visible" patternTransform="matrix(1.0, 0.0, 0.0, 1.0, -97.0, 48.5)" patternUnits="userSpaceOnUse" viewBox="0 0 15 15" width="15">
+      <image height="15" width="15" xlink:href="data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGUlEQVR42mNgYGD4D8VkAYo0j4JRMArQAACwnAP9/r4cIQAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <path d="M195.95 251.0 L-403.0 251.0 -403.0 159.95 195.95 159.95 195.95 251.0" style="fill:url(#PatternID_108_5)"/>
+    <pattern height="15" id="PatternID_108_6" overflow="visible" patternTransform="matrix(1.0, 0.0, 0.0, 1.0, -97.0, -41.5)" patternUnits="userSpaceOnUse" viewBox="0 0 15 15" width="15">
+      <image height="15" width="15" xlink:href="data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAGUlEQVR42mNgYGD4D8VkAYo0j4JRMArQAACwnAP9/r4cIQAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <path d="M195.95 -239.0 L195.95 159.95 -403.0 159.95 -403.0 -239.0 195.95 -239.0" style="fill:url(#PatternID_108_6)"/>
+    <path d="M400.0 11.35 L-400.0 67.1 -400.0 -240.0 400.0 -240.0 400.0 11.35" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+  </g>
+  <defs>
+    <linearGradient gradientTransform="matrix(-0.0118, -0.1687, 0.7131, -0.0497, -34.65, -97.15)" gradientUnits="userSpaceOnUse" id="gradient0" spreadMethod="pad" x1="-819.2" x2="819.2">
+      <stop offset="0.0" stop-color="#ffffff" stop-opacity="0.2509804"/>
+      <stop offset="1.0" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+</svg>
