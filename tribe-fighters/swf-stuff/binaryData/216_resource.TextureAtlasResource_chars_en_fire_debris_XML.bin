@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:cccb6e193a4959416dff571c9f9cc210:edcae6852610814c637f6236bed7ab66:30b4fda68364221d28022d4dc19f9e1f$ -->
+<TextureAtlas imagePath="chars_en_fire_debris.png">
+    <SubTexture name="Bat_01" x="374" y="2" width="94" height="70"/>
+    <SubTexture name="Bat_02" x="115" y="714" width="29" height="104"/>
+    <SubTexture name="Bat_03" x="349" y="395" width="74" height="40"/>
+    <SubTexture name="Bat_04" x="54" y="803" width="50" height="67"/>
+    <SubTexture name="Bat_05" x="201" y="716" width="47" height="57"/>
+    <SubTexture name="Bat_06" x="336" y="670" width="46" height="41"/>
+    <SubTexture name="Bat_07" x="416" y="479" width="30" height="36"/>
+    <SubTexture name="Bat_08" x="229" y="395" width="42" height="46"/>
+    <SubTexture name="Bear_One_01" x="208" y="577" width="56" height="32" frameX="-9" frameY="-21" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_One_02" x="306" y="760" width="22" height="44" frameX="-23" frameY="-17" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_One_03" x="177" y="816" width="19" height="41" frameX="-30" frameY="-19" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_One_04" x="2" y="722" width="52" height="66" frameX="-14" frameY="-7" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_One_05" x="396" y="656" width="31" height="35" frameX="-20" frameY="-21" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_One_06" x="147" y="599" width="55" height="62" frameX="-9" frameY="-10" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_One_07" x="60" y="680" width="53" height="60" frameX="-9" frameY="-10" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_One_08" x="259" y="663" width="49" height="23" frameX="-10" frameY="-27" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_One_09" x="248" y="822" width="29" height="37" frameX="-25" frameY="-21" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_One_10" x="469" y="141" width="38" height="23" frameX="-21" frameY="-28" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_One_11" x="309" y="734" width="23" height="24" frameX="-26" frameY="-26" frameWidth="76" frameHeight="76"/>
+    <SubTexture name="Bear_Three_01" x="212" y="491" width="59" height="84" frameX="-21" frameY="-17" frameWidth="109" frameHeight="109"/>
+    <SubTexture name="Bear_Three_02" x="282" y="739" width="22" height="46" frameX="-45" frameY="-35" frameWidth="109" frameHeight="109"/>
+    <SubTexture name="Bear_Three_03" x="425" y="337" width="21" height="47" frameX="-40" frameY="-34" frameWidth="109" frameHeight="109"/>
+    <SubTexture name="Bear_Three_04" x="450" y="210" width="60" height="73" frameX="-21" frameY="-22" frameWidth="109" frameHeight="109"/>
+    <SubTexture name="Bear_Three_05" x="2" y="381" width="76" height="72" frameX="-16" frameY="-24" frameWidth="109" frameHeight="109"/>
+    <SubTexture name="Bear_Three_06" x="407" y="517" width="33" height="41" frameX="-36" frameY="-38" frameWidth="109" frameHeight="109"/>
+    <SubTexture name="Bear_Three_07" x="2" y="652" width="56" height="68" frameX="-26" frameY="-24" frameWidth="109" frameHeight="109"/>
+    <SubTexture name="Bear_Three_08" x="448" y="370" width="62" height="81" frameX="-17" frameY="-11" frameWidth="109" frameHeight="109"/>
+    <SubTexture name="Bear_Two_01" x="249" y="120" width="23" height="52" frameX="-36" frameY="-24" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Bear_Two_02" x="2" y="326" width="80" height="53" frameX="-11" frameY="-30" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Bear_Two_03" x="119" y="676" width="25" height="36" frameX="-35" frameY="-34" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Bear_Two_04" x="84" y="344" width="67" height="81" frameX="-14" frameY="-13" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Bear_Two_05" x="85" y="248" width="30" height="46" frameX="-38" frameY="-34" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Bear_Two_06" x="120" y="563" width="25" height="57" frameX="-36" frameY="-27" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Bear_Two_07" x="340" y="511" width="65" height="75" frameX="-20" frameY="-17" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Bear_Two_08" x="149" y="446" width="61" height="91" frameX="-20" frameY="-8" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Bear_Two_09" x="470" y="50" width="39" height="43" frameX="-31" frameY="-35" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Bear_Two_10" x="259" y="688" width="48" height="49" frameX="-27" frameY="-28" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Croc_One_01" x="441" y="596" width="62" height="43" frameX="-23" frameY="-28" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Croc_One_02" x="195" y="775" width="29" height="39" frameX="-40" frameY="-30" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Croc_One_03" x="425" y="433" width="21" height="44" frameX="-46" frameY="-29" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Croc_One_04" x="273" y="327" width="74" height="88" frameX="-12" frameY="-9" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Croc_One_05" x="119" y="622" width="25" height="52" frameX="-40" frameY="-25" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Croc_One_06" x="448" y="453" width="62" height="79" frameX="-23" frameY="-11" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Croc_One_07" x="117" y="210" width="36" height="44" frameX="-37" frameY="-29" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Croc_One_08" x="2" y="455" width="58" height="57" frameX="-23" frameY="-26" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="Croc_One_09" x="246" y="281" width="26" height="26" frameX="-40" frameY="-39" frameWidth="102" frameHeight="102"/>
+    <SubTexture name="IceCroc_01" x="2" y="248" width="81" height="76" frameX="-7" frameY="-4" frameWidth="95" frameHeight="87"/>
+    <SubTexture name="IceCroc_02" x="363" y="253" width="83" height="82" frameX="-3" frameY="-5" frameWidth="89" frameHeight="89"/>
+    <SubTexture name="IceCroc_03" x="157" y="178" width="87" height="119" frameX="-3" frameY="-10" frameWidth="95" frameHeight="135"/>
+    <SubTexture name="IceCroc_04" x="61" y="604" width="56" height="74" frameX="-2" frameY="-7" frameWidth="65" frameHeight="86"/>
+    <SubTexture name="IceCroc_05" x="384" y="693" width="45" height="47" frameX="-1" frameY="-2" frameWidth="47" frameHeight="50"/>
+    <SubTexture name="IceCroc_06" x="156" y="299" width="77" height="67" frameX="-4" frameY="-3" frameWidth="87" frameHeight="74"/>
+    <SubTexture name="Predator_01" x="2" y="114" width="113" height="132" frameX="-6" frameY="-4" frameWidth="129" frameHeight="138"/>
+    <SubTexture name="Predator_02" x="273" y="571" width="61" height="90" frameX="-4" frameY="0" frameWidth="77" frameHeight="90"/>
+    <SubTexture name="Predator_03" x="273" y="490" width="65" height="79" frameX="-5" frameY="-5" frameWidth="76" frameHeight="90"/>
+    <SubTexture name="Predator_04" x="229" y="443" width="42" height="46" frameX="-4" frameY="-6" frameWidth="48" frameHeight="56"/>
+    <SubTexture name="Predator_05" x="274" y="125" width="87" height="128" frameX="-5" frameY="-7" frameWidth="102" frameHeight="138"/>
+    <SubTexture name="Predator_06" x="349" y="337" width="74" height="56" frameX="-8" frameY="-8" frameWidth="89" frameHeight="70"/>
+    <SubTexture name="Saber_One_01" x="235" y="309" width="36" height="42" frameX="-24" frameY="-27" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_02" x="310" y="663" width="24" height="36" frameX="-33" frameY="-28" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_03" x="250" y="739" width="30" height="27" frameX="-31" frameY="-34" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_04" x="120" y="535" width="27" height="26" frameX="-32" frameY="-36" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_05" x="470" y="2" width="40" height="46" frameX="-24" frameY="-26" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_06" x="2" y="790" width="50" height="68" frameX="-21" frameY="-12" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_07" x="226" y="775" width="20" height="47" frameX="-38" frameY="-26" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_08" x="249" y="174" width="23" height="49" frameX="-32" frameY="-22" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_09" x="61" y="535" width="57" height="67" frameX="-21" frameY="-13" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_10" x="407" y="560" width="32" height="37" frameX="-28" frameY="-28" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_11" x="146" y="663" width="53" height="61" frameX="-17" frameY="-18" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_One_12" x="469" y="166" width="37" height="42" frameX="-27" frameY="-27" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="Saber_Three_01" x="204" y="642" width="53" height="72" frameX="-19" frameY="-6" frameWidth="82" frameHeight="82"/>
+    <SubTexture name="Saber_Three_02" x="117" y="256" width="18" height="38" frameX="-33" frameY="-23" frameWidth="82" frameHeight="82"/>
+    <SubTexture name="Saber_Three_03" x="204" y="611" width="55" height="29" frameX="-12" frameY="-28" frameWidth="82" frameHeight="82"/>
+    <SubTexture name="Saber_Three_04" x="137" y="256" width="18" height="38" frameX="-31" frameY="-24" frameWidth="82" frameHeight="82"/>
+    <SubTexture name="Saber_Three_05" x="281" y="787" width="22" height="37" frameX="-28" frameY="-25" frameWidth="82" frameHeight="82"/>
+    <SubTexture name="Saber_Three_06" x="396" y="599" width="43" height="55" frameX="-20" frameY="-13" frameWidth="82" frameHeight="82"/>
+    <SubTexture name="Saber_Three_07" x="146" y="782" width="29" height="35" frameX="-25" frameY="-24" frameWidth="82" frameHeight="82"/>
+    <SubTexture name="Saber_Three_08" x="146" y="726" width="47" height="54" frameX="-15" frameY="-17" frameWidth="82" frameHeight="82"/>
+    <SubTexture name="Saber_Three_09" x="348" y="437" width="66" height="72" frameX="-14" frameY="-7" frameWidth="82" frameHeight="82"/>
+    <SubTexture name="Saber_Two_01" x="80" y="427" width="67" height="21" frameX="-24" frameY="-49" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="Saber_Two_02" x="250" y="768" width="29" height="52" frameX="-43" frameY="-34" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="Saber_Two_03" x="274" y="85" width="91" height="38" frameX="-12" frameY="-41" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="Saber_Two_04" x="448" y="285" width="62" height="83" frameX="-28" frameY="-16" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="Saber_Two_05" x="425" y="386" width="21" height="45" frameX="-49" frameY="-37" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="Saber_Two_06" x="246" y="225" width="26" height="54" frameX="-44" frameY="-33" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="Saber_Two_07" x="2" y="860" width="50" height="62" frameX="-34" frameY="-26" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="Saber_Two_08" x="157" y="120" width="90" height="56" frameX="-12" frameY="-34" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="Saber_Two_09" x="235" y="353" width="36" height="40" frameX="-41" frameY="-40" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="Saber_Two_10" x="56" y="742" width="51" height="59" frameX="-30" frameY="-31" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="Saber_Two_11" x="149" y="539" width="57" height="58" frameX="-32" frameY="-30" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="icelion_01" x="363" y="171" width="85" height="80" frameX="-9" frameY="-5" frameWidth="101" frameHeight="90"/>
+    <SubTexture name="icelion_02" x="80" y="450" width="59" height="83" frameX="-4" frameY="-8" frameWidth="71" frameHeight="98"/>
+    <SubTexture name="icelion_03" x="117" y="114" width="38" height="94" frameX="-6" frameY="-3" frameWidth="53" frameHeight="103"/>
+    <SubTexture name="icelion_04" x="469" y="95" width="41" height="44" frameX="-4" frameY="-1" frameWidth="47" frameHeight="50"/>
+    <SubTexture name="icelion_05" x="273" y="417" width="73" height="71" frameX="-4" frameY="-2" frameWidth="85" frameHeight="77"/>
+    <SubTexture name="icelion_06" x="2" y="514" width="57" height="72" frameX="-3" frameY="-5" frameWidth="67" frameHeight="85"/>
+    <SubTexture name="icelion_07" x="442" y="534" width="62" height="60" frameX="-3" frameY="-6" frameWidth="72" frameHeight="71"/>
+    <SubTexture name="minimammoth" x="153" y="368" width="74" height="76" frameX="-3" frameY="-7" frameWidth="85" frameHeight="89"/>
+    <SubTexture name="minimammoth_02" x="336" y="588" width="58" height="80" frameX="-8" frameY="-3" frameWidth="76" frameHeight="92"/>
+    <SubTexture name="minimammoth_03" x="2" y="588" width="57" height="62" frameX="-10" frameY="-8" frameWidth="77" frameHeight="78"/>
+    <SubTexture name="minimammoth_04" x="336" y="713" width="44" height="46" frameX="-3" frameY="-3" frameWidth="50" frameHeight="55"/>
+    <SubTexture name="minimammoth_05" x="274" y="2" width="98" height="81" frameX="-9" frameY="-8" frameWidth="110" frameHeight="93"/>
+    <SubTexture name="minimammoth_06" x="2" y="2" width="153" height="110" frameX="-1" frameY="-8" frameWidth="164" frameHeight="125"/>
+    <SubTexture name="vulture_01" x="441" y="641" width="58" height="73" frameX="-9" frameY="-4" frameWidth="75" frameHeight="86"/>
+    <SubTexture name="vulture_02" x="309" y="701" width="25" height="31" frameX="-11" frameY="-11" frameWidth="45" frameHeight="50"/>
+    <SubTexture name="vulture_03" x="157" y="2" width="115" height="116" frameX="-3" frameY="-4" frameWidth="125" frameHeight="128"/>
+    <SubTexture name="vulture_04" x="374" y="74" width="93" height="95" frameX="-6" frameY="-4" frameWidth="104" frameHeight="106"/>
+    <SubTexture name="vulture_05" x="274" y="255" width="83" height="70" frameX="-4" frameY="-5" frameWidth="89" frameHeight="81"/>
+    <SubTexture name="vulture_06" x="85" y="296" width="69" height="46" frameX="-6" frameY="-3" frameWidth="82" frameHeight="57"/>
+</TextureAtlas>

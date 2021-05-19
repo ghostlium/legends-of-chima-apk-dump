@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:9c27065684668789671d2b1615fa6924:6cedf30e8c11aa5536bb519573597e8b:5a077175a88b596f6a62a46e1886cc13$ -->
+<TextureAtlas imagePath="flags_lion.png">
+    <SubTexture name="Lion-Whole" x="2" y="2" width="148" height="213"/>
+    <SubTexture name="Lion_Broken_02" x="184" y="290" width="61" height="65" frameX="-2" frameY="-2" frameWidth="65" frameHeight="68"/>
+    <SubTexture name="Lion_Broken_05-(2)" x="152" y="162" width="73" height="126" frameX="-6" frameY="-2" frameWidth="80" frameHeight="130"/>
+    <SubTexture name="Lion_Broken_06" x="152" y="2" width="88" height="79"/>
+    <SubTexture name="Lion_Broken_07" x="2" y="217" width="136" height="145"/>
+    <SubTexture name="Lion_BuildUp_01" x="152" y="83" width="83" height="77" frameX="-32" frameY="-136" frameWidth="149" frameHeight="215"/>
+    <SubTexture name="Lion_BuildUp_02" x="184" y="357" width="42" height="60" frameX="-53" frameY="-122" frameWidth="149" frameHeight="215"/>
+    <SubTexture name="Lion_BuildUp_7" x="140" y="290" width="42" height="171" frameX="-53" frameY="-11" frameWidth="149" frameHeight="215"/>
+</TextureAtlas>

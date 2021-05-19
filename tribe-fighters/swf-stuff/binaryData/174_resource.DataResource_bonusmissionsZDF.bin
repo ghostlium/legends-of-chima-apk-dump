@@ -1,0 +1,711 @@
+{
+	"missions":
+	[
+		
+		{
+			"missionName": "kill_x_enemies",
+			"missionType": "eBonusKillXEnemies",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "kill_x_enemies",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "run_distance_as_croc",
+			"missionType": "eBonusRunXDistanceAsYTribe",
+			"singleRun": false,
+			"chimatribe": "croc",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_tribe",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_distance_as_lion",
+			"missionType": "eBonusRunXDistanceAsYTribe",
+			"singleRun": false,
+			"chimatribe": "lion",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_tribe",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_distance_as_bear",
+			"missionType": "eBonusRunXDistanceAsYTribe",
+			"singleRun": false,
+			"chimatribe": "bear",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_tribe",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_distance_as_saber",
+			"missionType": "eBonusRunXDistanceAsYTribe",
+			"singleRun": false,
+			"chimatribe": "saber",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_tribe",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "run_distance_as_croc_single_run",
+			"missionType": "eBonusRunXDistanceAsYTribeSingleRun",
+			"singleRun": true,
+			"chimatribe": "croc",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_tribe_single_run",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_distance_as_lion_single_run",
+			"missionType": "eBonusRunXDistanceAsYTribeSingleRun",
+			"singleRun": true,
+			"chimatribe": "lion",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_tribe_single_run",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_distance_as_bear_single_run",
+			"missionType": "eBonusRunXDistanceAsYTribeSingleRun",
+			"singleRun": true,
+			"chimatribe": "bear",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_tribe_single_run",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_distance_as_saber_single_run",
+			"missionType": "eBonusRunXDistanceAsYTribeSingleRun",
+			"singleRun": true,
+			"chimatribe": "saber",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_tribe_single_run",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "run_distance_as_ranged",
+			"missionType": "eBonusRunXDistanceAsYClass",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "ranged",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_class",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_distance_as_mage",
+			"missionType": "eBonusRunXDistanceAsYClass",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "mage",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_class",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_distance_as_warrior",
+			"missionType": "eBonusRunXDistanceAsYClass",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "warrior",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_class",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "run_distance_as_ranged_single_run",
+			"missionType": "eBonusRunXDistanceAsYClassSingleRun",
+			"singleRun": true,
+			"chimatribe": "",
+			"chimaclass": "ranged",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_class_single_run",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_distance_as_mage_single_run",
+			"missionType": "eBonusRunXDistanceAsYClassSingleRun",
+			"singleRun": true,
+			"chimatribe": "",
+			"chimaclass": "mage",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_class_single_run",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_distance_as_warrior_single_run",
+			"missionType": "eBonusRunXDistanceAsYClassSingleRun",
+			"singleRun": true,
+			"chimatribe": "",
+			"chimaclass": "warrior",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_distance_as_class_single_run",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "destroy_x_enemies_as_croc",
+			"missionType": "eBonusDestroyXEnemiesAsYTribe",
+			"singleRun": false,
+			"chimatribe": "croc",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_as_tribe",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "destroy_x_enemies_as_lion",
+			"missionType": "eBonusDestroyXEnemiesAsYTribe",
+			"singleRun": false,
+			"chimatribe": "lion",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_as_tribe",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "destroy_x_enemies_as_bear",
+			"missionType": "eBonusDestroyXEnemiesAsYTribe",
+			"singleRun": false,
+			"chimatribe": "bear",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_as_tribe",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "destroy_x_enemies_as_saber",
+			"missionType": "eBonusDestroyXEnemiesAsYTribe",
+			"singleRun": false,
+			"chimatribe": "saber",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_as_tribe",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "destroy_x_enemies_as_ranged",
+			"missionType": "eBonusDestroyXEnemiesAsYClass",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "ranged",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_as_class",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "destroy_x_enemies_as_mage",
+			"missionType": "eBonusDestroyXEnemiesAsYClass",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "mage",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_as_class",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "destroy_x_enemies_as_warrior",
+			"missionType": "eBonusDestroyXEnemiesAsYClass",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "warrior",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_as_class",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "destroy_x_disc_shooters",
+			"missionType": "eBonusDestroyXDiscShooters",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 2,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_disc_shooters",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "destroy_x_enemies_single_run",
+			"missionType": "eBonusDestroyXEnemiesSingleRun",
+			"singleRun": true,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_single_run",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "collect_x_flags",
+			"missionType": "eBonusCollectXFlags",
+			"singleRun": true,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 2,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "collect_x_flags",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "have_x_followers",
+			"missionType": "eBonusHaveXFollowers",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 2,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "have_x_followers",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "run_x_distance",
+			"missionType": "eBonusRunXDistance",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_x_distance",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_x_distance_single_run",
+			"missionType": "eBonusRunXDistanceSingleRun",
+			"singleRun": true,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_x_distance_single_run",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_x_distance_single_run_no_chi",
+			"missionType": "eBonusRunXDistanceSingleRunNoChiPower",
+			"singleRun": true,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_x_distance_single_run_no_chi",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_x_distance_no_followers",
+			"missionType": "eBonusRunXDistanceNoFollowers",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 100,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_x_distance_no_followers",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_x_distance_no_damage",
+			"missionType": "eBonusRunXDistanceNoDamage",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 20,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_x_distance_no_damage",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "run_x_distance_one_health",
+			"missionType": "eBonusRunXDistanceOneHealth",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "run_x_distance_one_health",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "use_chi_x_times_single_run",
+			"missionType": "eBonusUseChiPowerXTimesSingleRun",
+			"singleRun": true,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 2,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "use_chi_x_times_single_run",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "destroy_x_enemies_single_chi_attack",
+			"missionType": "eBonusDestroyXEnemiesSingleChiAttack",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 10,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_single_chi_attack",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "destroy_x_enemies_in_tribe_croc",
+			"missionType": "eBonusDestroyXNumberOfYTribe",
+			"singleRun": false,
+			"chimatribe": "croc",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_in_tribe",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "destroy_x_enemies_in_tribe_lion",
+			"missionType": "eBonusDestroyXNumberOfYTribe",
+			"singleRun": false,
+			"chimatribe": "lion",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_in_tribe",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "destroy_x_enemies_in_tribe_bear",
+			"missionType": "eBonusDestroyXNumberOfYTribe",
+			"singleRun": false,
+			"chimatribe": "bear",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_in_tribe",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "destroy_x_enemies_in_tribe_saber",
+			"missionType": "eBonusDestroyXNumberOfYTribe",
+			"singleRun": false,
+			"chimatribe": "saber",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "destroy_x_enemies_in_tribe",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "collect_x_studs_single_run",
+			"missionType": "eBonusCollectXStudsSingleRun",
+			"singleRun": true,
+			"chimatribe": "",
+			"chimaclass": "",
+			"currValue": 0,
+			"targetValue": 5000,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "collect_x_studs_single_run",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "reflect_x_bullets_as_warrior",
+			"missionType": "eBonusReflectXBulletsAsWarrior",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "warrior",
+			"currValue": 0,
+			"targetValue": 5,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 2,
+			"missionLevelIncrement": 0,
+			"languageString": "reflect_x_bullets_as_warrior",
+			"reward": 5000
+		},
+		
+		
+		{
+			"missionName": "use_superweapon_powerup_n_times",
+			"missionType": "eBonusUseXPowerUpNTimes",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "superweapon",	
+			"currValue": 0,
+			"targetValue": 1,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 0,
+			"missionLevelIncrement": 1,
+			"languageString": "use_x_powerup_n_times",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "use_supershield_powerup_n_times",
+			"missionType": "eBonusUseXPowerUpNTimes",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "supershield",	
+			"currValue": 0,
+			"targetValue": 1,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 0,
+			"missionLevelIncrement": 1,
+			"languageString": "use_x_powerup_n_times",
+			"reward": 5000
+		},
+		
+		{
+			"missionName": "use_speedboost_powerup_n_times",
+			"missionType": "eBonusUseXPowerUpNTimes",
+			"singleRun": false,
+			"chimatribe": "",
+			"chimaclass": "speedboost",	
+			"currValue": 0,
+			"targetValue": 1,
+			"missionLevel": 1,
+			"missionLevelMultiplier": 0,
+			"missionLevelIncrement": 1,
+			"languageString": "use_x_powerup_n_times",
+			"reward": 5000
+		}
+	],
+	
+	"missionOrder":
+	[
+		"kill_x_enemies",
+		"run_x_distance",
+		"collect_x_studs_single_run",
+		"destroy_x_enemies_as_bear",
+		"run_distance_as_bear",
+		"destroy_x_enemies_as_croc",
+		"run_distance_as_mage",
+		"collect_x_flags",
+		"destroy_x_enemies_as_lion",
+		"run_distance_as_warrior",
+		"destroy_x_disc_shooters",
+		"destroy_x_enemies_as_saber",
+		"run_distance_as_ranged_single_run",
+		"use_speedboost_powerup_n_times",
+		"destroy_x_enemies_as_mage",
+		"run_distance_as_bear",
+		"use_chi_x_times_single_run",
+		"destroy_x_enemies_as_ranged",
+		"run_distance_as_croc",
+		"use_supershield_powerup_n_times",
+		"destroy_x_enemies_as_warrior",
+		"run_distance_as_lion",
+		"destroy_x_enemies_in_tribe_bear",
+		"run_distance_as_bear_single_run",
+		"have_x_followers",
+		"destroy_x_enemies_in_tribe_croc",
+		"run_distance_as_croc_single_run",
+		"destroy_x_enemies_single_run",
+		"destroy_x_enemies_in_tribe_lion",
+		"run_distance_as_lion_single_run",
+		"run_x_distance_no_damage",
+		"destroy_x_enemies_in_tribe_saber",
+		"run_distance_as_saber",
+		"run_x_distance_no_followers",
+		"run_distance_as_mage_single_run",
+		"run_x_distance_one_health",
+		"run_distance_as_saber_single_run",
+		"reflect_x_bullets_as_warrior",
+		"run_distance_as_warrior_single_run",
+		"run_x_distance_single_run",
+		"run_x_distance_single_run_no_chi"		
+	]
+}

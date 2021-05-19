@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e427a4aed9bccf21ce850c4c63c46645:fb2ca4823174a6d62ac217f172119e0c:44e15259856b5f0507d5aac0f77baaf7$ -->
+<TextureAtlas imagePath="chars_en_ice_4.png">
+    <SubTexture name="croc/run/CrocBlaster-Toward_Run (19)" x="351" y="757" width="81" height="105" frameX="-3" frameY="-2" frameWidth="86" frameHeight="124"/>
+    <SubTexture name="croc/run/CrocMage_Toward_Run (15)" x="475" y="635" width="89" height="121" frameX="-21" frameY="-27" frameWidth="130" frameHeight="148"/>
+    <SubTexture name="croc/shoot/CrocBlaster-Toward_Attack (14)" x="683" y="553" width="65" height="81" frameX="-6" frameY="-11" frameWidth="76" frameHeight="130"/>
+    <SubTexture name="croc/shoot/CrocBlaster-Toward_Attack (16)" x="613" y="553" width="69" height="81" frameX="-2" frameY="-8" frameWidth="76" frameHeight="130"/>
+    <SubTexture name="croc/shoot/CrocSword_Toward_Attack (10)" x="159" y="109" width="156" height="101" frameX="-106" frameY="-87" frameWidth="262" frameHeight="222"/>
+    <SubTexture name="croc/shoot/CrocSword_Toward_Attack (14)" x="1" y="219" width="146" height="92" frameX="-105" frameY="-90" frameWidth="262" frameHeight="222"/>
+    <SubTexture name="croc/shoot/CrocSword_Toward_Attack (16)" x="913" y="142" width="110" height="93" frameX="-85" frameY="-90" frameWidth="262" frameHeight="222"/>
+    <SubTexture name="croc/shoot/CrocSword_Toward_Attack (9)" x="646" y="635" width="88" height="120" frameX="-107" frameY="-102" frameWidth="262" frameHeight="222"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (11)" x="134" y="617" width="131" height="139" frameX="-1" frameY="-8" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (12)" x="1" y="723" width="131" height="139" frameX="0" frameY="-2" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (13)" x="420" y="368" width="131" height="141" frameX="0" frameY="-1" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (14)" x="274" y="493" width="131" height="141" frameX="0" frameY="-1" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (18)" x="477" y="863" width="127" height="145" frameX="-6" frameY="-13" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (19)" x="605" y="863" width="126" height="145" frameX="-7" frameY="-13" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (20)" x="732" y="863" width="126" height="145" frameX="-8" frameY="-13" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (21)" x="130" y="863" width="127" height="146" frameX="-8" frameY="-6" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (3)" x="347" y="863" width="129" height="145" frameX="-7" frameY="-1" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (4)" x="578" y="291" width="131" height="144" frameX="-6" frameY="-2" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (5)" x="617" y="147" width="133" height="143" frameX="-4" frameY="-4" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (6)" x="885" y="236" width="132" height="141" frameX="-4" frameY="-9" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (7)" x="445" y="227" width="132" height="140" frameX="-3" frameY="-14" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (8)" x="287" y="352" width="132" height="140" frameX="-2" frameY="-15" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/LionSword_Toward_Run (9)" x="732" y="314" width="131" height="139" frameX="-2" frameY="-15" frameWidth="138" frameHeight="158"/>
+    <SubTexture name="lion/run/Lion_Mage_Toward_run (17)" x="372" y="635" width="102" height="121" frameX="-17" frameY="-31" frameWidth="130" frameHeight="176"/>
+    <SubTexture name="lion/run/Lion_Mage_Toward_run (18)" x="249" y="757" width="101" height="105" frameX="-21" frameY="-26" frameWidth="130" frameHeight="176"/>
+    <SubTexture name="lion/shoot/LionSword_Toward_Attack (1)" x="1" y="863" width="128" height="146" frameX="-7" frameY="-1" frameWidth="164" frameHeight="172"/>
+    <SubTexture name="lion/shoot/LionSword_Toward_Attack (12)" x="258" y="863" width="88" height="146" frameX="-65" frameY="-26" frameWidth="164" frameHeight="172"/>
+    <SubTexture name="lion/shoot/LionSword_Toward_Attack (16)" x="474" y="110" width="142" height="116" frameX="-16" frameY="-34" frameWidth="164" frameHeight="172"/>
+    <SubTexture name="lion/shoot/LionSword_Toward_Attack (18)" x="156" y="211" width="146" height="129" frameX="-9" frameY="-18" frameWidth="164" frameHeight="172"/>
+    <SubTexture name="lion/shoot/LionSword_Toward_Attack (19)" x="147" y="341" width="139" height="145" frameX="-7" frameY="-9" frameWidth="164" frameHeight="172"/>
+    <SubTexture name="lion/shoot/LionSword_Toward_Attack (8)" x="303" y="212" width="141" height="139" frameX="-17" frameY="-17" frameWidth="164" frameHeight="172"/>
+    <SubTexture name="lion/shoot/lion-blaster_toward_Attack (15)" x="749" y="553" width="71" height="80" frameX="-1" frameY="-10" frameWidth="76" frameHeight="124"/>
+    <SubTexture name="lion/shoot/lion-blaster_toward_Attack (6)" x="433" y="757" width="73" height="105" frameX="-2" frameY="-18" frameWidth="76" frameHeight="124"/>
+    <SubTexture name="lion/shoot/lion-blaster_toward_Attack (7)" x="507" y="757" width="73" height="105" frameX="-2" frameY="-18" frameWidth="76" frameHeight="124"/>
+    <SubTexture name="lion/standshoot/Lion-Blaster-StSh_ (15)" x="581" y="757" width="70" height="105" frameX="-8" frameY="-6" frameWidth="80" frameHeight="126"/>
+    <SubTexture name="lion/standshoot/Lion_Mage_StSh_1" x="732" y="454" width="102" height="98" frameX="0" frameY="-4" frameWidth="104" frameHeight="104"/>
+    <SubTexture name="run/FireLionBlaster_Toward_Run (6)" x="646" y="436" width="85" height="116" frameX="-7" frameY="-16" frameWidth="96" frameHeight="132"/>
+    <SubTexture name="run/FireLionBlaster_Toward_Run (8)" x="938" y="496" width="85" height="115" frameX="-1" frameY="-16" frameWidth="96" frameHeight="132"/>
+    <SubTexture name="run/FlameGorillaMage-Toward_Run (19)" x="1" y="601" width="132" height="121" frameX="0" frameY="-3" frameWidth="148" frameHeight="190"/>
+    <SubTexture name="run/FlameGorillaMage-Toward_Run (2)" x="776" y="1" width="136" height="103" frameX="0" frameY="0" frameWidth="148" frameHeight="190"/>
+    <SubTexture name="run/LeopardMage-Toward_Run (6)" x="835" y="496" width="102" height="137" frameX="-13" frameY="-12" frameWidth="128" frameHeight="158"/>
+    <SubTexture name="shoot/FireLionBlaster_Toward_Attack (10)" x="818" y="634" width="73" height="119" frameX="-2" frameY="-4" frameWidth="76" frameHeight="138"/>
+    <SubTexture name="shoot/FlameGorilla-Sword_Attack (10)" x="266" y="635" width="105" height="121" frameX="-80" frameY="-60" frameWidth="212" frameHeight="194"/>
+    <SubTexture name="shoot/FlameGorilla-Sword_Attack (12)" x="892" y="634" width="131" height="114" frameX="-80" frameY="-54" frameWidth="212" frameHeight="194"/>
+    <SubTexture name="shoot/FlameGorilla-Sword_Attack (16)" x="895" y="854" width="125" height="110" frameX="-78" frameY="-71" frameWidth="212" frameHeight="194"/>
+    <SubTexture name="shoot/FlameGorilla-Sword_Attack (18)" x="895" y="378" width="127" height="117" frameX="-48" frameY="-74" frameWidth="212" frameHeight="194"/>
+    <SubTexture name="shoot/FlameGorillaMage-Toward_attack (1)" x="776" y="105" width="136" height="103" frameX="0" frameY="0" frameWidth="136" frameHeight="124"/>
+    <SubTexture name="shoot/FlameGorillaMage-Toward_attack (18)" x="778" y="756" width="116" height="106" frameX="-19" frameY="-3" frameWidth="136" frameHeight="124"/>
+    <SubTexture name="shoot/FlameGorillaMage-Toward_attack (2)" x="751" y="209" width="133" height="104" frameX="-3" frameY="-2" frameWidth="136" frameHeight="124"/>
+    <SubTexture name="shoot/FlameGorillaMage-Toward_attack (20)" x="895" y="749" width="126" height="104" frameX="-9" frameY="0" frameWidth="136" frameHeight="124"/>
+    <SubTexture name="shoot/FlameGorillaMage-Toward_attack (3)" x="652" y="756" width="125" height="106" frameX="-11" frameY="-7" frameWidth="136" frameHeight="124"/>
+    <SubTexture name="shoot/FlameGorillaMage-Toward_attack (9)" x="133" y="757" width="115" height="105" frameX="-21" frameY="-1" frameWidth="136" frameHeight="124"/>
+    <SubTexture name="shoot/LeopardMage-Toward_Attack (20)" x="913" y="1" width="110" height="140" frameX="-1" frameY="0" frameWidth="114" frameHeight="160"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (12)" x="141" y="487" width="132" height="129" frameX="-9" frameY="-44" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (13)" x="1" y="312" width="145" height="143" frameX="-9" frameY="-28" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (20)" x="632" y="1" width="143" height="145" frameX="-10" frameY="-28" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (22)" x="1" y="456" width="139" height="144" frameX="-10" frameY="-33" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="standshoot/FireLion_Blaster_StSh_ (11)" x="735" y="635" width="82" height="120" frameX="0" frameY="-13" frameWidth="82" frameHeight="142"/>
+    <SubTexture name="standshoot/FireLion_Blaster_StSh_ (12)" x="565" y="635" width="80" height="121" frameX="-2" frameY="-6" frameWidth="82" frameHeight="142"/>
+    <SubTexture name="standshoot/FireLion_Blaster_StSh_ (18)" x="406" y="510" width="69" height="124" frameX="-13" frameY="-3" frameWidth="82" frameHeight="142"/>
+    <SubTexture name="standshoot/FireLion_Blaster_StSh_ (20)" x="545" y="510" width="67" height="124" frameX="-15" frameY="-3" frameWidth="82" frameHeight="142"/>
+    <SubTexture name="standshoot/FireLion_Blaster_StSh_ (5)" x="476" y="510" width="68" height="124" frameX="-13" frameY="-14" frameWidth="82" frameHeight="142"/>
+    <SubTexture name="standshoot/FlameGorilla_Mage_StSh_ (2)" x="1" y="1" width="157" height="108" frameX="-22" frameY="0" frameWidth="182" frameHeight="120"/>
+    <SubTexture name="standshoot/FlameGorilla_Mage_StSh_ (20)" x="475" y="1" width="156" height="108" frameX="-24" frameY="0" frameWidth="182" frameHeight="120"/>
+    <SubTexture name="standshoot/FlameGorilla_Mage_StSh_ (3)" x="159" y="1" width="157" height="107" frameX="-22" frameY="-1" frameWidth="182" frameHeight="120"/>
+    <SubTexture name="standshoot/FlameGorilla_Mage_StSh_ (5)" x="317" y="1" width="157" height="105" frameX="-23" frameY="-3" frameWidth="182" frameHeight="120"/>
+    <SubTexture name="standshoot/FlameGorilla_Mage_StSh_ (6)" x="317" y="107" width="156" height="104" frameX="-25" frameY="-4" frameWidth="182" frameHeight="120"/>
+    <SubTexture name="standshoot/FlameGorilla_Mage_StSh_ (7)" x="1" y="110" width="154" height="108" frameX="-27" frameY="-5" frameWidth="182" frameHeight="120"/>
+</TextureAtlas>

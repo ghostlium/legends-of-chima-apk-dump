@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": ".",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE)$(METRES)",
+		
+		"charselect_power": "Síla",
+		"charselect_defense": "Obrana",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Nejlepší: $(DISTANCE)$(METRES)",
+		
+		"charselect_unlock": "Odemknout tuto postavu za $(STUDS) výstupků?",
+		"charselect_unlock_confirm": "Potvrdit",
+		
+		"charselect_upgrade_ranged0": "Přidá srdce navíc za $(STUDS) cvočků!",
+		"charselect_upgrade_ranged1": "Zvýší sílu tvé zbraně za $(STUDS) cvočků!",
+		"charselect_upgrade_ranged2": "Doplň svůj ukazatel CHI za použití méně než $(STUDS) cvočků!",
+		"charselect_upgrade_ranged3": "Zvyš zdraví své kmenové podpory za $(STUDS) cvočků!",
+		"charselect_upgrade_ranged4": "Doplň svůj ukazatel CHI za použití méně než $(STUDS) cvočků!",
+		"charselect_upgrade_ranged5": "Vystřel ze svého blasteru rozptýlenou střelu za $(STUDS) cvočků!",
+		"charselect_upgrade_ranged6": "Zvyš zdraví své kmenové podpory za $(STUDS) cvočků!",
+		"charselect_upgrade_ranged7": "Doplň svůj ukazatel CHI za použití méně než $(STUDS) cvočků!",
+		"charselect_upgrade_ranged8": "Přidá srdce navíc za $(STUDS) cvočků!",
+		"charselect_upgrade_ranged9": "Získej zdraví při aktivaci síly CHI za $(STUDS) cvočků!",
+		
+		"charselect_upgrade_mage0": "Přidá srdce navíc za $(STUDS) cvočků!",
+		"charselect_upgrade_mage1": "Zvýší sílu tvé zbraně za $(STUDS) cvočků!",
+		"charselect_upgrade_mage2": "Doplň svůj ukazatel CHI za použití méně než $(STUDS) cvočků!",
+		"charselect_upgrade_mage3": "Zvyš zdraví své kmenové podpory za $(STUDS) cvočků!",
+		"charselect_upgrade_mage4": "Doplň svůj ukazatel CHI za použití méně než $(STUDS) cvočků!",
+		"charselect_upgrade_mage5": "Udělej ze svých střel naváděné střely za $(STUDS) cvočků!",
+		"charselect_upgrade_mage6": "Zvyš zdraví své kmenové podpory za $(STUDS) cvočků!",
+		"charselect_upgrade_mage7": "Doplň svůj ukazatel CHI za použití méně než $(STUDS) cvočků!",
+		"charselect_upgrade_mage8": "Přidá srdce navíc za $(STUDS) cvočků!",
+		"charselect_upgrade_mage9": "Získej zdraví při aktivaci síly CHI za $(STUDS) cvočků!",
+		
+		"charselect_upgrade_warrior0": "Přidá srdce navíc za $(STUDS) cvočků!",
+		"charselect_upgrade_warrior1": "Zvýší sílu tvé zbraně za $(STUDS) cvočků!",
+		"charselect_upgrade_warrior2": "Doplň svůj ukazatel CHI za použití méně než $(STUDS) cvočků!",
+		"charselect_upgrade_warrior3": "Zvyš zdraví své kmenové podpory za $(STUDS) cvočků!",
+		"charselect_upgrade_warrior4": "Doplň svůj ukazatel CHI za použití méně než $(STUDS) cvočků!",
+		"charselect_upgrade_warrior5": "Odrážej střely z blasteru svým mečem za $(STUDS) cvočků!",
+		"charselect_upgrade_warrior6": "Zvyš zdraví své kmenové podpory za $(STUDS) cvočků!",
+		"charselect_upgrade_warrior7": "Doplň svůj ukazatel CHI za použití méně než $(STUDS) cvočků!",
+		"charselect_upgrade_warrior8": "Přidá srdce navíc za $(STUDS) cvočků!",
+		"charselect_upgrade_warrior9": "Získej zdraví při aktivaci síly CHI za $(STUDS) cvočků!",
+		"charselect_upgrade_warrior_laval": "Proměň svého válečníka v Lavala za $(STUDS) výstupků!",
+		"charselect_upgrade_warrior_sirfangor": "Proměň svého válečníka v Sira Fangara za $(STUDS) výstupků!",
+		
+		"charselect_apply_upgrade": "Vylepšit na $(LEVEL). úroveň za $(STUDS) výstupků?",
+		
+		"privacy_path": "res/cfg/html/privacy_cs.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "Pro dospělé",
+		"agegate": "Pro další hry od WB vyřeš následující puzzle:",
+		
+		"tutorial_health": "Toto je tvé zdraví, neztrať všechna svá srdce!",
+		"tutorial_control": "Podrž tlačítko myši a najeď kurzorem k postavě. K přesunu postavy také můžeš použít klávesnici (směrové klávesy nebo W, A, S, D)",
+		"tutorial_chi_button": "Své síly CHI použiješ stiskem klávesy MEZERNÍK nebo CTRL",
+		"tutorial_touch_to_continue": "Pokračuj kliknutím.",
+		
+		"tutorial_flags": "Stavěj vlajky na podporu kmene.",
+		"tutorial_studs": "Sbírej výstupky k posílení svých bojovníků a odemykání postav.",
+		"tutorial_distance": "Cestuj, jak nejrychleji dokážeš!",
+		"tutorial_chi_crystals": "Sbírej krystaly CHI a nabíjej tak svou sílu CHI.",
+		
+		"pause_quit": "Konec",
+		"pause_resume": "Pokračovat",
+		"pause_retry": "Opakovat",
+		
+		"gameover_distance": "Vzdálenost $(DISTANCE)$(METRES)",
+		"gameover_distance_new_best": "Nový rekord!",
+		"gameover_flags": "Získané vlajky: $(FLAGS)",
+		
+		"croc": "Krokodýl",
+		"lion": "Lev",
+		"bear": "Lední medvěd",
+		"saber": "Šavlozubý tygr",
+		
+		"crocs": "Krokodýli",
+		"lions": "Lvi",
+		"bears": "Lední medvědi",
+		"sabers": "Šavlozubí tygři",
+		
+		"ranged": "Blaster",
+		"mage": "Mág",
+		"warrior": "Válečník",
+		
+		"superweapon": "Superzbraň",
+		"supershield": "Superštít",
+		"speedboost": "Rychlostní bonus",
+		
+		"kill_x_enemies": "Znič $(COUNT) nepřátele.",
+		"run_distance_as_tribe": "Uběhni $(DISTANCE)$(METRES) jako $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Uběhni $(DISTANCE)$(METRES) jako $(TRIBE) v jediné hře.",
+		"run_distance_as_class": "Uběhni $(DISTANCE)$(METRES) jako $(CLASS).",
+		"run_distance_as_class_single_run": "Uběhni $(DISTANCE)$(METRES) jako $(CLASS) v jediné hře.",
+		"destroy_x_enemies_as_tribe": "Znič $(COUNT) nepřátel jako $(TRIBE).",
+		"destroy_x_enemies_as_class": "Znič $(COUNT) nepřátel jako $(CLASS).",
+		"destroy_x_disc_shooters": "Znič $(COUNT) diskových střelců.",
+		"destroy_x_enemies_single_run": "Znič $(COUNT) nepřátel v jediné hře.",
+		"collect_x_flags": "Nasbírej $(COUNT) vlajek v jediné hře.",
+		"have_x_followers": "Získej celkem $(COUNT) pronásledovatelů.",
+		"run_x_distance": "Uběhni $(DISTANCE)$(METRES).",
+		"run_x_distance_single_run": "Uběhni $(DISTANCE)$(METRES) v jediné hře.",
+		"run_x_distance_single_run_no_chi": "Uběhni $(DISTANCE)$(METRES) v jediné hře bez použití CHI.",
+		"run_x_distance_no_followers": "Uběhni $(DISTANCE)$(METRES) bez pronásledovatelů.",
+		"run_x_distance_no_damage": "Uběhni $(DISTANCE)$(METRES) bez utrpěného zranění.",
+		"run_x_distance_one_health": "Uběhni $(DISTANCE)$(METRES) s jedním srdcem.",
+		"use_chi_x_times_single_run": "Použij CHI $(COUNT) krát v jediné hře.",
+		"destroy_x_enemies_in_tribe": "Znič $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Nasbírej $(COUNT) výstupků v jedné hře.",
+		"reflect_x_bullets_as_warrior": "Odraz $(COUNT) nábojů s postavou třídy $(CLASS).",
+		"use_x_powerup_n_times": "Použij bonus typu $(TYPE) $(COUNT) krát."
+	}
+}

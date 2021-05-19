@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4c113bd9f672cf3df551fc164686a2af:f50b414d61ea728dcda74884061369a0:5c97cbf4c81a1fdff4e86652484d716c$ -->
+<TextureAtlas imagePath="chars_player_fire_2.png">
+    <SubTexture name="ranged/lion/shoot/lion-blaster_away_attack (13)" x="306" y="327" width="71" height="113" frameX="-2" frameY="-16" frameWidth="74" frameHeight="138"/>
+    <SubTexture name="ranged/lion/shoot/lion-blaster_away_attack (16)" x="87" y="535" width="71" height="111" frameX="-2" frameY="-19" frameWidth="74" frameHeight="138"/>
+    <SubTexture name="ranged/lion/shoot/lion-blaster_away_attack (17)" x="178" y="435" width="71" height="112" frameX="-2" frameY="-10" frameWidth="74" frameHeight="138"/>
+    <SubTexture name="warrior/croc/run/CrocSword_Away_Run (10)" x="392" y="1" width="103" height="93" frameX="-1" frameY="-20" frameWidth="106" frameHeight="128"/>
+    <SubTexture name="warrior/croc/run/CrocSword_Away_Run (19)" x="91" y="434" width="86" height="100" frameX="-13" frameY="-16" frameWidth="106" frameHeight="128"/>
+    <SubTexture name="warrior/croc/run/CrocSword_Away_Run (20)" x="1" y="521" width="85" height="102" frameX="-13" frameY="-14" frameWidth="106" frameHeight="128"/>
+    <SubTexture name="warrior/croc/run/CrocSword_Away_Run (21)" x="219" y="327" width="86" height="107" frameX="-12" frameY="-7" frameWidth="106" frameHeight="128"/>
+    <SubTexture name="warrior/croc/run/CrocSword_Away_Run (3)" x="382" y="307" width="88" height="111" frameX="-10" frameY="-4" frameWidth="106" frameHeight="128"/>
+    <SubTexture name="warrior/croc/run/CrocSword_Away_Run (7)" x="392" y="95" width="96" height="108" frameX="-4" frameY="-17" frameWidth="106" frameHeight="128"/>
+    <SubTexture name="warrior/croc/shoot/CrocSword_Away_Attack (20)" x="127" y="321" width="91" height="112" frameX="-84" frameY="-62" frameWidth="244" frameHeight="188"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (10)" x="128" y="221" width="125" height="99" frameX="-4" frameY="-13" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (11)" x="256" y="114" width="126" height="103" frameX="-4" frameY="-7" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (17)" x="256" y="218" width="125" height="108" frameX="-4" frameY="-11" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (18)" x="1" y="315" width="125" height="97" frameX="-3" frameY="-13" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (2)" x="265" y="1" width="126" height="112" frameX="0" frameY="0" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (8)" x="137" y="1" width="127" height="106" frameX="-2" frameY="-13" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (9)" x="383" y="204" width="126" height="102" frameX="-3" frameY="-13" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/shoot/LionSword_Away_Attack (1)" x="129" y="108" width="126" height="112" frameX="-28" frameY="-25" frameWidth="160" frameHeight="150"/>
+    <SubTexture name="warrior/lion/shoot/LionSword_Away_Attack (12)" x="1" y="413" width="89" height="107" frameX="-6" frameY="-30" frameWidth="160" frameHeight="150"/>
+    <SubTexture name="warrior/lion/shoot/LionSword_Away_Attack (19)" x="1" y="1" width="135" height="100" frameX="-17" frameY="-41" frameWidth="160" frameHeight="150"/>
+    <SubTexture name="warrior/lion/shoot/LionSword_Away_Attack (20)" x="1" y="102" width="127" height="105" frameX="-26" frameY="-33" frameWidth="160" frameHeight="150"/>
+    <SubTexture name="warrior/lion/shoot/LionSword_Away_Attack (7)" x="1" y="208" width="126" height="106" frameX="-13" frameY="-38" frameWidth="160" frameHeight="150"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:169d969d999b6f4283874e76b1fbccdb:9a58f283afed38c13597b76e78888393:bf8f38bca030a8f9b78d73941295599e$ -->
+<TextureAtlas imagePath="level_overlayShadows.png">
+    <SubTexture name="ice-foliage-shadow1" x="723" y="350" width="196" height="508"/>
+    <SubTexture name="ice-foliage-shadow2" x="2" y="2" width="240" height="989"/>
+    <SubTexture name="ice-foliage-shadow3" x="723" y="2" width="227" height="346"/>
+    <SubTexture name="shadow1" x="485" y="364" width="174" height="426"/>
+    <SubTexture name="shadow2" x="244" y="2" width="239" height="985"/>
+    <SubTexture name="shadow3" x="485" y="2" width="236" height="360"/>
+</TextureAtlas>

@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": ".",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Styrke",
+		"charselect_defense": "Forsvar",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Rekord: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "Lås op for denne figur for $(STUDS) sten?",
+		"charselect_unlock_confirm": "Bekræft",
+		
+		"charselect_upgrade_ranged0": "Tilføj et ekstra hjerte for $(STUDS) sten!",
+		"charselect_upgrade_ranged1": "Gør dit våben kraftigere for $(STUDS) sten!",
+		"charselect_upgrade_ranged2": "Fyld din CHI-måler med færre krystaller for $(STUDS) sten!",
+		"charselect_upgrade_ranged3": "Forøg dine følgeres helbred for $(STUDS) sten!",
+		"charselect_upgrade_ranged4": "Fyld din CHI-måler med færre krystaller for $(STUDS) sten!",
+		"charselect_upgrade_ranged5": "Få din blaster til at skyde med spredehagl for $(STUDS) sten!",
+		"charselect_upgrade_ranged6": "Forøg dine følgeres helbred for $(STUDS) sten!",
+		"charselect_upgrade_ranged7": "Fyld din CHI-måler med færre krystaller for $(STUDS) sten!",
+		"charselect_upgrade_ranged8": "Tilføj et ekstra hjerte for $(STUDS) sten!",
+		"charselect_upgrade_ranged9": "Gendan helbred, når du aktiverer din CHI-styrke for $(STUDS) sten!",
+		
+		"charselect_upgrade_mage0": "Tilføj et ekstra hjerte for $(STUDS) sten!",
+		"charselect_upgrade_mage1": "Gør dit våben kraftigere for $(STUDS) sten!",
+		"charselect_upgrade_mage2": "Fyld din CHI-måler med færre krystaller for $(STUDS) sten!",
+		"charselect_upgrade_mage3": "Forøg dine følgeres helbred for $(STUDS) sten!",
+		"charselect_upgrade_mage4": "Fyld din CHI-måler med færre krystaller for $(STUDS) sten!",
+		"charselect_upgrade_mage5": "Få dine skud til at søge efter fjender i nærheden for $(STUDS) sten!",
+		"charselect_upgrade_mage6": "Forøg dine følgeres helbred for $(STUDS) sten!",
+		"charselect_upgrade_mage7": "Fyld din CHI-måler med færre krystaller for $(STUDS) sten!",
+		"charselect_upgrade_mage8": "Tilføj et ekstra hjerte for $(STUDS) sten!",
+		"charselect_upgrade_mage9": "Gendan helbred, når du aktiverer din CHI-styrke for $(STUDS) sten!",
+		
+		"charselect_upgrade_warrior0": "Tilføj et ekstra hjerte for $(STUDS) sten!",
+		"charselect_upgrade_warrior1": "Gør dit våben kraftigere for $(STUDS) sten!",
+		"charselect_upgrade_warrior2": "Fyld din CHI-måler med færre krystaller for $(STUDS) sten!",
+		"charselect_upgrade_warrior3": "Forøg dine følgeres helbred for $(STUDS) sten!",
+		"charselect_upgrade_warrior4": "Fyld din CHI-måler med færre krystaller for $(STUDS) sten!",
+		"charselect_upgrade_warrior5": "Reflekter blasterskud med dit sværd for $(STUDS) sten!",
+		"charselect_upgrade_warrior6": "Forøg dine følgeres helbred for $(STUDS) sten!",
+		"charselect_upgrade_warrior7": "Fyld din CHI-måler med færre krystaller for $(STUDS) sten!",
+		"charselect_upgrade_warrior8": "Tilføj et ekstra hjerte for $(STUDS) sten!",
+		"charselect_upgrade_warrior9": "Gendan helbred, når du aktiverer din CHI-styrke for $(STUDS) sten!",
+		"charselect_upgrade_warrior_laval": "Transformer din kriger til Laval for $(STUDS) sten!",
+		"charselect_upgrade_warrior_sirfangor": "Transformer din kriger til Sir Fanger for $(STUDS) sten!",
+		
+		"charselect_apply_upgrade": "Opgrader til niveau $(LEVEL) for $(STUDS) sten?",
+		
+		"privacy_path": "res/cfg/html/privacy_da.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "For voksne",
+		"agegate": "Løs puslespillet nedenfor for at få mere information om andre spil fra WB.",
+		
+		"tutorial_health": "Dette er dit helbred; mist ikke alle dine hjerter!",
+		"tutorial_control": "Hold museknappen nede og flyt markøren for at flytte karakteren. Du kan også bruge tastaturet (piletaster eller W A S D) for at flytte karakteren",
+		"tutorial_chi_button": "Du kan slippe din CHI-styrke løs ved at trykke på MELLEMRUM eller CTRL",
+		"tutorial_touch_to_continue": "Klik for at fortsætte.",
+		
+		"tutorial_flags": "Byg flag for at få følgere fra din stamme.",
+		"tutorial_studs": "Saml sten for at få dine krigere op i niveau og låse op for figurer.",
+		"tutorial_distance": "Nå så langt som du kan!",
+		"tutorial_chi_crystals": "Saml CHI-krystaller for lade din CHI-måler op.",
+		
+		"pause_quit": "Afslut",
+		"pause_resume": "Fortsæt",
+		"pause_retry": "Prøv igen",
+		
+		"gameover_distance": "Afstand: $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "Ny rekord!",
+		"gameover_flags": "Flag indsamlet: $(FLAGS)",
+		
+		"croc": "krokodille",
+		"lion": "løve",
+		"bear": "isbjørn",
+		"saber": "sabeltand",
+		
+		"crocs": "krokodiller",
+		"lions": "løver",
+		"bears": "isbjørne",
+		"sabers": "sabeltænder",
+		
+		"ranged": "blasterskytte",
+		"mage": "troldmand",
+		"warrior": "kriger",
+		
+		"superweapon": "Superskade",
+		"supershield": "Superskjold",
+		"speedboost": "Superhastighed",
+		
+		"kill_x_enemies": "Knus $(COUNT) fjender.",
+		"run_distance_as_tribe": "Løb $(DISTANCE) $(METRES) som en $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Løb $(DISTANCE) $(METRES) som en $(TRIBE) i et enkelt spil.",
+		"run_distance_as_class": "Løb $(DISTANCE) $(METRES) som en $(CLASS).",
+		"run_distance_as_class_single_run": "Løb $(DISTANCE) $(METRES) som en $(CLASS) i et enkelt spil.",
+		"destroy_x_enemies_as_tribe": "Knus $(COUNT) fjender som en $(TRIBE).",
+		"destroy_x_enemies_as_class": "Knus $(COUNT) fjender som en $(CLASS).",
+		"destroy_x_disc_shooters": "Knus $(COUNT) diskosskydere.",
+		"destroy_x_enemies_single_run": "Knus $(COUNT) fjender i et enkelt spil.",
+		"collect_x_flags": "Indsaml $(COUNT) flag i et enkelt spil.",
+		"have_x_followers": "Opnå $(COUNT) følgere.",
+		"run_x_distance": "Løb $(DISTANCE) $(METRES).",
+		"run_x_distance_single_run": "Løb $(DISTANCE) $(METRES) i et enkelt spil.",
+		"run_x_distance_single_run_no_chi": "Løb $(DISTANCE) $(METRES) i et enkelt spil uden brug af CHI.",
+		"run_x_distance_no_followers": "Løb $(DISTANCE) $(METRES) uden følgere.",
+		"run_x_distance_no_damage": "Løb $(DISTANCE) $(METRES) uden at tage skade.",
+		"run_x_distance_one_health": "Løb $(DISTANCE) $(METRES) med ét hjerte.",
+		"use_chi_x_times_single_run": "Brug CHI $(COUNT) gange i et enkelt spil.",
+		"destroy_x_enemies_in_tribe": "Knus $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Indsaml $(COUNT) sten i et enkelt spil.",
+		"reflect_x_bullets_as_warrior": "Reflekter $(COUNT) kugler som en $(CLASS).",
+		"use_x_powerup_n_times": "Brug boostet $(TYPE) $(COUNT) gange."
+	}
+}

@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": ".",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Kracht",
+		"charselect_defense": "Verdediging",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Topscore: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "Dit personage ontgrendelen voor $(STUDS) noppen?",
+		"charselect_unlock_confirm": "Bevestigen",
+		
+		"charselect_upgrade_ranged0": "Voeg een extra hart toe voor $(STUDS) noppen!",
+		"charselect_upgrade_ranged1": "Verhoog de kracht van je wapen voor $(STUDS) noppen!",
+		"charselect_upgrade_ranged2": "Gebruik minder kristallen om de CHI-meter te vullen voor $(STUDS) noppen!",
+		"charselect_upgrade_ranged3": "Verhoog de gezondheid van je stamondersteuning voor $(STUDS) noppen!",
+		"charselect_upgrade_ranged4": "Gebruik minder kristallen om de CHI-meter te vullen voor $(STUDS) noppen!",
+		"charselect_upgrade_ranged5": "Laat je blaster een gespreid schot afvuren voor $(STUDS) noppen!",
+		"charselect_upgrade_ranged6": "Verhoog de gezondheid van je stamondersteuning voor $(STUDS) noppen!",
+		"charselect_upgrade_ranged7": "Gebruik minder kristallen om de CHI-meter te vullen voor $(STUDS) noppen!",
+		"charselect_upgrade_ranged8": "Voeg een extra hart toe voor $(STUDS) noppen!",
+		"charselect_upgrade_ranged9": "Herstel gezondheid als je je CHI-kracht activeert voor $(STUDS) noppen!",
+		
+		"charselect_upgrade_mage0": "Voeg een extra hart toe voor $(STUDS) noppen!",
+		"charselect_upgrade_mage1": "Verhoog de kracht van je wapen voor $(STUDS) noppen!",
+		"charselect_upgrade_mage2": "Gebruik minder kristallen om de CHI-meter te vullen voor $(STUDS) noppen!",
+		"charselect_upgrade_mage3": "Verhoog de gezondheid van je stamondersteuning voor $(STUDS) noppen!",
+		"charselect_upgrade_mage4": "Gebruik minder kristallen om de CHI-meter te vullen voor $(STUDS) noppen!",
+		"charselect_upgrade_mage5": "Laat je bliksemschichten op vijanden in de buurt afgaan voor $(STUDS) noppen!",
+		"charselect_upgrade_mage6": "Verhoog de gezondheid van je stamondersteuning voor $(STUDS) noppen!",
+		"charselect_upgrade_mage7": "Gebruik minder kristallen om de CHI-meter te vullen voor $(STUDS) noppen!",
+		"charselect_upgrade_mage8": "Voeg een extra hart toe voor $(STUDS) noppen!",
+		"charselect_upgrade_mage9": "Herstel gezondheid als je je CHI-kracht activeert voor $(STUDS) noppen!",
+		
+		"charselect_upgrade_warrior0": "Voeg een extra hart toe voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior1": "Verhoog de kracht van je wapen voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior2": "Gebruik minder kristallen om de CHI-meter te vullen voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior3": "Verhoog de gezondheid van je stamondersteuning voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior4": "Gebruik minder kristallen om de CHI-meter te vullen voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior5": "Laat blasterschoten afketsen op je zwaard voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior6": "Verhoog de gezondheid van je stamondersteuning voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior7": "Gebruik minder kristallen om de CHI-meter te vullen voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior8": "Voeg een extra hart toe voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior9": "Herstel gezondheid als je je CHI-kracht activeert voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior_laval": "Verander je krijger in Laval voor $(STUDS) noppen!",
+		"charselect_upgrade_warrior_sirfangor": "Verander je krijger in Sir Fangar voor $(STUDS) noppen!",
+		
+		"charselect_apply_upgrade": "Naar level $(LEVEL) upgraden voor $(STUDS) noppen?",
+		
+		"privacy_path": "res/cfg/html/privacy_nl.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "Voor volwassenen",
+		"agegate": "Los de volgende puzzel op voor meer WB-spellen:",
+		
+		"tutorial_health": "Dit is je gezondheid. Raak niet al je harten kwijt!",
+		"tutorial_control": "Houd de muisknop ingedrukt en beweeg de aanwijzer om het personage te verplaatsen. Je kunt ook het toetsenbord (pijltoetsen of 'W', 'A', 'S', 'D') gebruiken om het personage te verplaatsen.",
+		"tutorial_chi_button": "Druk op de spatiebalk of de CTRL-toets om je CHI-kracht te ontketenen.",
+		"tutorial_touch_to_continue": "Klik om door te gaan.",
+		
+		"tutorial_flags": "Bouw vlaggen voor stamondersteuning.",
+		"tutorial_studs": "Verzamel noppen om je vechters kracht te geven en personages te ontgrendelen.",
+		"tutorial_distance": "Reis zo ver je kunt!",
+		"tutorial_chi_crystals": "Verzamel CHI-kristallen om je CHI-kracht op te laden.",
+		
+		"pause_quit": "Afsluiten",
+		"pause_resume": "Hervatten",
+		"pause_retry": "Opnieuw proberen",
+		
+		"gameover_distance": "Afstand $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "Nieuwe topscore!",
+		"gameover_flags": "Verzamelde vlaggen: $(FLAGS)",
+		
+		"croc": "krokodil",
+		"lion": "leeuw",
+		"bear": "ijsbeer",
+		"saber": "sabeltandtijger",
+		
+		"crocs": "krokodillen",
+		"lions": "leeuwen",
+		"bears": "ijsberen",
+		"sabers": "sabeltandtijgers",
+		
+		"ranged": "schutter",
+		"mage": "magiër",
+		"warrior": "krijger",
+		
+		"superweapon": "superwapen",
+		"supershield": "superschild",
+		"speedboost": "snelheidsboost",
+		
+		"kill_x_enemies": "Vernietig $(COUNT) vijanden.",
+		"run_distance_as_tribe": "Ren $(DISTANCE) $(METRES) als een $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Ren $(DISTANCE) $(METRES) als een $(TRIBE) in een enkel spel.",
+		"run_distance_as_class": "Ren $(DISTANCE) $(METRES) als een $(CLASS).",
+		"run_distance_as_class_single_run": "Ren $(DISTANCE) $(METRES) als een $(CLASS) in een enkel spel.",
+		"destroy_x_enemies_as_tribe": "Vernietig $(COUNT) vijanden als een $(TRIBE).",
+		"destroy_x_enemies_as_class": "Vernietig $(COUNT) vijanden als een $(CLASS).",
+		"destroy_x_disc_shooters": "Vernietig $(COUNT) schijfschieters.",
+		"destroy_x_enemies_single_run": "Vernietig $(COUNT) vijanden in een enkel spel.",
+		"collect_x_flags": "Verzamel $(COUNT) vlaggen in een enkel spel.",
+		"have_x_followers": "Zorg dat je $(COUNT) volgers krijgt.",
+		"run_x_distance": "Ren $(DISTANCE) $(METRES).",
+		"run_x_distance_single_run": "Ren $(DISTANCE) $(METRES) in een enkel spel.",
+		"run_x_distance_single_run_no_chi": "Ren $(DISTANCE) $(METRES) in een enkel spel zonder CHI te gebruiken.",
+		"run_x_distance_no_followers": "Ren $(DISTANCE) $(METRES) zonder volgers.",
+		"run_x_distance_no_damage": "Ren $(DISTANCE) $(METRES) zonder schade op te lopen.",
+		"run_x_distance_one_health": "Ren $(DISTANCE) $(METRES) met één hart.",
+		"use_chi_x_times_single_run": "Gebruik CHI $(COUNT) keer in een enkel spel.",
+		"destroy_x_enemies_in_tribe": "Vernietig $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Verzamel $(COUNT) noppen in een enkel spel.",
+		"reflect_x_bullets_as_warrior": "Kets $(COUNT) kogels af als een $(CLASS).",
+		"use_x_powerup_n_times": "Gebruik $(COUNT) keer een $(TYPE) power-up."
+	}
+}

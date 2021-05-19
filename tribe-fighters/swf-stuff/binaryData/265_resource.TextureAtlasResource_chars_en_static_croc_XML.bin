@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:9f64e0075c693bb8fe7abf08a771f1c6:4574a73a57734f15b6b4731caa182fbc:429db61cde8edb46d36a69cd178682eb$ -->
+<TextureAtlas imagePath="chars_en_static_croc.png">
+    <SubTexture name="Croc-Disc" x="107" y="320" width="32" height="15" frameX="-80" frameY="-26" frameWidth="233" frameHeight="145"/>
+    <SubTexture name="Croc" x="2" y="2" width="233" height="145"/>
+    <SubTexture name="Croc_Part_1" x="149" y="300" width="103" height="80"/>
+    <SubTexture name="Croc_part_2" x="2" y="149" width="153" height="111"/>
+    <SubTexture name="Croc_part_3" x="2" y="382" width="58" height="100"/>
+    <SubTexture name="Croc_part_4" x="2" y="262" width="103" height="92"/>
+    <SubTexture name="Croc_part_5#" x="157" y="149" width="78" height="39"/>
+    <SubTexture name="Croc_part_6" x="107" y="262" width="40" height="56"/>
+    <SubTexture name="Croc_part_7" x="157" y="190" width="68" height="108"/>
+</TextureAtlas>

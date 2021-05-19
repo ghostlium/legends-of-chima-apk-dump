@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a109bac6820dd536e72a111196e66ae6:23f752e9a6e0f0fdbe7b5736ba2545d5:65ba9a1b4d2d88482419f9ab96262294$ -->
+<TextureAtlas imagePath="chars_en_static_saber.png">
+    <SubTexture name="Saber-Disc" x="2" y="192" width="127" height="138" frameX="-31" frameY="-3" frameWidth="231" frameHeight="188"/>
+    <SubTexture name="Saber" x="2" y="2" width="231" height="188"/>
+    <SubTexture name="Saber_Part_5" x="63" y="421" width="103" height="80"/>
+    <SubTexture name="Saber_Part_6" x="63" y="332" width="59" height="62"/>
+    <SubTexture name="Saber_part_1" x="131" y="318" width="109" height="101"/>
+    <SubTexture name="Saber_part_2" x="131" y="192" width="110" height="124"/>
+    <SubTexture name="Saber_part_3" x="168" y="421" width="78" height="64"/>
+    <SubTexture name="Saber_part_4" x="2" y="332" width="59" height="147"/>
+</TextureAtlas>

@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Jap.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Jap.fnt",
+		
+		"number_seperator": ",",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE)$(METRES)",
+		
+		"charselect_power": "パワー",
+		"charselect_defense": "ディフェンス",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "ベストスコア: $(DISTANCE)$(METRES)",
+		
+		"charselect_unlock": "$(STUDS)個のスタッドでキャラクターのロックを解除しますか？",
+		"charselect_unlock_confirm": "確認",
+		
+		"charselect_upgrade_ranged0": "$(STUDS)スタッドでハートをさらに追加しよう！",
+		"charselect_upgrade_ranged1": "$(STUDS)スタッドで武器の威力を増加しよう！",
+		"charselect_upgrade_ranged2": "$(STUDS)スタッドで通常よりも少ないクリスタルの量で CHIメーターを満タンにできるよ！",
+		"charselect_upgrade_ranged3": "$(STUDS)スタッドでプレイヤーのグループサポートの体力を増やそう！",
+		"charselect_upgrade_ranged4": "$(STUDS)スタッドで通常よりも少ないクリスタルの量で CHIメーターを満タンにできるよ！",
+		"charselect_upgrade_ranged5": "$(STUDS)スタッドでブラスターファイヤーを散弾ショットにアップグレードしよう！",
+		"charselect_upgrade_ranged6": "$(STUDS)スタッドでプレイヤーのグループサポートの体力を増やそう！",
+		"charselect_upgrade_ranged7": "$(STUDS)スタッドで通常よりも少ないクリスタルの量で CHIメーターを満タンにできるよ！",
+		"charselect_upgrade_ranged8": "$(STUDS)スタッドでハートをさらに追加しよう！",
+		"charselect_upgrade_ranged9": "$(STUDS)スタッドでCHIパワーを発動するときに体力を回復しよう！",
+		
+		"charselect_upgrade_mage0": "$(STUDS)スタッドでハートをさらに追加しよう！",
+		"charselect_upgrade_mage1": "$(STUDS)スタッドで武器の威力を増加しよう！",
+		"charselect_upgrade_mage2": "$(STUDS)スタッドで通常よりも少ないクリスタルの量で CHIメーターを満タンにできるよ！",
+		"charselect_upgrade_mage3": "$(STUDS)スタッドでプレイヤーのグループサポートの体力を増やそう！",
+		"charselect_upgrade_mage4": "$(STUDS)スタッドで通常よりも少ないクリスタルの量で CHIメーターを満タンにできるよ！",
+		"charselect_upgrade_mage5": "$(STUDS)スタッドで放った攻撃が近くの敵を追跡できるようにしよう！",
+		"charselect_upgrade_mage6": "$(STUDS)スタッドでプレイヤーのグループサポートの体力を増やそう！",
+		"charselect_upgrade_mage7": "$(STUDS)スタッドで通常よりも少ないクリスタルの量で CHIメーターを満タンにできるよ！",
+		"charselect_upgrade_mage8": "$(STUDS)スタッドでハートをさらに追加しよう！",
+		"charselect_upgrade_mage9": "$(STUDS)スタッドでCHIパワーを発動するときに体力を回復しよう！",
+		
+		"charselect_upgrade_warrior0": "$(STUDS)スタッドでハートをさらに追加しよう！",
+		"charselect_upgrade_warrior1": "$(STUDS)スタッドで武器の威力を増加しよう！",
+		"charselect_upgrade_warrior2": "$(STUDS)スタッドで通常よりも少ないクリスタルの量で CHIメーターを満タンにできるよ！",
+		"charselect_upgrade_warrior3": "$(STUDS)スタッドでプレイヤーのグループサポートの体力を増やそう！",
+		"charselect_upgrade_warrior4": "$(STUDS)スタッドで通常よりも少ないクリスタルの量で CHIメーターを満タンにできるよ！",
+		"charselect_upgrade_warrior5": "$(STUDS)スタッドで剣を使ってブラスターショットをブロックしよう！",
+		"charselect_upgrade_warrior6": "$(STUDS)スタッドでプレイヤーのグループサポートの体力を増やそう！",
+		"charselect_upgrade_warrior7": "$(STUDS)スタッドで通常よりも少ないクリスタルの量で CHIメーターを満タンにできるよ！",
+		"charselect_upgrade_warrior8": "$(STUDS)スタッドでハートをさらに追加しよう！",
+		"charselect_upgrade_warrior9": "$(STUDS)スタッドでCHIパワーを発動するときに体力を回復しよう！",
+		"charselect_upgrade_warrior_laval": "$(STUDS)スタッドで戦士をラバルに変えよう！",
+		"charselect_upgrade_warrior_sirfangor": "$(STUDS)スタッドで戦士をファンガー卿に変えよう！",
+		
+		"charselect_apply_upgrade": "$(STUDS)スタッドでレベル$(LEVEL)まで上げますか？",
+		
+		"privacy_path": "res/cfg/html/privacy_ja.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "大人向け",
+		"agegate": "他のWBゲームを見るには下のパズルを解いてください:",
+		
+		"tutorial_health": "これがあなたの体力です、ハートをすべて失わないように気を付けてくださいね！",
+		"tutorial_control": "マウスボタンをおさえながらキャラクター を動かすためにカーソルを移動しよう キャラクターを動かすためにキーボード（矢印キーまたは「W」「A」「S」「D」)を使うこともできるよ",
+		"tutorial_chi_button": "CHIパワーを解放するには「SPACE」または「CTRL」を押してね",
+		"tutorial_touch_to_continue": "続行するにはクリックします。",
+		
+		"tutorial_flags": "グループサポートのための旗を作ろう",
+		"tutorial_studs": "戦士を強化しキャラクターのロックを解除するためにスタッドを集めよう",
+		"tutorial_distance": "できるだけ遠くまで行こう！",
+		"tutorial_chi_crystals": "CHIクリスタルを集めてCHIパワーを充電しよう",
+		
+		"pause_quit": "終了",
+		"pause_resume": "再開する",
+		"pause_retry": "再挑戦",
+		
+		"gameover_distance": "距離$(DISTANCE)$(METRES)",
+		"gameover_distance_new_best": "ニューベストスコア！",
+		"gameover_flags": "集めた旗の数: $(FLAGS)",
+		
+		"croc": "ワニ族",
+		"lion": "ライオン族",
+		"bear": "シロクマ族",
+		"saber": "サーベルタイガー族",
+		
+		"crocs": "ワニ族",
+		"lions": "ライオン族",
+		"bears": "シロクマ族",
+		"sabers": "サーベルタイガー族",
+		
+		"ranged": "砲撃手",
+		"mage": "魔導師",
+		"warrior": "戦士",
+		
+		"superweapon": "スーパーウェポン",
+		"supershield": "スーパーシールド",
+		"speedboost": "スピードブースト",
+		
+		"kill_x_enemies": "敵を$(COUNT)匹やっつけよう",
+		"run_distance_as_tribe": "$(TRIBE)として$(DISTANCE)$(METRES)走ろう",
+		"run_distance_as_tribe_single_run": "一つのゲームで$(TRIBE)として$(DISTANCE)$(METRES)走ろう",
+		"run_distance_as_class": "$(CLASS)として$(DISTANCE)$(METRES)走ろう ",
+		"run_distance_as_class_single_run": "一つのゲームで$(CLASS)として$(DISTANCE)$(METRES)走ろう",
+		"destroy_x_enemies_as_tribe": "$(TRIBE)として$(COUNT)匹の敵をやっつけよう",
+		"destroy_x_enemies_as_class": "$(CLASS)として$(COUNT)匹の敵をやっつけよう",
+		"destroy_x_disc_shooters": "ディスクシューターを$(COUNT)台やっつけよう",
+		"destroy_x_enemies_single_run": "一つのゲームで敵を$(COUNT)匹やっつけよう",
+		"collect_x_flags": "一つのゲームで旗を$(COUNT)枚集めよう",
+		"have_x_followers": "仲間を合計$(COUNT)人得よう",
+		"run_x_distance": "$(DISTANCE)$(METRES)走ろう",
+		"run_x_distance_single_run": "一つのゲームで$(DISTANCE)$(METRES)走ろう",
+		"run_x_distance_single_run_no_chi": "CHIを使わずに一つのゲームで$(DISTANCE)$(METRES)走ろう",
+		"run_x_distance_no_followers": "仲間なしで$(DISTANCE)$(METRES)走ろう",
+		"run_x_distance_no_damage": "ダメージを受けずに$(DISTANCE)$(METRES)走ろう",
+		"run_x_distance_one_health": "一つのハートで$(DISTANCE)$(METRES)走ろう",
+		"use_chi_x_times_single_run": "一つのゲームでCHIを$(COUNT)回使おう",
+		"destroy_x_enemies_in_tribe": "$(TRIBE)を$(COUNT)匹やっつけよう",
+		"collect_x_studs_single_run": "一つのゲームでスタッドを$(COUNT)個集めよう",
+		"reflect_x_bullets_as_warrior": "弾丸を$(COUNT)発$(CLASS)としてブロックしよう",
+		"use_x_powerup_n_times": "$(TYPE)パワーアップを$(COUNT)回使おう"
+	}
+}

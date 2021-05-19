@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Kor.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Kor.fnt",
+		
+		"number_seperator": ",",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE)$(METRES)",
+		
+		"charselect_power": "파워",
+		"charselect_defense": "방어",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "최고: $(DISTANCE)$(METRES)",
+		
+		"charselect_unlock": "$(STUDS) 스터드로 이 캐릭터를 잠금해제 하시겠습니까?",
+		"charselect_unlock_confirm": "승인",
+		
+		"charselect_upgrade_ranged0": "$(STUDS) 스터드로 하트 하나를 더 추가하십시오!",
+		"charselect_upgrade_ranged1": "$(STUDS) 스터드로 무기 파워를 증가시키십시오!",
+		"charselect_upgrade_ranged2": "$(STUDS) 스터드를 사용하여 적은 크리스탈로 CHI 미터를 충전하십시오!",
+		"charselect_upgrade_ranged3": "$(STUDS) 스터드로 부족의 건강 지원을 증가시키십시오!",
+		"charselect_upgrade_ranged4": "$(STUDS) 스터드를 사용하여 적은 크리스탈로 CHI 미터를 충전하십시오!",
+		"charselect_upgrade_ranged5": "$(STUDS) 스터드로 나의 블래스터가 확산 발포를 하게 하십시오!",
+		"charselect_upgrade_ranged6": "$(STUDS) 스터드로 부족의 건강 지원을 증가시키십시오!",
+		"charselect_upgrade_ranged7": "$(STUDS) 스터드를 사용하여 적은 크리스탈로 CHI 미터를 충전하십시오!",
+		"charselect_upgrade_ranged8": "$(STUDS) 스터드로 하트 하나를 더 추가하십시오!",
+		"charselect_upgrade_ranged9": "$(STUDS) 스터드로 나의 CHI파워를 활성화 시켜 건강을 회복하십시오!",
+		
+		"charselect_upgrade_mage0": "$(STUDS) 스터드로 하트 하나를 더 추가하십시오!",
+		"charselect_upgrade_mage1": "$(STUDS) 스터드로 무기 파워를 증가시키십시오!",
+		"charselect_upgrade_mage2": "$(STUDS) 스터드를 사용하여 적은 크리스탈로 CHI 미터를 충전하십시오!",
+		"charselect_upgrade_mage3": "$(STUDS) 스터드로 부족의 건강 지원을 증가시키십시오!",
+		"charselect_upgrade_mage4": "$(STUDS) 스터드를 사용하여 적은 크리스탈로 CHI 미터를 충전하십시오!",
+		"charselect_upgrade_mage5": "$(STUDS) 스터드로 나의 볼트가 인근 적들을 찾아내게 하십시오!",
+		"charselect_upgrade_mage6": "$(STUDS) 스터드로 부족의 건강 지원을 증가시키십시오!",
+		"charselect_upgrade_mage7": "$(STUDS) 스터드를 사용하여 적은 크리스탈로 CHI 미터를 충전하십시오!",
+		"charselect_upgrade_mage8": "$(STUDS) 스터드로 하트 하나를 더 추가하십시오!",
+		"charselect_upgrade_mage9": "$(STUDS) 스터드로 나의 CHI파워를 활성화 시켜 건강을 회복하십시오!",
+		
+		"charselect_upgrade_warrior0": "$(STUDS) 스터드로 하트 하나를 더 추가하십시오!",
+		"charselect_upgrade_warrior1": "$(STUDS) 스터드로 무기 파워를 증가시키십시오!",
+		"charselect_upgrade_warrior2": "$(STUDS) 스터드를 사용하여 적은 크리스탈로 CHI 미터를 충전하십시오!",
+		"charselect_upgrade_warrior3": "$(STUDS) 스터드로 부족의 건강 지원을 증가시키십시오!",
+		"charselect_upgrade_warrior4": "$(STUDS) 스터드를 사용하여 적은 크리스탈로 CHI 미터를 충전하십시오!",
+		"charselect_upgrade_warrior5": "$(STUDS) 스터드로 나의 검이 블래스터 발포를 튕겨 막게 하십시오!",
+		"charselect_upgrade_warrior6": "$(STUDS) 스터드로 부족의 건강 지원을 증가시키십시오!",
+		"charselect_upgrade_warrior7": "$(STUDS) 스터드를 사용하여 적은 크리스탈로 CHI 미터를 충전하십시오!",
+		"charselect_upgrade_warrior8": "$(STUDS) 스터드로 하트 하나를 더 추가하십시오!",
+		"charselect_upgrade_warrior9": "$(STUDS) 스터드로 나의 CHI파워를 활성화 시켜 건강을 회복하십시오!",
+		"charselect_upgrade_warrior_laval": "$(STUDS)스터드를 사용하여 당신의 전사를 라발로 바꾸십시오!",
+		"charselect_upgrade_warrior_sirfangor": "$(STUDS)스터드를 사용하여 당신의 전사를 팽거로 바꾸십시오!",
+		
+		"charselect_apply_upgrade": "$(STUDS) 스터드로 $(LEVEL)레벨로 업그레이드 하시겠습니까?",
+		
+		"privacy_path": "res/cfg/html/privacy_ko.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "성인 전용 콘텐츠",
+		"agegate": "더 많은 WB게임을 위해 퍼즐을 풀어보세요:",
+		
+		"tutorial_health": "귀하의 건강입니다, 하트를 모두 잃어버리지 마십시오!",
+		"tutorial_control": "마우스 버튼을 누르고 커서를 움직여서 캐릭터를 이동시키세요. 또한 다른 방법으로키보드 (화살표 키 혹은 W A S D)를 사용해서 캐릭터를 이동시킬 수 있습니다",
+		"tutorial_chi_button": "CHI 파워를 사용하려면, SPACE 혹은 CTRL 을 누르세요",
+		"tutorial_touch_to_continue": "계속하려면 클릭을 하세요.",
+		
+		"tutorial_flags": "부족을 지원하기 위한 깃발을 만드십시오.",
+		"tutorial_studs": "스터드를 수집해서 귀하의 전사들을 파워 업하고 캐릭터를 잠금해제 하십시오.",
+		"tutorial_distance": "최대한 멀리 이동하십시오!",
+		"tutorial_chi_crystals": "CHI 수정을 수집해서 귀하의 CHI 파워를 충전하십시오.",
+		
+		"pause_quit": "끝내기",
+		"pause_resume": "계속하기",
+		"pause_retry": "다시 시도",
+		
+		"gameover_distance": "거리 $(DISTANCE)$(METRES)",
+		"gameover_distance_new_best": "신규 최고 기록!",
+		"gameover_flags": "수집된 깃발들: $(FLAGS)",
+		
+		"croc": "악어",
+		"lion": "사자",
+		"bear": "아이스 베어",
+		"saber": "세이버 투스",
+		
+		"crocs": "악어들",
+		"lions": "사자들",
+		"bears": "아이스 베어들",
+		"sabers": "세이버 투스들",
+		
+		"ranged": "블래스터",
+		"mage": "마법사",
+		"warrior": "전사",
+		
+		"superweapon": "슈퍼 무기",
+		"supershield": "슈퍼 방패",
+		"speedboost": "스피드 부스트",
+		
+		"kill_x_enemies": "$(COUNT)명의 적들을 파괴하십시오.",
+		"run_distance_as_tribe": "$(DISTANCE)$(METRES)를 $(TRIBE) 부족으로 뛰십시오.",
+		"run_distance_as_tribe_single_run": "싱글 게임에서 $(DISTANCE)$(METRES)를 $(TRIBE) 부족으로 뛰십시오.",
+		"run_distance_as_class": "$(DISTANCE)$(METRES)를 $(CLASS)로 뛰십시오.",
+		"run_distance_as_class_single_run": "싱글게임에서 $(DISTANCE)$(METRES)를 $(CLASS)로 뛰십시오.",
+		"destroy_x_enemies_as_tribe": "$(COUNT)명의 적군들을 $(TRIBE) 부족으로 파괴하십시오.",
+		"destroy_x_enemies_as_class": "$(COUNT)명의 적군들을 $(CLASS)로 파괴하십시오.",
+		"destroy_x_disc_shooters": "$(COUNT)개의 디스크 슈터를 파괴하십시오.",
+		"destroy_x_enemies_single_run": "싱글게임에서 $(COUNT)명의 적군들을 파괴하십시오.",
+		"collect_x_flags": "싱글게임에서 $(COUNT)개의 깃발들을 수집하십시오.",
+		"have_x_followers": "총 $(COUNT)명의 추종자들을 얻으십시오.",
+		"run_x_distance": "$(DISTANCE)$(METRES)를 뛰십시오.",
+		"run_x_distance_single_run": "싱글게임에서 $(DISTANCE)$(METRES)를 뛰십시오.",
+		"run_x_distance_single_run_no_chi": "CHI를 사용하지 않고 싱글게임에서 $(DISTANCE)$(METRES)를 뛰십시오.",
+		"run_x_distance_no_followers": "추종자 없이 $(DISTANCE)$(METRES)를 뛰십시오.",
+		"run_x_distance_no_damage": "손상 입지 않고 $(DISTANCE)$(METRES)를 뛰십시오.",
+		"run_x_distance_one_health": "하나의 하트를 가지고 $(DISTANCE)$(METRES)를 뛰십시오.",
+		"use_chi_x_times_single_run": "CHI를 싱글게임에서 $(COUNT)번 사용하십시오.",
+		"destroy_x_enemies_in_tribe": "$(TRIBE) $(COUNT)명을 파괴하십시오.",
+		"collect_x_studs_single_run": "싱글게임에서 $(COUNT)개의 스터드를 수집하십시오.",
+		"reflect_x_bullets_as_warrior": "$(COUNT)개의 총알들을 $(CLASS)로 반사하십시오.",
+		"use_x_powerup_n_times": "$(TYPE) 파워 업을 $(COUNT)번 사용하십시오."
+	}
+}

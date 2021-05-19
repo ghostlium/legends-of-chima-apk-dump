@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:806afc2931710cd3d39082ec0452e7b9:8a7337666f0cc314f393a7fa6bf82b8a:1c5d6117db9e3bd01869ce32ff69eafe$ -->
+<TextureAtlas imagePath="projectiles.png">
+    <SubTexture name="FireDisc_1" x="412" y="252" width="44" height="36"/>
+    <SubTexture name="FireDisc_2" x="447" y="187" width="44" height="36"/>
+    <SubTexture name="FireDisc_3" x="412" y="290" width="44" height="36"/>
+    <SubTexture name="FireDisc_4" x="412" y="328" width="44" height="36"/>
+    <SubTexture name="FireDisc_5" x="422" y="396" width="44" height="36"/>
+    <SubTexture name="FireDisc_6" x="422" y="434" width="44" height="36"/>
+    <SubTexture name="FireDisc_7" x="458" y="225" width="44" height="36"/>
+    <SubTexture name="FireDisc_8" x="458" y="263" width="44" height="36"/>
+    <SubTexture name="IceDisc_1" x="2" y="469" width="44" height="37"/>
+    <SubTexture name="IceDisc_2" x="366" y="252" width="44" height="37"/>
+    <SubTexture name="IceDisc_3" x="366" y="291" width="44" height="37"/>
+    <SubTexture name="IceDisc_4" x="366" y="330" width="44" height="37"/>
+    <SubTexture name="IceDisc_5" x="423" y="109" width="44" height="37"/>
+    <SubTexture name="IceDisc_6" x="423" y="148" width="44" height="37"/>
+    <SubTexture name="IceDisc_7" x="426" y="2" width="44" height="37"/>
+    <SubTexture name="IceDisc_8" x="426" y="41" width="44" height="37"/>
+    <SubTexture name="Leaf/leaf-anim- (1)" x="162" y="216" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (10)" x="333" y="216" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (11)" x="367" y="216" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (12)" x="401" y="216" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (2)" x="472" y="2" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (3)" x="472" y="38" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (4)" x="469" y="104" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (5)" x="469" y="140" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (6)" x="468" y="396" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (7)" x="468" y="432" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (8)" x="468" y="468" width="32" height="34"/>
+    <SubTexture name="Leaf/leaf-anim- (9)" x="458" y="301" width="32" height="34"/>
+    <SubTexture name="Mage_Fire/Mage_Fire_1" x="48" y="469" width="22" height="32"/>
+    <SubTexture name="Mage_Fire/Mage_Fire_2" x="81" y="447" width="56" height="60"/>
+    <SubTexture name="Mage_Fire/Mage_Fire_3" x="90" y="381" width="64" height="64"/>
+    <SubTexture name="Mage_Ice/Mage_Ice_1" x="472" y="337" width="22" height="32"/>
+    <SubTexture name="Mage_Ice/Mage_Ice_2" x="364" y="400" width="56" height="60"/>
+    <SubTexture name="Mage_Ice/Mage_Ice_3" x="2" y="403" width="64" height="64"/>
+    <SubTexture name="Misc/Dust_Sand" x="90" y="315" width="66" height="64"/>
+    <SubTexture name="Misc/footprints" x="423" y="187" width="22" height="24"/>
+    <SubTexture name="Shot_Fire/Hit_Fire" x="2" y="216" width="78" height="97"/>
+    <SubTexture name="Shot_Fire/Shot_Fire_1" x="338" y="2" width="86" height="86"/>
+    <SubTexture name="Shot_Fire/Shot_Fire_1_A" x="426" y="80" width="22" height="22"/>
+    <SubTexture name="Shot_Fire/Shot_Fire_2" x="68" y="441" width="11" height="11"/>
+    <SubTexture name="Shot_Fire/Shot_Fire_3" x="2" y="2" width="125" height="125"/>
+    <SubTexture name="Shot_Fire/discParticle" x="338" y="90" width="42" height="17"/>
+    <SubTexture name="Shot_Gold/Gold_2" x="68" y="403" width="17" height="17"/>
+    <SubTexture name="Shot_Green/Green_1" x="333" y="126" width="88" height="88"/>
+    <SubTexture name="Shot_Green/Green_2" x="68" y="422" width="17" height="17"/>
+    <SubTexture name="Shot_Ice/Hit_Ice" x="82" y="216" width="78" height="97"/>
+    <SubTexture name="Shot_Ice/Shot_Fire_1" x="2" y="315" width="86" height="86"/>
+    <SubTexture name="Shot_Ice/Shot_Ice_1_A" x="450" y="80" width="22" height="22"/>
+    <SubTexture name="Shot_Ice/Shot_Ice_2" x="68" y="454" width="11" height="11"/>
+    <SubTexture name="Shot_Ice/Shot_Ice_3" x="206" y="126" width="125" height="125"/>
+    <SubTexture name="Shot_Ice/discParticle" x="382" y="90" width="42" height="17"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (1)" x="474" y="74" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (10)" x="412" y="366" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (11)" x="366" y="369" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (12)" x="442" y="366" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (2)" x="139" y="460" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (3)" x="169" y="460" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (4)" x="199" y="460" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (5)" x="229" y="460" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (6)" x="259" y="460" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (7)" x="289" y="460" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (8)" x="319" y="460" width="28" height="28"/>
+    <SubTexture name="Snowflake/snowflake-anim-90- (9)" x="349" y="462" width="28" height="28"/>
+    <SubTexture name="Sword_Fire" x="2" y="129" width="202" height="85"/>
+    <SubTexture name="Sword_Fire_3" x="158" y="340" width="206" height="58"/>
+    <SubTexture name="Sword_Fire_4" x="129" y="2" width="207" height="60"/>
+    <SubTexture name="Sword_Ice" x="162" y="253" width="202" height="85"/>
+    <SubTexture name="Sword_Ice_3" x="129" y="64" width="207" height="60"/>
+    <SubTexture name="Sword_Ice_4" x="156" y="400" width="206" height="58"/>
+</TextureAtlas>

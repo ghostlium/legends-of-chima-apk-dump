@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7373b9d9b94dc35c4def3a5c4d219a39:f9cb52dc60016a48aa4bb8c6e3564940:bd8461ba08d8c65f21f5ee57ee37de5a$ -->
+<TextureAtlas imagePath="level_overlays.png">
+    <SubTexture name="combined-cobweb-overlayice" x="2" y="2" width="512" height="512"/>
+    <SubTexture name="fire-overlay-1" x="516" y="2" width="242" height="299"/>
+    <SubTexture name="fire-overlay-2" x="200" y="1030" width="189" height="226"/>
+    <SubTexture name="fire-overlay-3" x="2" y="1030" width="145" height="217"/>
+    <SubTexture name="foliage1" x="757" y="910" width="196" height="478"/>
+    <SubTexture name="foliage2" x="516" y="303" width="239" height="904"/>
+    <SubTexture name="foliage3" x="391" y="1209" width="188" height="359"/>
+    <SubTexture name="ice-foliage1" x="2" y="1390" width="196" height="478"/>
+    <SubTexture name="ice-foliage2" x="760" y="2" width="239" height="906"/>
+    <SubTexture name="ice-foliage3" x="200" y="1258" width="188" height="359"/>
+    <SubTexture name="ray-of-light" x="2" y="516" width="512" height="512"/>
+</TextureAtlas>

@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": ".",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Kraft",
+		"charselect_defense": "Verteidigung",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Bestmarke: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "Diesen Charakter mit $(STUDS) Studs freischalten?",
+		"charselect_unlock_confirm": "Bestätigen",
+		
+		"charselect_upgrade_ranged0": "Hol dir für $(STUDS) Studs ein zusätzliches Herz!",
+		"charselect_upgrade_ranged1": "Verbessere für $(STUDS) Studs deine Waffenstärke!",
+		"charselect_upgrade_ranged2": "Fülle für $(STUDS) Studs deine CHI-Anzeige mit weniger Kristallen auf!",
+		"charselect_upgrade_ranged3": "Erhöhe für $(STUDS) Studs die Gesundheit deiner Stammesunterstützung!",
+		"charselect_upgrade_ranged4": "Fülle für $(STUDS) Studs deine CHI-Anzeige mit weniger Kristallen auf!",
+		"charselect_upgrade_ranged5": "Lass deinen Blaster für $(STUDS) Studs Streuschüsse abgeben!",
+		"charselect_upgrade_ranged6": "Erhöhe für $(STUDS) Studs die Gesundheit deiner Stammesunterstützung!",
+		"charselect_upgrade_ranged7": "Fülle für $(STUDS) Studs deine CHI-Anzeige mit weniger Kristallen auf!",
+		"charselect_upgrade_ranged8": "Hol dir für $(STUDS) Studs ein zusätzliches Herz!",
+		"charselect_upgrade_ranged9": "Erhalte für $(STUDS) Studs beim Einsatz von CHI-Kraft Gesundheit zurück!",
+		
+		"charselect_upgrade_mage0": "Hol dir für $(STUDS) Studs ein zusätzliches Herz!",
+		"charselect_upgrade_mage1": "Verbessere für $(STUDS) Studs deine Waffenstärke!",
+		"charselect_upgrade_mage2": "Fülle für $(STUDS) Studs deine CHI-Anzeige mit weniger Kristallen auf!",
+		"charselect_upgrade_mage3": "Erhöhe für $(STUDS) Studs die Gesundheit deiner Stammesunterstützung!",
+		"charselect_upgrade_mage4": "Fülle für $(STUDS) Studs deine CHI-Anzeige mit weniger Kristallen auf!",
+		"charselect_upgrade_mage5": "Für $(STUDS) Studs fliegen deine Bolzen automatisch auf Gegner in deiner Nähe zu!",
+		"charselect_upgrade_mage6": "Erhöhe für $(STUDS) Studs die Gesundheit deiner Stammesunterstützung!",
+		"charselect_upgrade_mage7": "Fülle für $(STUDS) Studs deine CHI-Anzeige mit weniger Kristallen auf!",
+		"charselect_upgrade_mage8": "Hol dir für $(STUDS) Studs ein zusätzliches Herz!",
+		"charselect_upgrade_mage9": "Erhalte für $(STUDS) Studs beim Einsatz von CHI-Kraft Gesundheit zurück!",
+		
+		"charselect_upgrade_warrior0": "Hol dir für $(STUDS) Studs ein zusätzliches Herz!",
+		"charselect_upgrade_warrior1": "Verbessere für $(STUDS) Studs deine Waffenstärke!",
+		"charselect_upgrade_warrior2": "Fülle für $(STUDS) Studs deine CHI-Anzeige mit weniger Kristallen auf!",
+		"charselect_upgrade_warrior3": "Erhöhe für $(STUDS) Studs die Gesundheit deiner Stammesunterstützung!",
+		"charselect_upgrade_warrior4": "Fülle für $(STUDS) Studs deine CHI-Anzeige mit weniger Kristallen auf!",
+		"charselect_upgrade_warrior5": "Wehre für $(STUDS) Studs Blasterschüsse mit deinem Schwert ab!",
+		"charselect_upgrade_warrior6": "Erhöhe für $(STUDS) Studs die Gesundheit deiner Stammesunterstützung!",
+		"charselect_upgrade_warrior7": "Fülle für $(STUDS) Studs deine CHI-Anzeige mit weniger Kristallen auf!",
+		"charselect_upgrade_warrior8": "Hol dir für $(STUDS) Studs ein zusätzliches Herz!",
+		"charselect_upgrade_warrior9": "Erhalte für $(STUDS) Studs beim Einsatz von CHI-Kraft Gesundheit zurück!",
+		"charselect_upgrade_warrior_laval": "Verwandle deinen Krieger für $(STUDS) Studs in Laval!",
+		"charselect_upgrade_warrior_sirfangor": "Verwandle deinen Krieger für $(STUDS) Studs in Sir Fangar!",
+		
+		"charselect_apply_upgrade": "Für $(STUDS) Studs auf Stufe $(LEVEL) verbessern?",
+		
+		"privacy_path": "res/cfg/html/privacy_de.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "Für Erwachsene",
+		"agegate": "Für weitere WB-Spiele löse das folgende Rätsel:",
+		
+		"tutorial_health": "Das ist deine Gesundheit. Pass auf, dass du deine Herzen nicht verlierst!",
+		"tutorial_control": "Halte die Maustaste gedrückt und bewege den Mauszeiger, um den Charakter zu bewegen. Du kannst auch die Tastatur verwenden (Pfeiltasten oder W-A-S-D), um den Charakter zu bewegen.",
+		"tutorial_chi_button": "Drücke die Leertaste oder Strg, um deine CHI-Kräfte zu entfesseln.",
+		"tutorial_touch_to_continue": "Zum Fortfahren klicken.",
+		
+		"tutorial_flags": "Fertige Flaggen zur Unterstützung deines Stamms.",
+		"tutorial_studs": "Sammle Studs, um deine Krieger zu stärken und Charaktere freizuschalten.",
+		"tutorial_distance": "Laufe soweit du kannst!",
+		"tutorial_chi_crystals": "Sammle CHI-Kristalle, um deine CHI-Kraft aufzuladen.",
+		
+		"pause_quit": "Verlassen",
+		"pause_resume": "Fortsetzen",
+		"pause_retry": "Nochmal versuchen",
+		
+		"gameover_distance": "Entfernung: $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "Neue Bestmarke!",
+		"gameover_flags": "Gesammelte Flaggen: $(FLAGS)",
+		
+		"croc": "Krokodil",
+		"lion": "Löwe",
+		"bear": "Eisbär",
+		"saber": "Säbelzahntiger",
+		
+		"crocs": "Krokodile",
+		"lions": "Löwen",
+		"bears": "Eisbären",
+		"sabers": "Säbelzahntiger",
+		
+		"ranged": "Blaster",
+		"mage": "Magier",
+		"warrior": "Krieger",
+		
+		"superweapon": "Superwaffe",
+		"supershield": "Superschild",
+		"speedboost": "Tempobonus",
+		
+		"kill_x_enemies": "Besiege $(COUNT) Gegner.",
+		"run_distance_as_tribe": "Laufe $(DISTANCE) $(METRES) als $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Laufe $(DISTANCE) $(METRES) als $(TRIBE) in einer einzigen Runde.",
+		"run_distance_as_class": "Laufe $(DISTANCE) $(METRES) als $(CLASS).",
+		"run_distance_as_class_single_run": "Laufe $(DISTANCE) $(METRES) als $(CLASS) in einer einzigen Runde.",
+		"destroy_x_enemies_as_tribe": "Zerstöre $(COUNT) Gegner als $(TRIBE).",
+		"destroy_x_enemies_as_class": "Zerstöre $(COUNT) Gegner als $(CLASS).",
+		"destroy_x_disc_shooters": "Zerstöre $(COUNT) Diskuswerfer.",
+		"destroy_x_enemies_single_run": "Zerstöre $(COUNT) Gegner in einer einzigen Runde.",
+		"collect_x_flags": "Sammle $(COUNT) Flaggen in einer einzigen Runde.",
+		"have_x_followers": "Gewinne insgesamt $(COUNT) Anhänger.",
+		"run_x_distance": "Laufe $(DISTANCE) $(METRES).",
+		"run_x_distance_single_run": "Laufe $(DISTANCE) $(METRES) in einer einzigen Runde.",
+		"run_x_distance_single_run_no_chi": "Laufe $(DISTANCE) $(METRES) in einer einzigen Runde, ohne CHI einzusetzen.",
+		"run_x_distance_no_followers": "Laufe $(DISTANCE) $(METRES) ohne Anhänger.",
+		"run_x_distance_no_damage": "Laufe $(DISTANCE) $(METRES), ohne Schaden zu erleiden.",
+		"run_x_distance_one_health": "Laufe $(DISTANCE) $(METRES) mit einem Herz.",
+		"use_chi_x_times_single_run": "Verwende CHI $(COUNT) Mal in einer einzigen Runde.",
+		"destroy_x_enemies_in_tribe": "Zerstöre $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Sammle $(COUNT) Studs in einer einzigen Runde.",
+		"reflect_x_bullets_as_warrior": "Wehre als $(CLASS) $(COUNT) Kugeln ab.",
+		"use_x_powerup_n_times": "Verwende $(COUNT)-mal ein $(TYPE)-Objekt."
+	}
+}

@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": ".",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Styrka",
+		"charselect_defense": "Försvar",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Bäst: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "Lås upp denna karaktär för $(STUDS) dubbar?",
+		"charselect_unlock_confirm": "Bekräfta",
+		
+		"charselect_upgrade_ranged0": "Lägg till ett extra hjärta för $(STUDS) dubbar!",
+		"charselect_upgrade_ranged1": "Öka din vapenkraft för $(STUDS) dubbar!",
+		"charselect_upgrade_ranged2": "Fyll på din CHI-mätare med färre kristaller för $(STUDS) dubbar!",
+		"charselect_upgrade_ranged3": "Öka hälsan på din stamsupport för $(STUDS) dubbar!",
+		"charselect_upgrade_ranged4": "Fyll på din CHI-mätare med färre kristaller för $(STUDS) dubbar!",
+		"charselect_upgrade_ranged5": "Få din sprängare att avfyra ett spridningsskott för $(STUDS) dubbar!",
+		"charselect_upgrade_ranged6": "Öka hälsan på din stamsupport för $(STUDS) dubbar!",
+		"charselect_upgrade_ranged7": "Fyll på din CHI-mätare med färre kristaller för $(STUDS) dubbar!",
+		"charselect_upgrade_ranged8": "Lägg till ett extra hjärta för $(STUDS) dubbar!",
+		"charselect_upgrade_ranged9": "Återfå hälsa när du aktiverar din CHI-kraft för $(STUDS) dubbar!",
+		
+		"charselect_upgrade_mage0": "Lägg till ett extra hjärta för $(STUDS) dubbar!",
+		"charselect_upgrade_mage1": "Öka din vapenkraft för $(STUDS) dubbar!",
+		"charselect_upgrade_mage2": "Fyll på din CHI-mätare med färre kristaller för $(STUDS) dubbar!",
+		"charselect_upgrade_mage3": "Öka hälsan på din stamsupport för $(STUDS) dubbar!",
+		"charselect_upgrade_mage4": "Fyll på din CHI-mätare med färre kristaller för $(STUDS) dubbar!",
+		"charselect_upgrade_mage5": "Få dina pilar att leta upp fiender i närheten för $(STUDS) dubbar!",
+		"charselect_upgrade_mage6": "Öka hälsan på din stamsupport för $(STUDS) dubbar!",
+		"charselect_upgrade_mage7": "Fyll på din CHI-mätare med färre kristaller för $(STUDS) dubbar!",
+		"charselect_upgrade_mage8": "Lägg till ett extra hjärta för $(STUDS) dubbar!",
+		"charselect_upgrade_mage9": "Återfå hälsa när du aktiverar din CHI-kraft för $(STUDS) dubbar!",
+		
+		"charselect_upgrade_warrior0": "Lägg till ett extra hjärta för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior1": "Öka din vapenkraft för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior2": "Fyll på din CHI-mätare med färre kristaller för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior3": "Öka hälsan på din stamsupport för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior4": "Fyll på din CHI-mätare med färre kristaller för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior5": "Reflektera sprängarskott med ditt svärd för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior6": "Öka hälsan på din stamsupport för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior7": "Fyll på din CHI-mätare med färre kristaller för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior8": "Lägg till ett extra hjärta för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior9": "Återfå hälsa när du aktiverar din CHI-kraft för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior_laval": "Förvandla din krigare till Laval för $(STUDS) dubbar!",
+		"charselect_upgrade_warrior_sirfangor": "Förvandla din krigare till Sir Fangar för $(STUDS) dubbar!",
+		
+		"charselect_apply_upgrade": "Uppgradera till nivå $(LEVEL) för $(STUDS) dubbar?",
+		
+		"privacy_path": "res/cfg/html/privacy_sv.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "För vuxna",
+		"agegate": "För fler WB spel, lös detta pussel:",
+		
+		"tutorial_health": "Det här är din hälsa, förlora inte alla dina hjärtan!",
+		"tutorial_control": "Håll ner musknappen och flytta pekaren för att styra figuren. Du kan också använda tangentbordet (pil- eller W-, A-, S-, D-tangenterna) för att styra figuren",
+		"tutorial_chi_button": "För att utlösa din CHI-power, tryck på MELLANSLAG eller KONTROLL-tangenten (Ctrl)",
+		"tutorial_touch_to_continue": "Klicka för att fortsätta.",
+		
+		"tutorial_flags": "Bygg flaggor för stamsupport.",
+		"tutorial_studs": "Samla dubbar för att stärka dina krigare och låsa upp karaktärer.",
+		"tutorial_distance": "Res så långt du kan!",
+		"tutorial_chi_crystals": "Samla CHI-kristaller för att ladda upp din CHI-kraft.",
+		
+		"pause_quit": "Avsluta",
+		"pause_resume": "Återgå",
+		"pause_retry": "Försök igen",
+		
+		"gameover_distance": "Avstånd $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "Nytt rekord!",
+		"gameover_flags": "Insamlade flaggor: $(FLAGS)",
+		
+		"croc": "en krokodil",
+		"lion": "ett lejon",
+		"bear": "en isbjörn",
+		"saber": "en sabeltandad tiger",
+		
+		"crocs": "krokodiler",
+		"lions": "lejon",
+		"bears": "isbjörnar",
+		"sabers": "sabeltandade tigrar",
+		
+		"ranged": "skytt",
+		"mage": "magiker",
+		"warrior": "krigare",
+		
+		"superweapon": "supervapen",
+		"supershield": "supersköld",
+		"speedboost": "snabbhetsbonus",
+		
+		"kill_x_enemies": "Besegra $(COUNT) fiender.",
+		"run_distance_as_tribe": "Spring $(DISTANCE) $(METRES) som $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Spring $(DISTANCE) $(METRES) som $(TRIBE) under en spelomgång.",
+		"run_distance_as_class": "Spring $(DISTANCE) $(METRES) som en $(CLASS).",
+		"run_distance_as_class_single_run": "Spring $(DISTANCE) $(METRES) som en $(CLASS) under en spelomgång.",
+		"destroy_x_enemies_as_tribe": "Krossa $(COUNT) fiender som $(TRIBE).",
+		"destroy_x_enemies_as_class": "Krossa $(COUNT) fiender som en $(CLASS).",
+		"destroy_x_disc_shooters": "Krossa $(COUNT) skivskjutare.",
+		"destroy_x_enemies_single_run": "Krossa $(COUNT) fiender under en spelomgång.",
+		"collect_x_flags": "Samla $(COUNT) flaggor under en spelomgång.",
+		"have_x_followers": "Få totalt $(COUNT) följare.",
+		"run_x_distance": "Spring $(DISTANCE) $(METRES).",
+		"run_x_distance_single_run": "Spring $(DISTANCE) $(METRES) under en spelomgång.",
+		"run_x_distance_single_run_no_chi": "Spring $(DISTANCE) $(METRES) i under en spelomgång utan att använda CHI.",
+		"run_x_distance_no_followers": "Spring $(DISTANCE) $(METRES) utan några följare.",
+		"run_x_distance_no_damage": "Spring $(DISTANCE) $(METRES) utan att ta skada.",
+		"run_x_distance_one_health": "Spring $(DISTANCE) $(METRES) med ett hjärta.",
+		"use_chi_x_times_single_run": "Använd CHI $(COUNT) gånger under en spelomgång.",
+		"destroy_x_enemies_in_tribe": "Krossa $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Samla $(COUNT) dubbar under en spelomgång.",
+		"reflect_x_bullets_as_warrior": "Reflektera $(COUNT) kulor som en $(CLASS).",
+		"use_x_powerup_n_times": "Använd en $(TYPE)-powerup $(COUNT) gånger."
+	}
+}

@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": " ",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Voima",
+		"charselect_defense": "Puolustus",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Paras: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "Avaatko tämän hahmon $(STUDS) nupilla?",
+		"charselect_unlock_confirm": "Vahvista",
+		
+		"charselect_upgrade_ranged0": "Hanki lisäsydän $(STUDS) nupilla!",
+		"charselect_upgrade_ranged1": "Nosta aseesi tehoa $(STUDS) nupilla!",
+		"charselect_upgrade_ranged2": "Täytä CHI-mittarisi käyttäen vähemmän kristalleja $(STUDS) nupilla!",
+		"charselect_upgrade_ranged3": "Nosta heimosi tuen terveyttä $(STUDS) nupilla!",
+		"charselect_upgrade_ranged4": "Täytä CHI-mittarisi käyttäen vähemmän kristalleja $(STUDS) nupilla!",
+		"charselect_upgrade_ranged5": "Lisää käsiaseeseesi leveä tulitus $(STUDS) nupilla!",
+		"charselect_upgrade_ranged6": "Nosta heimosi tuen terveyttä $(STUDS) nupilla!",
+		"charselect_upgrade_ranged7": "Täytä CHI-mittarisi käyttäen vähemmän kristalleja $(STUDS) nupilla!",
+		"charselect_upgrade_ranged8": "Hanki lisäsydän $(STUDS) nupilla!",
+		"charselect_upgrade_ranged9": "Parane aina kun aktivoit CHI-voimasi $(STUDS) nupilla!",
+		
+		"charselect_upgrade_mage0": "Hanki lisäsydän $(STUDS) nupilla!",
+		"charselect_upgrade_mage1": "Nosta aseesi tehoa $(STUDS) nupilla!",
+		"charselect_upgrade_mage2": "Täytä CHI-mittarisi käyttäen vähemmän kristalleja $(STUDS) nupilla!",
+		"charselect_upgrade_mage3": "Nosta heimosi tuen terveyttä $(STUDS) nupilla!",
+		"charselect_upgrade_mage4": "Täytä CHI-mittarisi käyttäen vähemmän kristalleja $(STUDS) nupilla!",
+		"charselect_upgrade_mage5": "Tee nuolistasi lähimpiin vihollisiin hakeutuvia $(STUDS) nupilla!",
+		"charselect_upgrade_mage6": "Nosta heimosi tuen terveyttä $(STUDS) nupilla!",
+		"charselect_upgrade_mage7": "Täytä CHI-mittarisi käyttäen vähemmän kristalleja $(STUDS) nupilla!",
+		"charselect_upgrade_mage8": "Hanki lisäsydän $(STUDS) nupilla!",
+		"charselect_upgrade_mage9": "Parane aina kun aktivoit CHI-voimasi $(STUDS) nupilla!",
+		
+		"charselect_upgrade_warrior0": "Hanki lisäsydän $(STUDS) nupilla!",
+		"charselect_upgrade_warrior1": "Nosta aseesi tehoa $(STUDS) nupilla!",
+		"charselect_upgrade_warrior2": "Täytä CHI-mittarisi käyttäen vähemmän kristalleja $(STUDS) nupilla!",
+		"charselect_upgrade_warrior3": "Nosta heimosi tuen terveyttä $(STUDS) nupilla!",
+		"charselect_upgrade_warrior4": "Täytä CHI-mittarisi käyttäen vähemmän kristalleja $(STUDS) nupilla!",
+		"charselect_upgrade_warrior5": "Torju käsiaseen ammuksia miekallasi $(STUDS) nupilla!",
+		"charselect_upgrade_warrior6": "Nosta heimosi tuen terveyttä $(STUDS) nupilla!",
+		"charselect_upgrade_warrior7": "Täytä CHI-mittarisi käyttäen vähemmän kristalleja $(STUDS) nupilla!",
+		"charselect_upgrade_warrior8": "Hanki lisäsydän $(STUDS) nupilla!",
+		"charselect_upgrade_warrior9": "Parane aina kun aktivoit CHI-voimasi $(STUDS) nupilla!",
+		"charselect_upgrade_warrior_laval": "Muuta soturisi Lavaliksi $(STUDS) nupilla!",
+		"charselect_upgrade_warrior_sirfangor": "Muuta soturisi Sir Fangariksi $(STUDS) nupilla!",
+		
+		"charselect_apply_upgrade": "Päivitetäänkö tasolle $(LEVEL) hintaan $(STUDS) nuppia?",
+		
+		"privacy_path": "res/cfg/html/privacy_fi.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "Aikuisille",
+		"agegate": "Pelataksesi lisää WB-pelejä, ratkaise seuraava arvoitus :",
+		
+		"tutorial_health": "Tämä on terveytesi. Älä menetä kaikkia sydämiä!",
+		"tutorial_control": "Pidä hiiren oikea painike painettuna ja siirrä osoitinta liikuttaaksesi hahmoa. Voit myös käyttää näppäimistöä (nuolinäppäimet tai W A S D) liikuttaaksesi hahmoa",
+		"tutorial_chi_button": "Käytä CHI-voimaa painamalla VÄLILYÖNTI tai CTRL",
+		"tutorial_touch_to_continue": "Jatka klikkaamalla.",
+		
+		"tutorial_flags": "Rakenna lippuja heimojen tueksi.",
+		"tutorial_studs": "Kerää nuppeja vahvistaaksesi taistelijoitasi ja avataksesi hahmoja.",
+		"tutorial_distance": "Matkusta niin kauas kuin pystyt!",
+		"tutorial_chi_crystals": "Lataa CHI-voimaa keräämällä CHI-kristalleja.",
+		
+		"pause_quit": "Lopeta",
+		"pause_resume": "Jatka",
+		"pause_retry": "Yritä uudelleen",
+		
+		"gameover_distance": "Etäisyys $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "Uusi ennätys!",
+		"gameover_flags": "Kerätyt liput: $(FLAGS)",
+		
+		"croc": "Kroko",
+		"lion": "Leijona",
+		"bear": "Jääkarhu",
+		"saber": "Sapelihammas",
+		
+		"crocs": "Krokoa",
+		"lions": "Leijonaa",
+		"bears": "Jääkarhua",
+		"sabers": "Sapelihammasta",
+		
+		"ranged": "Ampuja",
+		"mage": "Maagi",
+		"warrior": "Soturi",
+		
+		"superweapon": "Superase",
+		"supershield": "Superkilpi",
+		"speedboost": "Lisänopeus",
+		
+		"kill_x_enemies": "Tuhoa $(COUNT) vihollista.",
+		"run_distance_as_tribe": "Juokse $(DISTANCE) $(METRES) $(TRIBE)-heimolaisena.",
+		"run_distance_as_tribe_single_run": "Juokse $(DISTANCE) $(METRES) $(TRIBE)-heimolaisena yhdessä pelissä.",
+		"run_distance_as_class": "Juokse $(DISTANCE) $(METRES) $(CLASS)-hahmona.",
+		"run_distance_as_class_single_run": "Juokse $(DISTANCE) $(METRES) $(CLASS)-hahmona yhdessä pelissä.",
+		"destroy_x_enemies_as_tribe": "Tuhoa $(COUNT) vihollista $(TRIBE)-heimolaisena.",
+		"destroy_x_enemies_as_class": "Tuhoa $(COUNT) vihollista $(CLASS)-hahmona.",
+		"destroy_x_disc_shooters": "Tuhoa $(COUNT) kiekonheittäjää.",
+		"destroy_x_enemies_single_run": "Tuhoa $(COUNT) vihollista yhdessä pelissä.",
+		"collect_x_flags": "Kerää $(COUNT) lippua yhdessä pelissä.",
+		"have_x_followers": "Hanki yhteensä $(COUNT) seuraajaa.",
+		"run_x_distance": "Juokse $(DISTANCE) $(METRES).",
+		"run_x_distance_single_run": "Juokse $(DISTANCE) $(METRES) yhdessä pelissä.",
+		"run_x_distance_single_run_no_chi": "Juokse $(DISTANCE) $(METRES) yhdessä pelissä CHI:tä käyttämättä.",
+		"run_x_distance_no_followers": "Juokse $(DISTANCE) $(METRES) ilman seuraajia.",
+		"run_x_distance_no_damage": "Juokse $(DISTANCE) $(METRES) vahingoittumatta lainkaan.",
+		"run_x_distance_one_health": "Juokse $(DISTANCE) $(METRES) yhdellä sydämellä.",
+		"use_chi_x_times_single_run": "Käytä CHI:tä $(COUNT) kertaa yhden pelin aikana.",
+		"destroy_x_enemies_in_tribe": "Tuhoa $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Kerää $(COUNT) nuppia yhdessä pelissä.",
+		"reflect_x_bullets_as_warrior": "Torju $(COUNT) luotia $(CLASS)-hahmona.",
+		"use_x_powerup_n_times": "Käytä $(TYPE)-voimaa $(COUNT) kertaa."
+	}
+}

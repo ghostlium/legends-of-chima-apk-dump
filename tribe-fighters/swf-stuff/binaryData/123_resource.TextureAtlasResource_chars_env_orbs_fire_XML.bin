@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:68eca6b312f1d6ae28327fb753dbecc5:f3981ef10599db91da280538da0bc139:f78a1cb4928088a0c758c44e4e630d79$ -->
+<TextureAtlas imagePath="chars_env_orbs_fire.png">
+    <SubTexture name="Expo_red_1" x="2" y="2" width="202" height="279"/>
+    <SubTexture name="Expo_red_2" x="2" y="283" width="202" height="182"/>
+    <SubTexture name="FireStand_01" x="338" y="2" width="107" height="181"/>
+    <SubTexture name="Fire_Debris_01" x="206" y="145" width="98" height="71"/>
+    <SubTexture name="Fire_Debris_02" x="206" y="2" width="130" height="141"/>
+    <SubTexture name="Fire_Debris_03" x="206" y="218" width="66" height="66"/>
+    <SubTexture name="Fire_Debris_04" x="447" y="2" width="63" height="102"/>
+    <SubTexture name="Fire_Debris_05" x="447" y="106" width="52" height="69"/>
+    <SubTexture name="Fire_Debris_06" x="306" y="185" width="84" height="67"/>
+    <SubTexture name="Fireball_04" x="2" y="467" width="43" height="43"/>
+</TextureAtlas>

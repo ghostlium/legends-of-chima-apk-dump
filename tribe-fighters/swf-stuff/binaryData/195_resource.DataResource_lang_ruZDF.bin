@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Rus.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Rus.fnt",
+		
+		"number_seperator": " ",
+		"metres": "м",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Сила",
+		"charselect_defense": "Защита",
+		"charselect_chi": "Чи",
+		"charselect_furthest": "Рекорд: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "Открыть персонажа за детальки $(STUDS)?",
+		"charselect_unlock_confirm": "Подтвердить",
+		
+		"charselect_upgrade_ranged0": "Добавь сердце за детали ($(STUDS))!",
+		"charselect_upgrade_ranged1": "Усиль оружие за детали ($(STUDS))!",
+		"charselect_upgrade_ranged2": "Заполни шкалу Чи меньшим кол-вом кристаллов за детали ($(STUDS))!",
+		"charselect_upgrade_ranged3": "Укрепи здоровье поддержки из своего племени за детали ($(STUDS))!",
+		"charselect_upgrade_ranged4": "Заполни шкалу Чи меньшим кол-вом кристаллов за детали ($(STUDS))!",
+		"charselect_upgrade_ranged5": "Выстрели из бластера дробью за детали ($(STUDS))!",
+		"charselect_upgrade_ranged6": "Укрепи здоровье поддержки из своего племени за детали ($(STUDS))!",
+		"charselect_upgrade_ranged7": "Заполни шкалу Чи меньшим кол-вом кристаллов за детали ($(STUDS))!",
+		"charselect_upgrade_ranged8": "Добавь сердце за детали ($(STUDS))!",
+		"charselect_upgrade_ranged9": "Восстанови здоровье при применении силы Чи за детали ($(STUDS))!",
+		
+		"charselect_upgrade_mage0": "Добавь сердце за детали ($(STUDS))!",
+		"charselect_upgrade_mage1": "Усиль оружие за детали ($(STUDS))!",
+		"charselect_upgrade_mage2": "Заполни шкалу Чи меньшим кол-вом кристаллов за детали ($(STUDS))!",
+		"charselect_upgrade_mage3": "Укрепи здоровье поддержки из своего племени за детали ($(STUDS))!",
+		"charselect_upgrade_mage4": "Заполни шкалу Чи меньшим кол-вом кристаллов за детали ($(STUDS))!",
+		"charselect_upgrade_mage5": "Стреляй самонаводящимися дротиками за детали ($(STUDS))!",
+		"charselect_upgrade_mage6": "Укрепи здоровье поддержки из своего племени за детали ($(STUDS))!",
+		"charselect_upgrade_mage7": "Заполни шкалу Чи меньшим кол-вом кристаллов за детали ($(STUDS))!",
+		"charselect_upgrade_mage8": "Добавь сердце за детали ($(STUDS))!",
+		"charselect_upgrade_mage9": "Восстанови здоровье при применении силы Чи за детали ($(STUDS))!",
+		
+		"charselect_upgrade_warrior0": "Добавь сердце за детали ($(STUDS))!",
+		"charselect_upgrade_warrior1": "Усиль оружие за детали ($(STUDS))!",
+		"charselect_upgrade_warrior2": "Заполни шкалу Чи меньшим кол-вом кристаллов за детали ($(STUDS))!",
+		"charselect_upgrade_warrior3": "Укрепи здоровье поддержки из своего племени за детали ($(STUDS))!",
+		"charselect_upgrade_warrior4": "Заполни шкалу Чи меньшим кол-вом кристаллов за детали ($(STUDS))!",
+		"charselect_upgrade_warrior5": "Отбивай выстрелы из бластера мечом за детали ($(STUDS))!",
+		"charselect_upgrade_warrior6": "Укрепи здоровье поддержки из своего племени за детали ($(STUDS))!",
+		"charselect_upgrade_warrior7": "Заполни шкалу Чи меньшим кол-вом кристаллов за детали ($(STUDS))!",
+		"charselect_upgrade_warrior8": "Добавь сердце за детали ($(STUDS))!",
+		"charselect_upgrade_warrior9": "Восстанови здоровье при применении силы Чи за детали ($(STUDS))!",
+		"charselect_upgrade_warrior_laval": "Трансформируйте вашего воина в Лавала за $(STUDS) деталей!",
+		"charselect_upgrade_warrior_sirfangor": "Трансформируйте вашего воина в Сэра Фангара за $(STUDS) деталей!",
+		
+		"charselect_apply_upgrade": "Перейти на уровень $(LEVEL) за детальки $(STUDS)?",
+		
+		"privacy_path": "res/cfg/html/privacy_ru.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "Для взрослых",
+		"agegate": "Реши головоломку и получи доступ к другим играм WB:",
+		
+		"tutorial_health": "Это твоё здоровье. Не растеряй все сердечки!",
+		"tutorial_control": "Задержи кнопку мыши и передвинь курсор, чтобы вести персонажа. Также можно нажимать клавиши со стрелками или W A S D, чтобы вести персонажа",
+		"tutorial_chi_button": "Чтобы применить силу Чи, нажми Пробел или CTRL",
+		"tutorial_touch_to_continue": "Нажми, чтобы продолжить.",
+		
+		"tutorial_flags": "Устанавливай флаги для племени.",
+		"tutorial_studs": "Собирай детальки, чтобы придать воинам сил и открыть новых персонажей.",
+		"tutorial_distance": "Отправляйся в путешествия!",
+		"tutorial_chi_crystals": "Собирай кристаллы Чи, чтобы получить их силу.",
+		
+		"pause_quit": "Выход",
+		"pause_resume": "Продолжить",
+		"pause_retry": "Повторить",
+		
+		"gameover_distance": "Расстояние: $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "Новый рекорд!",
+		"gameover_flags": "Собрано флагов: $(FLAGS)",
+		
+		"croc": "Крокодил",
+		"lion": "Лев",
+		"bear": "Ледяной медведь",
+		"saber": "Саблезуб",
+		
+		"crocs": "Крокодилы",
+		"lions": "Львы",
+		"bears": "Ледяные медведи",
+		"sabers": "Саблезубы",
+		
+		"ranged": "Стрелок",
+		"mage": "Маг",
+		"warrior": "Воин",
+		
+		"superweapon": "Супероружие",
+		"supershield": "Суперщит",
+		"speedboost": "Ускоритель",
+		
+		"kill_x_enemies": "Уничтожь $(COUNT) врагов.",
+		"run_distance_as_tribe": "Пробеги $(DISTANCE) $(METRES), играя за племя $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Пробеги $(DISTANCE) $(METRES) за раз, играя за племя $(TRIBE).",
+		"run_distance_as_class": "Пробеги $(DISTANCE) $(METRES), играя за класс $(CLASS).",
+		"run_distance_as_class_single_run": "Пробеги $(DISTANCE) $(METRES) за раз, играя за класс $(CLASS).",
+		"destroy_x_enemies_as_tribe": "Уничтожь $(COUNT) врагов, играя за племя $(TRIBE).",
+		"destroy_x_enemies_as_class": "Уничтожь $(COUNT) врагов, играя за класс $(CLASS).",
+		"destroy_x_disc_shooters": "Уничтожь $(COUNT) метателей дисков.",
+		"destroy_x_enemies_single_run": "Уничтожь $(COUNT) врагов за раз.",
+		"collect_x_flags": "Собери $(COUNT) флага(ов) за раз.",
+		"have_x_followers": "Набери $(COUNT) последователей.",
+		"run_x_distance": "Пробеги $(DISTANCE) $(METRES).",
+		"run_x_distance_single_run": "Пробеги $(DISTANCE) $(METRES) за раз.",
+		"run_x_distance_single_run_no_chi": "Пробеги $(DISTANCE) $(METRES) за раз, не используя Чи.",
+		"run_x_distance_no_followers": "Пробеги $(DISTANCE) $(METRES) без последователей.",
+		"run_x_distance_no_damage": "Пробеги $(DISTANCE) $(METRES), не получив урона.",
+		"run_x_distance_one_health": "Пробеги $(DISTANCE) $(METRES) с одним сердцем.",
+		"use_chi_x_times_single_run": "Используй Чи $(COUNT) раз(а) за игру.",
+		"destroy_x_enemies_in_tribe": "Уничтожь $(COUNT) врага(ов) племени $(TRIBE).",
+		"collect_x_studs_single_run": "Собери $(COUNT) деталек за раз.",
+		"reflect_x_bullets_as_warrior": "Отбей $(COUNT) пуль, играя за класс $(CLASS).",
+		"use_x_powerup_n_times": "Используй усилитель $(TYPE) $(COUNT) раз(а)."
+	}
+}

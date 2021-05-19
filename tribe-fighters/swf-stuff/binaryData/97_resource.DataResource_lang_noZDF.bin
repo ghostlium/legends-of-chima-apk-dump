@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": " ",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Styrke",
+		"charselect_defense": "Forsvar",
+		"charselect_chi": "Qi",
+		"charselect_furthest": "Rekord: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "Lås opp denne figuren for $(STUDS) stifter?",
+		"charselect_unlock_confirm": "Bekreft",
+		
+		"charselect_upgrade_ranged0": "Legg til et ekstra hjerte for $(STUDS) stifter!",
+		"charselect_upgrade_ranged1": "Gjør våpenet ditt kraftigere for $(STUDS) stifter!",
+		"charselect_upgrade_ranged2": "Fyll opp qi-måleren din med færre krystaller for $(STUDS) stifter!",
+		"charselect_upgrade_ranged3": "Øk stammestøttens helse for $(STUDS) stifter!",
+		"charselect_upgrade_ranged4": "Fyll opp qi-måleren din med færre krystaller for $(STUDS) stifter!",
+		"charselect_upgrade_ranged5": "Få strålepistolen din til å skyte prosjektiler i sverm for $(STUDS) stifter!",
+		"charselect_upgrade_ranged6": "Øk stammestøttens helse for $(STUDS) stifter!",
+		"charselect_upgrade_ranged7": "Fyll opp qi-måleren din med færre krystaller for $(STUDS) stifter!",
+		"charselect_upgrade_ranged8": "Legg til et ekstra hjerte for $(STUDS) stifter!",
+		"charselect_upgrade_ranged9": "Få tilbake helse når du aktiverer qi-kraften din for $(STUDS) stifter!",
+		
+		"charselect_upgrade_mage0": "Legg til et ekstra hjerte for $(STUDS) stifter!",
+		"charselect_upgrade_mage1": "Gjør våpenet ditt kraftigere for $(STUDS) stifter!",
+		"charselect_upgrade_mage2": "Fyll opp qi-måleren din med færre krystaller for $(STUDS) stifter!",
+		"charselect_upgrade_mage3": "Øk stammestøttens helse for $(STUDS) stifter!",
+		"charselect_upgrade_mage4": "Fyll opp qi-måleren din med færre krystaller for $(STUDS) stifter!",
+		"charselect_upgrade_mage5": "Få boltene dine til å spore opp fiender i nærheten for $(STUDS) stifter!",
+		"charselect_upgrade_mage6": "Øk stammestøttens helse for $(STUDS) stifter!",
+		"charselect_upgrade_mage7": "Fyll opp qi-måleren din med færre krystaller for $(STUDS) stifter!",
+		"charselect_upgrade_mage8": "Legg til et ekstra hjerte for $(STUDS) stifter!",
+		"charselect_upgrade_mage9": "Få tilbake helse når du aktiverer qi-kraften din for $(STUDS) stifter!",
+		
+		"charselect_upgrade_warrior0": "Legg til et ekstra hjerte for $(STUDS) stifter!",
+		"charselect_upgrade_warrior1": "Gjør våpenet ditt kraftigere for $(STUDS) stifter!",
+		"charselect_upgrade_warrior2": "Fyll opp qi-måleren din med færre krystaller for $(STUDS) stifter!",
+		"charselect_upgrade_warrior3": "Øk stammestøttens helse for $(STUDS) stifter!",
+		"charselect_upgrade_warrior4": "Fyll opp qi-måleren din med færre krystaller for $(STUDS) stifter!",
+		"charselect_upgrade_warrior5": "Reflekter strålevåpenskudd med sverdet ditt for $(STUDS) stifter!",
+		"charselect_upgrade_warrior6": "Øk stammestøttens helse for $(STUDS) stifter!",
+		"charselect_upgrade_warrior7": "Fyll opp qi-måleren din med færre krystaller for $(STUDS) stifter!",
+		"charselect_upgrade_warrior8": "Legg til et ekstra hjerte for $(STUDS) stifter!",
+		"charselect_upgrade_warrior9": "Få tilbake helse når du aktiverer qi-kraften din for $(STUDS) stifter!",
+		"charselect_upgrade_warrior_laval": "Forvandle krigeren din til Laval for $(STUDS) stifter!",
+		"charselect_upgrade_warrior_sirfangor": "Forvandle krigeren din til Sir Fangar for $(STUDS) stifter!",
+		
+		"charselect_apply_upgrade": "Oppgrader til nivå $(LEVEL) for $(STUDS) stifter?",
+		
+		"privacy_path": "res/cfg/html/privacy_no.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "For de voksne",
+		"agegate": "For flere WB spill, løs denne oppgaven:",
+		
+		"tutorial_health": "Dette er helsen din. Ikke mist alle hjertene!",
+		"tutorial_control": "Hold inne museknappen og beveg musepekeren for å styre figuren. Du kan også bruke tastaturet (piltastene eller W, A, S og D) for å styre figuren",
+		"tutorial_chi_button": "For å bruke qi-kraften din, trykk mellomromstasten eller Ctrl",
+		"tutorial_touch_to_continue": "Klikk for å fortsette.",
+		
+		"tutorial_flags": "Bygg flagg for å få stammestøtte.",
+		"tutorial_studs": "Samle inn stifter for å få sterkere kjempere og låse opp figurer.",
+		"tutorial_distance": "Reis så langt du kan!",
+		"tutorial_chi_crystals": "Samle inn qi-krystaller for å lade opp qi-kraften din.",
+		
+		"pause_quit": "Avslutt",
+		"pause_resume": "Fortsett",
+		"pause_retry": "Prøv igjen",
+		
+		"gameover_distance": "Avstand $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "Ny rekord!",
+		"gameover_flags": "Flagg samlet inn: $(FLAGS)",
+		
+		"croc": "krokodille",
+		"lion": "løve",
+		"bear": "isbjørn",
+		"saber": "sabeltann",
+		
+		"crocs": "krokodiller",
+		"lions": "løver",
+		"bears": "isbjørner",
+		"sabers": "sabeltenner",
+		
+		"ranged": "skytter",
+		"mage": "magiker",
+		"warrior": "kriger",
+		
+		"superweapon": "et supervåpen",
+		"supershield": "et superskjold",
+		"speedboost": "en hastighetsøkning",
+		
+		"kill_x_enemies": "Ødelegg $(COUNT) fiender.",
+		"run_distance_as_tribe": "Løp $(DISTANCE) $(METRES) som en $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Løp $(DISTANCE) $(METRES) som en $(TRIBE) i ett enkelt spill.",
+		"run_distance_as_class": "Løp $(DISTANCE) $(METRES) som en $(CLASS).",
+		"run_distance_as_class_single_run": "Løp $(DISTANCE) $(METRES) som en $(CLASS) i ett enkelt spill.",
+		"destroy_x_enemies_as_tribe": "Ødelegg $(COUNT) fiender som en $(TRIBE).",
+		"destroy_x_enemies_as_class": "Ødelegg $(COUNT) fiender som en $(CLASS).",
+		"destroy_x_disc_shooters": "Ødelegg $(COUNT) diskusskyttere.",
+		"destroy_x_enemies_single_run": "Ødelegg $(COUNT) fiender i ett enkelt spill.",
+		"collect_x_flags": "Samle inn $(COUNT) flagg i ett enkelt spill.",
+		"have_x_followers": "Få $(COUNT) følgere til sammen.",
+		"run_x_distance": "Løp $(DISTANCE) $(METRES).",
+		"run_x_distance_single_run": "Løp $(DISTANCE) $(METRES) i ett enkelt spill.",
+		"run_x_distance_single_run_no_chi": "Løp $(DISTANCE) $(METRES) i ett enkelt spill uten å bruke qi.",
+		"run_x_distance_no_followers": "Løp $(DISTANCE) $(METRES) uten følgere.",
+		"run_x_distance_no_damage": "Løp $(DISTANCE) $(METRES) uten å ta skade.",
+		"run_x_distance_one_health": "Løp $(DISTANCE) $(METRES) med ett hjerte.",
+		"use_chi_x_times_single_run": "Bruk qi $(COUNT) ganger i ett enkelt spill.",
+		"destroy_x_enemies_in_tribe": "Ødelegg $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Samle inn $(COUNT) stifter i ett enkelt spill.",
+		"reflect_x_bullets_as_warrior": "Reflekter $(COUNT) kuler som $(CLASS).",
+		"use_x_powerup_n_times": "Bruk $(TYPE) $(COUNT) ganger."
+	}
+}

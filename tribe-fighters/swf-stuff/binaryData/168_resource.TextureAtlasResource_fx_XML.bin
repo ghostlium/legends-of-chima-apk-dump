@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f50a8d79c7b13b6f0d979719c8a226d8:2736ad7b54cc86a1946a3dcd89bff4ff:eec11b1f9cfb50629ac73a1c864ca9eb$ -->
+<TextureAtlas imagePath="fx.png">
+    <SubTexture name="chi/Circle_1" x="2" y="2" width="540" height="540"/>
+    <SubTexture name="chi/Circle_2" x="544" y="2" width="469" height="468"/>
+    <SubTexture name="chi/Sparks" x="544" y="472" width="300" height="300"/>
+</TextureAtlas>

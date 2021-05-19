@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:892bb2452ec18f04a7285662396de664:843d62af662e5644ff5e948d37c4c3df:f3dea3492b08412a3afc3b77e1ae1a0c$ -->
+<TextureAtlas imagePath="chars_env_ice.png">
+    <SubTexture name="BrokeIce_01" x="2" y="459" width="69" height="80" frameX="-12" frameY="-5" frameWidth="90" frameHeight="90"/>
+    <SubTexture name="BrokeIce_02" x="280" y="388" width="73" height="60" frameX="-7" frameY="-20" frameWidth="90" frameHeight="90"/>
+    <SubTexture name="BrokeIce_03" x="280" y="450" width="70" height="43" frameX="-11" frameY="-24" frameWidth="90" frameHeight="90"/>
+    <SubTexture name="BrokeIce_04" x="280" y="340" width="76" height="46" frameX="-9" frameY="-27" frameWidth="90" frameHeight="90"/>
+    <SubTexture name="BrokeIce_05" x="474" y="56" width="21" height="22" frameX="-25" frameY="-26" frameWidth="73" frameHeight="73"/>
+    <SubTexture name="BrokeIce_06" x="387" y="280" width="79" height="97" frameX="-17" frameY="-11" frameWidth="115" frameHeight="115"/>
+    <SubTexture name="BrokeIce_07" x="474" y="2" width="29" height="52" frameX="-21" frameY="-9" frameWidth="73" frameHeight="73"/>
+    <SubTexture name="Iceset_01" x="2" y="154" width="197" height="184"/>
+    <SubTexture name="Iceset_02" x="2" y="340" width="138" height="117"/>
+    <SubTexture name="Iceset_03" x="2" y="2" width="241" height="150"/>
+    <SubTexture name="Iceset_04" x="387" y="154" width="121" height="124"/>
+    <SubTexture name="Iceset_05" x="358" y="379" width="126" height="124"/>
+    <SubTexture name="Iceset_06" x="245" y="2" width="227" height="150"/>
+    <SubTexture name="Iceset_07" x="142" y="340" width="136" height="117"/>
+    <SubTexture name="Iceset_08" x="201" y="154" width="184" height="184"/>
+</TextureAtlas>

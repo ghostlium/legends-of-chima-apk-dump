@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": ".",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Energia",
+		"charselect_defense": "Difesa",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Migliore: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "Sbloccare questo personaggio per $(STUDS) gettoni?",
+		"charselect_unlock_confirm": "Conferma",
+		
+		"charselect_upgrade_ranged0": "Aggiungi un cuore extra per $(STUDS) gettoni!",
+		"charselect_upgrade_ranged1": "Aumenta la potenza della tua arma per $(STUDS) gettoni!",
+		"charselect_upgrade_ranged2": "Riempi il tuo indicatore CHI usando meno cristalli per $(STUDS) gettoni!",
+		"charselect_upgrade_ranged3": "Aumenta la salute del supporto della tua tribù per $(STUDS) gettoni!",
+		"charselect_upgrade_ranged4": "Riempi il tuo indicatore CHI usando meno cristalli per $(STUDS) gettoni!",
+		"charselect_upgrade_ranged5": "Fai sparare un colpo a ventaglio al tuo blaster per $(STUDS) gettoni!",
+		"charselect_upgrade_ranged6": "Aumenta la salute del supporto della tua tribù per $(STUDS) gettoni!",
+		"charselect_upgrade_ranged7": "Riempi il tuo indicatore CHI usando meno cristalli per $(STUDS) gettoni!",
+		"charselect_upgrade_ranged8": "Aggiungi un cuore extra per $(STUDS) gettoni!",
+		"charselect_upgrade_ranged9": "Riacquisisci salute quando attivi la tua energia CHI per $(STUDS) gettoni!",
+		
+		"charselect_upgrade_mage0": "Aggiungi un cuore extra per $(STUDS) gettoni!",
+		"charselect_upgrade_mage1": "Aumenta la potenza della tua arma per $(STUDS) gettoni!",
+		"charselect_upgrade_mage2": "Riempi il tuo indicatore CHI usando meno cristalli per $(STUDS) gettoni!",
+		"charselect_upgrade_mage3": "Aumenta la salute del supporto della tua tribù per $(STUDS) gettoni!",
+		"charselect_upgrade_mage4": "Riempi il tuo indicatore CHI usando meno cristalli per $(STUDS) gettoni!",
+		"charselect_upgrade_mage5": "Fai in modo che i tuoi dardi cerchino i nemici per $(STUDS) gettoni!",
+		"charselect_upgrade_mage6": "Aumenta la salute del supporto della tua tribù per $(STUDS) gettoni!",
+		"charselect_upgrade_mage7": "Riempi il tuo indicatore CHI usando meno cristalli per $(STUDS) gettoni!",
+		"charselect_upgrade_mage8": "Aggiungi un cuore extra per $(STUDS) gettoni!",
+		"charselect_upgrade_mage9": "Riacquisisci salute quando attivi la tua energia CHI per $(STUDS) gettoni!",
+		
+		"charselect_upgrade_warrior0": "Aggiungi un cuore extra per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior1": "Aumenta la potenza della tua arma per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior2": "Riempi il tuo indicatore CHI usando meno cristalli per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior3": "Aumenta la salute del supporto della tua tribù per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior4": "Riempi il tuo indicatore CHI usando meno cristalli per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior5": "Rifletti colpi di blaster con la tua spada per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior6": "Aumenta la salute del supporto della tua tribù per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior7": "Riempi il tuo indicatore CHI usando meno cristalli per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior8": "Aggiungi un cuore extra per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior9": "Riacquisisci salute quando attivi la tua energia CHI per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior_laval": "Trasforma il tuo guerriero in Laval per $(STUDS) gettoni!",
+		"charselect_upgrade_warrior_sirfangor": "Trasforma il tuo guerriero in Sir Fangar per $(STUDS) gettoni!",
+		
+		"charselect_apply_upgrade": "Fare l'upgrade al livello $(LEVEL) per $(STUDS) gettoni?",
+		
+		"privacy_path": "res/cfg/html/privacy_it.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "Per i più grandi",
+		"agegate": "Per ulteriori giochi WB, risolvi il seguente puzzle:",
+		
+		"tutorial_health": "Questa è la tua salute, non perdere i tuoi cuori!",
+		"tutorial_control": "Tieni premuto il tasto del mouse e sposta il cursore per muovere il personaggio. Puoi usare anche la tastiera (tasti direzionali o W A S D) per muovere il personaggio",
+		"tutorial_chi_button": "Per scatenare la tua energia CHI, premi SPAZIO o CTRL",
+		"tutorial_touch_to_continue": "Clicca per continuare.",
+		
+		"tutorial_flags": "Costruisci bandiere per il supporto tribù.",
+		"tutorial_studs": "Raccogli gettoni per potenziare i tuoi guerrieri e sbloccare personaggi.",
+		"tutorial_distance": "Viaggia più lontano che puoi!",
+		"tutorial_chi_crystals": "Raccogli cristalli CHI per caricare la tua energia CHI.",
+		
+		"pause_quit": "Abbandona",
+		"pause_resume": "Riprendi",
+		"pause_retry": "Riprova",
+		
+		"gameover_distance": "Distanza: $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "Nuovo record!",
+		"gameover_flags": "Bandiere raccolte: $(FLAGS)",
+		
+		"croc": "Coccodrillo",
+		"lion": "Leone",
+		"bear": "Orso polare",
+		"saber": "Macairodonte",
+		
+		"crocs": "Coccodrilli",
+		"lions": "Leoni",
+		"bears": "Orsi polari",
+		"sabers": "Macairodonti",
+		
+		"ranged": "Blaster",
+		"mage": "Mago",
+		"warrior": "Guerriero",
+		
+		"superweapon": "Super arma",
+		"supershield": "Super scudo",
+		"speedboost": "Super velocità",
+		
+		"kill_x_enemies": "Distruggi $(COUNT) nemici.",
+		"run_distance_as_tribe": "Corri $(DISTANCE) $(METRES) come $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Corri $(DISTANCE) $(METRES) come $(TRIBE) in una singola partita.",
+		"run_distance_as_class": "Corri $(DISTANCE) $(METRES) come $(CLASS).",
+		"run_distance_as_class_single_run": "Corri $(DISTANCE) $(METRES) come $(CLASS) in una singola partita.",
+		"destroy_x_enemies_as_tribe": "Distruggi $(COUNT) nemici come $(TRIBE).",
+		"destroy_x_enemies_as_class": "Distruggi $(COUNT) nemici come $(CLASS).",
+		"destroy_x_disc_shooters": "Distruggi $(COUNT) lanciapiattelli.",
+		"destroy_x_enemies_single_run": "Distruggi $(COUNT) nemici in una singola partita.",
+		"collect_x_flags": "Raccogli $(COUNT) bandiere in una singola partita.",
+		"have_x_followers": "Ottieni un totale di $(COUNT) seguaci.",
+		"run_x_distance": "Corri $(DISTANCE) $(METRES).",
+		"run_x_distance_single_run": "Corri $(DISTANCE) $(METRES) in una singola partita.",
+		"run_x_distance_single_run_no_chi": "Corri $(DISTANCE) $(METRES) in una singola partita senza usare la CHI.",
+		"run_x_distance_no_followers": "Corri $(DISTANCE) $(METRES) senza seguaci.",
+		"run_x_distance_no_damage": "Corri $(DISTANCE) $(METRES) senza subire danni.",
+		"run_x_distance_one_health": "Corri $(DISTANCE) $(METRES) con un solo cuore.",
+		"use_chi_x_times_single_run": "Usa la CHI $(COUNT) volte in una singola partita.",
+		"destroy_x_enemies_in_tribe": "Distruggi $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Raccogli $(COUNT) gettoni in una singola partita.",
+		"reflect_x_bullets_as_warrior": "Rifletti $(COUNT) proiettili come $(CLASS).",
+		"use_x_powerup_n_times": "Usa un potenziamento $(TYPE) $(COUNT) volte."
+	}
+}

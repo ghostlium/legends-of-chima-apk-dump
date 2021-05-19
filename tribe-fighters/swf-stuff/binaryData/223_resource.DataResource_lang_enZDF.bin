@@ -1,0 +1,126 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": ",",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE)$(METRES)",
+		
+		"charselect_power": "Power",
+		"charselect_defense": "Defense",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Best: $(DISTANCE)$(METRES)",
+		
+		"charselect_unlock": "Unlock this character for $(STUDS) studs?",
+		"charselect_unlock_confirm": "Confirm",
+		
+		"charselect_upgrade_ranged0": "Add an extra heart for $(STUDS) studs!",
+		"charselect_upgrade_ranged1": "Increase your weapon power for $(STUDS) studs!",
+		"charselect_upgrade_ranged2": "Fill up your CHI meter using less crystals for $(STUDS) studs!",
+		"charselect_upgrade_ranged3": "Increase the health of your tribe support for $(STUDS) studs!",
+		"charselect_upgrade_ranged4": "Fill up your CHI meter using less crystals for $(STUDS) studs!",
+		"charselect_upgrade_ranged5": "Make your blaster fire a scatter shot for $(STUDS) studs!",
+		"charselect_upgrade_ranged6": "Increase the health of your tribe support for $(STUDS) studs!",
+		"charselect_upgrade_ranged7": "Fill up your CHI meter using less crystals for $(STUDS) studs!",
+		"charselect_upgrade_ranged8": "Add an extra heart for $(STUDS) studs!",
+		"charselect_upgrade_ranged9": "Regain health when you activate your CHI power for $(STUDS) studs!",
+		
+		"charselect_upgrade_mage0": "Add an extra heart for $(STUDS) studs!",
+		"charselect_upgrade_mage1": "Increase your weapon power for $(STUDS) studs!",
+		"charselect_upgrade_mage2": "Fill up your CHI meter using less crystals for $(STUDS) studs!",
+		"charselect_upgrade_mage3": "Increase the health of your tribe support for $(STUDS) studs!",
+		"charselect_upgrade_mage4": "Fill up your CHI meter using less crystals for $(STUDS) studs!",
+		"charselect_upgrade_mage5": "Make your bolts seek nearby enemies for $(STUDS) studs!",
+		"charselect_upgrade_mage6": "Increase the health of your tribe support for $(STUDS) studs!",
+		"charselect_upgrade_mage7": "Fill up your CHI meter using less crystals for $(STUDS) studs!",
+		"charselect_upgrade_mage8": "Add an extra heart for $(STUDS) studs!",
+		"charselect_upgrade_mage9": "Regain health when you activate your CHI power for $(STUDS) studs!",
+		
+		"charselect_upgrade_warrior0": "Add an extra heart for $(STUDS) studs!",
+		"charselect_upgrade_warrior1": "Increase your weapon power for $(STUDS) studs!",
+		"charselect_upgrade_warrior2": "Fill up your CHI meter using less crystals for $(STUDS) studs!",
+		"charselect_upgrade_warrior3": "Increase the health of your tribe support for $(STUDS) studs!",
+		"charselect_upgrade_warrior4": "Fill up your CHI meter using less crystals for $(STUDS) studs!",
+		"charselect_upgrade_warrior5": "Reflect blaster shots with your sword for $(STUDS) studs!",
+		"charselect_upgrade_warrior6": "Increase the health of your tribe support for $(STUDS) studs!",
+		"charselect_upgrade_warrior7": "Fill up your CHI meter using less crystals for $(STUDS) studs!",
+		"charselect_upgrade_warrior8": "Add an extra heart for $(STUDS) studs!",
+		"charselect_upgrade_warrior9": "Regain health when you activate your CHI power for $(STUDS) studs!",
+		"charselect_upgrade_warrior_laval": "Transform your warrior into Laval for $(STUDS) studs!",
+		"charselect_upgrade_warrior_sirfangor": "Transform your warrior into Sir Fangar for $(STUDS) studs!",
+		
+		"charselect_apply_upgrade": "Upgrade to level $(LEVEL) for $(STUDS) studs?",
+		
+		"privacy_path": "res/cfg/html/privacy_en.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "For Grown Ups",
+		"agegate": "For more WB Games solve the following puzzle:",
+		
+		"tutorial_health": "This is your health, don't lose all of your hearts!",
+		"tutorial_control": "Hold down the mouse button and move the Cursor to move the character. You can also use the keyboard (arrow keys or W, A, S, D) to move the character",
+		"tutorial_chi_button": "To unleash your CHI power, press SPACE or CTRL",
+		"tutorial_touch_to_continue": "Click to continue.",
+		
+		"tutorial_flags": "Build flags for tribe support.",
+		"tutorial_studs": "Collect studs to power up your fighters and unlock characters.",
+		"tutorial_distance": "Travel as far as you can!",
+		"tutorial_chi_crystals": "Collect CHI crystals to charge your CHI power.",
+		
+		"pause_quit": "Quit",
+		"pause_resume": "Resume",
+		"pause_retry": "Retry",
+		
+		"gameover_distance": "Distance: $(DISTANCE)$(METRES)",
+		"gameover_distance_new_best": "New best!",
+		"gameover_flags": "Flags collected: $(FLAGS)",
+		
+		
+		"croc": "Croc",
+		"lion": "Lion",
+		"bear": "Bear",
+		"saber": "Saber",
+		
+		"crocs": "Crocs",
+		"lions": "Lions",
+		"bears": "Bears",
+		"sabers": "Sabers",
+		
+		"ranged": "Blaster",
+		"mage": "Mage",
+		"warrior": "Warrior",
+		
+		"superweapon": "Super Weapon",
+		"supershield": "Super Shield",
+		"speedboost": "Speed Boost",
+		
+		"kill_x_enemies": "Destroy $(COUNT) enemies.",
+		"run_distance_as_tribe": "Run $(DISTANCE)$(METRES) as a $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Run $(DISTANCE)$(METRES) as a $(TRIBE) in a single game.",
+		"run_distance_as_class": "Run $(DISTANCE)$(METRES) as a $(CLASS) class.",
+		"run_distance_as_class_single_run": "Run $(DISTANCE)$(METRES) as a $(CLASS) class in a single game.",
+		"destroy_x_enemies_as_tribe": "Destroy $(COUNT) enemies as a $(TRIBE).",
+		"destroy_x_enemies_as_class": "Destroy $(COUNT) enemies as a $(CLASS) class.",
+		"destroy_x_disc_shooters": "Destroy $(COUNT) disc shooters.",
+		"destroy_x_enemies_single_run": "Destroy $(COUNT) enemies in a single game.",
+		"collect_x_flags": "Collect $(COUNT) flags in a single game.",
+		"have_x_followers": "Gain a total of $(COUNT) followers.",
+		"run_x_distance": "Run $(DISTANCE)$(METRES).",
+		"run_x_distance_single_run": "Run $(DISTANCE)$(METRES) in a single game.",
+		"run_x_distance_single_run_no_chi": "Run $(DISTANCE)$(METRES) in a single game without using CHI.",
+		"run_x_distance_no_followers": "Run $(DISTANCE)$(METRES) with no followers.",
+		"run_x_distance_no_damage": "Run $(DISTANCE)$(METRES) without taking damage.",
+		"run_x_distance_one_health": "Run $(DISTANCE)$(METRES) with one heart.",
+		"use_chi_x_times_single_run": "Use CHI $(COUNT) times in a single game.",
+		"destroy_x_enemies_in_tribe": "Destroy $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Collect $(COUNT) studs in a single game.",
+		"reflect_x_bullets_as_warrior": "Reflect $(COUNT) bullets as a $(CLASS).",
+		"use_x_powerup_n_times": "Use a $(TYPE) power up $(COUNT) times."
+	}
+}

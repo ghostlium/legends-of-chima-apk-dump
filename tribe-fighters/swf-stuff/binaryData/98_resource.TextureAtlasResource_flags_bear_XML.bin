@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:dedf00672e84e8a49da61f45c3676e8e:09bc2b0275b0aae36a314c341e988bd5:8cd7993ec0881b1bc30eb8b2d443ce03$ -->
+<TextureAtlas imagePath="flags_bear.png">
+    <SubTexture name="Bear-Whole" x="2" y="2" width="142" height="216"/>
+    <SubTexture name="Bear_Broken_01" x="146" y="2" width="90" height="80"/>
+    <SubTexture name="Bear_Broken_03" x="146" y="162" width="73" height="126" frameX="-6" frameY="-2" frameWidth="80" frameHeight="130"/>
+    <SubTexture name="Bear_Broken_05" x="179" y="290" width="63" height="45"/>
+    <SubTexture name="Bear_Broken_07" x="2" y="220" width="131" height="145" frameX="0" frameY="-15" frameWidth="140" frameHeight="160"/>
+    <SubTexture name="Bear_BuildUp_01" x="146" y="84" width="82" height="76" frameX="-33" frameY="-141" frameWidth="148" frameHeight="219"/>
+    <SubTexture name="Bear_BuildUp_02" x="179" y="337" width="42" height="59" frameX="-53" frameY="-127" frameWidth="148" frameHeight="219"/>
+    <SubTexture name="Bear_BuildUp_07" x="135" y="290" width="42" height="176" frameX="-53" frameY="-9" frameWidth="148" frameHeight="219"/>
+</TextureAtlas>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:289cb3c8ffc0d715c9c45af9f0837a5a:62b9f1655d3b6260cfd5d9ee8ae50c9f:c7976d8e71282a27713b1285a6b5ce88$ -->
+<TextureAtlas imagePath="chars_player_ice_2.png">
+    <SubTexture name="bear/shoot/BearSword-Away_Attack (11)" x="344" y="366" width="80" height="117" frameX="-21" frameY="-28" frameWidth="176" frameHeight="152"/>
+    <SubTexture name="bear/shoot/BearSword-Away_Attack (9)" x="191" y="235" width="88" height="110" frameX="-12" frameY="-41" frameWidth="176" frameHeight="152"/>
+    <SubTexture name="saber/run/SaberSword_Away_Run (11)" x="100" y="1" width="98" height="112" frameX="-3" frameY="-7" frameWidth="102" frameHeight="134"/>
+    <SubTexture name="saber/run/SaberSword_Away_Run (12)" x="1" y="1" width="98" height="118" frameX="-4" frameY="0" frameWidth="102" frameHeight="134"/>
+    <SubTexture name="saber/run/SaberSword_Away_Run (17)" x="296" y="112" width="93" height="117" frameX="-5" frameY="-11" frameWidth="102" frameHeight="134"/>
+    <SubTexture name="saber/run/SaberSword_Away_Run (18)" x="1" y="236" width="92" height="106" frameX="-4" frameY="-13" frameWidth="102" frameHeight="134"/>
+    <SubTexture name="saber/run/SaberSword_Away_Run (19)" x="296" y="1" width="95" height="110" frameX="0" frameY="-14" frameWidth="102" frameHeight="134"/>
+    <SubTexture name="saber/run/SaberSword_Away_Run (2)" x="390" y="123" width="91" height="119" frameX="-2" frameY="-1" frameWidth="102" frameHeight="134"/>
+    <SubTexture name="saber/run/SaberSword_Away_Run (20)" x="97" y="227" width="93" height="110" frameX="0" frameY="-14" frameWidth="102" frameHeight="134"/>
+    <SubTexture name="saber/run/SaberSword_Away_Run (21)" x="197" y="119" width="93" height="115" frameX="0" frameY="-7" frameWidth="102" frameHeight="134"/>
+    <SubTexture name="saber/run/SaberSword_Away_Run (8)" x="199" y="1" width="96" height="117" frameX="-2" frameY="-11" frameWidth="102" frameHeight="134"/>
+    <SubTexture name="saber/run/SaberSword_Away_Run (9)" x="100" y="114" width="96" height="112" frameX="-3" frameY="-12" frameWidth="102" frameHeight="134"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (10)" x="383" y="243" width="80" height="122" frameX="0" frameY="-1" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (12)" x="83" y="568" width="80" height="119" frameX="-1" frameY="-1" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (14)" x="1" y="459" width="81" height="112" frameX="-2" frameY="-16" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (15)" x="1" y="343" width="83" height="115" frameX="-2" frameY="-19" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (16)" x="94" y="338" width="84" height="116" frameX="-2" frameY="-21" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (17)" x="179" y="346" width="83" height="115" frameX="-2" frameY="-18" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (18)" x="85" y="455" width="82" height="112" frameX="-2" frameY="-10" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (2)" x="263" y="350" width="80" height="122" frameX="0" frameY="-1" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (3)" x="168" y="462" width="80" height="122" frameX="0" frameY="-3" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (4)" x="425" y="366" width="79" height="121" frameX="0" frameY="-8" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (5)" x="249" y="473" width="79" height="120" frameX="0" frameY="-13" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (6)" x="164" y="585" width="79" height="120" frameX="0" frameY="-15" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (7)" x="82" y="688" width="79" height="119" frameX="0" frameY="-16" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (8)" x="1" y="692" width="79" height="115" frameX="0" frameY="-16" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberBlaster-Away_attack (9)" x="1" y="572" width="80" height="119" frameX="0" frameY="-8" frameWidth="86" frameHeight="138"/>
+    <SubTexture name="saber/shoot/SaberSword_Away_Attack (1)" x="291" y="230" width="91" height="119" frameX="-59" frameY="-35" frameWidth="228" frameHeight="172"/>
+    <SubTexture name="saber/shoot/SaberSword_Away_Attack (2)" x="392" y="1" width="93" height="121" frameX="-58" frameY="-35" frameWidth="228" frameHeight="172"/>
+    <SubTexture name="saber/shoot/SaberSword_Away_Attack (20)" x="1" y="120" width="95" height="115" frameX="-58" frameY="-41" frameWidth="228" frameHeight="172"/>
+</TextureAtlas>

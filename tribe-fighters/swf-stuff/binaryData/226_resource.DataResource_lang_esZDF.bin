@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": " ",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Poder",
+		"charselect_defense": "Defensa",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Récord: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "¿Desbloquear este personaje por $(STUDS) piezas?",
+		"charselect_unlock_confirm": "Confirmar",
+		
+		"charselect_upgrade_ranged0": "¡Consigue un corazón adicional por $(STUDS) piezas!",
+		"charselect_upgrade_ranged1": "¡Aumenta la potencia de tu arma por $(STUDS) piezas!",
+		"charselect_upgrade_ranged2": "¡Llena tu medidor de CHI usando menos cristales por $(STUDS) piezas!",
+		"charselect_upgrade_ranged3": "¡Ayuda a tus tribus aumentando su salud por $(STUDS) piezas!",
+		"charselect_upgrade_ranged4": "¡Llena tu medidor de CHI usando menos cristales por $(STUDS) piezas!",
+		"charselect_upgrade_ranged5": "¡Haz que tu detonador dispare con dispersión por $(STUDS) piezas!",
+		"charselect_upgrade_ranged6": "¡Ayuda a tus tribus aumentando su salud por $(STUDS) piezas!",
+		"charselect_upgrade_ranged7": "¡Llena tu medidor de CHI usando menos cristales por $(STUDS) piezas!",
+		"charselect_upgrade_ranged8": "¡Consigue un corazón adicional por $(STUDS) piezas!",
+		"charselect_upgrade_ranged9": "¡Recupera salud al activar tu poder de CHI por $(STUDS) piezas!",
+		
+		"charselect_upgrade_mage0": "¡Consigue un corazón adicional por $(STUDS) piezas!",
+		"charselect_upgrade_mage1": "¡Aumenta la potencia de tu arma por $(STUDS) piezas!",
+		"charselect_upgrade_mage2": "¡Llena tu medidor de CHI usando menos cristales por $(STUDS) piezas!",
+		"charselect_upgrade_mage3": "¡Ayuda a tus tribus aumentando su salud por $(STUDS) piezas!",
+		"charselect_upgrade_mage4": "¡Llena tu medidor de CHI usando menos cristales por $(STUDS) piezas!",
+		"charselect_upgrade_mage5": "¡Haz que tus rayos busquen a enemigos cercanos por $(STUDS) piezas!",
+		"charselect_upgrade_mage6": "¡Ayuda a tus tribus aumentando su salud por $(STUDS) piezas!",
+		"charselect_upgrade_mage7": "¡Llena tu medidor de CHI usando menos cristales por $(STUDS) piezas!",
+		"charselect_upgrade_mage8": "¡Consigue un corazón adicional por $(STUDS) piezas!",
+		"charselect_upgrade_mage9": "¡Recupera salud al activar tu poder de CHI por $(STUDS) piezas!",
+		
+		"charselect_upgrade_warrior0": "¡Consigue un corazón adicional por $(STUDS) piezas!",
+		"charselect_upgrade_warrior1": "¡Aumenta la potencia de tu arma por $(STUDS) piezas!",
+		"charselect_upgrade_warrior2": "¡Llena tu medidor de CHI usando menos cristales por $(STUDS) piezas!",
+		"charselect_upgrade_warrior3": "¡Ayuda a tus tribus aumentando su salud por $(STUDS) piezas!",
+		"charselect_upgrade_warrior4": "¡Llena tu medidor de CHI usando menos cristales por $(STUDS) piezas!",
+		"charselect_upgrade_warrior5": "¡Repele disparos de detonador con tu espada por $(STUDS) piezas!",
+		"charselect_upgrade_warrior6": "¡Ayuda a tus tribus aumentando su salud por $(STUDS) piezas!",
+		"charselect_upgrade_warrior7": "¡Llena tu medidor de CHI usando menos cristales por $(STUDS) piezas!",
+		"charselect_upgrade_warrior8": "¡Consigue un corazón adicional por $(STUDS) piezas!",
+		"charselect_upgrade_warrior9": "¡Recupera salud al activar tu poder de CHI por $(STUDS) piezas!",
+		"charselect_upgrade_warrior_laval": "¡Transforma tu guerrero en Laval por $(STUDS) piezas!",
+		"charselect_upgrade_warrior_sirfangor": "¡Transforma tu guerrero en Sir Fangar por $(STUDS) piezas!",
+		
+		"charselect_apply_upgrade": "¿Ascender al nivel $(LEVEL) por $(STUDS) piezas?",
+		
+		"privacy_path": "res/cfg/html/privacy_es.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "Para adultos",
+		"agegate": "Para más juegos de WB, resuelve el siguiente puzle:",
+		
+		"tutorial_health": "¡Esta es tu salud; no pierdas todos los corazones!",
+		"tutorial_control": "Mantén pulsado el botón del ratón y mueve el cursor para dirigir el personaje. También puedes usar el teclado (teclas de dirección o W A S D) para mover el personaje",
+		"tutorial_chi_button": "Pulsa Espacio o CTRL para desatar el poder del CHI.",
+		"tutorial_touch_to_continue": "Haz clic para continuar.",
+		
+		"tutorial_flags": "Recoge banderas para ayudar a las tribus.",
+		"tutorial_studs": "Recoge piezas para mejorar a tus luchadores y desbloquear personajes.",
+		"tutorial_distance": "¡Recorre la mayor distancia posible!",
+		"tutorial_chi_crystals": "Recoge cristales de CHI para cargar tu poder de CHI.",
+		
+		"pause_quit": "Salir",
+		"pause_resume": "Reanudar",
+		"pause_retry": "Reintentar",
+		
+		"gameover_distance": "Distancia $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "¡Nuevo récord!",
+		"gameover_flags": "Banderas recogidas: $(FLAGS)",
+		
+		"croc": "Cocodrilo",
+		"lion": "León",
+		"bear": "Oso de hielo",
+		"saber": "Diente de sable",
+		
+		"crocs": "Cocodrilos",
+		"lions": "Leones",
+		"bears": "Osos de hielo",
+		"sabers": "Dientes de sable",
+		
+		"ranged": "Detonador",
+		"mage": "Mago",
+		"warrior": "Guerrero",
+		
+		"superweapon": "Superarma",
+		"supershield": "Superescudo",
+		"speedboost": "Potenciador de velocidad",
+		
+		"kill_x_enemies": "Destruye a $(COUNT) enemigos.",
+		"run_distance_as_tribe": "Recorre $(DISTANCE) $(METRES) como $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Recorre $(DISTANCE) $(METRES) como $(TRIBE) en una partida.",
+		"run_distance_as_class": "Recorre $(DISTANCE) $(METRES) como $(CLASS). ",
+		"run_distance_as_class_single_run": "Recorre $(DISTANCE) $(METRES) como $(CLASS) en una partida.",
+		"destroy_x_enemies_as_tribe": "Destruye a $(COUNT) enemigos como $(TRIBE).",
+		"destroy_x_enemies_as_class": "Destruye a $(COUNT) enemigos como $(CLASS).",
+		"destroy_x_disc_shooters": "Destruye a $(COUNT) tiradores de disco.",
+		"destroy_x_enemies_single_run": "Destruye a $(COUNT) enemigos en una partida.",
+		"collect_x_flags": "Recoge $(COUNT) banderas en una partida.",
+		"have_x_followers": "Gana un total de $(COUNT) seguidores.",
+		"run_x_distance": "Recorre $(DISTANCE) $(METRES).",
+		"run_x_distance_single_run": "Recorre $(DISTANCE) $(METRES) en una partida.",
+		"run_x_distance_single_run_no_chi": "Recorre $(DISTANCE) $(METRES) en una partida sin usar el CHI.",
+		"run_x_distance_no_followers": "Recorre $(DISTANCE) $(METRES) sin seguidores.",
+		"run_x_distance_no_damage": "Recorre $(DISTANCE) $(METRES) sin sufrir daños.",
+		"run_x_distance_one_health": "Recorre $(DISTANCE) $(METRES) con un corazón.",
+		"use_chi_x_times_single_run": "Usa el CHI $(COUNT) veces en una partida.",
+		"destroy_x_enemies_in_tribe": "Destruye a $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Recoge $(COUNT) piezas en una partida.",
+		"reflect_x_bullets_as_warrior": "Repele $(COUNT) balas como $(CLASS).",
+		"use_x_powerup_n_times": "Usa la mejora $(TYPE) $(COUNT) veces."
+	}
+}

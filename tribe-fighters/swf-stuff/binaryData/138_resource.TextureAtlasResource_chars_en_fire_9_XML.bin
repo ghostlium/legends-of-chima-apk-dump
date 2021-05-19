@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:0389fd09b8d7d4a0ff87f9fb93761698:7ed476389ced93dd9d86f30e6a2a80ac:1c69149e9fb4d06c87b1284b84e81eff$ -->
+<TextureAtlas imagePath="chars_en_fire_9.png">
+    <SubTexture name="run/BearBlasterToward_Run (21)" x="180" y="859" width="75" height="143" frameX="-10" frameY="-1" frameWidth="88" frameHeight="160"/>
+    <SubTexture name="run/BearBlasterToward_Run (4)" x="96" y="879" width="83" height="143" frameX="-5" frameY="-16" frameWidth="88" frameHeight="160"/>
+    <SubTexture name="run/BearSword-Toward_Run (13)" x="501" y="811" width="110" height="140" frameX="0" frameY="0" frameWidth="114" frameHeight="154"/>
+    <SubTexture name="run/BearSword-Toward_Run (14)" x="612" y="811" width="110" height="140" frameX="0" frameY="0" frameWidth="114" frameHeight="154"/>
+    <SubTexture name="run/Bear_Mage_Toward_Run (1)" x="908" y="914" width="115" height="91" frameX="-6" frameY="-2" frameWidth="122" frameHeight="156"/>
+    <SubTexture name="run/Bear_Mage_Toward_Run (15)" x="925" y="244" width="98" height="134" frameX="-7" frameY="-15" frameWidth="122" frameHeight="156"/>
+    <SubTexture name="run/Bear_Mage_Toward_Run (9)" x="926" y="104" width="96" height="139" frameX="-11" frameY="-10" frameWidth="122" frameHeight="156"/>
+    <SubTexture name="run/IceCrocBlaster_Toward_Run (14)" x="762" y="266" width="139" height="114" frameX="-6" frameY="-16" frameWidth="170" frameHeight="158"/>
+    <SubTexture name="run/IceCrocBlaster_Toward_Run (17)" x="777" y="136" width="147" height="129" frameX="0" frameY="-13" frameWidth="170" frameHeight="158"/>
+    <SubTexture name="run/IceCrocBlaster_Toward_Run (18)" x="777" y="1" width="148" height="134" frameX="0" frameY="-8" frameWidth="170" frameHeight="158"/>
+    <SubTexture name="run/IceCrocBlaster_Toward_Run (19)" x="471" y="1" width="154" height="140" frameX="-1" frameY="-2" frameWidth="170" frameHeight="158"/>
+    <SubTexture name="run/IceCrocBlaster_Toward_Run (5)" x="626" y="1" width="150" height="140" frameX="-5" frameY="-14" frameWidth="170" frameHeight="158"/>
+    <SubTexture name="run/IceCrocBlaster_Toward_Run (6)" x="312" y="232" width="145" height="134" frameX="-4" frameY="-12" frameWidth="170" frameHeight="158"/>
+    <SubTexture name="run/IceCrocBlaster_Toward_Run (7)" x="156" y="329" width="145" height="130" frameX="-4" frameY="-7" frameWidth="170" frameHeight="158"/>
+    <SubTexture name="run/IceCrocBlaster_Toward_Run (8)" x="616" y="142" width="145" height="124" frameX="-4" frameY="-4" frameWidth="170" frameHeight="158"/>
+    <SubTexture name="run/SaberMage_Toward_Run (1)" x="554" y="672" width="130" height="96" frameX="0" frameY="-3" frameWidth="130" frameHeight="162"/>
+    <SubTexture name="run/SaberMage_Toward_Run (11)" x="1" y="879" width="94" height="143" frameX="-20" frameY="-1" frameWidth="130" frameHeight="162"/>
+    <SubTexture name="run/SaberMage_Toward_Run (12)" x="324" y="811" width="100" height="142" frameX="-14" frameY="0" frameWidth="130" frameHeight="162"/>
+    <SubTexture name="run/SaberMage_Toward_Run (19)" x="908" y="811" width="115" height="102" frameX="-11" frameY="-6" frameWidth="130" frameHeight="162"/>
+    <SubTexture name="run/SaberMage_Toward_Run (20)" x="723" y="769" width="120" height="96" frameX="-8" frameY="-3" frameWidth="130" frameHeight="162"/>
+    <SubTexture name="shoot/BearBlasterToward_Attack (2)" x="180" y="859" width="75" height="143" frameX="-2" frameY="-3" frameWidth="80" frameHeight="170"/>
+    <SubTexture name="shoot/BearBlasterToward_Attack (21)" x="425" y="811" width="75" height="141" frameX="-2" frameY="-2" frameWidth="80" frameHeight="170"/>
+    <SubTexture name="shoot/BearSword-Toward_Attack (13)" x="926" y="1" width="97" height="102" frameX="-70" frameY="-52" frameWidth="174" frameHeight="182"/>
+    <SubTexture name="shoot/IceCrocBlaster_Toward_Attack (13)" x="1" y="1" width="156" height="125" frameX="-8" frameY="-14" frameWidth="168" frameHeight="162"/>
+    <SubTexture name="shoot/IceCrocBlaster_Toward_Attack (14)" x="315" y="1" width="155" height="118" frameX="-9" frameY="-13" frameWidth="168" frameHeight="162"/>
+    <SubTexture name="shoot/IceCrocBlaster_Toward_Attack (15)" x="314" y="120" width="154" height="111" frameX="-9" frameY="-13" frameWidth="168" frameHeight="162"/>
+    <SubTexture name="shoot/IceCrocBlaster_Toward_Attack (16)" x="1" y="127" width="155" height="105" frameX="-8" frameY="-12" frameWidth="168" frameHeight="162"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (10)" x="419" y="488" width="134" height="95" frameX="-1" frameY="-2" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (11)" x="869" y="475" width="135" height="95" frameX="0" frameY="-2" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (12)" x="733" y="381" width="135" height="96" frameX="0" frameY="-4" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (13)" x="137" y="565" width="135" height="97" frameX="0" frameY="-8" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (14)" x="1" y="571" width="135" height="97" frameX="0" frameY="-13" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (16)" x="597" y="379" width="135" height="99" frameX="0" frameY="-12" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (17)" x="438" y="388" width="135" height="99" frameX="0" frameY="-8" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (18)" x="283" y="486" width="135" height="99" frameX="-1" frameY="-3" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (19)" x="1" y="469" width="135" height="101" frameX="-1" frameY="0" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (2)" x="137" y="663" width="133" height="96" frameX="-4" frameY="-2" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (20)" x="689" y="670" width="130" height="98" frameX="-6" frameY="0" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (3)" x="574" y="479" width="134" height="96" frameX="-3" frameY="-8" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (4)" x="709" y="574" width="134" height="95" frameX="-3" frameY="-13" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (5)" x="554" y="576" width="134" height="95" frameX="-3" frameY="-15" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (6)" x="419" y="584" width="134" height="95" frameX="-3" frameY="-15" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (7)" x="273" y="586" width="134" height="94" frameX="-3" frameY="-16" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (8)" x="733" y="478" width="135" height="95" frameX="-2" frameY="-8" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberMage_Toward_attack (9)" x="869" y="571" width="135" height="95" frameX="-1" frameY="-1" frameWidth="138" frameHeight="114"/>
+    <SubTexture name="shoot/SaberSword_Toward_Attack (10)" x="147" y="460" width="135" height="104" frameX="-115" frameY="-80" frameWidth="250" frameHeight="254"/>
+    <SubTexture name="shoot/SaberSword_Toward_Attack (14)" x="133" y="760" width="129" height="98" frameX="-114" frameY="-76" frameWidth="250" frameHeight="254"/>
+    <SubTexture name="standshoot/BearBlaster_StSh_7" x="723" y="866" width="67" height="140" frameX="-8" frameY="-4" frameWidth="76" frameHeight="154"/>
+    <SubTexture name="standshoot/BearBlaster_StSh_8" x="256" y="859" width="67" height="143" frameX="-8" frameY="-4" frameWidth="76" frameHeight="154"/>
+    <SubTexture name="standshoot/Bear_Mage_StSh_1" x="1" y="789" width="129" height="89" frameX="-1" frameY="-3" frameWidth="132" frameHeight="96"/>
+    <SubTexture name="standshoot/Bear_Mage_StSh_13" x="902" y="379" width="121" height="95" frameX="-8" frameY="0" frameWidth="132" frameHeight="96"/>
+    <SubTexture name="standshoot/Bear_Mage_StSh_3" x="408" y="680" width="130" height="92" frameX="-1" frameY="-2" frameWidth="132" frameHeight="96"/>
+    <SubTexture name="standshoot/IceCrocBlaster_stsh_ (16)" x="157" y="220" width="154" height="108" frameX="-2" frameY="0" frameWidth="160" frameHeight="146"/>
+    <SubTexture name="standshoot/IceCrocBlaster_stsh_ (17)" x="1" y="233" width="154" height="108" frameX="-1" frameY="0" frameWidth="160" frameHeight="146"/>
+    <SubTexture name="standshoot/IceCrocBlaster_stsh_ (18)" x="158" y="113" width="155" height="106" frameX="0" frameY="-2" frameWidth="160" frameHeight="146"/>
+    <SubTexture name="standshoot/IceCrocBlaster_stsh_ (19)" x="158" y="1" width="156" height="111" frameX="0" frameY="-4" frameWidth="160" frameHeight="146"/>
+    <SubTexture name="standshoot/MinimammothBlaster-Stsh (11)" x="791" y="866" width="116" height="139" frameX="-12" frameY="-4" frameWidth="134" frameHeight="250"/>
+    <SubTexture name="standshoot/SaberMage_StSh_12" x="1" y="342" width="145" height="126" frameX="-1" frameY="-13" frameWidth="146" frameHeight="146"/>
+    <SubTexture name="standshoot/SaberMage_StSh_13" x="469" y="142" width="146" height="129" frameX="0" frameY="-12" frameWidth="146" frameHeight="146"/>
+    <SubTexture name="standshoot/SaberMage_StSh_17" x="844" y="667" width="130" height="143" frameX="-16" frameY="0" frameWidth="146" frameHeight="146"/>
+    <SubTexture name="standshoot/SaberMage_StSh_19" x="271" y="681" width="129" height="123" frameX="-17" frameY="-12" frameWidth="146" frameHeight="146"/>
+    <SubTexture name="standshoot/SaberMage_StSh_3" x="1" y="669" width="131" height="119" frameX="-14" frameY="-16" frameWidth="146" frameHeight="146"/>
+    <SubTexture name="standshoot/SaberMage_StSh_4" x="302" y="367" width="135" height="118" frameX="-11" frameY="-17" frameWidth="146" frameHeight="146"/>
+    <SubTexture name="standshoot/SaberMage_StSh_5" x="458" y="272" width="138" height="115" frameX="-8" frameY="-20" frameWidth="146" frameHeight="146"/>
+    <SubTexture name="standshoot/SaberMage_StSh_7" x="616" y="267" width="139" height="111" frameX="-7" frameY="-24" frameWidth="146" frameHeight="146"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:37c3f81fa4ad2f854c96b7bb848840a7:196bb46066bf2901de09b7a7aa24ff33:5f0b7619fdde61c479cf8edab4c2bead$ -->
+<TextureAtlas imagePath="chars_en_static_lion.png">
+    <SubTexture name="Lion_Part_1" x="168" y="257" width="63" height="130"/>
+    <SubTexture name="Lion_Part_2" x="168" y="234" width="77" height="21"/>
+    <SubTexture name="Lion_Part_3" x="172" y="163" width="77" height="69"/>
+    <SubTexture name="Lion_Part_4" x="2" y="263" width="61" height="65"/>
+    <SubTexture name="Lion_Part_5" x="111" y="208" width="55" height="91"/>
+    <SubTexture name="Lion_Part_6" x="2" y="208" width="107" height="53"/>
+    <SubTexture name="Lion_Part_7" x="65" y="301" width="55" height="70"/>
+    <SubTexture name="Lion_Part_8" x="2" y="163" width="168" height="43"/>
+    <SubTexture name="lion-disc" x="65" y="263" width="33" height="9" frameX="-84" frameY="-116" frameWidth="231" frameHeight="159"/>
+    <SubTexture name="lion" x="2" y="2" width="231" height="159"/>
+</TextureAtlas>

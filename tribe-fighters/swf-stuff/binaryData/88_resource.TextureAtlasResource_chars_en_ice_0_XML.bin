@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e427a4aed9bccf21ce850c4c63c46645:fb2ca4823174a6d62ac217f172119e0c:44e15259856b5f0507d5aac0f77baaf7$ -->
+<TextureAtlas imagePath="chars_en_ice_0.png">
+    <SubTexture name="croc/run/CrocMage_Toward_Run (21)" x="810" y="773" width="106" height="87" frameX="-22" frameY="-17" frameWidth="130" frameHeight="148"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (1)" x="321" y="1" width="89" height="195" frameX="-8" frameY="-1" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (10)" x="917" y="649" width="106" height="187" frameX="-2" frameY="-16" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (12)" x="683" y="1" width="108" height="190" frameX="0" frameY="-1" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (13)" x="792" y="1" width="108" height="190" frameX="0" frameY="-1" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (14)" x="405" y="394" width="106" height="192" frameX="0" frameY="0" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (15)" x="252" y="606" width="103" height="193" frameX="-1" frameY="-2" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (16)" x="458" y="197" width="99" height="192" frameX="-2" frameY="-7" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (17)" x="512" y="390" width="94" height="191" frameX="-4" frameY="-13" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (18)" x="494" y="781" width="91" height="192" frameX="-6" frameY="-15" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (19)" x="594" y="1" width="88" height="191" frameX="-7" frameY="-16" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (2)" x="411" y="1" width="89" height="195" frameX="-8" frameY="-1" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (20)" x="607" y="386" width="87" height="191" frameX="-8" frameY="-16" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (21)" x="316" y="394" width="88" height="193" frameX="-8" frameY="-8" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (3)" x="162" y="606" width="89" height="194" frameX="-9" frameY="-2" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (4)" x="501" y="1" width="92" height="192" frameX="-8" frameY="-3" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/run/CrocSword_Toward_Run (5)" x="558" y="194" width="93" height="191" frameX="-8" frameY="-6" frameWidth="108" frameHeight="208"/>
+    <SubTexture name="croc/shoot/CrocSword_Toward_Attack (1)" x="1" y="811" width="89" height="195" frameX="-86" frameY="0" frameWidth="262" frameHeight="222"/>
+    <SubTexture name="croc/shoot/CrocSword_Toward_Attack (20)" x="91" y="811" width="94" height="194" frameX="-83" frameY="-6" frameWidth="262" frameHeight="222"/>
+    <SubTexture name="croc/shoot/CrocSword_Toward_Attack (5)" x="695" y="384" width="114" height="189" frameX="-78" frameY="-6" frameWidth="262" frameHeight="222"/>
+    <SubTexture name="lion/run/Lion_Mage_Toward_run (9)" x="909" y="861" width="103" height="162" frameX="-10" frameY="-9" frameWidth="130" frameHeight="176"/>
+    <SubTexture name="lion/shoot/LionSword_Toward_Attack (13)" x="810" y="338" width="90" height="144" frameX="-64" frameY="-27" frameWidth="164" frameHeight="172"/>
+    <SubTexture name="run/FlameGorilla-Sword_Run (6)" x="695" y="574" width="114" height="171" frameX="-3" frameY="-8" frameWidth="118" frameHeight="188"/>
+    <SubTexture name="run/FlameGorillaMage-Toward_Run (12)" x="901" y="325" width="119" height="171" frameX="-1" frameY="-1" frameWidth="148" frameHeight="190"/>
+    <SubTexture name="run/FlameGorillaMage-Toward_Run (13)" x="901" y="1" width="120" height="171" frameX="0" frameY="-3" frameWidth="148" frameHeight="190"/>
+    <SubTexture name="run/FlameGorillaMage-Toward_Run (17)" x="901" y="173" width="120" height="151" frameX="-7" frameY="-13" frameWidth="148" frameHeight="190"/>
+    <SubTexture name="run/FlameGorillaMage-Toward_Run (6)" x="901" y="497" width="118" height="151" frameX="-29" frameY="-15" frameWidth="148" frameHeight="190"/>
+    <SubTexture name="run/RedBirdMage_Fly_11" x="638" y="746" width="171" height="114" frameX="0" frameY="-55" frameWidth="176" frameHeight="182"/>
+    <SubTexture name="run/RedBirdMage_Fly_7" x="586" y="861" width="164" height="162" frameX="0" frameY="-17" frameWidth="176" frameHeight="182"/>
+    <SubTexture name="shoot/LeopardMage-Toward_Attack (4)" x="810" y="483" width="90" height="144" frameX="-23" frameY="-13" frameWidth="114" frameHeight="160"/>
+    <SubTexture name="shoot/LeopardMage-Toward_Attack (5)" x="810" y="192" width="90" height="145" frameX="-23" frameY="-15" frameWidth="114" frameHeight="160"/>
+    <SubTexture name="shoot/LeopardMage-Toward_Attack (6)" x="810" y="628" width="90" height="144" frameX="-23" frameY="-15" frameWidth="114" frameHeight="160"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (10)" x="1" y="204" width="156" height="202" frameX="-15" frameY="-15" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (11)" x="1" y="407" width="155" height="202" frameX="-16" frameY="-15" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (19)" x="751" y="861" width="157" height="162" frameX="-10" frameY="-11" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (27)" x="343" y="800" width="150" height="192" frameX="-10" frameY="-5" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (28)" x="495" y="587" width="142" height="191" frameX="-9" frameY="-9" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (29)" x="356" y="588" width="138" height="192" frameX="-9" frameY="-11" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (30)" x="313" y="198" width="144" height="195" frameX="-9" frameY="-10" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (31)" x="158" y="204" width="154" height="197" frameX="-8" frameY="-10" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (32)" x="157" y="407" width="158" height="198" frameX="-8" frameY="-11" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (33)" x="186" y="801" width="156" height="193" frameX="-8" frameY="-11" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (6)" x="652" y="193" width="157" height="190" frameX="-11" frameY="-27" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (7)" x="161" y="1" width="159" height="196" frameX="-12" frameY="-21" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (8)" x="1" y="610" width="160" height="200" frameX="-13" frameY="-17" frameWidth="174" frameHeight="218"/>
+    <SubTexture name="shoot/RedBirdMage-Attack_ (9)" x="1" y="1" width="159" height="202" frameX="-14" frameY="-15" frameWidth="174" frameHeight="218"/>
+</TextureAtlas>

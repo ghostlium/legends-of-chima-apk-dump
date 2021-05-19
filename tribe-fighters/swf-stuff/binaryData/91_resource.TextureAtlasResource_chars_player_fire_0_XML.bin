@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4c113bd9f672cf3df551fc164686a2af:f50b414d61ea728dcda74884061369a0:5c97cbf4c81a1fdff4e86652484d716c$ -->
+<TextureAtlas imagePath="chars_player_fire_0.png">
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (1)" x="647" y="1" width="98" height="169" frameX="-1" frameY="-3" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (10)" x="365" y="174" width="88" height="172" frameX="-1" frameY="0" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (11)" x="558" y="345" width="88" height="170" frameX="-2" frameY="0" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (12)" x="629" y="516" width="88" height="169" frameX="-2" frameY="0" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (13)" x="637" y="172" width="88" height="170" frameX="-2" frameY="-3" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (14)" x="459" y="1" width="89" height="171" frameX="-2" frameY="-8" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (15)" x="547" y="173" width="89" height="171" frameX="-2" frameY="-14" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (16)" x="539" y="519" width="89" height="170" frameX="-2" frameY="-16" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (17)" x="718" y="513" width="89" height="166" frameX="-2" frameY="-13" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (18)" x="736" y="341" width="89" height="164" frameX="-2" frameY="-8" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (19)" x="198" y="827" width="90" height="174" frameX="-1" frameY="-2" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (2)" x="558" y="807" width="98" height="169" frameX="-1" frameY="-3" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (20)" x="108" y="833" width="89" height="176" frameX="-1" frameY="0" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (21)" x="365" y="1" width="93" height="172" frameX="-1" frameY="-1" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (3)" x="549" y="1" width="97" height="170" frameX="0" frameY="-4" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (4)" x="454" y="174" width="92" height="171" frameX="0" frameY="-8" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (5)" x="647" y="343" width="88" height="169" frameX="0" frameY="-14" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (6)" x="657" y="807" width="88" height="168" frameX="0" frameY="-16" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (7)" x="726" y="171" width="88" height="169" frameX="0" frameY="-16" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/croc/shoot/CrocMage_Away (9)" x="746" y="1" width="89" height="168" frameX="0" frameY="-7" frameWidth="100" frameHeight="186"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (1)" x="183" y="1" width="92" height="204" frameX="-1" frameY="-3" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (10)" x="1" y="421" width="89" height="207" frameX="-1" frameY="0" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (11)" x="182" y="415" width="88" height="205" frameX="-2" frameY="0" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (12)" x="271" y="616" width="88" height="204" frameX="-3" frameY="0" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (13)" x="182" y="621" width="88" height="205" frameX="-3" frameY="-2" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (14)" x="91" y="421" width="90" height="205" frameX="-2" frameY="-8" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (15)" x="1" y="629" width="90" height="206" frameX="-2" frameY="-14" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (16)" x="92" y="627" width="89" height="205" frameX="-3" frameY="-16" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (17)" x="378" y="821" width="90" height="200" frameX="-2" frameY="-14" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (18)" x="361" y="409" width="90" height="198" frameX="-2" frameY="-8" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (19)" x="1" y="212" width="90" height="208" frameX="-2" frameY="-2" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (2)" x="183" y="206" width="92" height="204" frameX="-1" frameY="-3" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (20)" x="1" y="1" width="89" height="210" frameX="-2" frameY="0" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (21)" x="91" y="1" width="91" height="207" frameX="-2" frameY="-1" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (3)" x="92" y="209" width="90" height="205" frameX="0" frameY="-4" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (4)" x="271" y="411" width="89" height="204" frameX="0" frameY="-9" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (5)" x="360" y="616" width="88" height="204" frameX="0" frameY="-14" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (6)" x="276" y="1" width="88" height="203" frameX="0" frameY="-16" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (7)" x="276" y="205" width="88" height="203" frameX="0" frameY="-16" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (8)" x="449" y="608" width="89" height="198" frameX="0" frameY="-16" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="mage/lion/shoot/Lion_Mage_Away_attack (9)" x="289" y="821" width="88" height="202" frameX="-1" frameY="-8" frameWidth="94" frameHeight="222"/>
+    <SubTexture name="ranged/croc/shoot/CrocBlaster-Away_ (4)" x="611" y="690" width="69" height="116" frameX="-1" frameY="-18" frameWidth="74" frameHeight="138"/>
+    <SubTexture name="ranged/lion/shoot/lion-blaster_away_attack (1)" x="681" y="686" width="72" height="120" frameX="0" frameY="-2" frameWidth="74" frameHeight="138"/>
+    <SubTexture name="ranged/lion/shoot/lion-blaster_away_attack (14)" x="539" y="690" width="71" height="116" frameX="-2" frameY="-20" frameWidth="74" frameHeight="138"/>
+    <SubTexture name="ranged/lion/shoot/lion-blaster_away_attack (19)" x="826" y="341" width="72" height="126" frameX="-1" frameY="0" frameWidth="74" frameHeight="138"/>
+    <SubTexture name="warrior/croc/run/CrocSword_Away_Run (18)" x="815" y="248" width="88" height="92" frameX="-12" frameY="-19" frameWidth="106" frameHeight="128"/>
+    <SubTexture name="warrior/croc/shoot/CrocSword_Away_Attack (11)" x="746" y="807" width="151" height="103" frameX="-1" frameY="-69" frameWidth="244" frameHeight="188"/>
+    <SubTexture name="warrior/croc/shoot/CrocSword_Away_Attack (15)" x="452" y="347" width="105" height="171" frameX="-49" frameY="-16" frameWidth="244" frameHeight="188"/>
+    <SubTexture name="warrior/croc/shoot/CrocSword_Away_Attack (16)" x="1" y="836" width="106" height="180" frameX="-64" frameY="0" frameWidth="244" frameHeight="188"/>
+    <SubTexture name="warrior/croc/shoot/CrocSword_Away_Attack (18)" x="899" y="570" width="114" height="141" frameX="-72" frameY="-35" frameWidth="244" frameHeight="188"/>
+    <SubTexture name="warrior/croc/shoot/CrocSword_Away_Attack (2)" x="808" y="620" width="89" height="115" frameX="-83" frameY="-60" frameWidth="244" frameHeight="188"/>
+    <SubTexture name="warrior/croc/shoot/CrocSword_Away_Attack (7)" x="836" y="145" width="183" height="102" frameX="-58" frameY="-78" frameWidth="244" frameHeight="188"/>
+    <SubTexture name="warrior/croc/shoot/CrocSword_Away_Attack (8)" x="836" y="1" width="187" height="143" frameX="-56" frameY="-34" frameWidth="244" frameHeight="188"/>
+    <SubTexture name="warrior/croc/shoot/CrocSword_Away_Attack (9)" x="469" y="807" width="88" height="173" frameX="-62" frameY="-2" frameWidth="244" frameHeight="188"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (1)" x="746" y="911" width="126" height="112" frameX="0" frameY="0" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (12)" x="898" y="824" width="125" height="109" frameX="-5" frameY="0" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (13)" x="898" y="712" width="125" height="111" frameX="-5" frameY="0" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (19)" x="899" y="467" width="124" height="102" frameX="-3" frameY="-13" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/run/LionSword_Away_Run (20)" x="899" y="363" width="124" height="103" frameX="-2" frameY="-13" frameWidth="132" frameHeight="126"/>
+    <SubTexture name="warrior/lion/shoot/LionSword_Away_Attack (13)" x="808" y="506" width="90" height="113" frameX="-5" frameY="-30" frameWidth="160" frameHeight="150"/>
+    <SubTexture name="warrior/lion/shoot/LionSword_Away_Attack (15)" x="904" y="248" width="116" height="114" frameX="-6" frameY="-36" frameWidth="160" frameHeight="150"/>
+</TextureAtlas>

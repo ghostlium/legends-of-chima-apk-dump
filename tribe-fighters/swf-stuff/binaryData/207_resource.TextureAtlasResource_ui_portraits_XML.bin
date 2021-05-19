@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a9885f5cbc9c2882b954d0424f338925:b53775bda15c3df69379100167025b6d:2c008d87a329b1ce7214a676184fd5cc$ -->
+<TextureAtlas imagePath="ui_portraits.png">
+    <SubTexture name="Character_portraits/Bear_1" x="2" y="2" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Bear_2" x="148" y="2" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Bear_3" x="294" y="2" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Croc_1" x="2" y="132" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Croc_2" x="148" y="132" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Croc_3" x="294" y="132" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Lion_1" x="2" y="262" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Lion_2" x="148" y="262" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Lion_3" x="294" y="262" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Sabre_1" x="2" y="392" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Sabre_2" x="148" y="392" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Sabre_3" x="294" y="392" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Special_1" x="2" y="522" width="144" height="128"/>
+    <SubTexture name="Character_portraits/Special_2" x="148" y="522" width="144" height="128"/>
+</TextureAtlas>

@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": " ",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Erő",
+		"charselect_defense": "Védelem",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Legjobb: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "Feloldod ezt a szereplőt $(STUDS) pecekért?",
+		"charselect_unlock_confirm": "Megerősít",
+		
+		"charselect_upgrade_ranged0": "Adj hozzá extra szívet $(STUDS) pecekért!",
+		"charselect_upgrade_ranged1": "Növeld fegyvered erejét $(STUDS) pecekért!",
+		"charselect_upgrade_ranged2": "Töltsd fel CHI mérődet kevesebb kristály használatával $(STUDS) pecekért!",
+		"charselect_upgrade_ranged3": "Növeld törzsi támogatásod életerejét $(STUDS) pecekért!",
+		"charselect_upgrade_ranged4": "Töltsd fel CHI mérődet kevesebb kristály használatával $(STUDS) pecekért!",
+		"charselect_upgrade_ranged5": "Robbantóddal hajts végre szórt lövést $(STUDS) pecekért!",
+		"charselect_upgrade_ranged6": "Növeld törzsi támogatásod életerejét $(STUDS) pecekért!",
+		"charselect_upgrade_ranged7": "Töltsd fel CHI mérődet kevesebb kristály használatával $(STUDS) pecekért!",
+		"charselect_upgrade_ranged8": "Adj hozzá extra szívet $(STUDS) pecekért!",
+		"charselect_upgrade_ranged9": "Szerezz életerőt, mikor CHI erődet aktiválod $(STUDS) pecekért!",
+		
+		"charselect_upgrade_mage0": "Adj hozzá extra szívet $(STUDS) pecekért!",
+		"charselect_upgrade_mage1": "Növeld fegyvered erejét $(STUDS) pecekért!",
+		"charselect_upgrade_mage2": "Töltsd fel CHI mérődet kevesebb kristály használatával $(STUDS) pecekért!",
+		"charselect_upgrade_mage3": "Növeld törzsi támogatásod életerejét $(STUDS) pecekért!",
+		"charselect_upgrade_mage4": "Töltsd fel CHI mérődet kevesebb kristály használatával $(STUDS) pecekért!",
+		"charselect_upgrade_mage5": "Villámaid keressenek közeli ellenséget $(STUDS) pecekért!",
+		"charselect_upgrade_mage6": "Növeld törzsi támogatásod életerejét $(STUDS) pecekért!",
+		"charselect_upgrade_mage7": "Töltsd fel CHI mérődet kevesebb kristály használatával $(STUDS) pecekért!",
+		"charselect_upgrade_mage8": "Adj hozzá extra szívet $(STUDS) pecekért!",
+		"charselect_upgrade_mage9": "Szerezz életerőt, mikor CHI erődet aktiválod $(STUDS) pecekért!",
+		
+		"charselect_upgrade_warrior0": "Adj hozzá extra szívet $(STUDS) pecekért!",
+		"charselect_upgrade_warrior1": "Növeld fegyvered erejét $(STUDS) pecekért!",
+		"charselect_upgrade_warrior2": "Töltsd fel CHI mérődet kevesebb kristály használatával $(STUDS) pecekért!",
+		"charselect_upgrade_warrior3": "Növeld törzsi támogatásod életerejét $(STUDS) pecekért!",
+		"charselect_upgrade_warrior4": "Töltsd fel CHI mérődet kevesebb kristály használatával $(STUDS) pecekért!",
+		"charselect_upgrade_warrior5": "Verd vissza a robbantó lövéseket kardoddal $(STUDS) pecekért!",
+		"charselect_upgrade_warrior6": "Növeld törzsi támogatásod életerejét $(STUDS) pecekért!",
+		"charselect_upgrade_warrior7": "Töltsd fel CHI mérődet kevesebb kristály használatával $(STUDS) pecekért!",
+		"charselect_upgrade_warrior8": "Adj hozzá extra szívet $(STUDS) pecekért!",
+		"charselect_upgrade_warrior9": "Szerezz életerőt, mikor CHI erődet aktiválod $(STUDS) pecekért!",
+		"charselect_upgrade_warrior_laval": "Változtasd harcosod Lavallá $(STUDS) pecekért!",
+		"charselect_upgrade_warrior_sirfangor": "Változtasd harcosod Sir Fangarrá $(STUDS) pecekért!",
+		
+		"charselect_apply_upgrade": "Fejlesztesz $(LEVEL). szintre $(STUDS) pecekért?",
+		
+		"privacy_path": "res/cfg/html/privacy_hu.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "Felnőtteknek",
+		"agegate": "További WB Játékokért oldd meg az alábbi rejtvényt:",
+		
+		"tutorial_health": "Ez az életerőd, ne veszíts el minden szívet!",
+		"tutorial_control": "Tartsd lenyomva az egér gombot és mozgasd a Kurzort a szereplőmozgatásához. Használhatoda billentyűzetet is (nyíl gombok vagy W A S D) a szereplő mozgatásához",
+		"tutorial_chi_button": "A CHI erő felszabadításához nyomd meg a SZÓKÖZ vagy a CTRL gombot",
+		"tutorial_touch_to_continue": "Kattints a folytatáshoz.",
+		
+		"tutorial_flags": "Építs zászlókat a törzs támogatására!",
+		"tutorial_studs": "Gyűjts peckeket, hogy megerősítsd katonáidat és szereplőket oldj fel!",
+		"tutorial_distance": "Utazz, amilyen messzire csak tudsz!",
+		"tutorial_chi_crystals": "Gyűjts CHI kristályokat, hogy növekedjen CHI erőd!",
+		
+		"pause_quit": "Kilép",
+		"pause_resume": "Folytat",
+		"pause_retry": "Újrapróbál",
+		
+		"gameover_distance": "Táv: $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "Új legjobb!",
+		"gameover_flags": "Begyűjtött zászlók: $(FLAGS)",
+		
+		"croc": "Krokodil",
+		"lion": "Oroszlán",
+		"bear": "Jegesmedve",
+		"saber": "Kardfogú",
+		
+		"crocs": "Krokodilok",
+		"lions": "Oroszlánok",
+		"bears": "Jegesmedvék",
+		"sabers": "Kardfogúak",
+		
+		"ranged": "Robbantó",
+		"mage": "Mágus",
+		"warrior": "Harcos",
+		
+		"superweapon": "Szuper fegyver",
+		"supershield": "Szuper pajzs",
+		"speedboost": "Sebesség löket",
+		
+		"kill_x_enemies": "Ölj meg $(COUNT) ellenséget!",
+		"run_distance_as_tribe": "Fuss $(DISTANCE) $(METRES)-t $(TRIBE) képében!",
+		"run_distance_as_tribe_single_run": "Fuss $(DISTANCE) $(METRES)-t $(TRIBE) képében egyetlen játékban!",
+		"run_distance_as_class": "Fuss $(DISTANCE) $(METRES)-t $(CLASS) képében! ",
+		"run_distance_as_class_single_run": "Fuss $(DISTANCE) $(METRES)-t $(CLASS) képében egyetlen játékban!",
+		"destroy_x_enemies_as_tribe": "Pusztíts el $(COUNT) ellenséget $(TRIBE) képében!",
+		"destroy_x_enemies_as_class": "Pusztíts el $(COUNT) ellenséget $(CLASS) képében!",
+		"destroy_x_disc_shooters": "Pusztíts el $(COUNT) lemez vetőt!",
+		"destroy_x_enemies_single_run": "Pusztíts el $(COUNT) ellenséget egyetlen játékban!",
+		"collect_x_flags": "Gyűjts $(COUNT) zászlót egyetlen játékban!",
+		"have_x_followers": "Szerezz összesen $(COUNT) követőt!",
+		"run_x_distance": "Fuss $(DISTANCE) $(METRES)-t!",
+		"run_x_distance_single_run": "Fuss $(DISTANCE) $(METRES)-t egyetlen játékban!",
+		"run_x_distance_single_run_no_chi": "Fuss $(DISTANCE) $(METRES)-t egyetlen játékban CHI használata nélkül!",
+		"run_x_distance_no_followers": "Fuss $(DISTANCE) $(METRES)-t követők nélkül!",
+		"run_x_distance_no_damage": "Fuss $(DISTANCE) $(METRES)-t sérülés nélkül!",
+		"run_x_distance_one_health": "Fuss $(DISTANCE) $(METRES)-t egy szívvel!",
+		"use_chi_x_times_single_run": "Használj CHI-t $(COUNT) alkalommal egy játékon belül!",
+		"destroy_x_enemies_in_tribe": "Pusztíts el $(COUNT) $(TRIBE) törzstagot!",
+		"collect_x_studs_single_run": "Gyűjts $(COUNT) pecket egyetlen játékban!",
+		"reflect_x_bullets_as_warrior": "Vágj vissza $(COUNT) lövedéket $(CLASS) képében!",
+		"use_x_powerup_n_times": "Használj $(TYPE) erősítőt $(COUNT) alkalommal!"
+	}
+}

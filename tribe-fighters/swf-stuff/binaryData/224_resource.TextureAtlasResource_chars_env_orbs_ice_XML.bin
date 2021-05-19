@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a5b38ff2532a1bf8feba466c73f22201:50034df4f6c52c1d929f898ece3140a2:a8cd364104f38df659e38993f154e35b$ -->
+<TextureAtlas imagePath="chars_env_orbs_ice.png">
+    <SubTexture name="Expo_Blue_1" x="2" y="2" width="202" height="280"/>
+    <SubTexture name="Expo_Blue_2" x="146" y="284" width="202" height="182"/>
+    <SubTexture name="IceStand_01" x="350" y="324" width="88" height="176"/>
+    <SubTexture name="Ice_Debris" x="350" y="2" width="160" height="130"/>
+    <SubTexture name="Ice_Debris_02" x="350" y="242" width="91" height="80"/>
+    <SubTexture name="Ice_Debris_03" x="206" y="115" width="119" height="105"/>
+    <SubTexture name="Ice_Debris_04" x="206" y="2" width="131" height="111"/>
+    <SubTexture name="Ice_Debris_05" x="2" y="284" width="142" height="204"/>
+    <SubTexture name="Ice_Debris_06" x="327" y="134" width="101" height="106"/>
+    <SubTexture name="Iceball_03" x="206" y="222" width="46" height="44"/>
+</TextureAtlas>

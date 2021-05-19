@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b4713c82b10d219cfe404a7147a657de:9570da71656966da5f68bc717ea51b52:f938842ff30dca6528ed6e27d84644c0$ -->
+<TextureAtlas imagePath="ui_pause.png">
+    <SubTexture name="gameover/Game_Over" x="4" y="570" width="530" height="300"/>
+    <SubTexture name="pause/Button_Quit" x="550" y="4" width="300" height="160"/>
+    <SubTexture name="pause/Button_Resume" x="550" y="170" width="300" height="160"/>
+    <SubTexture name="pause/Button_Retry" x="550" y="336" width="300" height="160"/>
+    <SubTexture name="pause/Main_Panel" x="4" y="4" width="540" height="560"/>
+    <SubTexture name="pause/Pause_Small" x="4" y="876" width="121" height="111"/>
+    <SubTexture name="tutorial/ChimaCrystal_01" x="181" y="876" width="64" height="58"/>
+    <SubTexture name="tutorial/Green_2" x="88" y="993" width="17" height="17"/>
+    <SubTexture name="tutorial/coin_pickup_blue_anim64.29" x="131" y="968" width="40" height="40"/>
+    <SubTexture name="tutorial/coin_pickup_blue_anim64.3" x="177" y="968" width="40" height="40"/>
+    <SubTexture name="tutorial/coin_pickup_gold_anim64.19" x="223" y="940" width="40" height="40"/>
+    <SubTexture name="tutorial/coin_pickup_gold_anim64.30" x="251" y="876" width="40" height="40"/>
+    <SubTexture name="tutorial/coin_pickup_silver_anim64.26" x="269" y="922" width="40" height="40"/>
+    <SubTexture name="tutorial/coin_pickup_silver_anim64.9" x="297" y="876" width="40" height="40"/>
+    <SubTexture name="tutorial/help-panel-corner" x="4" y="993" width="22" height="22"/>
+    <SubTexture name="tutorial/help-panel-edge-arrow" x="131" y="876" width="44" height="86"/>
+    <SubTexture name="tutorial/help-panel-edge" x="32" y="993" width="22" height="22"/>
+    <SubTexture name="tutorial/help-panel-solid" x="60" y="993" width="22" height="22"/>
+</TextureAtlas>

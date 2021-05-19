@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Chin.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Chin.fnt",
+		
+		"number_seperator": "",
+		"metres": "米",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE)$(METRES)",
+		
+		"charselect_power": "能量",
+		"charselect_defense": "防御",
+		"charselect_chi": "气",
+		"charselect_furthest": "最佳：$(DISTANCE)$(METRES)",
+		
+		"charselect_unlock": "花费$(STUDS)个螺栓解锁这个角色吗？",
+		"charselect_unlock_confirm": "确认",
+		
+		"charselect_upgrade_ranged0": "花费$(STUDS)个螺栓，添加一个额外心值！",
+		"charselect_upgrade_ranged1": "花费$(STUDS)个螺栓，提升你的武器威力！",
+		"charselect_upgrade_ranged2": "花费$(STUDS)个螺栓，使用较少的水晶填满您的气计量表！",
+		"charselect_upgrade_ranged3": "花费$(STUDS)个螺栓，提高部落援军的生命值！",
+		"charselect_upgrade_ranged4": "花费$(STUDS)个螺栓，使用较少的水晶填满您的气计量表！",
+		"charselect_upgrade_ranged5": "花费$(STUDS)个螺栓，让炮弹散射！",
+		"charselect_upgrade_ranged6": "花费$(STUDS)个螺栓，提高部落援军的生命值！",
+		"charselect_upgrade_ranged7": "花费$(STUDS)个螺栓，使用较少的水晶填满您的气计量表！",
+		"charselect_upgrade_ranged8": "花费$(STUDS)个螺栓，添加一个额外心值！",
+		"charselect_upgrade_ranged9": "花费$(STUDS)个螺栓，当激活气功的时候，重获生命值！",
+		
+		"charselect_upgrade_mage0": "花费$(STUDS)个螺栓，添加一个额外心值！",
+		"charselect_upgrade_mage1": "花费$(STUDS)个螺栓，提升你的武器威力！",
+		"charselect_upgrade_mage2": "花费$(STUDS)个螺栓，使用较少的水晶填满您的气计量表！",
+		"charselect_upgrade_mage3": "花费$(STUDS)个螺栓，提高部落援军的生命值！",
+		"charselect_upgrade_mage4": "花费$(STUDS)个螺栓，使用较少的水晶填满您的气计量表！",
+		"charselect_upgrade_mage5": "花费$(STUDS)个螺栓，让您的法术球追踪附近的敌人！",
+		"charselect_upgrade_mage6": "花费$(STUDS)个螺栓，提高部落援军的生命值！",
+		"charselect_upgrade_mage7": "花费$(STUDS)个螺栓，使用较少的水晶填满您的气计量表！",
+		"charselect_upgrade_mage8": "花费$(STUDS)个螺栓，添加一个额外心值！",
+		"charselect_upgrade_mage9": "花费$(STUDS)个螺栓，当激活气功的时候，重获生命值！",
+		
+		"charselect_upgrade_warrior0": "花费$(STUDS)个螺栓，添加一个额外心值！",
+		"charselect_upgrade_warrior1": "花费$(STUDS)个螺栓，提升你的武器威力！",
+		"charselect_upgrade_warrior2": "花费$(STUDS)个螺栓，使用较少的水晶填满您的气计量表！",
+		"charselect_upgrade_warrior3": "花费$(STUDS)个螺栓，提高部落援军的生命值！",
+		"charselect_upgrade_warrior4": "花费$(STUDS)个螺栓，使用较少的水晶填满您的气计量表！",
+		"charselect_upgrade_warrior5": "花费$(STUDS)个螺栓，让您的剑反弹炮弹！",
+		"charselect_upgrade_warrior6": "花费$(STUDS)个螺栓，提高部落援军的生命值！",
+		"charselect_upgrade_warrior7": "花费$(STUDS)个螺栓，使用较少的水晶填满您的气计量表！",
+		"charselect_upgrade_warrior8": "花费$(STUDS)个螺栓，添加一个额外心值！",
+		"charselect_upgrade_warrior9": "花费$(STUDS)个螺栓，当激活气功的时候，重获生命值！",
+		"charselect_upgrade_warrior_laval": "花费$(STUDS)把你的战士变成无敌狮！",
+		"charselect_upgrade_warrior_sirfangor": "花费$(STUDS)把你的战士变成剑虎大帅！",
+		
+		"charselect_apply_upgrade": "升级到$(LEVEL)级吗？这将花费$(STUDS)个螺栓。",
+		
+		"privacy_path": "res/cfg/html/privacy_zh.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "成年人的游戏",
+		"agegate": "想玩更多WB游戏，请解开下面的谜题：",
+		
+		"tutorial_health": "这是您的生命值，不要失去所有的心！",
+		"tutorial_control": "按住鼠标按钮，通过移动光标来移动 字符 您也可以使用 键盘（箭头键或 W A S D） 来移动 字符",
+		"tutorial_chi_button": "要释放您的气能量，请按 SPACE 或 CTRL",
+		"tutorial_touch_to_continue": "点击以继续。",
+		
+		"tutorial_flags": "为部落建旗",
+		"tutorial_studs": "收集螺栓强化你的战士，并解锁角色。",
+		"tutorial_distance": "走得尽可能远！",
+		"tutorial_chi_crystals": "收集气晶体给你的气功充能",
+		
+		"pause_quit": "退出",
+		"pause_resume": "继续",
+		"pause_retry": "重试",
+		
+		"gameover_distance": "$(DISTANCE)$(METRES)的距离",
+		"gameover_distance_new_best": "新纪录！",
+		"gameover_flags": "收集的旗帜数：$(FLAGS)面",
+		
+		"croc": "蛮鳄部落",
+		"lion": "金狮部落",
+		"bear": "冰熊部落",
+		"saber": "剑齿部落",
+		
+		"crocs": "蛮鳄部落",
+		"lions": "金狮部落",
+		"bears": "冰熊部落",
+		"sabers": "剑齿部落",
+		
+		"ranged": "爆破手",
+		"mage": "魔法师",
+		"warrior": "战士",
+		
+		"superweapon": "超级武器",
+		"supershield": "超级盾牌",
+		"speedboost": "速度提升",
+		
+		"kill_x_enemies": "摧毁$(COUNT)名敌人。",
+		"run_distance_as_tribe": "用$(TRIBE)角色奔跑$(DISTANCE)$(METRES)。",
+		"run_distance_as_tribe_single_run": "在一局游戏中用$(TRIBE)角色奔跑$(DISTANCE)$(METRES)。",
+		"run_distance_as_class": "用$(CLASS)角色奔跑$(DISTANCE)$(METRES)。",
+		"run_distance_as_class_single_run": "在一局游戏中用$(CLASS)角色奔跑$(DISTANCE)$(METRES)。",
+		"destroy_x_enemies_as_tribe": "用$(TRIBE)角色摧毁$(COUNT)名敌人。",
+		"destroy_x_enemies_as_class": "用$(CLASS)角色摧毁$(COUNT)名敌人。",
+		"destroy_x_disc_shooters": "摧毁$(COUNT)个飞碟发射器。",
+		"destroy_x_enemies_single_run": "在一局游戏中摧毁$(COUNT)名敌人。",
+		"collect_x_flags": "在一局游戏中收集$(COUNT)面旗帜。",
+		"have_x_followers": "总共获得$(COUNT)个追随者。",
+		"run_x_distance": "奔跑$(DISTANCE)$(METRES)。",
+		"run_x_distance_single_run": "在一局游戏中奔跑$(DISTANCE)$(METRES)。",
+		"run_x_distance_single_run_no_chi": "在一局游戏中不用气奔跑$(DISTANCE)$(METRES)。",
+		"run_x_distance_no_followers": "没有追随者奔跑$(DISTANCE)$(METRES)。",
+		"run_x_distance_no_damage": "奔跑$(DISTANCE)$(METRES)，而不受到伤害。",
+		"run_x_distance_one_health": "以一颗心奔跑$(DISTANCE)$(METRES)。",
+		"use_chi_x_times_single_run": "在一局游戏中使用气$(COUNT)次。",
+		"destroy_x_enemies_in_tribe": "摧毁$(COUNT)个$(TRIBE)角色。",
+		"collect_x_studs_single_run": "在一局游戏中收集$(COUNT)个螺栓。",
+		"reflect_x_bullets_as_warrior": "用$(CLASS)角色反弹$(COUNT)颗子弹。",
+		"use_x_powerup_n_times": "使用$(TYPE)强化$(COUNT)次。"
+	}
+}

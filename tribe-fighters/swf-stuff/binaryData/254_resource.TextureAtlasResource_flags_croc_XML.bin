@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6e3b3e5468756d78fb2c36943ca2218a:4ac2bf9a06a39e53576ed10b6488f7d5:ea0ff40c63271039caa68c3497f910ca$ -->
+<TextureAtlas imagePath="flags_croc.png">
+    <SubTexture name="Croc-Whole" x="2" y="132" width="169" height="210"/>
+    <SubTexture name="Croc_Broken_01" x="100" y="364" width="89" height="80"/>
+    <SubTexture name="Croc_Broken_03" x="191" y="2" width="62" height="52"/>
+    <SubTexture name="Croc_Broken_04" x="2" y="364" width="96" height="105" frameX="-3" frameY="-6" frameWidth="101" frameHeight="115"/>
+    <SubTexture name="Croc_Broken_07" x="2" y="2" width="187" height="128"/>
+    <SubTexture name="Croc_BuildUp_01" x="173" y="226" width="81" height="75" frameX="-33" frameY="-135" frameWidth="175" frameHeight="213"/>
+    <SubTexture name="Croc_BuildUp_02" x="173" y="303" width="42" height="59" frameX="-52" frameY="-120" frameWidth="175" frameHeight="213"/>
+    <SubTexture name="Croc_BuildUp_07" x="191" y="56" width="42" height="168" frameX="-52" frameY="-11" frameWidth="175" frameHeight="213"/>
+</TextureAtlas>

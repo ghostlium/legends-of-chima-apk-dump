@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:ca8f789c2fa44292e915df859e457c06:f9b0b4cea03beea82ed8c16d1098c29d:4874ed3d8b79b1a4aabf2e7dde17c740$ -->
+<TextureAtlas imagePath="chars_en_static_bear.png">
+    <SubTexture name="Bear_Part_1" x="108" y="191" width="103" height="80"/>
+    <SubTexture name="Bear_Part_2" x="2" y="371" width="70" height="68"/>
+    <SubTexture name="Bear_Part_3" x="2" y="441" width="59" height="62"/>
+    <SubTexture name="Bear_Part_4" x="108" y="273" width="100" height="125"/>
+    <SubTexture name="Bear_Part_5" x="2" y="305" width="74" height="64"/>
+    <SubTexture name="Bear_Part_6" x="2" y="191" width="104" height="112"/>
+    <SubTexture name="bear-disc" x="63" y="441" width="52" height="17" frameX="-62" frameY="-101" frameWidth="222" frameHeight="187"/>
+    <SubTexture name="bear" x="2" y="2" width="222" height="187"/>
+</TextureAtlas>

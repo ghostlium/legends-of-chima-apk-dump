@@ -1,0 +1,125 @@
+{
+	"language":
+	{
+		"font1": "res/fonts/Arial_Unicode_24pt_Euro.fnt",
+		"font2": "res/fonts/Arial_Unicode_32pt_Euro.fnt",
+		
+		"number_seperator": " ",
+		"metres": "m",
+		"number_placeholder": "0123456789",
+		"slash_placeholder": "/",
+		"credits_placholder": "abcdeëfghijklmnoøpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-',.",
+		
+		"hud_distance": "$(DISTANCE) $(METRES)",
+		
+		"charselect_power": "Moc",
+		"charselect_defense": "Obrona",
+		"charselect_chi": "CHI",
+		"charselect_furthest": "Najlepszy: $(DISTANCE) $(METRES)",
+		
+		"charselect_unlock": "Odblokować tę postać za $(STUDS) monet?",
+		"charselect_unlock_confirm": "Potwierdź",
+		
+		"charselect_upgrade_ranged0": "Dodaj dodatkowe serce za $(STUDS) monet!",
+		"charselect_upgrade_ranged1": "Zwiększ moc swojej broni za $(STUDS) monet!",
+		"charselect_upgrade_ranged2": "Napełnij licznik CHI, używając mniejszej liczby kryształów za $(STUDS) monet!",
+		"charselect_upgrade_ranged3": "Zwiększ wsparcie zdrowia plemienia za $(STUDS) monet!",
+		"charselect_upgrade_ranged4": "Napełnij licznik CHI, używając mniejszej liczby kryształów za $(STUDS) monet!",
+		"charselect_upgrade_ranged5": "Spraw, by Twój miotacz strzelał w sposób rozproszony za $(STUDS) monet!",
+		"charselect_upgrade_ranged6": "Zwiększ wsparcie zdrowia plemienia za $(STUDS) monet!",
+		"charselect_upgrade_ranged7": "Napełnij licznik CHI, używając mniejszej liczby kryształów za $(STUDS) monet!",
+		"charselect_upgrade_ranged8": "Dodaj dodatkowe serce za $(STUDS) monet!",
+		"charselect_upgrade_ranged9": "Odzyskaj zdrowie, gdy aktywujesz moc CHI za $(STUDS) monet!",
+		
+		"charselect_upgrade_mage0": "Dodaj dodatkowe serce za $(STUDS) monet!",
+		"charselect_upgrade_mage1": "Zwiększ moc swojej broni za $(STUDS) monet!",
+		"charselect_upgrade_mage2": "Napełnij licznik CHI, używając mniejszej liczby kryształów za $(STUDS) monet!",
+		"charselect_upgrade_mage3": "Zwiększ wsparcie zdrowia plemienia za $(STUDS) monet!",
+		"charselect_upgrade_mage4": "Napełnij licznik CHI, używając mniejszej liczby kryształów za $(STUDS) monet!",
+		"charselect_upgrade_mage5": "Niech Twoje strzały trafiają w pobliskich wrogów za $(STUDS) monet!",
+		"charselect_upgrade_mage6": "Zwiększ wsparcie zdrowia plemienia za $(STUDS) monet!",
+		"charselect_upgrade_mage7": "Napełnij licznik CHI, używając mniejszej liczby kryształów za $(STUDS) monet!",
+		"charselect_upgrade_mage8": "Dodaj dodatkowe serce za $(STUDS) monet!",
+		"charselect_upgrade_mage9": "Odzyskaj zdrowie, gdy aktywujesz moc CHI za $(STUDS) monet!",
+		
+		"charselect_upgrade_warrior0": "Dodaj dodatkowe serce za $(STUDS) monet!",
+		"charselect_upgrade_warrior1": "Zwiększ moc swojej broni za $(STUDS) monet!",
+		"charselect_upgrade_warrior2": "Napełnij licznik CHI, używając mniejszej liczby kryształów za $(STUDS) monet!",
+		"charselect_upgrade_warrior3": "Zwiększ wsparcie zdrowia plemienia za $(STUDS) monet!",
+		"charselect_upgrade_warrior4": "Napełnij licznik CHI, używając mniejszej liczby kryształów za $(STUDS) monet!",
+		"charselect_upgrade_warrior5": "Odbijaj strzały miotacza, używając miecza za $(STUDS) monet!",
+		"charselect_upgrade_warrior6": "Zwiększ wsparcie zdrowia plemienia za $(STUDS) monet!",
+		"charselect_upgrade_warrior7": "Napełnij licznik CHI, używając mniejszej liczby kryształów za $(STUDS) monet!",
+		"charselect_upgrade_warrior8": "Dodaj dodatkowe serce za $(STUDS) monet!",
+		"charselect_upgrade_warrior9": "Odzyskaj zdrowie, gdy aktywujesz moc CHI za $(STUDS) monet!",
+		"charselect_upgrade_warrior_laval": "Transformuj swojego wojownika w Lavala za $(STUDS) monet!",
+		"charselect_upgrade_warrior_sirfangor": "Transformuj swojego wojownika w sir Fangara za $(STUDS) monet!",
+		
+		"charselect_apply_upgrade": "Ulepszyć do poziomu $(LEVEL) za $(STUDS) monet?",
+		
+		"privacy_path": "res/cfg/html/privacy_pl.html",
+		"terms_path": "res/cfg/html/terms.html",
+		
+		"agegate_caption": "Dla dorosłych",
+		"agegate": "Rozwiąż poniższą zagadkę, aby uzyskać więcej gier WB:",
+		
+		"tutorial_health": "To jest Twoje zdrowie, nie strać wszystkich serc!",
+		"tutorial_control": "Przytrzymaj przycisk myszy i przesuwaj kursor, by poruszać postacią. Możesz też użyć klawiatury (strzałek lub przycisków W, A, S, D), by poruszać swoją postacią",
+		"tutorial_chi_button": "Aby uwolnić moc CHI, naciśnij SPACJĘ albo CTRL",
+		"tutorial_touch_to_continue": "Kliknij, aby kontynuować.",
+		
+		"tutorial_flags": "Wspieraj plemię, budując flagi.",
+		"tutorial_studs": "Zbieraj monety, aby wzmocnić swoich wojowników i odblokować postacie.",
+		"tutorial_distance": "Podróżuj tak daleko, jak tylko chcesz!",
+		"tutorial_chi_crystals": "Zbieraj kryształy CHI, aby naładować moc CHI.",
+		
+		"pause_quit": "Wyjdź",
+		"pause_resume": "Wznów",
+		"pause_retry": "Spróbuj ponownie",
+		
+		"gameover_distance": "Dystans $(DISTANCE) $(METRES)",
+		"gameover_distance_new_best": "Nowy rekord!",
+		"gameover_flags": "Zebrane flagi: $(FLAGS)",
+		
+		"croc": "Krokodyl",
+		"lion": "Lew",
+		"bear": "Niedźwiedź polarny",
+		"saber": "Tygrys szablastozębny",
+		
+		"crocs": "Krokodyli",
+		"lions": "Lwów",
+		"bears": "Niedźwiedzi polarnych",
+		"sabers": "Tygrysów szablastozębnych",
+		
+		"ranged": "Miotacz",
+		"mage": "Mag",
+		"warrior": "Wojownik",
+		
+		"superweapon": "Superbroń",
+		"supershield": "Supertarcza",
+		"speedboost": "Zwiększenie prędkości",
+		
+		"kill_x_enemies": "Pokonaj $(COUNT) wrogów.",
+		"run_distance_as_tribe": "Przebiegnij $(DISTANCE) $(METRES) jako $(TRIBE).",
+		"run_distance_as_tribe_single_run": "Przebiegnij $(DISTANCE) $(METRES) jako $(TRIBE) w jednej grze.",
+		"run_distance_as_class": "Przebiegnij $(DISTANCE) $(METRES) jako $(CLASS).",
+		"run_distance_as_class_single_run": "Przebiegnij $(DISTANCE) $(METRES) jako $(CLASS) w jednej grze.",
+		"destroy_x_enemies_as_tribe": "Zniszcz $(COUNT) wrogów jako $(TRIBE).",
+		"destroy_x_enemies_as_class": "Zniszcz $(COUNT) wrogów jako $(CLASS).",
+		"destroy_x_disc_shooters": "Zniszcz $(COUNT) miotaczy dysków.",
+		"destroy_x_enemies_single_run": "Zniszcz $(COUNT) wrogów w jednej grze.",
+		"collect_x_flags": "Zbierz $(COUNT) flag(-i) w jednej grze.",
+		"have_x_followers": "Zdobądź łącznie $(COUNT) zwolenników.",
+		"run_x_distance": "Przebiegnij $(DISTANCE) $(METRES).",
+		"run_x_distance_single_run": "Przebiegnij $(DISTANCE) $(METRES) w jednej grze.",
+		"run_x_distance_single_run_no_chi": "Przebiegnij $(DISTANCE) $(METRES) w jednej grze bez używania CHI.",
+		"run_x_distance_no_followers": "Przebiegnij $(DISTANCE) $(METRES) bez zwolenników.",
+		"run_x_distance_no_damage": "Przebiegnij $(DISTANCE) $(METRES) bez doznania żadnych obrażeń.",
+		"run_x_distance_one_health": "Przebiegnij $(DISTANCE) $(METRES) z jednym sercem.",
+		"use_chi_x_times_single_run": "Użyj CHI $(COUNT) razy w jednej grze.",
+		"destroy_x_enemies_in_tribe": "Zniszcz $(COUNT) $(TRIBE).",
+		"collect_x_studs_single_run": "Zbierz $(COUNT) monet w jednej grze.",
+		"reflect_x_bullets_as_warrior": "Odbij $(COUNT) kul(-e) jako $(CLASS).",
+		"use_x_powerup_n_times": "Użyj wzmocnienia $(TYPE) $(COUNT) razy."
+	}
+}

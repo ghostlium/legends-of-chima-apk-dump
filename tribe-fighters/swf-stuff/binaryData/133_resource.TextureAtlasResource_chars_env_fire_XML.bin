@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:72a81b43c05dd3c503492cfad8ee3bfc:8c49bbea2e715a9f8b52986ee8adad0f:13ca8e3e81d612312566a2f5bf424048$ -->
+<TextureAtlas imagePath="chars_env_fire.png">
+    <SubTexture name="BrokenFire_01" x="2" y="111" width="106" height="123"/>
+    <SubTexture name="BrokenFire_02" x="210" y="204" width="52" height="54"/>
+    <SubTexture name="BrokenFire_03" x="264" y="221" width="37" height="48"/>
+    <SubTexture name="BrokenFire_04" x="2" y="279" width="39" height="63"/>
+    <SubTexture name="BrokenFire_06" x="56" y="236" width="51" height="42"/>
+    <SubTexture name="BrokenFire_07" x="2" y="236" width="52" height="41"/>
+    <SubTexture name="BrokenFire_08" x="110" y="111" width="34" height="38"/>
+    <SubTexture name="BrokenFire_09" x="414" y="78" width="93" height="109"/>
+    <SubTexture name="FireSet_01" x="110" y="204" width="98" height="74"/>
+    <SubTexture name="FireSet_02" x="147" y="103" width="129" height="99"/>
+    <SubTexture name="FireSet_03" x="414" y="2" width="95" height="74"/>
+    <SubTexture name="FireSet_04" x="147" y="2" width="134" height="99"/>
+    <SubTexture name="FireSet_05" x="388" y="189" width="107" height="107"/>
+    <SubTexture name="FireSet_06" x="278" y="112" width="108" height="107"/>
+    <SubTexture name="FireSet_07" x="283" y="2" width="129" height="108"/>
+    <SubTexture name="FireSet_08" x="2" y="2" width="143" height="107"/>
+</TextureAtlas>

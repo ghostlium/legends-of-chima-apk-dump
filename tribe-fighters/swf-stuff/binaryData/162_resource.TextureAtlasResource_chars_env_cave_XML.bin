@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b25494f18703bc2361d8c355a532d279:7601a1a87e93d6074bc93b8d7fbf9efa:638d2027af34dacc0e52d737ce371289$ -->
+<TextureAtlas imagePath="chars_env_cave.png">
+    <SubTexture name="BrokenCave_01" x="437" y="238" width="66" height="41"/>
+    <SubTexture name="BrokenCave_02" x="2" y="703" width="138" height="127"/>
+    <SubTexture name="BrokenCave_03" x="2" y="832" width="118" height="58"/>
+    <SubTexture name="BrokenCave_04" x="437" y="221" width="71" height="15"/>
+    <SubTexture name="BrokenCave_05" x="437" y="281" width="46" height="34"/>
+    <SubTexture name="BrokenCave_06" x="485" y="281" width="24" height="38"/>
+    <SubTexture name="BrokenCave_07" x="2" y="571" width="111" height="130"/>
+    <SubTexture name="BrokenCave_08" x="477" y="321" width="33" height="59"/>
+    <SubTexture name="BrokenCave_09" x="407" y="384" width="83" height="85"/>
+    <SubTexture name="BrokenCave_10" x="437" y="317" width="38" height="44"/>
+    <SubTexture name="CaveSet_01" x="2" y="2" width="252" height="217"/>
+    <SubTexture name="CaveSet_02" x="256" y="2" width="246" height="217"/>
+    <SubTexture name="CaveSet_03" x="226" y="221" width="209" height="161"/>
+    <SubTexture name="CaveSet_04" x="2" y="221" width="222" height="161"/>
+    <SubTexture name="CaveSet_05" x="290" y="571" width="157" height="106"/>
+    <SubTexture name="CaveSet_06" x="115" y="571" width="173" height="106"/>
+    <SubTexture name="CaveSet_07" x="2" y="384" width="206" height="185"/>
+    <SubTexture name="CaveSet_08" x="210" y="384" width="195" height="185"/>
+</TextureAtlas>

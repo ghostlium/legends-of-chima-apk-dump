@@ -1,0 +1,8 @@
+{
+	"costs":
+	{
+		"character_unlock": 500000,
+		"upgrade_cost_base": 25000,
+		"upgrade_cost_level_multiplier": 2
+	}
+}
