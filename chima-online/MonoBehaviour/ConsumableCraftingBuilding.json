@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 578
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 845
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_orientation": 2,
+  "Selected": 0,
+  "IsMoving": 0,
+  "SpawnedByTouchcodeID": 0,
+  "m_ongoingConstructionSpeedUpRequest": 0,
+  "m_ongoingUpgradeSpeedUpRequest": 0,
+  "TimeRemainingInSeconds": 0.0,
+  "m_OngoingCraftingSpeedUpRequest": 0,
+  "MetadataString": ""
+}

@@ -1,0 +1,67 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 26
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 355
+  },
+  "m_Name": "",
+  "ClosestFlashAnim": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "RealColor": {
+    "r": 0.670588255,
+    "g": 0.8980392,
+    "b": 0.980392158,
+    "a": 1.0
+  },
+  "text": "Loading ...",
+  "offsetZ": 0.0,
+  "characterSize": 20.0,
+  "characterSpacing": 1.0,
+  "lineSpacing": 1.05,
+  "anchor": 2,
+  "alignment": 2,
+  "tabSize": 4,
+  "font": {
+    "m_FileID": 2,
+    "m_PathID": 17
+  },
+  "color": {
+    "r": 0.670588255,
+    "g": 0.8980392,
+    "b": 0.980392158,
+    "a": 1.0
+  },
+  "pixelPerfect": 0,
+  "maxWidth": 206.0,
+  "maxWidthInPixels": 0,
+  "multiline": 1,
+  "dynamicLength": 0,
+  "removeUnsupportedCharacters": 1,
+  "parseColorTags": 1,
+  "password": 0,
+  "maskingCharacter": "*",
+  "spriteExecutive": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "isClone": 0,
+  "renderCamera": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "pixelsPerUV": {
+    "x": 512.0,
+    "y": 512.0
+  },
+  "hideAtStart": 0,
+  "persistent": 0,
+  "ignoreClipping": 0,
+  "m_LocalisedTextID": "-1",
+  "m_DrawOrder": 0
+}

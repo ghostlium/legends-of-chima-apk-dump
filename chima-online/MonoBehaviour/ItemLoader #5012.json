@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 732
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 951
+  },
+  "m_Name": "",
+  "MainItemIdStr": "-3271619511755270382",
+  "ExtraItemLabels": [
+    "OwnDomainReabait",
+    "FriendDomainReabait"
+  ],
+  "ExtraItemIds": [
+    "-4572449770188026206",
+    "-605096484891307307"
+  ]
+}

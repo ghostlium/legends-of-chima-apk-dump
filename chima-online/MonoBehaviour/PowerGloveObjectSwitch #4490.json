@@ -1,0 +1,82 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1010
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 880
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Sounds": [
+    "SFX_PressurePlate_Activate"
+  ],
+  "InitData": {
+    "ReplicationID": 0,
+    "PrefabName": "Switch_PressurePlate",
+    "PressurePlateRadius": 1.0,
+    "SwitchMode": 1,
+    "SwitchType": 1,
+    "ResetTime": 0.0,
+    "DontResetIfNearPlayer": 0,
+    "TriggerTargetNumber": 0,
+    "ActionsOnTrigger": [
+      {
+        "Target": "",
+        "Anim": "HZRD_GroundPikes_IN_Fast",
+        "WrapMode": 8,
+        "Reverse": 0,
+        "AnimTime": 0.0
+      }
+    ],
+    "TriggerAnim": "GP_Switch_Boulder_Activate",
+    "TriggerAnimReverse": 0,
+    "TriggerAnimTime": 0.0,
+    "TriggeringAnim": "GP_Switch_Boulder_Activate",
+    "TriggeringAnimReverse": 0,
+    "TriggeringAnimLength": 0.0,
+    "TriggeringAnimTime": 0.0,
+    "MeantimeAnim": "",
+    "MeantimeAnimReverse": 0,
+    "MeantimeAnimLength": 0.0,
+    "SwitchCommandsOnTriggerNumber": 0,
+    "SwitchCommandsOnTrigger": [
+      {
+        "TargetSwitch": "",
+        "Type": 0,
+        "DeactivatesAfterExec": 1,
+        "AffectsTriggerObjects": 0
+      }
+    ],
+    "SwitchCommandsOnResetNumber": 0,
+    "SwitchCommandsOnReset": [
+      {
+        "TargetSwitch": "",
+        "Type": 0,
+        "DeactivatesAfterExec": 1,
+        "AffectsTriggerObjects": 0
+      }
+    ],
+    "ResetTargetNumber": 0,
+    "ActionsOnReset": [
+      {
+        "Target": "",
+        "Anim": "",
+        "WrapMode": 8,
+        "Reverse": 0,
+        "AnimTime": 0.0
+      }
+    ],
+    "ResetAnim": "GP_Switch_Boulder_Activate",
+    "ResetAnimReverse": 0,
+    "ResetAnimTime": 0.0,
+    "HighlightOnHover": 1
+  }
+}

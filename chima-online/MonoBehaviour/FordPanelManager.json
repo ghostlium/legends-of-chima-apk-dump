@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1267
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 256
+  },
+  "m_Name": "",
+  "initialPanel": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "deactivateAllButInitialAtStart": 0,
+  "MenuToTest": "",
+  "GlobalMenuToInstantiate": [
+    "UIItemPickupFeedback",
+    "UIInspectorCursorV2",
+    "UIBlueBackground"
+  ],
+  "LoadingUI": "",
+  "LightsSet": {
+    "m_FileID": 0,
+    "m_PathID": 1135
+  },
+  "UISoundManager": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OverheadPanelManager": {
+    "m_FileID": 0,
+    "m_PathID": 4423
+  },
+  "NewLayout": 0
+}

@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 436
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 951
+  },
+  "m_Name": "",
+  "MainItemIdStr": "-2084743392113160708",
+  "ExtraItemLabels": [
+    "ContextualChatDescription"
+  ],
+  "ExtraItemIds": [
+    "-3881837567543133913"
+  ]
+}

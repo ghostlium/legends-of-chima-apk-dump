@@ -1,0 +1,13 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "Masked/Mask" {
+SubShader { 
+ Pass {
+  Cull Off
+  ColorMask 0
+ }
+}
+}

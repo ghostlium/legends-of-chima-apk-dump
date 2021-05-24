@@ -1,0 +1,27 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1154
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 418
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "GrappleOffset": {
+    "x": 0.0,
+    "y": 0.5,
+    "z": 0.0
+  },
+  "Landing": {
+    "m_FileID": 0,
+    "m_PathID": 2180
+  }
+}

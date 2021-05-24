@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1240
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 634
+  },
+  "m_Name": "",
+  "m_Handle": 0,
+  "AutoCollect": 0,
+  "m_SFX_Drop": "MLR_Loot_Wearable_drop",
+  "m_SFX_Pickup": "MLR_Loot_Wearable_PICKUP",
+  "m_SFX_PickupUI": "UIHUD_Loot_Inventory"
+}

@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 998
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 951
+  },
+  "m_Name": "",
+  "MainItemIdStr": "-5127625655001480122",
+  "ExtraItemLabels": [
+    "SuccessVFX",
+    "ChiOrb",
+    "ChiInsert",
+    "ContextualChatDescription"
+  ],
+  "ExtraItemIds": [
+    "-5724824517383846041",
+    "-4657120531420933012",
+    "-8838900066302913802",
+    "6385545230919056232"
+  ]
+}

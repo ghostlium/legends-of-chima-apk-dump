@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 999
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 854
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "InitData": {
+    "ReplicationID": 1119488879,
+    "PrefabName": "PF_WaveBattle",
+    "LinkedToMapItem": 0,
+    "LinkedSpawnPointName": "SPAWN_Portal",
+    "ZoneLevel": 28,
+    "PortalNameLocalizationID": "",
+    "Health": 3000.0,
+    "TimeToDefend": 120.0,
+    "ChiCost": 1,
+    "DistanceToParticipate": 25.0,
+    "IdleAnim": "Vfx_Spawnwer01_Idle_DeActivated",
+    "DefendingAnim": "Vfx_Spawnwer01_Activation",
+    "DamageAnim": "Vfx_Spawnwer01_Damage",
+    "ActiveAnim": "Vfx_Spawnwer01_Idle_Activated",
+    "TimeBetweenAggro": 1.0,
+    "AggroHateAmount": 60.0,
+    "TimeOutToCancel": 15.0
+  }
+}

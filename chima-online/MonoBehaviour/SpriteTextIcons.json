@@ -1,0 +1,51 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1146
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 836
+  },
+  "m_Name": "",
+  "IconTags": [
+    "[ICON_STUD]",
+    "[ICON_GB]",
+    "[ICON_MEMBER]",
+    "[ICON_PREMIUM]",
+    "[ICON_STUD_SMALL]",
+    "[1x1_BRICK_OUTLINE]",
+    "[1x2_BRICK_OUTLINE]"
+  ],
+  "IconsList": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 1143
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1140
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1141
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1142
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1144
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1138
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1139
+    }
+  ]
+}

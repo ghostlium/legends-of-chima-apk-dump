@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1001
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 103
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Sounds": [],
+  "InitData": {
+    "ReplicationID": 0,
+    "PrefabName": "",
+    "PressurePlateRadius": 0.0,
+    "SwitchMode": 2,
+    "SwitchType": 0,
+    "ResetTime": 6.0,
+    "DontResetIfNearPlayer": 0,
+    "TriggerTargetNumber": 1,
+    "ActionsOnTrigger": [
+      {
+        "Target": "",
+        "Anim": "MoveOnBridge",
+        "WrapMode": 4,
+        "Reverse": 0,
+        "AnimTime": 0.0
+      }
+    ],
+    "TriggerAnim": "SwitchOn",
+    "TriggerAnimReverse": 0,
+    "TriggerAnimTime": 1.0,
+    "TriggeringAnim": "SwitchOn",
+    "TriggeringAnimReverse": 0,
+    "TriggeringAnimLength": 0.0,
+    "TriggeringAnimTime": 0.0,
+    "MeantimeAnim": "",
+    "MeantimeAnimReverse": 0,
+    "MeantimeAnimLength": 0.0,
+    "SwitchCommandsOnTriggerNumber": 1,
+    "SwitchCommandsOnTrigger": [],
+    "SwitchCommandsOnResetNumber": 1,
+    "SwitchCommandsOnReset": [],
+    "ResetTargetNumber": 1,
+    "ActionsOnReset": [
+      {
+        "Target": "",
+        "Anim": "MoveOnBridge",
+        "WrapMode": 8,
+        "Reverse": 1,
+        "AnimTime": 0.0
+      }
+    ],
+    "ResetAnim": "SwitchOn",
+    "ResetAnimReverse": 1,
+    "ResetAnimTime": 1.0,
+    "HighlightOnHover": 1
+  }
+}

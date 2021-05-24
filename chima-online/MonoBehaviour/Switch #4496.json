@@ -1,0 +1,80 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1015
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 103
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Sounds": [],
+  "InitData": {
+    "ReplicationID": 0,
+    "PrefabName": "",
+    "PressurePlateRadius": 0.0,
+    "SwitchMode": 2,
+    "SwitchType": 2,
+    "ResetTime": 8.0,
+    "DontResetIfNearPlayer": 0,
+    "TriggerTargetNumber": 1,
+    "ActionsOnTrigger": [
+      {
+        "Target": "",
+        "Anim": "Drawbridge",
+        "WrapMode": 8,
+        "Reverse": 0,
+        "AnimTime": 0.0
+      }
+    ],
+    "TriggerAnim": "Vfx_GP_Switch_Generator_Deactivated",
+    "TriggerAnimReverse": 0,
+    "TriggerAnimTime": 0.0,
+    "TriggeringAnim": "Vfx_GP_Switch_Generator_Activated",
+    "TriggeringAnimReverse": 0,
+    "TriggeringAnimLength": 0.0,
+    "TriggeringAnimTime": 0.0,
+    "MeantimeAnim": "",
+    "MeantimeAnimReverse": 0,
+    "MeantimeAnimLength": 0.0,
+    "SwitchCommandsOnTriggerNumber": 0,
+    "SwitchCommandsOnTrigger": [
+      {
+        "TargetSwitch": "",
+        "Type": 0,
+        "DeactivatesAfterExec": 1,
+        "AffectsTriggerObjects": 0
+      }
+    ],
+    "SwitchCommandsOnResetNumber": 0,
+    "SwitchCommandsOnReset": [
+      {
+        "TargetSwitch": "",
+        "Type": 0,
+        "DeactivatesAfterExec": 1,
+        "AffectsTriggerObjects": 0
+      }
+    ],
+    "ResetTargetNumber": 1,
+    "ActionsOnReset": [
+      {
+        "Target": "",
+        "Anim": "Open_Up",
+        "WrapMode": 8,
+        "Reverse": 0,
+        "AnimTime": 0.0
+      }
+    ],
+    "ResetAnim": "Vfx_GP_Switch_Generator_Activated",
+    "ResetAnimReverse": 0,
+    "ResetAnimTime": 0.0,
+    "HighlightOnHover": 1
+  }
+}

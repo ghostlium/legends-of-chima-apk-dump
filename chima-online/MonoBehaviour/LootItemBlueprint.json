@@ -1,0 +1,17 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1115
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 622
+  },
+  "m_Name": "",
+  "m_Handle": 0,
+  "AutoCollect": 0,
+  "m_SFX_Drop": "MLR_Loot_Blueprint_drop",
+  "m_SFX_Pickup": "SFX_Loot_Blueprint_PickUp",
+  "m_SFX_PickupUI": "UIHUD_Loot_Inventory"
+}

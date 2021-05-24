@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 596
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 705
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_BlockPath": 0,
+  "m_TargetConstructible": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_AssembledLiftDuration": 0.45,
+  "m_AssembledLiftElevation": 0.75
+}

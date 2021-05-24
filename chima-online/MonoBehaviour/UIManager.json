@@ -1,0 +1,55 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1268
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 458
+  },
+  "m_Name": "",
+  "multiTouchEnabled": 0,
+  "dragThreshold": 40.0,
+  "rayDragThreshold": 2.0,
+  "rayDepth": "Infinity",
+  "rayMask": {
+    "m_Bits": 4294967295
+  },
+  "focusWithRay": 0,
+  "actionAxis": "Fire1",
+  "inputOutsideViewport": 2,
+  "warnOnNonUiHits": 0,
+  "uiCameras": [
+    {
+      "camera": {
+        "m_FileID": 0,
+        "m_PathID": 2222
+      },
+      "mask": {
+        "m_Bits": 4294967295
+      },
+      "rayDepth": "Infinity"
+    }
+  ],
+  "rayCamera": {
+    "m_FileID": 0,
+    "m_PathID": 2222
+  },
+  "blockInput": 0,
+  "defaultDragOffset": 1.0,
+  "cancelDragEasing": 22,
+  "cancelDragDuration": 1.0,
+  "defaultFont": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "defaultFontMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "IsDebugging": 0,
+  "DebugStringMouseOver": "",
+  "DebugStringMousePress": "",
+  "PressAndHoldTime": 0.5
+}

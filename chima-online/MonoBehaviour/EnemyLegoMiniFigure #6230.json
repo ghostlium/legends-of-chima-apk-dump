@@ -1,0 +1,76 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 716
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 753
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Level": 1,
+  "Height": 1.0,
+  "Radius": 1.2,
+  "MovementAttribs": {
+    "MoveType": 2,
+    "StandardSpeed": 1.0,
+    "MaxStandardSpeedRatio": 1.5,
+    "HighSpeed": 3.0,
+    "SpeedSmoothing": 10.0,
+    "RotationSpeed": 800.0,
+    "MinDistToTriggerMovement": 0.5,
+    "TargetDistToTriggerHighSpeed": 4.0,
+    "Gravity": -9.81,
+    "InstantTurnAngle": 135.0,
+    "StopSlideDistance": 2.5
+  },
+  "ExplosionParams": {
+    "ExplosionDistance": 1.0,
+    "ExplosionDirection": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "ExplosionForce": 400.0,
+    "ExplosionLift": 2.0,
+    "ExplosionRadius": 5.0,
+    "ExplosionSpread": 250.0,
+    "LinearDrag": 0.25,
+    "AngularDrag": 3.0,
+    "MinMass": 0.8,
+    "MaxMass": 1.6,
+    "Lifetime": 3.5,
+    "AutoDestruct": 1,
+    "AutoHide": 1
+  },
+  "DamageEffectDuration": 0.15,
+  "AnimObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PlayIdleBreakers": 0,
+  "EnableNetworkCommands": 1,
+  "_chiigUpPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DebugUpdateServerCommands": 0,
+  "DebugUpdateServerHFSM": 0,
+  "DebugUpdateLockedTargetsCommand": 0,
+  "PrefabName": "",
+  "DontSpawnLoot": 0,
+  "GizmoAttackRange": 1,
+  "GizmoDetectionRange": 1,
+  "GizmoConeDetectionRange": 1,
+  "GizmoGuardRange": 1,
+  "GizmoDisengageRange": 1,
+  "GizmoAlertRange": 1,
+  "GUIHateList": 1
+}

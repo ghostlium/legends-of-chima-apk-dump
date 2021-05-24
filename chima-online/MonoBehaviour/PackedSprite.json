@@ -1,0 +1,108 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 22
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 688
+  },
+  "m_Name": "",
+  "managed": 0,
+  "manager": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "spriteExecutive": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "drawLayer": 0,
+  "persistent": 0,
+  "plane": 0,
+  "winding": 1,
+  "width": 127.0,
+  "height": 180.0,
+  "bleedCompensation": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "anchor": 4,
+  "pixelPerfect": 0,
+  "autoResize": 0,
+  "billboarded": 0,
+  "offset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "renderCamera": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "pixelsPerUV": {
+    "x": 256.0,
+    "y": 256.0
+  },
+  "hideAtStart": 0,
+  "ignoreClipping": 0,
+  "savedManager": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ClosestFlashAnim": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "playAnimOnStart": 0,
+  "crossfadeFrames": 0,
+  "defaultAnim": 0,
+  "doNotTrimImages": 0,
+  "animations": [],
+  "staticTexPath": "Assets/UI/Assets/Laval.png",
+  "staticTexGUID": "7f5ed2d9c4303ed47b29b27f704599eb",
+  "_ser_stat_frame_info": {
+    "uvs": {
+      "x": 0.015625,
+      "y": 0.28125,
+      "width": 0.49609375,
+      "height": 0.703125
+    },
+    "scaleFactor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "topLeftOffset": {
+      "x": -1.0,
+      "y": 1.0
+    },
+    "bottomRightOffset": {
+      "x": 1.0,
+      "y": -1.0
+    },
+    "rotateUVs": 0
+  },
+  "staticFrameInfo": {
+    "uvs": {
+      "x": 0.015625,
+      "y": 0.28125,
+      "width": 0.49609375,
+      "height": 0.703125
+    },
+    "scaleFactor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "topLeftOffset": {
+      "x": -1.0,
+      "y": 1.0
+    },
+    "bottomRightOffset": {
+      "x": 1.0,
+      "y": -1.0
+    },
+    "rotateUVs": 0
+  },
+  "textureAnimations": []
+}

@@ -1,0 +1,75 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1224
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 103
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Sounds": [
+    "SFX_Switch_Fill_Activate"
+  ],
+  "InitData": {
+    "ReplicationID": 0,
+    "PrefabName": "Switch_Fill_Small",
+    "PressurePlateRadius": 1.0,
+    "SwitchMode": 0,
+    "SwitchType": 1,
+    "ResetTime": 2.0,
+    "DontResetIfNearPlayer": 0,
+    "TriggerTargetNumber": 1,
+    "ActionsOnTrigger": [
+      {
+        "Target": "",
+        "Anim": "Open_Up",
+        "WrapMode": 8,
+        "Reverse": 0,
+        "AnimTime": 0.0
+      }
+    ],
+    "TriggerAnim": "GP_Switch_Small_Deactivate_StepIn",
+    "TriggerAnimReverse": 0,
+    "TriggerAnimTime": 0.0,
+    "TriggeringAnim": "GP_Switch_Small_Activation",
+    "TriggeringAnimReverse": 0,
+    "TriggeringAnimLength": 1.0,
+    "TriggeringAnimTime": 5.0,
+    "MeantimeAnim": "GP_Switch_Small_Activation",
+    "MeantimeAnimReverse": 0,
+    "MeantimeAnimLength": 1.0,
+    "SwitchCommandsOnTriggerNumber": 0,
+    "SwitchCommandsOnTrigger": [
+      {
+        "TargetSwitch": "",
+        "Type": 0,
+        "DeactivatesAfterExec": 1,
+        "AffectsTriggerObjects": 0
+      }
+    ],
+    "SwitchCommandsOnResetNumber": 1,
+    "SwitchCommandsOnReset": [],
+    "ResetTargetNumber": 1,
+    "ActionsOnReset": [
+      {
+        "Target": "",
+        "Anim": "HZRD_GroundPikes_IN_Fast",
+        "WrapMode": 8,
+        "Reverse": 1,
+        "AnimTime": 0.0
+      }
+    ],
+    "ResetAnim": "GP_Switch_Small_Deactivate_StepIn",
+    "ResetAnimReverse": 1,
+    "ResetAnimTime": 0.0,
+    "HighlightOnHover": 1
+  }
+}

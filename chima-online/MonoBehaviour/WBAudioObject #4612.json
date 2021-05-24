@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1134
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 962
+  },
+  "m_Name": "",
+  "MixingType": 0,
+  "AudioType": 0,
+  "Priority": 0,
+  "KillOrder": 0,
+  "AudioSubType": 0,
+  "MaxInstance": 0,
+  "SceneSound": 0,
+  "CanPlayTwice": 0,
+  "ClipsInfo": []
+}

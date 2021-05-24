@@ -1,0 +1,50 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1148
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 638
+  },
+  "m_Name": "",
+  "AttackColor": {
+    "r": 0.6862745,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "HealColor": {
+    "r": 0.141176477,
+    "g": 0.784313738,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "LootColor": {
+    "r": 1.0,
+    "g": 0.8235294,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "AttackMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 17
+  },
+  "HealMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 18
+  },
+  "LootMaterial": {
+    "m_FileID": 0,
+    "m_PathID": 19
+  },
+  "TapEffectTime": 0.4,
+  "MinDimensionIpad": 50.0,
+  "MaxDimensionIpad": 95.0,
+  "MinDimensionIphone": 64.0,
+  "MaxDimensionIphone": 122.0,
+  "ColorSwitchTotalTime": 0.25,
+  "ColorTransitionTotalTime": 2.5,
+  "ColorTransitionTintTime": 0.2
+}

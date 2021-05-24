@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 569
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 687
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LevelOffset": 0,
+  "Respawn": 1,
+  "RespawnDelay": 0.0,
+  "BreakSound": "SFX_Breakable_Tree",
+  "StudsSound": "MLR_Break_Stud_LARGE"
+}

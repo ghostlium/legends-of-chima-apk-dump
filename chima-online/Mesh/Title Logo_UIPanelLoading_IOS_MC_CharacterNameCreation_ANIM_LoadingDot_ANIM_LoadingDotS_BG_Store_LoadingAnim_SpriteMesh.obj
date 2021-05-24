@@ -1,0 +1,16 @@
+g Title Logo/UIPanelLoading_IOS/MC_CharacterNameCreation/ANIM_LoadingDot/ANIM_LoadingDotS/BG_Store_LoadingAnim/SpriteMesh
+v 64 64 0
+v 64 -64 0
+v -64 -64 0
+v -64 64 0
+vt 0.5351563 0.984375
+vt 0.5351563 0.609375
+vt 0.9101563 0.609375
+vt 0.9101563 0.984375
+vn 0 0 -1
+vn 0 0 -1
+vn 0 0 -1
+vn 0 0 -1
+g Title Logo/UIPanelLoading_IOS/MC_CharacterNameCreation/ANIM_LoadingDot/ANIM_LoadingDotS/BG_Store_LoadingAnim/SpriteMesh_0
+f 2/2/2 4/4/4 1/1/1
+f 2/2/2 3/3/3 4/4/4

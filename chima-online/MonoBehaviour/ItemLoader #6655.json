@@ -1,0 +1,41 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 792
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 951
+  },
+  "m_Name": "",
+  "MainItemIdStr": "4731835093786182159",
+  "ExtraItemLabels": [
+    "OwnDomainCC",
+    "OtherDomainCC",
+    "WildernessCC",
+    "WildernessLowHealthCC",
+    "NotAFriendMyDomainCC",
+    "NotAFriendTheirDomainCC",
+    "NotAFriendOtherDomainCC",
+    "FriendMyDomainCC",
+    "FriendOtherDomainCC",
+    "NotAFriendWildernessCC",
+    "FriendWildernessCC",
+    "FriendTheirDomainCC"
+  ],
+  "ExtraItemIds": [
+    "-2008597774384305884",
+    "-1717698404350385801",
+    "3772739015927795767",
+    "-2264738687890892221",
+    "2140324758970889921",
+    "-4151732134293780643",
+    "-3011166189572697715",
+    "-6491232083124697411",
+    "-3268093196867928910",
+    "1976356121113720884",
+    "64807527387048835",
+    "6644909366041723507"
+  ]
+}

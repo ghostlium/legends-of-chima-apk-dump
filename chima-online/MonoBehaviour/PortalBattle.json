@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 998
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 854
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "InitData": {
+    "ReplicationID": 0,
+    "PrefabName": "PF_PortalBattle",
+    "LinkedToMapItem": 1,
+    "LinkedSpawnPointName": "SPAWN_Portal",
+    "ZoneLevel": 0,
+    "PortalNameLocalizationID": "WORLD_MAP_SECT_01",
+    "Health": 150.0,
+    "TimeToDefend": 60.0,
+    "ChiCost": 1,
+    "DistanceToParticipate": 25.0,
+    "IdleAnim": "Vfx_Portal_Battle_Idle_DeActivated",
+    "DefendingAnim": "Vfx_Portal_Battle_Activation",
+    "DamageAnim": "Vfx_Portal_Battle_Damage",
+    "ActiveAnim": "Vfx_Portal_Battle_Idle_Activated",
+    "TimeBetweenAggro": 1.0,
+    "AggroHateAmount": 1.0,
+    "TimeOutToCancel": 15.0
+  }
+}

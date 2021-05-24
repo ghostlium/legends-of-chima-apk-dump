@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 627
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 115
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "_TransferTimeInSeconds": 5.0,
+  "_InertiaVelocity": 1.0,
+  "_MaxInertia": 1.0,
+  "IdleAnimation": "CREATE_Global_Bridge01_LOOP",
+  "BalancingAnimation": "CREATE_Global_Bridge01_UP",
+  "TimeBeforeRegressingInMilliseconds": 1300.0
+}

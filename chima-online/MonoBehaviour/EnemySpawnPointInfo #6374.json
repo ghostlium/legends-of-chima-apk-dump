@@ -1,0 +1,34 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 860
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 70
+  },
+  "m_Name": "",
+  "LevelOffset": 0,
+  "AllowBehaviourOverride": 1,
+  "Champion1Player": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Champion1PlayerSpawnPct": 0.0,
+  "Champion2Players": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Champion2PlayersSpawnPct": 0.0,
+  "Champion3Players": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Champion3PlayersSpawnPct": 0.0,
+  "Champion4Players": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Champion4PlayersSpawnPct": 0.0
+}

@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 35
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 524
+  },
+  "m_Name": "",
+  "blockInput": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "index": 0,
+  "deactivateAllOnDismiss": 0,
+  "detargetOnDisable": 0,
+  "Layouts": [],
+  "fullScreenPanel": 0,
+  "CanBeDismissOnlyByMyself": 0,
+  "DisplayLoadingUIWhenLoading": 1,
+  "FordLayouts": [],
+  "HorizontalAlign": 3,
+  "VerticalAlign": 3,
+  "DepthCategory": 0,
+  "DepthOffset": 0,
+  "IsOpen": 0,
+  "MustBringBluebackground": 0,
+  "transitions": {
+    "list": [
+      {
+        "name": "Bring In Forward",
+        "animationTypes": [],
+        "animParams": [],
+        "initialized": 0
+      },
+      {
+        "name": "Bring In Back",
+        "animationTypes": [],
+        "animParams": [],
+        "initialized": 0
+      },
+      {
+        "name": "Dismiss Forward",
+        "animationTypes": [],
+        "animParams": [],
+        "initialized": 0
+      },
+      {
+        "name": "Dismiss Back",
+        "animationTypes": [],
+        "animParams": [],
+        "initialized": 0
+      }
+    ]
+  },
+  "loadingText": {
+    "m_FileID": 0,
+    "m_PathID": 84
+  }
+}

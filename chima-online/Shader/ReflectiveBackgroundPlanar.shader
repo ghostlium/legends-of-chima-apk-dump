@@ -1,0 +1,1070 @@
+//////////////////////////////////////////
+//
+// NOTE: This is *not* a valid shader file
+//
+///////////////////////////////////////////
+Shader "AngryBots/ReflectiveBackgroundPlanarGeometry" {
+Properties {
+ _MainTex ("Base", 2D) = "white" {}
+ _Cube ("Cube", CUBE) = "" {}
+ _2DReflect ("2D Reflection", 2D) = "" {}
+ _Normal ("Normal", 2D) = "bump" {}
+ _EmissionLM ("Emission (Lightmapper)", Float) = 0
+}
+SubShader { 
+ LOD 300
+ Tags { "RenderType"="Opaque" }
+ Pass {
+  Tags { "RenderType"="Opaque" }
+Program "vp" {
+SubProgram "opengl " {
+Bind "vertex" Vertex
+Bind "normal" Normal
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+Bind "tangent" ATTR14
+Matrix 5 [_Object2World]
+Vector 9 [_WorldSpaceCameraPos]
+Vector 10 [unity_Scale]
+Vector 11 [_MainTex_ST]
+Vector 12 [unity_LightmapST]
+"!!ARBvp1.0
+PARAM c[13] = { program.local[0],
+		state.matrix.mvp,
+		program.local[5..12] };
+TEMP R0;
+TEMP R1;
+TEMP R2;
+TEMP R3;
+TEMP R4;
+MOV R1.w, c[10];
+MUL R2.xyz, R1.w, c[5];
+MUL R3.xyz, R1.w, c[6];
+MUL R4.xyz, R1.w, c[7];
+MOV R0.xyz, vertex.attrib[14];
+MUL R1.xyz, vertex.normal.zxyw, R0.yzxw;
+MAD R0.xyz, vertex.normal.yzxw, R0.zxyw, -R1;
+MUL R1.xyz, R0, vertex.attrib[14].w;
+DP4 R0.z, vertex.position, c[7];
+DP4 R0.x, vertex.position, c[5];
+DP4 R0.y, vertex.position, c[6];
+ADD R0.xyz, -R0, c[9];
+DP3 R0.w, R0, R0;
+RSQ R0.w, R0.w;
+DP3 result.texcoord[2].y, R2, R1;
+DP3 result.texcoord[3].y, R1, R3;
+DP3 result.texcoord[4].y, R1, R4;
+MUL result.texcoord[1].xyz, R0.w, R0;
+DP3 result.texcoord[2].z, vertex.normal, R2;
+DP3 result.texcoord[2].x, R2, vertex.attrib[14];
+DP3 result.texcoord[3].z, vertex.normal, R3;
+DP3 result.texcoord[3].x, vertex.attrib[14], R3;
+DP3 result.texcoord[4].z, vertex.normal, R4;
+DP3 result.texcoord[4].x, vertex.attrib[14], R4;
+MAD result.texcoord[0].xy, vertex.texcoord[0], c[11], c[11].zwzw;
+MAD result.texcoord[5].xy, vertex.texcoord[1], c[12], c[12].zwzw;
+DP4 result.position.w, vertex.position, c[4];
+DP4 result.position.z, vertex.position, c[3];
+DP4 result.position.y, vertex.position, c[2];
+DP4 result.position.x, vertex.position, c[1];
+END
+# 30 instructions, 5 R-regs
+"
+}
+SubProgram "d3d9 " {
+Bind "vertex" Vertex
+Bind "normal" Normal
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+Bind "tangent" TexCoord2
+Matrix 0 [glstate_matrix_mvp]
+Matrix 4 [_Object2World]
+Vector 8 [_WorldSpaceCameraPos]
+Vector 9 [unity_Scale]
+Vector 10 [_MainTex_ST]
+Vector 11 [unity_LightmapST]
+"vs_2_0
+dcl_position0 v0
+dcl_tangent0 v1
+dcl_normal0 v2
+dcl_texcoord0 v3
+dcl_texcoord1 v4
+mov r0.xyz, v1
+mul r1.xyz, v2.zxyw, r0.yzxw
+mov r0.xyz, v1
+mad r0.xyz, v2.yzxw, r0.zxyw, -r1
+mul r2.xyz, r0, v1.w
+mov r0.xyz, c4
+mul r3.xyz, c9.w, r0
+mov r1.xyz, c5
+mul r4.xyz, c9.w, r1
+dp4 r0.z, v0, c6
+dp4 r0.x, v0, c4
+dp4 r0.y, v0, c5
+add r1.xyz, -r0, c8
+mov r0.xyz, c6
+mul r0.xyz, c9.w, r0
+dp3 r0.w, r1, r1
+rsq r0.w, r0.w
+dp3 oT2.y, r3, r2
+dp3 oT3.y, r2, r4
+dp3 oT4.y, r2, r0
+mul oT1.xyz, r0.w, r1
+dp3 oT2.z, v2, r3
+dp3 oT2.x, r3, v1
+dp3 oT3.z, v2, r4
+dp3 oT3.x, v1, r4
+dp3 oT4.z, v2, r0
+dp3 oT4.x, v1, r0
+mad oT0.xy, v3, c10, c10.zwzw
+mad oT5.xy, v4, c11, c11.zwzw
+dp4 oPos.w, v0, c3
+dp4 oPos.z, v0, c2
+dp4 oPos.y, v0, c1
+dp4 oPos.x, v0, c0
+"
+}
+SubProgram "d3d11 " {
+Bind "vertex" Vertex
+Bind "color" Color
+Bind "normal" Normal
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+Bind "tangent" TexCoord2
+ConstBuffer "$Globals" 48
+Vector 16 [_MainTex_ST]
+Vector 32 [unity_LightmapST]
+ConstBuffer "UnityPerCamera" 128
+Vector 64 [_WorldSpaceCameraPos] 3
+ConstBuffer "UnityPerDraw" 336
+Matrix 0 [glstate_matrix_mvp]
+Matrix 192 [_Object2World]
+Vector 320 [unity_Scale]
+BindCB  "$Globals" 0
+BindCB  "UnityPerCamera" 1
+BindCB  "UnityPerDraw" 2
+"vs_4_0
+eefiecedcdbddjneollcpndbbefoiefecgkdgjnhabaaaaaadaahaaaaadaaaaaa
+cmaaaaaapeaaaaaameabaaaaejfdeheomaaaaaaaagaaaaaaaiaaaaaajiaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapapaaaakbaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaapapaaaakjaaaaaaaaaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+ahahaaaalaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaadaaaaaaapadaaaalaaaaaaa
+abaaaaaaaaaaaaaaadaaaaaaaeaaaaaaapadaaaaljaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaafaaaaaaapaaaaaafaepfdejfeejepeoaafeebeoehefeofeaaeoepfc
+enebemaafeeffiedepepfceeaaedepemepfcaaklepfdeheomiaaaaaaahaaaaaa
+aiaaaaaalaaaaaaaaaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaalmaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaabaaaaaaadamaaaalmaaaaaaafaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaamadaaaalmaaaaaaabaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+ahaiaaaalmaaaaaaacaaaaaaaaaaaaaaadaaaaaaadaaaaaaahaiaaaalmaaaaaa
+adaaaaaaaaaaaaaaadaaaaaaaeaaaaaaahaiaaaalmaaaaaaaeaaaaaaaaaaaaaa
+adaaaaaaafaaaaaaahaiaaaafdfgfpfaepfdejfeejepeoaafeeffiedepepfcee
+aaklklklfdeieefcgeafaaaaeaaaabaafjabaaaafjaaaaaeegiocaaaaaaaaaaa
+adaaaaaafjaaaaaeegiocaaaabaaaaaaafaaaaaafjaaaaaeegiocaaaacaaaaaa
+bfaaaaaafpaaaaadpcbabaaaaaaaaaaafpaaaaadpcbabaaaabaaaaaafpaaaaad
+hcbabaaaacaaaaaafpaaaaaddcbabaaaadaaaaaafpaaaaaddcbabaaaaeaaaaaa
+ghaaaaaepccabaaaaaaaaaaaabaaaaaagfaaaaaddccabaaaabaaaaaagfaaaaad
+mccabaaaabaaaaaagfaaaaadhccabaaaacaaaaaagfaaaaadhccabaaaadaaaaaa
+gfaaaaadhccabaaaaeaaaaaagfaaaaadhccabaaaafaaaaaagiaaaaacacaaaaaa
+diaaaaaipcaabaaaaaaaaaaafgbfbaaaaaaaaaaaegiocaaaacaaaaaaabaaaaaa
+dcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaaaaaaaaaaagbabaaaaaaaaaaa
+egaobaaaaaaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaaacaaaaaa
+kgbkbaaaaaaaaaaaegaobaaaaaaaaaaadcaaaaakpccabaaaaaaaaaaaegiocaaa
+acaaaaaaadaaaaaapgbpbaaaaaaaaaaaegaobaaaaaaaaaaadcaaaaaldccabaaa
+abaaaaaaegbabaaaadaaaaaaegiacaaaaaaaaaaaabaaaaaaogikcaaaaaaaaaaa
+abaaaaaadcaaaaalmccabaaaabaaaaaaagbebaaaaeaaaaaaagiecaaaaaaaaaaa
+acaaaaaakgiocaaaaaaaaaaaacaaaaaadiaaaaaihcaabaaaaaaaaaaafgbfbaaa
+aaaaaaaaegiccaaaacaaaaaaanaaaaaadcaaaaakhcaabaaaaaaaaaaaegiccaaa
+acaaaaaaamaaaaaaagbabaaaaaaaaaaaegacbaaaaaaaaaaadcaaaaakhcaabaaa
+aaaaaaaaegiccaaaacaaaaaaaoaaaaaakgbkbaaaaaaaaaaaegacbaaaaaaaaaaa
+dcaaaaakhcaabaaaaaaaaaaaegiccaaaacaaaaaaapaaaaaapgbpbaaaaaaaaaaa
+egacbaaaaaaaaaaaaaaaaaajhcaabaaaaaaaaaaaegacbaiaebaaaaaaaaaaaaaa
+egiccaaaabaaaaaaaeaaaaaabaaaaaahicaabaaaaaaaaaaaegacbaaaaaaaaaaa
+egacbaaaaaaaaaaaeeaaaaaficaabaaaaaaaaaaadkaabaaaaaaaaaaadiaaaaah
+hccabaaaacaaaaaapgapbaaaaaaaaaaaegacbaaaaaaaaaaadgaaaaagbcaabaaa
+aaaaaaaaakiacaaaacaaaaaaamaaaaaadgaaaaagccaabaaaaaaaaaaaakiacaaa
+acaaaaaaanaaaaaadgaaaaagecaabaaaaaaaaaaaakiacaaaacaaaaaaaoaaaaaa
+diaaaaaihcaabaaaaaaaaaaaegacbaaaaaaaaaaapgipcaaaacaaaaaabeaaaaaa
+baaaaaahbccabaaaadaaaaaaegbcbaaaabaaaaaaegacbaaaaaaaaaaabaaaaaah
+eccabaaaadaaaaaaegbcbaaaacaaaaaaegacbaaaaaaaaaaadiaaaaahhcaabaaa
+abaaaaaajgbebaaaabaaaaaacgbjbaaaacaaaaaadcaaaaakhcaabaaaabaaaaaa
+jgbebaaaacaaaaaacgbjbaaaabaaaaaaegacbaiaebaaaaaaabaaaaaadiaaaaah
+hcaabaaaabaaaaaaegacbaaaabaaaaaapgbpbaaaabaaaaaabaaaaaahcccabaaa
+adaaaaaaegacbaaaabaaaaaaegacbaaaaaaaaaaadgaaaaagbcaabaaaaaaaaaaa
+bkiacaaaacaaaaaaamaaaaaadgaaaaagccaabaaaaaaaaaaabkiacaaaacaaaaaa
+anaaaaaadgaaaaagecaabaaaaaaaaaaabkiacaaaacaaaaaaaoaaaaaadiaaaaai
+hcaabaaaaaaaaaaaegacbaaaaaaaaaaapgipcaaaacaaaaaabeaaaaaabaaaaaah
+cccabaaaaeaaaaaaegacbaaaabaaaaaaegacbaaaaaaaaaaabaaaaaahbccabaaa
+aeaaaaaaegbcbaaaabaaaaaaegacbaaaaaaaaaaabaaaaaaheccabaaaaeaaaaaa
+egbcbaaaacaaaaaaegacbaaaaaaaaaaadgaaaaagbcaabaaaaaaaaaaackiacaaa
+acaaaaaaamaaaaaadgaaaaagccaabaaaaaaaaaaackiacaaaacaaaaaaanaaaaaa
+dgaaaaagecaabaaaaaaaaaaackiacaaaacaaaaaaaoaaaaaadiaaaaaihcaabaaa
+aaaaaaaaegacbaaaaaaaaaaapgipcaaaacaaaaaabeaaaaaabaaaaaahcccabaaa
+afaaaaaaegacbaaaabaaaaaaegacbaaaaaaaaaaabaaaaaahbccabaaaafaaaaaa
+egbcbaaaabaaaaaaegacbaaaaaaaaaaabaaaaaaheccabaaaafaaaaaaegbcbaaa
+acaaaaaaegacbaaaaaaaaaaadoaaaaab"
+}
+SubProgram "d3d11_9x " {
+Bind "vertex" Vertex
+Bind "color" Color
+Bind "normal" Normal
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+Bind "tangent" TexCoord2
+ConstBuffer "$Globals" 48
+Vector 16 [_MainTex_ST]
+Vector 32 [unity_LightmapST]
+ConstBuffer "UnityPerCamera" 128
+Vector 64 [_WorldSpaceCameraPos] 3
+ConstBuffer "UnityPerDraw" 336
+Matrix 0 [glstate_matrix_mvp]
+Matrix 192 [_Object2World]
+Vector 320 [unity_Scale]
+BindCB  "$Globals" 0
+BindCB  "UnityPerCamera" 1
+BindCB  "UnityPerDraw" 2
+"vs_4_0_level_9_1
+eefiecedhajjcgpcplcbkmbhfhnkccpdgeabpclpabaaaaaagmakaaaaaeaaaaaa
+daaaaaaagiadaaaaneaiaaaajmajaaaaebgpgodjdaadaaaadaadaaaaaaacpopp
+mmacaaaageaaaaaaafaaceaaaaaagaaaaaaagaaaaaaaceaaabaagaaaaaaaabaa
+acaaabaaaaaaaaaaabaaaeaaabaaadaaaaaaaaaaacaaaaaaaeaaaeaaaaaaaaaa
+acaaamaaaeaaaiaaaaaaaaaaacaabeaaabaaamaaaaaaaaaaaaaaaaaaaaacpopp
+bpaaaaacafaaaaiaaaaaapjabpaaaaacafaaabiaabaaapjabpaaaaacafaaacia
+acaaapjabpaaaaacafaaadiaadaaapjabpaaaaacafaaaeiaaeaaapjaaeaaaaae
+aaaaadoaadaaoejaabaaoekaabaaookaaeaaaaaeaaaaamoaaeaabejaacaabeka
+acaalekaafaaaaadaaaaahiaaaaaffjaajaaoekaaeaaaaaeaaaaahiaaiaaoeka
+aaaaaajaaaaaoeiaaeaaaaaeaaaaahiaakaaoekaaaaakkjaaaaaoeiaaeaaaaae
+aaaaahiaalaaoekaaaaappjaaaaaoeiaacaaaaadaaaaahiaaaaaoeibadaaoeka
+aiaaaaadaaaaaiiaaaaaoeiaaaaaoeiaahaaaaacaaaaaiiaaaaappiaafaaaaad
+abaaahoaaaaappiaaaaaoeiaabaaaaacaaaaabiaaiaaaakaabaaaaacaaaaacia
+ajaaaakaabaaaaacaaaaaeiaakaaaakaafaaaaadaaaaahiaaaaaoeiaamaappka
+aiaaaaadacaaaboaabaaoejaaaaaoeiaabaaaaacabaaahiaabaaoejaafaaaaad
+acaaahiaabaamjiaacaancjaaeaaaaaeabaaahiaacaamjjaabaanciaacaaoeib
+afaaaaadabaaahiaabaaoeiaabaappjaaiaaaaadacaaacoaabaaoeiaaaaaoeia
+aiaaaaadacaaaeoaacaaoejaaaaaoeiaabaaaaacaaaaabiaaiaaffkaabaaaaac
+aaaaaciaajaaffkaabaaaaacaaaaaeiaakaaffkaafaaaaadaaaaahiaaaaaoeia
+amaappkaaiaaaaadadaaaboaabaaoejaaaaaoeiaaiaaaaadadaaacoaabaaoeia
+aaaaoeiaaiaaaaadadaaaeoaacaaoejaaaaaoeiaabaaaaacaaaaabiaaiaakkka
+abaaaaacaaaaaciaajaakkkaabaaaaacaaaaaeiaakaakkkaafaaaaadaaaaahia
+aaaaoeiaamaappkaaiaaaaadaeaaaboaabaaoejaaaaaoeiaaiaaaaadaeaaacoa
+abaaoeiaaaaaoeiaaiaaaaadaeaaaeoaacaaoejaaaaaoeiaafaaaaadaaaaapia
+aaaaffjaafaaoekaaeaaaaaeaaaaapiaaeaaoekaaaaaaajaaaaaoeiaaeaaaaae
+aaaaapiaagaaoekaaaaakkjaaaaaoeiaaeaaaaaeaaaaapiaahaaoekaaaaappja
+aaaaoeiaaeaaaaaeaaaaadmaaaaappiaaaaaoekaaaaaoeiaabaaaaacaaaaamma
+aaaaoeiappppaaaafdeieefcgeafaaaaeaaaabaafjabaaaafjaaaaaeegiocaaa
+aaaaaaaaadaaaaaafjaaaaaeegiocaaaabaaaaaaafaaaaaafjaaaaaeegiocaaa
+acaaaaaabfaaaaaafpaaaaadpcbabaaaaaaaaaaafpaaaaadpcbabaaaabaaaaaa
+fpaaaaadhcbabaaaacaaaaaafpaaaaaddcbabaaaadaaaaaafpaaaaaddcbabaaa
+aeaaaaaaghaaaaaepccabaaaaaaaaaaaabaaaaaagfaaaaaddccabaaaabaaaaaa
+gfaaaaadmccabaaaabaaaaaagfaaaaadhccabaaaacaaaaaagfaaaaadhccabaaa
+adaaaaaagfaaaaadhccabaaaaeaaaaaagfaaaaadhccabaaaafaaaaaagiaaaaac
+acaaaaaadiaaaaaipcaabaaaaaaaaaaafgbfbaaaaaaaaaaaegiocaaaacaaaaaa
+abaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaaaaaaaaaaagbabaaa
+aaaaaaaaegaobaaaaaaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaa
+acaaaaaakgbkbaaaaaaaaaaaegaobaaaaaaaaaaadcaaaaakpccabaaaaaaaaaaa
+egiocaaaacaaaaaaadaaaaaapgbpbaaaaaaaaaaaegaobaaaaaaaaaaadcaaaaal
+dccabaaaabaaaaaaegbabaaaadaaaaaaegiacaaaaaaaaaaaabaaaaaaogikcaaa
+aaaaaaaaabaaaaaadcaaaaalmccabaaaabaaaaaaagbebaaaaeaaaaaaagiecaaa
+aaaaaaaaacaaaaaakgiocaaaaaaaaaaaacaaaaaadiaaaaaihcaabaaaaaaaaaaa
+fgbfbaaaaaaaaaaaegiccaaaacaaaaaaanaaaaaadcaaaaakhcaabaaaaaaaaaaa
+egiccaaaacaaaaaaamaaaaaaagbabaaaaaaaaaaaegacbaaaaaaaaaaadcaaaaak
+hcaabaaaaaaaaaaaegiccaaaacaaaaaaaoaaaaaakgbkbaaaaaaaaaaaegacbaaa
+aaaaaaaadcaaaaakhcaabaaaaaaaaaaaegiccaaaacaaaaaaapaaaaaapgbpbaaa
+aaaaaaaaegacbaaaaaaaaaaaaaaaaaajhcaabaaaaaaaaaaaegacbaiaebaaaaaa
+aaaaaaaaegiccaaaabaaaaaaaeaaaaaabaaaaaahicaabaaaaaaaaaaaegacbaaa
+aaaaaaaaegacbaaaaaaaaaaaeeaaaaaficaabaaaaaaaaaaadkaabaaaaaaaaaaa
+diaaaaahhccabaaaacaaaaaapgapbaaaaaaaaaaaegacbaaaaaaaaaaadgaaaaag
+bcaabaaaaaaaaaaaakiacaaaacaaaaaaamaaaaaadgaaaaagccaabaaaaaaaaaaa
+akiacaaaacaaaaaaanaaaaaadgaaaaagecaabaaaaaaaaaaaakiacaaaacaaaaaa
+aoaaaaaadiaaaaaihcaabaaaaaaaaaaaegacbaaaaaaaaaaapgipcaaaacaaaaaa
+beaaaaaabaaaaaahbccabaaaadaaaaaaegbcbaaaabaaaaaaegacbaaaaaaaaaaa
+baaaaaaheccabaaaadaaaaaaegbcbaaaacaaaaaaegacbaaaaaaaaaaadiaaaaah
+hcaabaaaabaaaaaajgbebaaaabaaaaaacgbjbaaaacaaaaaadcaaaaakhcaabaaa
+abaaaaaajgbebaaaacaaaaaacgbjbaaaabaaaaaaegacbaiaebaaaaaaabaaaaaa
+diaaaaahhcaabaaaabaaaaaaegacbaaaabaaaaaapgbpbaaaabaaaaaabaaaaaah
+cccabaaaadaaaaaaegacbaaaabaaaaaaegacbaaaaaaaaaaadgaaaaagbcaabaaa
+aaaaaaaabkiacaaaacaaaaaaamaaaaaadgaaaaagccaabaaaaaaaaaaabkiacaaa
+acaaaaaaanaaaaaadgaaaaagecaabaaaaaaaaaaabkiacaaaacaaaaaaaoaaaaaa
+diaaaaaihcaabaaaaaaaaaaaegacbaaaaaaaaaaapgipcaaaacaaaaaabeaaaaaa
+baaaaaahcccabaaaaeaaaaaaegacbaaaabaaaaaaegacbaaaaaaaaaaabaaaaaah
+bccabaaaaeaaaaaaegbcbaaaabaaaaaaegacbaaaaaaaaaaabaaaaaaheccabaaa
+aeaaaaaaegbcbaaaacaaaaaaegacbaaaaaaaaaaadgaaaaagbcaabaaaaaaaaaaa
+ckiacaaaacaaaaaaamaaaaaadgaaaaagccaabaaaaaaaaaaackiacaaaacaaaaaa
+anaaaaaadgaaaaagecaabaaaaaaaaaaackiacaaaacaaaaaaaoaaaaaadiaaaaai
+hcaabaaaaaaaaaaaegacbaaaaaaaaaaapgipcaaaacaaaaaabeaaaaaabaaaaaah
+cccabaaaafaaaaaaegacbaaaabaaaaaaegacbaaaaaaaaaaabaaaaaahbccabaaa
+afaaaaaaegbcbaaaabaaaaaaegacbaaaaaaaaaaabaaaaaaheccabaaaafaaaaaa
+egbcbaaaacaaaaaaegacbaaaaaaaaaaadoaaaaabejfdeheomaaaaaaaagaaaaaa
+aiaaaaaajiaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapapaaaakbaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaabaaaaaaapapaaaakjaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaacaaaaaaahahaaaalaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaadaaaaaa
+apadaaaalaaaaaaaabaaaaaaaaaaaaaaadaaaaaaaeaaaaaaapadaaaaljaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaafaaaaaaapaaaaaafaepfdejfeejepeoaafeebeo
+ehefeofeaaeoepfcenebemaafeeffiedepepfceeaaedepemepfcaaklepfdeheo
+miaaaaaaahaaaaaaaiaaaaaalaaaaaaaaaaaaaaaabaaaaaaadaaaaaaaaaaaaaa
+apaaaaaalmaaaaaaaaaaaaaaaaaaaaaaadaaaaaaabaaaaaaadamaaaalmaaaaaa
+afaaaaaaaaaaaaaaadaaaaaaabaaaaaaamadaaaalmaaaaaaabaaaaaaaaaaaaaa
+adaaaaaaacaaaaaaahaiaaaalmaaaaaaacaaaaaaaaaaaaaaadaaaaaaadaaaaaa
+ahaiaaaalmaaaaaaadaaaaaaaaaaaaaaadaaaaaaaeaaaaaaahaiaaaalmaaaaaa
+aeaaaaaaaaaaaaaaadaaaaaaafaaaaaaahaiaaaafdfgfpfaepfdejfeejepeoaa
+feeffiedepepfceeaaklklkl"
+}
+}
+Program "fp" {
+SubProgram "opengl " {
+SetTexture 0 [_Normal] 2D 0
+SetTexture 1 [_Cube] CUBE 1
+SetTexture 2 [_MainTex] 2D 2
+SetTexture 3 [unity_Lightmap] 2D 3
+"!!ARBfp1.0
+OPTION ARB_precision_hint_fastest;
+PARAM c[1] = { { 2, 1, 8 } };
+TEMP R0;
+TEMP R1;
+TEMP R2;
+TEX R0.yw, fragment.texcoord[0], texture[0], 2D;
+TEX R2, fragment.texcoord[0], texture[2], 2D;
+MAD R1.xy, R0.wyzw, c[0].x, -c[0].y;
+MUL R0.xy, R1, R1;
+ADD_SAT R0.x, R0, R0.y;
+ADD R0.x, -R0, c[0].y;
+RSQ R0.x, R0.x;
+RCP R1.z, R0.x;
+DP3 R0.x, fragment.texcoord[2], R1;
+DP3 R0.y, R1, fragment.texcoord[3];
+DP3 R0.z, R1, fragment.texcoord[4];
+DP3 R0.w, R0, R0;
+RSQ R0.w, R0.w;
+DP3 R1.x, -fragment.texcoord[1], -fragment.texcoord[1];
+RSQ R1.x, R1.x;
+MUL R1.xyz, R1.x, -fragment.texcoord[1];
+MUL R0.xyz, R0.w, R0;
+DP3 R0.w, R0, R1;
+MUL R0.xyz, R0, R0.w;
+MAD R0.xyz, -R0, c[0].x, R1;
+TEX R1, R0, texture[1], CUBE;
+TEX R0, fragment.texcoord[5], texture[3], 2D;
+MAD R1, R1, R2.w, R2;
+MUL R0.xyz, R0.w, R0;
+MUL R0.xyz, R0, R1;
+MUL result.color.xyz, R0, c[0].z;
+MOV result.color.w, R1;
+END
+# 27 instructions, 3 R-regs
+"
+}
+SubProgram "d3d9 " {
+SetTexture 0 [_Normal] 2D 0
+SetTexture 1 [_Cube] CUBE 1
+SetTexture 2 [_MainTex] 2D 2
+SetTexture 3 [unity_Lightmap] 2D 3
+"ps_2_0
+dcl_2d s0
+dcl_cube s1
+dcl_2d s2
+dcl_2d s3
+def c0, 2.00000000, -1.00000000, 1.00000000, 8.00000000
+dcl t0.xy
+dcl t1.xyz
+dcl t2.xyz
+dcl t3.xyz
+dcl t4.xyz
+dcl t5.xy
+texld r0, t0, s0
+mov r0.x, r0.w
+mad_pp r0.xy, r0, c0.x, c0.y
+mul_pp r1.xy, r0, r0
+add_pp_sat r1.x, r1, r1.y
+add_pp r1.x, -r1, c0.z
+rsq_pp r1.x, r1.x
+rcp_pp r0.z, r1.x
+dp3_pp r1.x, -t1, -t1
+rsq_pp r1.x, r1.x
+dp3_pp r2.x, t2, r0
+dp3_pp r2.y, r0, t3
+dp3_pp r2.z, r0, t4
+dp3_pp r0.x, r2, r2
+rsq_pp r0.x, r0.x
+mul_pp r2.xyz, r0.x, r2
+mul_pp r1.xyz, r1.x, -t1
+dp3_pp r0.x, r2, r1
+mul_pp r0.xyz, r2, r0.x
+mad_pp r0.xyz, -r0, c0.x, r1
+texld r1, r0, s1
+texld r2, t5, s3
+texld r0, t0, s2
+mad_pp r0, r1, r0.w, r0
+mul_pp r1.xyz, r2.w, r2
+mul_pp r0.xyz, r1, r0
+mul_pp r0.xyz, r0, c0.w
+mov_pp oC0, r0
+"
+}
+SubProgram "d3d11 " {
+SetTexture 0 [_Normal] 2D 2
+SetTexture 1 [_Cube] CUBE 1
+SetTexture 2 [_MainTex] 2D 0
+SetTexture 3 [unity_Lightmap] 2D 3
+"ps_4_0
+eefiecedcbdbkenopidagfnlmhoimkhjedijepnoabaaaaaacmafaaaaadaaaaaa
+cmaaaaaapmaaaaaadaabaaaaejfdeheomiaaaaaaahaaaaaaaiaaaaaalaaaaaaa
+aaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaalmaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaadadaaaalmaaaaaaafaaaaaaaaaaaaaaadaaaaaaabaaaaaa
+amamaaaalmaaaaaaabaaaaaaaaaaaaaaadaaaaaaacaaaaaaahahaaaalmaaaaaa
+acaaaaaaaaaaaaaaadaaaaaaadaaaaaaahahaaaalmaaaaaaadaaaaaaaaaaaaaa
+adaaaaaaaeaaaaaaahahaaaalmaaaaaaaeaaaaaaaaaaaaaaadaaaaaaafaaaaaa
+ahahaaaafdfgfpfaepfdejfeejepeoaafeeffiedepepfceeaaklklklepfdeheo
+cmaaaaaaabaaaaaaaiaaaaaacaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaa
+apaaaaaafdfgfpfegbhcghgfheaaklklfdeieefcpeadaaaaeaaaaaaapnaaaaaa
+fkaaaaadaagabaaaaaaaaaaafkaaaaadaagabaaaabaaaaaafkaaaaadaagabaaa
+acaaaaaafkaaaaadaagabaaaadaaaaaafibiaaaeaahabaaaaaaaaaaaffffaaaa
+fidaaaaeaahabaaaabaaaaaaffffaaaafibiaaaeaahabaaaacaaaaaaffffaaaa
+fibiaaaeaahabaaaadaaaaaaffffaaaagcbaaaaddcbabaaaabaaaaaagcbaaaad
+mcbabaaaabaaaaaagcbaaaadhcbabaaaacaaaaaagcbaaaadhcbabaaaadaaaaaa
+gcbaaaadhcbabaaaaeaaaaaagcbaaaadhcbabaaaafaaaaaagfaaaaadpccabaaa
+aaaaaaaagiaaaaacacaaaaaaefaaaaajpcaabaaaaaaaaaaaegbabaaaabaaaaaa
+eghobaaaaaaaaaaaaagabaaaacaaaaaadcaaaaapdcaabaaaaaaaaaaahgapbaaa
+aaaaaaaaaceaaaaaaaaaaaeaaaaaaaeaaaaaaaaaaaaaaaaaaceaaaaaaaaaialp
+aaaaialpaaaaaaaaaaaaaaaaapaaaaahicaabaaaaaaaaaaaegaabaaaaaaaaaaa
+egaabaaaaaaaaaaaddaaaaahicaabaaaaaaaaaaadkaabaaaaaaaaaaaabeaaaaa
+aaaaiadpaaaaaaaiicaabaaaaaaaaaaadkaabaiaebaaaaaaaaaaaaaaabeaaaaa
+aaaaiadpelaaaaafecaabaaaaaaaaaaadkaabaaaaaaaaaaabaaaaaahbcaabaaa
+abaaaaaaegbcbaaaadaaaaaaegacbaaaaaaaaaaabaaaaaahccaabaaaabaaaaaa
+egbcbaaaaeaaaaaaegacbaaaaaaaaaaabaaaaaahecaabaaaabaaaaaaegbcbaaa
+afaaaaaaegacbaaaaaaaaaaabaaaaaahbcaabaaaaaaaaaaaegacbaaaabaaaaaa
+egacbaaaabaaaaaaeeaaaaafbcaabaaaaaaaaaaaakaabaaaaaaaaaaadiaaaaah
+hcaabaaaaaaaaaaaagaabaaaaaaaaaaaegacbaaaabaaaaaabaaaaaajicaabaaa
+aaaaaaaaegbcbaiaebaaaaaaacaaaaaaegbcbaiaebaaaaaaacaaaaaaeeaaaaaf
+icaabaaaaaaaaaaadkaabaaaaaaaaaaadiaaaaaihcaabaaaabaaaaaapgapbaaa
+aaaaaaaaegbcbaiaebaaaaaaacaaaaaabaaaaaahicaabaaaaaaaaaaaegacbaaa
+abaaaaaaegacbaaaaaaaaaaaaaaaaaahicaabaaaaaaaaaaadkaabaaaaaaaaaaa
+dkaabaaaaaaaaaaadcaaaaakhcaabaaaaaaaaaaaegacbaaaaaaaaaaapgapbaia
+ebaaaaaaaaaaaaaaegacbaaaabaaaaaaefaaaaajpcaabaaaaaaaaaaaegacbaaa
+aaaaaaaaeghobaaaabaaaaaaaagabaaaabaaaaaaefaaaaajpcaabaaaabaaaaaa
+egbabaaaabaaaaaaeghobaaaacaaaaaaaagabaaaaaaaaaaadcaaaaajpcaabaaa
+aaaaaaaaegaobaaaaaaaaaaapgapbaaaabaaaaaaegaobaaaabaaaaaaefaaaaaj
+pcaabaaaabaaaaaaogbkbaaaabaaaaaaeghobaaaadaaaaaaaagabaaaadaaaaaa
+diaaaaahicaabaaaabaaaaaadkaabaaaabaaaaaaabeaaaaaaaaaaaebdiaaaaah
+hcaabaaaabaaaaaaegacbaaaabaaaaaapgapbaaaabaaaaaadiaaaaahhccabaaa
+aaaaaaaaegacbaaaaaaaaaaaegacbaaaabaaaaaadgaaaaaficcabaaaaaaaaaaa
+dkaabaaaaaaaaaaadoaaaaab"
+}
+SubProgram "d3d11_9x " {
+SetTexture 0 [_Normal] 2D 2
+SetTexture 1 [_Cube] CUBE 1
+SetTexture 2 [_MainTex] 2D 0
+SetTexture 3 [unity_Lightmap] 2D 3
+"ps_4_0_level_9_1
+eefiecedmpaiidmlkpblklhghnepplogkccoddhjabaaaaaaimahaaaaaeaaaaaa
+daaaaaaaimacaaaaiiagaaaafiahaaaaebgpgodjfeacaaaafeacaaaaaaacpppp
+caacaaaadeaaaaaaaaaadeaaaaaadeaaaaaadeaaaeaaceaaaaaadeaaacaaaaaa
+abababaaaaacacaaadadadaaaaacppppfbaaaaafaaaaapkaaaaaaaeaaaaaialp
+aaaaaaaaaaaaiadpfbaaaaafabaaapkaaaaaaaebaaaaaaaaaaaaaaaaaaaaaaaa
+bpaaaaacaaaaaaiaaaaacplabpaaaaacaaaaaaiaabaachlabpaaaaacaaaaaaia
+acaachlabpaaaaacaaaaaaiaadaachlabpaaaaacaaaaaaiaaeaachlabpaaaaac
+aaaaaajaaaaiapkabpaaaaacaaaaaajiabaiapkabpaaaaacaaaaaajaacaiapka
+bpaaaaacaaaaaajaadaiapkaecaaaaadaaaacpiaaaaaoelaacaioekaaeaaaaae
+abaacbiaaaaappiaaaaaaakaaaaaffkaaeaaaaaeabaacciaaaaaffiaaaaaaaka
+aaaaffkafkaaaaaeabaadiiaabaaoeiaabaaoeiaaaaakkkaacaaaaadabaaciia
+abaappibaaaappkaahaaaaacabaaciiaabaappiaagaaaaacabaaceiaabaappia
+aiaaaaadaaaacbiaacaaoelaabaaoeiaaiaaaaadaaaacciaadaaoelaabaaoeia
+aiaaaaadaaaaceiaaeaaoelaabaaoeiaceaaaaacabaachiaaaaaoeiaceaaaaac
+aaaachiaabaaoelbaiaaaaadaaaaciiaaaaaoeiaabaaoeiaacaaaaadaaaaciia
+aaaappiaaaaappiaaeaaaaaeaaaachiaabaaoeiaaaaappibaaaaoeiaabaaaaac
+abaacdiaaaaabllaecaaaaadaaaacpiaaaaaoeiaabaioekaecaaaaadacaacpia
+aaaaoelaaaaioekaecaaaaadabaacpiaabaaoeiaadaioekaaeaaaaaeaaaacpia
+aaaaoeiaacaappiaacaaoeiaafaaaaadabaaciiaabaappiaabaaaakaafaaaaad
+abaachiaabaaoeiaabaappiaafaaaaadaaaachiaaaaaoeiaabaaoeiaabaaaaac
+aaaicpiaaaaaoeiappppaaaafdeieefcpeadaaaaeaaaaaaapnaaaaaafkaaaaad
+aagabaaaaaaaaaaafkaaaaadaagabaaaabaaaaaafkaaaaadaagabaaaacaaaaaa
+fkaaaaadaagabaaaadaaaaaafibiaaaeaahabaaaaaaaaaaaffffaaaafidaaaae
+aahabaaaabaaaaaaffffaaaafibiaaaeaahabaaaacaaaaaaffffaaaafibiaaae
+aahabaaaadaaaaaaffffaaaagcbaaaaddcbabaaaabaaaaaagcbaaaadmcbabaaa
+abaaaaaagcbaaaadhcbabaaaacaaaaaagcbaaaadhcbabaaaadaaaaaagcbaaaad
+hcbabaaaaeaaaaaagcbaaaadhcbabaaaafaaaaaagfaaaaadpccabaaaaaaaaaaa
+giaaaaacacaaaaaaefaaaaajpcaabaaaaaaaaaaaegbabaaaabaaaaaaeghobaaa
+aaaaaaaaaagabaaaacaaaaaadcaaaaapdcaabaaaaaaaaaaahgapbaaaaaaaaaaa
+aceaaaaaaaaaaaeaaaaaaaeaaaaaaaaaaaaaaaaaaceaaaaaaaaaialpaaaaialp
+aaaaaaaaaaaaaaaaapaaaaahicaabaaaaaaaaaaaegaabaaaaaaaaaaaegaabaaa
+aaaaaaaaddaaaaahicaabaaaaaaaaaaadkaabaaaaaaaaaaaabeaaaaaaaaaiadp
+aaaaaaaiicaabaaaaaaaaaaadkaabaiaebaaaaaaaaaaaaaaabeaaaaaaaaaiadp
+elaaaaafecaabaaaaaaaaaaadkaabaaaaaaaaaaabaaaaaahbcaabaaaabaaaaaa
+egbcbaaaadaaaaaaegacbaaaaaaaaaaabaaaaaahccaabaaaabaaaaaaegbcbaaa
+aeaaaaaaegacbaaaaaaaaaaabaaaaaahecaabaaaabaaaaaaegbcbaaaafaaaaaa
+egacbaaaaaaaaaaabaaaaaahbcaabaaaaaaaaaaaegacbaaaabaaaaaaegacbaaa
+abaaaaaaeeaaaaafbcaabaaaaaaaaaaaakaabaaaaaaaaaaadiaaaaahhcaabaaa
+aaaaaaaaagaabaaaaaaaaaaaegacbaaaabaaaaaabaaaaaajicaabaaaaaaaaaaa
+egbcbaiaebaaaaaaacaaaaaaegbcbaiaebaaaaaaacaaaaaaeeaaaaaficaabaaa
+aaaaaaaadkaabaaaaaaaaaaadiaaaaaihcaabaaaabaaaaaapgapbaaaaaaaaaaa
+egbcbaiaebaaaaaaacaaaaaabaaaaaahicaabaaaaaaaaaaaegacbaaaabaaaaaa
+egacbaaaaaaaaaaaaaaaaaahicaabaaaaaaaaaaadkaabaaaaaaaaaaadkaabaaa
+aaaaaaaadcaaaaakhcaabaaaaaaaaaaaegacbaaaaaaaaaaapgapbaiaebaaaaaa
+aaaaaaaaegacbaaaabaaaaaaefaaaaajpcaabaaaaaaaaaaaegacbaaaaaaaaaaa
+eghobaaaabaaaaaaaagabaaaabaaaaaaefaaaaajpcaabaaaabaaaaaaegbabaaa
+abaaaaaaeghobaaaacaaaaaaaagabaaaaaaaaaaadcaaaaajpcaabaaaaaaaaaaa
+egaobaaaaaaaaaaapgapbaaaabaaaaaaegaobaaaabaaaaaaefaaaaajpcaabaaa
+abaaaaaaogbkbaaaabaaaaaaeghobaaaadaaaaaaaagabaaaadaaaaaadiaaaaah
+icaabaaaabaaaaaadkaabaaaabaaaaaaabeaaaaaaaaaaaebdiaaaaahhcaabaaa
+abaaaaaaegacbaaaabaaaaaapgapbaaaabaaaaaadiaaaaahhccabaaaaaaaaaaa
+egacbaaaaaaaaaaaegacbaaaabaaaaaadgaaaaaficcabaaaaaaaaaaadkaabaaa
+aaaaaaaadoaaaaabejfdeheomiaaaaaaahaaaaaaaiaaaaaalaaaaaaaaaaaaaaa
+abaaaaaaadaaaaaaaaaaaaaaapaaaaaalmaaaaaaaaaaaaaaaaaaaaaaadaaaaaa
+abaaaaaaadadaaaalmaaaaaaafaaaaaaaaaaaaaaadaaaaaaabaaaaaaamamaaaa
+lmaaaaaaabaaaaaaaaaaaaaaadaaaaaaacaaaaaaahahaaaalmaaaaaaacaaaaaa
+aaaaaaaaadaaaaaaadaaaaaaahahaaaalmaaaaaaadaaaaaaaaaaaaaaadaaaaaa
+aeaaaaaaahahaaaalmaaaaaaaeaaaaaaaaaaaaaaadaaaaaaafaaaaaaahahaaaa
+fdfgfpfaepfdejfeejepeoaafeeffiedepepfceeaaklklklepfdeheocmaaaaaa
+abaaaaaaaiaaaaaacaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapaaaaaa
+fdfgfpfegbhcghgfheaaklkl"
+}
+}
+ }
+}
+SubShader { 
+ LOD 200
+ Tags { "RenderType"="Opaque" }
+ Pass {
+  Tags { "RenderType"="Opaque" }
+Program "vp" {
+SubProgram "opengl " {
+Keywords { "LIGHTMAP_OFF" }
+Bind "vertex" Vertex
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+Matrix 5 [_Object2World]
+Vector 9 [_WorldSpaceCameraPos]
+Vector 10 [_MainTex_ST]
+Vector 11 [unity_LightmapST]
+"!!ARBvp1.0
+PARAM c[12] = { { 0.60000002, 0.07 },
+		state.matrix.mvp,
+		program.local[5..11] };
+TEMP R0;
+MOV R0.z, c[0].x;
+DP4 R0.x, vertex.position, c[5];
+DP4 R0.y, vertex.position, c[7];
+MAD R0.xy, R0.z, -c[9].xzzw, R0;
+MUL result.texcoord[1].xy, R0, c[0].y;
+MAD result.texcoord[0].xy, vertex.texcoord[0], c[10], c[10].zwzw;
+MAD result.texcoord[2].xy, vertex.texcoord[1], c[11], c[11].zwzw;
+DP4 result.position.w, vertex.position, c[4];
+DP4 result.position.z, vertex.position, c[3];
+DP4 result.position.y, vertex.position, c[2];
+DP4 result.position.x, vertex.position, c[1];
+END
+# 11 instructions, 1 R-regs
+"
+}
+SubProgram "d3d9 " {
+Keywords { "LIGHTMAP_OFF" }
+Bind "vertex" Vertex
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+Matrix 0 [glstate_matrix_mvp]
+Matrix 4 [_Object2World]
+Vector 8 [_WorldSpaceCameraPos]
+Vector 9 [_MainTex_ST]
+Vector 10 [unity_LightmapST]
+"vs_2_0
+def c11, 0.60000002, 0.07000000, 0, 0
+dcl_position0 v0
+dcl_texcoord0 v1
+dcl_texcoord1 v2
+mov r0.zw, c8.xyxz
+dp4 r0.x, v0, c4
+dp4 r0.y, v0, c6
+mad r0.xy, c11.x, -r0.zwzw, r0
+mul oT1.xy, r0, c11.y
+mad oT0.xy, v1, c9, c9.zwzw
+mad oT2.xy, v2, c10, c10.zwzw
+dp4 oPos.w, v0, c3
+dp4 oPos.z, v0, c2
+dp4 oPos.y, v0, c1
+dp4 oPos.x, v0, c0
+"
+}
+SubProgram "d3d11 " {
+Keywords { "LIGHTMAP_OFF" }
+Bind "vertex" Vertex
+Bind "color" Color
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+ConstBuffer "$Globals" 48
+Vector 16 [_MainTex_ST]
+Vector 32 [unity_LightmapST]
+ConstBuffer "UnityPerCamera" 128
+Vector 64 [_WorldSpaceCameraPos] 3
+ConstBuffer "UnityPerDraw" 336
+Matrix 0 [glstate_matrix_mvp]
+Matrix 192 [_Object2World]
+BindCB  "$Globals" 0
+BindCB  "UnityPerCamera" 1
+BindCB  "UnityPerDraw" 2
+"vs_4_0
+eefiecedgojppmjacblpcapmalkfobeiehgkajfbabaaaaaaaeaeaaaaadaaaaaa
+cmaaaaaapeaaaaaahmabaaaaejfdeheomaaaaaaaagaaaaaaaiaaaaaajiaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapapaaaakbaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaapaaaaaakjaaaaaaaaaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+ahaaaaaalaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaadaaaaaaapadaaaalaaaaaaa
+abaaaaaaaaaaaaaaadaaaaaaaeaaaaaaapadaaaaljaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaafaaaaaaapaaaaaafaepfdejfeejepeoaafeebeoehefeofeaaeoepfc
+enebemaafeeffiedepepfceeaaedepemepfcaaklepfdeheoiaaaaaaaaeaaaaaa
+aiaaaaaagiaaaaaaaaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaaheaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaabaaaaaaadamaaaaheaaaaaaabaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaamadaaaaheaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+adamaaaafdfgfpfaepfdejfeejepeoaafeeffiedepepfceeaaklklklfdeieefc
+iaacaaaaeaaaabaakaaaaaaafjaaaaaeegiocaaaaaaaaaaaadaaaaaafjaaaaae
+egiocaaaabaaaaaaafaaaaaafjaaaaaeegiocaaaacaaaaaabaaaaaaafpaaaaad
+pcbabaaaaaaaaaaafpaaaaaddcbabaaaadaaaaaafpaaaaaddcbabaaaaeaaaaaa
+ghaaaaaepccabaaaaaaaaaaaabaaaaaagfaaaaaddccabaaaabaaaaaagfaaaaad
+mccabaaaabaaaaaagfaaaaaddccabaaaacaaaaaagiaaaaacabaaaaaadiaaaaai
+pcaabaaaaaaaaaaafgbfbaaaaaaaaaaaegiocaaaacaaaaaaabaaaaaadcaaaaak
+pcaabaaaaaaaaaaaegiocaaaacaaaaaaaaaaaaaaagbabaaaaaaaaaaaegaobaaa
+aaaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaaacaaaaaakgbkbaaa
+aaaaaaaaegaobaaaaaaaaaaadcaaaaakpccabaaaaaaaaaaaegiocaaaacaaaaaa
+adaaaaaapgbpbaaaaaaaaaaaegaobaaaaaaaaaaadiaaaaaidcaabaaaaaaaaaaa
+fgbfbaaaaaaaaaaaigiacaaaacaaaaaaanaaaaaadcaaaaakdcaabaaaaaaaaaaa
+igiacaaaacaaaaaaamaaaaaaagbabaaaaaaaaaaaegaabaaaaaaaaaaadcaaaaak
+dcaabaaaaaaaaaaaigiacaaaacaaaaaaaoaaaaaakgbkbaaaaaaaaaaaegaabaaa
+aaaaaaaadcaaaaakdcaabaaaaaaaaaaaigiacaaaacaaaaaaapaaaaaapgbpbaaa
+aaaaaaaaegaabaaaaaaaaaaadcaaaaandcaabaaaaaaaaaaaigiacaaaabaaaaaa
+aeaaaaaaaceaaaaajkjjbjlpjkjjbjlpaaaaaaaaaaaaaaaaegaabaaaaaaaaaaa
+diaaaaakmccabaaaabaaaaaaagaebaaaaaaaaaaaaceaaaaaaaaaaaaaaaaaaaaa
+cjfmipdncjfmipdndcaaaaaldccabaaaabaaaaaaegbabaaaadaaaaaaegiacaaa
+aaaaaaaaabaaaaaaogikcaaaaaaaaaaaabaaaaaadcaaaaaldccabaaaacaaaaaa
+egbabaaaaeaaaaaaegiacaaaaaaaaaaaacaaaaaaogikcaaaaaaaaaaaacaaaaaa
+doaaaaab"
+}
+SubProgram "d3d11_9x " {
+Keywords { "LIGHTMAP_OFF" }
+Bind "vertex" Vertex
+Bind "color" Color
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+ConstBuffer "$Globals" 48
+Vector 16 [_MainTex_ST]
+Vector 32 [unity_LightmapST]
+ConstBuffer "UnityPerCamera" 128
+Vector 64 [_WorldSpaceCameraPos] 3
+ConstBuffer "UnityPerDraw" 336
+Matrix 0 [glstate_matrix_mvp]
+Matrix 192 [_Object2World]
+BindCB  "$Globals" 0
+BindCB  "UnityPerCamera" 1
+BindCB  "UnityPerDraw" 2
+"vs_4_0_level_9_1
+eefiecedogglmaikmlddncemdebnjbieglnlongkabaaaaaalmafaaaaaeaaaaaa
+daaaaaaaoeabaaaagmaeaaaadeafaaaaebgpgodjkmabaaaakmabaaaaaaacpopp
+feabaaaafiaaaaaaaeaaceaaaaaafeaaaaaafeaaaaaaceaaabaafeaaaaaaabaa
+acaaabaaaaaaaaaaabaaaeaaabaaadaaaaaaaaaaacaaaaaaaeaaaeaaaaaaaaaa
+acaaamaaaeaaaiaaaaaaaaaaaaaaaaaaaaacpoppfbaaaaafamaaapkajkjjbjlp
+cjfmipdnaaaaaaaaaaaaaaaabpaaaaacafaaaaiaaaaaapjabpaaaaacafaaadia
+adaaapjabpaaaaacafaaaeiaaeaaapjaaeaaaaaeaaaaadoaadaaoejaabaaoeka
+abaaookaaeaaaaaeabaaadoaaeaaoejaacaaoekaacaaookaafaaaaadaaaaadia
+aaaaffjaajaaockaaeaaaaaeaaaaadiaaiaaockaaaaaaajaaaaaoeiaaeaaaaae
+aaaaadiaakaaockaaaaakkjaaaaaoeiaaeaaaaaeaaaaadiaalaaockaaaaappja
+aaaaoeiaabaaaaacabaaabiaamaaaakaaeaaaaaeaaaaadiaadaaockaabaaaaia
+aaaaoeiaafaaaaadaaaaamoaaaaaeeiaamaaffkaafaaaaadaaaaapiaaaaaffja
+afaaoekaaeaaaaaeaaaaapiaaeaaoekaaaaaaajaaaaaoeiaaeaaaaaeaaaaapia
+agaaoekaaaaakkjaaaaaoeiaaeaaaaaeaaaaapiaahaaoekaaaaappjaaaaaoeia
+aeaaaaaeaaaaadmaaaaappiaaaaaoekaaaaaoeiaabaaaaacaaaaammaaaaaoeia
+ppppaaaafdeieefciaacaaaaeaaaabaakaaaaaaafjaaaaaeegiocaaaaaaaaaaa
+adaaaaaafjaaaaaeegiocaaaabaaaaaaafaaaaaafjaaaaaeegiocaaaacaaaaaa
+baaaaaaafpaaaaadpcbabaaaaaaaaaaafpaaaaaddcbabaaaadaaaaaafpaaaaad
+dcbabaaaaeaaaaaaghaaaaaepccabaaaaaaaaaaaabaaaaaagfaaaaaddccabaaa
+abaaaaaagfaaaaadmccabaaaabaaaaaagfaaaaaddccabaaaacaaaaaagiaaaaac
+abaaaaaadiaaaaaipcaabaaaaaaaaaaafgbfbaaaaaaaaaaaegiocaaaacaaaaaa
+abaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaaaaaaaaaaagbabaaa
+aaaaaaaaegaobaaaaaaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaa
+acaaaaaakgbkbaaaaaaaaaaaegaobaaaaaaaaaaadcaaaaakpccabaaaaaaaaaaa
+egiocaaaacaaaaaaadaaaaaapgbpbaaaaaaaaaaaegaobaaaaaaaaaaadiaaaaai
+dcaabaaaaaaaaaaafgbfbaaaaaaaaaaaigiacaaaacaaaaaaanaaaaaadcaaaaak
+dcaabaaaaaaaaaaaigiacaaaacaaaaaaamaaaaaaagbabaaaaaaaaaaaegaabaaa
+aaaaaaaadcaaaaakdcaabaaaaaaaaaaaigiacaaaacaaaaaaaoaaaaaakgbkbaaa
+aaaaaaaaegaabaaaaaaaaaaadcaaaaakdcaabaaaaaaaaaaaigiacaaaacaaaaaa
+apaaaaaapgbpbaaaaaaaaaaaegaabaaaaaaaaaaadcaaaaandcaabaaaaaaaaaaa
+igiacaaaabaaaaaaaeaaaaaaaceaaaaajkjjbjlpjkjjbjlpaaaaaaaaaaaaaaaa
+egaabaaaaaaaaaaadiaaaaakmccabaaaabaaaaaaagaebaaaaaaaaaaaaceaaaaa
+aaaaaaaaaaaaaaaacjfmipdncjfmipdndcaaaaaldccabaaaabaaaaaaegbabaaa
+adaaaaaaegiacaaaaaaaaaaaabaaaaaaogikcaaaaaaaaaaaabaaaaaadcaaaaal
+dccabaaaacaaaaaaegbabaaaaeaaaaaaegiacaaaaaaaaaaaacaaaaaaogikcaaa
+aaaaaaaaacaaaaaadoaaaaabejfdeheomaaaaaaaagaaaaaaaiaaaaaajiaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapapaaaakbaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaapaaaaaakjaaaaaaaaaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+ahaaaaaalaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaadaaaaaaapadaaaalaaaaaaa
+abaaaaaaaaaaaaaaadaaaaaaaeaaaaaaapadaaaaljaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaafaaaaaaapaaaaaafaepfdejfeejepeoaafeebeoehefeofeaaeoepfc
+enebemaafeeffiedepepfceeaaedepemepfcaaklepfdeheoiaaaaaaaaeaaaaaa
+aiaaaaaagiaaaaaaaaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaaheaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaabaaaaaaadamaaaaheaaaaaaabaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaamadaaaaheaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+adamaaaafdfgfpfaepfdejfeejepeoaafeeffiedepepfceeaaklklkl"
+}
+SubProgram "opengl " {
+Keywords { "LIGHTMAP_ON" }
+Bind "vertex" Vertex
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+Matrix 5 [_Object2World]
+Vector 9 [_WorldSpaceCameraPos]
+Vector 10 [_MainTex_ST]
+Vector 11 [unity_LightmapST]
+"!!ARBvp1.0
+PARAM c[12] = { { 0.60000002, 0.07 },
+		state.matrix.mvp,
+		program.local[5..11] };
+TEMP R0;
+MOV R0.z, c[0].x;
+DP4 R0.x, vertex.position, c[5];
+DP4 R0.y, vertex.position, c[7];
+MAD R0.xy, R0.z, -c[9].xzzw, R0;
+MUL result.texcoord[1].xy, R0, c[0].y;
+MAD result.texcoord[0].xy, vertex.texcoord[0], c[10], c[10].zwzw;
+MAD result.texcoord[2].xy, vertex.texcoord[1], c[11], c[11].zwzw;
+DP4 result.position.w, vertex.position, c[4];
+DP4 result.position.z, vertex.position, c[3];
+DP4 result.position.y, vertex.position, c[2];
+DP4 result.position.x, vertex.position, c[1];
+END
+# 11 instructions, 1 R-regs
+"
+}
+SubProgram "d3d9 " {
+Keywords { "LIGHTMAP_ON" }
+Bind "vertex" Vertex
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+Matrix 0 [glstate_matrix_mvp]
+Matrix 4 [_Object2World]
+Vector 8 [_WorldSpaceCameraPos]
+Vector 9 [_MainTex_ST]
+Vector 10 [unity_LightmapST]
+"vs_2_0
+def c11, 0.60000002, 0.07000000, 0, 0
+dcl_position0 v0
+dcl_texcoord0 v1
+dcl_texcoord1 v2
+mov r0.zw, c8.xyxz
+dp4 r0.x, v0, c4
+dp4 r0.y, v0, c6
+mad r0.xy, c11.x, -r0.zwzw, r0
+mul oT1.xy, r0, c11.y
+mad oT0.xy, v1, c9, c9.zwzw
+mad oT2.xy, v2, c10, c10.zwzw
+dp4 oPos.w, v0, c3
+dp4 oPos.z, v0, c2
+dp4 oPos.y, v0, c1
+dp4 oPos.x, v0, c0
+"
+}
+SubProgram "d3d11 " {
+Keywords { "LIGHTMAP_ON" }
+Bind "vertex" Vertex
+Bind "color" Color
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+ConstBuffer "$Globals" 48
+Vector 16 [_MainTex_ST]
+Vector 32 [unity_LightmapST]
+ConstBuffer "UnityPerCamera" 128
+Vector 64 [_WorldSpaceCameraPos] 3
+ConstBuffer "UnityPerDraw" 336
+Matrix 0 [glstate_matrix_mvp]
+Matrix 192 [_Object2World]
+BindCB  "$Globals" 0
+BindCB  "UnityPerCamera" 1
+BindCB  "UnityPerDraw" 2
+"vs_4_0
+eefiecedgojppmjacblpcapmalkfobeiehgkajfbabaaaaaaaeaeaaaaadaaaaaa
+cmaaaaaapeaaaaaahmabaaaaejfdeheomaaaaaaaagaaaaaaaiaaaaaajiaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapapaaaakbaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaapaaaaaakjaaaaaaaaaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+ahaaaaaalaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaadaaaaaaapadaaaalaaaaaaa
+abaaaaaaaaaaaaaaadaaaaaaaeaaaaaaapadaaaaljaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaafaaaaaaapaaaaaafaepfdejfeejepeoaafeebeoehefeofeaaeoepfc
+enebemaafeeffiedepepfceeaaedepemepfcaaklepfdeheoiaaaaaaaaeaaaaaa
+aiaaaaaagiaaaaaaaaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaaheaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaabaaaaaaadamaaaaheaaaaaaabaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaamadaaaaheaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+adamaaaafdfgfpfaepfdejfeejepeoaafeeffiedepepfceeaaklklklfdeieefc
+iaacaaaaeaaaabaakaaaaaaafjaaaaaeegiocaaaaaaaaaaaadaaaaaafjaaaaae
+egiocaaaabaaaaaaafaaaaaafjaaaaaeegiocaaaacaaaaaabaaaaaaafpaaaaad
+pcbabaaaaaaaaaaafpaaaaaddcbabaaaadaaaaaafpaaaaaddcbabaaaaeaaaaaa
+ghaaaaaepccabaaaaaaaaaaaabaaaaaagfaaaaaddccabaaaabaaaaaagfaaaaad
+mccabaaaabaaaaaagfaaaaaddccabaaaacaaaaaagiaaaaacabaaaaaadiaaaaai
+pcaabaaaaaaaaaaafgbfbaaaaaaaaaaaegiocaaaacaaaaaaabaaaaaadcaaaaak
+pcaabaaaaaaaaaaaegiocaaaacaaaaaaaaaaaaaaagbabaaaaaaaaaaaegaobaaa
+aaaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaaacaaaaaakgbkbaaa
+aaaaaaaaegaobaaaaaaaaaaadcaaaaakpccabaaaaaaaaaaaegiocaaaacaaaaaa
+adaaaaaapgbpbaaaaaaaaaaaegaobaaaaaaaaaaadiaaaaaidcaabaaaaaaaaaaa
+fgbfbaaaaaaaaaaaigiacaaaacaaaaaaanaaaaaadcaaaaakdcaabaaaaaaaaaaa
+igiacaaaacaaaaaaamaaaaaaagbabaaaaaaaaaaaegaabaaaaaaaaaaadcaaaaak
+dcaabaaaaaaaaaaaigiacaaaacaaaaaaaoaaaaaakgbkbaaaaaaaaaaaegaabaaa
+aaaaaaaadcaaaaakdcaabaaaaaaaaaaaigiacaaaacaaaaaaapaaaaaapgbpbaaa
+aaaaaaaaegaabaaaaaaaaaaadcaaaaandcaabaaaaaaaaaaaigiacaaaabaaaaaa
+aeaaaaaaaceaaaaajkjjbjlpjkjjbjlpaaaaaaaaaaaaaaaaegaabaaaaaaaaaaa
+diaaaaakmccabaaaabaaaaaaagaebaaaaaaaaaaaaceaaaaaaaaaaaaaaaaaaaaa
+cjfmipdncjfmipdndcaaaaaldccabaaaabaaaaaaegbabaaaadaaaaaaegiacaaa
+aaaaaaaaabaaaaaaogikcaaaaaaaaaaaabaaaaaadcaaaaaldccabaaaacaaaaaa
+egbabaaaaeaaaaaaegiacaaaaaaaaaaaacaaaaaaogikcaaaaaaaaaaaacaaaaaa
+doaaaaab"
+}
+SubProgram "d3d11_9x " {
+Keywords { "LIGHTMAP_ON" }
+Bind "vertex" Vertex
+Bind "color" Color
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+ConstBuffer "$Globals" 48
+Vector 16 [_MainTex_ST]
+Vector 32 [unity_LightmapST]
+ConstBuffer "UnityPerCamera" 128
+Vector 64 [_WorldSpaceCameraPos] 3
+ConstBuffer "UnityPerDraw" 336
+Matrix 0 [glstate_matrix_mvp]
+Matrix 192 [_Object2World]
+BindCB  "$Globals" 0
+BindCB  "UnityPerCamera" 1
+BindCB  "UnityPerDraw" 2
+"vs_4_0_level_9_1
+eefiecedogglmaikmlddncemdebnjbieglnlongkabaaaaaalmafaaaaaeaaaaaa
+daaaaaaaoeabaaaagmaeaaaadeafaaaaebgpgodjkmabaaaakmabaaaaaaacpopp
+feabaaaafiaaaaaaaeaaceaaaaaafeaaaaaafeaaaaaaceaaabaafeaaaaaaabaa
+acaaabaaaaaaaaaaabaaaeaaabaaadaaaaaaaaaaacaaaaaaaeaaaeaaaaaaaaaa
+acaaamaaaeaaaiaaaaaaaaaaaaaaaaaaaaacpoppfbaaaaafamaaapkajkjjbjlp
+cjfmipdnaaaaaaaaaaaaaaaabpaaaaacafaaaaiaaaaaapjabpaaaaacafaaadia
+adaaapjabpaaaaacafaaaeiaaeaaapjaaeaaaaaeaaaaadoaadaaoejaabaaoeka
+abaaookaaeaaaaaeabaaadoaaeaaoejaacaaoekaacaaookaafaaaaadaaaaadia
+aaaaffjaajaaockaaeaaaaaeaaaaadiaaiaaockaaaaaaajaaaaaoeiaaeaaaaae
+aaaaadiaakaaockaaaaakkjaaaaaoeiaaeaaaaaeaaaaadiaalaaockaaaaappja
+aaaaoeiaabaaaaacabaaabiaamaaaakaaeaaaaaeaaaaadiaadaaockaabaaaaia
+aaaaoeiaafaaaaadaaaaamoaaaaaeeiaamaaffkaafaaaaadaaaaapiaaaaaffja
+afaaoekaaeaaaaaeaaaaapiaaeaaoekaaaaaaajaaaaaoeiaaeaaaaaeaaaaapia
+agaaoekaaaaakkjaaaaaoeiaaeaaaaaeaaaaapiaahaaoekaaaaappjaaaaaoeia
+aeaaaaaeaaaaadmaaaaappiaaaaaoekaaaaaoeiaabaaaaacaaaaammaaaaaoeia
+ppppaaaafdeieefciaacaaaaeaaaabaakaaaaaaafjaaaaaeegiocaaaaaaaaaaa
+adaaaaaafjaaaaaeegiocaaaabaaaaaaafaaaaaafjaaaaaeegiocaaaacaaaaaa
+baaaaaaafpaaaaadpcbabaaaaaaaaaaafpaaaaaddcbabaaaadaaaaaafpaaaaad
+dcbabaaaaeaaaaaaghaaaaaepccabaaaaaaaaaaaabaaaaaagfaaaaaddccabaaa
+abaaaaaagfaaaaadmccabaaaabaaaaaagfaaaaaddccabaaaacaaaaaagiaaaaac
+abaaaaaadiaaaaaipcaabaaaaaaaaaaafgbfbaaaaaaaaaaaegiocaaaacaaaaaa
+abaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaaaaaaaaaaagbabaaa
+aaaaaaaaegaobaaaaaaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaa
+acaaaaaakgbkbaaaaaaaaaaaegaobaaaaaaaaaaadcaaaaakpccabaaaaaaaaaaa
+egiocaaaacaaaaaaadaaaaaapgbpbaaaaaaaaaaaegaobaaaaaaaaaaadiaaaaai
+dcaabaaaaaaaaaaafgbfbaaaaaaaaaaaigiacaaaacaaaaaaanaaaaaadcaaaaak
+dcaabaaaaaaaaaaaigiacaaaacaaaaaaamaaaaaaagbabaaaaaaaaaaaegaabaaa
+aaaaaaaadcaaaaakdcaabaaaaaaaaaaaigiacaaaacaaaaaaaoaaaaaakgbkbaaa
+aaaaaaaaegaabaaaaaaaaaaadcaaaaakdcaabaaaaaaaaaaaigiacaaaacaaaaaa
+apaaaaaapgbpbaaaaaaaaaaaegaabaaaaaaaaaaadcaaaaandcaabaaaaaaaaaaa
+igiacaaaabaaaaaaaeaaaaaaaceaaaaajkjjbjlpjkjjbjlpaaaaaaaaaaaaaaaa
+egaabaaaaaaaaaaadiaaaaakmccabaaaabaaaaaaagaebaaaaaaaaaaaaceaaaaa
+aaaaaaaaaaaaaaaacjfmipdncjfmipdndcaaaaaldccabaaaabaaaaaaegbabaaa
+adaaaaaaegiacaaaaaaaaaaaabaaaaaaogikcaaaaaaaaaaaabaaaaaadcaaaaal
+dccabaaaacaaaaaaegbabaaaaeaaaaaaegiacaaaaaaaaaaaacaaaaaaogikcaaa
+aaaaaaaaacaaaaaadoaaaaabejfdeheomaaaaaaaagaaaaaaaiaaaaaajiaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapapaaaakbaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaapaaaaaakjaaaaaaaaaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+ahaaaaaalaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaadaaaaaaapadaaaalaaaaaaa
+abaaaaaaaaaaaaaaadaaaaaaaeaaaaaaapadaaaaljaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaafaaaaaaapaaaaaafaepfdejfeejepeoaafeebeoehefeofeaaeoepfc
+enebemaafeeffiedepepfceeaaedepemepfcaaklepfdeheoiaaaaaaaaeaaaaaa
+aiaaaaaagiaaaaaaaaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaaheaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaabaaaaaaadamaaaaheaaaaaaabaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaamadaaaaheaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+adamaaaafdfgfpfaepfdejfeejepeoaafeeffiedepepfceeaaklklkl"
+}
+}
+Program "fp" {
+SubProgram "opengl " {
+Keywords { "LIGHTMAP_OFF" }
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_2DReflect] 2D 1
+"!!ARBfp1.0
+OPTION ARB_precision_hint_fastest;
+TEMP R0;
+TEMP R1;
+TEX R0, fragment.texcoord[0], texture[0], 2D;
+TEX R1, fragment.texcoord[1], texture[1], 2D;
+MAD result.color, R1, R0.w, R0;
+END
+# 3 instructions, 2 R-regs
+"
+}
+SubProgram "d3d9 " {
+Keywords { "LIGHTMAP_OFF" }
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_2DReflect] 2D 1
+"ps_2_0
+dcl_2d s0
+dcl_2d s1
+dcl t0.xy
+dcl t1.xy
+texld r1, t0, s0
+texld r0, t1, s1
+mad_pp r0, r0, r1.w, r1
+mov_pp oC0, r0
+"
+}
+SubProgram "d3d11 " {
+Keywords { "LIGHTMAP_OFF" }
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_2DReflect] 2D 1
+"ps_4_0
+eefiecedolcmeokhpphkgnnnjgocfeblidijglcbabaaaaaammabaaaaadaaaaaa
+cmaaaaaaleaaaaaaoiaaaaaaejfdeheoiaaaaaaaaeaaaaaaaiaaaaaagiaaaaaa
+aaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaaheaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaadadaaaaheaaaaaaabaaaaaaaaaaaaaaadaaaaaaabaaaaaa
+amamaaaaheaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaaadaaaaaafdfgfpfa
+epfdejfeejepeoaafeeffiedepepfceeaaklklklepfdeheocmaaaaaaabaaaaaa
+aiaaaaaacaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapaaaaaafdfgfpfe
+gbhcghgfheaaklklfdeieefcnmaaaaaaeaaaaaaadhaaaaaafkaaaaadaagabaaa
+aaaaaaaafkaaaaadaagabaaaabaaaaaafibiaaaeaahabaaaaaaaaaaaffffaaaa
+fibiaaaeaahabaaaabaaaaaaffffaaaagcbaaaaddcbabaaaabaaaaaagcbaaaad
+mcbabaaaabaaaaaagfaaaaadpccabaaaaaaaaaaagiaaaaacacaaaaaaefaaaaaj
+pcaabaaaaaaaaaaaegbabaaaabaaaaaaeghobaaaaaaaaaaaaagabaaaaaaaaaaa
+efaaaaajpcaabaaaabaaaaaaogbkbaaaabaaaaaaeghobaaaabaaaaaaaagabaaa
+abaaaaaadcaaaaajpccabaaaaaaaaaaaegaobaaaabaaaaaapgapbaaaaaaaaaaa
+egaobaaaaaaaaaaadoaaaaab"
+}
+SubProgram "d3d11_9x " {
+Keywords { "LIGHTMAP_OFF" }
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_2DReflect] 2D 1
+"ps_4_0_level_9_1
+eefiecedpejocdamlmpgpenedepalkkkgelckpbaabaaaaaahmacaaaaaeaaaaaa
+daaaaaaanmaaaaaamaabaaaaeiacaaaaebgpgodjkeaaaaaakeaaaaaaaaacpppp
+hiaaaaaacmaaaaaaaaaacmaaaaaacmaaaaaacmaaacaaceaaaaaacmaaaaaaaaaa
+abababaaaaacppppbpaaaaacaaaaaaiaaaaacplabpaaaaacaaaaaajaaaaiapka
+bpaaaaacaaaaaajaabaiapkaabaaaaacaaaacdiaaaaabllaecaaaaadaaaacpia
+aaaaoeiaabaioekaecaaaaadabaacpiaaaaaoelaaaaioekaaeaaaaaeaaaacpia
+aaaaoeiaabaappiaabaaoeiaabaaaaacaaaicpiaaaaaoeiappppaaaafdeieefc
+nmaaaaaaeaaaaaaadhaaaaaafkaaaaadaagabaaaaaaaaaaafkaaaaadaagabaaa
+abaaaaaafibiaaaeaahabaaaaaaaaaaaffffaaaafibiaaaeaahabaaaabaaaaaa
+ffffaaaagcbaaaaddcbabaaaabaaaaaagcbaaaadmcbabaaaabaaaaaagfaaaaad
+pccabaaaaaaaaaaagiaaaaacacaaaaaaefaaaaajpcaabaaaaaaaaaaaegbabaaa
+abaaaaaaeghobaaaaaaaaaaaaagabaaaaaaaaaaaefaaaaajpcaabaaaabaaaaaa
+ogbkbaaaabaaaaaaeghobaaaabaaaaaaaagabaaaabaaaaaadcaaaaajpccabaaa
+aaaaaaaaegaobaaaabaaaaaapgapbaaaaaaaaaaaegaobaaaaaaaaaaadoaaaaab
+ejfdeheoiaaaaaaaaeaaaaaaaiaaaaaagiaaaaaaaaaaaaaaabaaaaaaadaaaaaa
+aaaaaaaaapaaaaaaheaaaaaaaaaaaaaaaaaaaaaaadaaaaaaabaaaaaaadadaaaa
+heaaaaaaabaaaaaaaaaaaaaaadaaaaaaabaaaaaaamamaaaaheaaaaaaacaaaaaa
+aaaaaaaaadaaaaaaacaaaaaaadaaaaaafdfgfpfaepfdejfeejepeoaafeeffied
+epepfceeaaklklklepfdeheocmaaaaaaabaaaaaaaiaaaaaacaaaaaaaaaaaaaaa
+aaaaaaaaadaaaaaaaaaaaaaaapaaaaaafdfgfpfegbhcghgfheaaklkl"
+}
+SubProgram "opengl " {
+Keywords { "LIGHTMAP_ON" }
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_2DReflect] 2D 1
+SetTexture 2 [unity_Lightmap] 2D 2
+"!!ARBfp1.0
+OPTION ARB_precision_hint_fastest;
+PARAM c[1] = { { 8 } };
+TEMP R0;
+TEMP R1;
+TEMP R2;
+TEX R0, fragment.texcoord[2], texture[2], 2D;
+TEX R2, fragment.texcoord[0], texture[0], 2D;
+TEX R1, fragment.texcoord[1], texture[1], 2D;
+MAD R1, R1, R2.w, R2;
+MUL R0.xyz, R0.w, R0;
+MUL R0.xyz, R0, R1;
+MUL result.color.xyz, R0, c[0].x;
+MOV result.color.w, R1;
+END
+# 8 instructions, 3 R-regs
+"
+}
+SubProgram "d3d9 " {
+Keywords { "LIGHTMAP_ON" }
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_2DReflect] 2D 1
+SetTexture 2 [unity_Lightmap] 2D 2
+"ps_2_0
+dcl_2d s0
+dcl_2d s1
+dcl_2d s2
+def c0, 8.00000000, 0, 0, 0
+dcl t0.xy
+dcl t1.xy
+dcl t2.xy
+texld r1, t1, s1
+texld r2, t2, s2
+texld r0, t0, s0
+mad_pp r0, r1, r0.w, r0
+mul_pp r1.xyz, r2.w, r2
+mul_pp r0.xyz, r1, r0
+mul_pp r0.xyz, r0, c0.x
+mov_pp oC0, r0
+"
+}
+SubProgram "d3d11 " {
+Keywords { "LIGHTMAP_ON" }
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_2DReflect] 2D 1
+SetTexture 2 [unity_Lightmap] 2D 2
+"ps_4_0
+eefiecedepojnifboicoldghkbicabinffgkgeneabaaaaaaiaacaaaaadaaaaaa
+cmaaaaaaleaaaaaaoiaaaaaaejfdeheoiaaaaaaaaeaaaaaaaiaaaaaagiaaaaaa
+aaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaaheaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaadadaaaaheaaaaaaabaaaaaaaaaaaaaaadaaaaaaabaaaaaa
+amamaaaaheaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaaadadaaaafdfgfpfa
+epfdejfeejepeoaafeeffiedepepfceeaaklklklepfdeheocmaaaaaaabaaaaaa
+aiaaaaaacaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapaaaaaafdfgfpfe
+gbhcghgfheaaklklfdeieefcjaabaaaaeaaaaaaageaaaaaafkaaaaadaagabaaa
+aaaaaaaafkaaaaadaagabaaaabaaaaaafkaaaaadaagabaaaacaaaaaafibiaaae
+aahabaaaaaaaaaaaffffaaaafibiaaaeaahabaaaabaaaaaaffffaaaafibiaaae
+aahabaaaacaaaaaaffffaaaagcbaaaaddcbabaaaabaaaaaagcbaaaadmcbabaaa
+abaaaaaagcbaaaaddcbabaaaacaaaaaagfaaaaadpccabaaaaaaaaaaagiaaaaac
+adaaaaaaefaaaaajpcaabaaaaaaaaaaaegbabaaaacaaaaaaeghobaaaacaaaaaa
+aagabaaaacaaaaaadiaaaaahicaabaaaaaaaaaaadkaabaaaaaaaaaaaabeaaaaa
+aaaaaaebdiaaaaahhcaabaaaaaaaaaaaegacbaaaaaaaaaaapgapbaaaaaaaaaaa
+efaaaaajpcaabaaaabaaaaaaegbabaaaabaaaaaaeghobaaaaaaaaaaaaagabaaa
+aaaaaaaaefaaaaajpcaabaaaacaaaaaaogbkbaaaabaaaaaaeghobaaaabaaaaaa
+aagabaaaabaaaaaadcaaaaajpcaabaaaabaaaaaaegaobaaaacaaaaaapgapbaaa
+abaaaaaaegaobaaaabaaaaaadiaaaaahhccabaaaaaaaaaaaegacbaaaaaaaaaaa
+egacbaaaabaaaaaadgaaaaaficcabaaaaaaaaaaadkaabaaaabaaaaaadoaaaaab
+"
+}
+SubProgram "d3d11_9x " {
+Keywords { "LIGHTMAP_ON" }
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_2DReflect] 2D 1
+SetTexture 2 [unity_Lightmap] 2D 2
+"ps_4_0_level_9_1
+eefiecednnanmbihndfdlfhgkkalgpjgefmfmfceabaaaaaakeadaaaaaeaaaaaa
+daaaaaaafaabaaaaoiacaaaahaadaaaaebgpgodjbiabaaaabiabaaaaaaacpppp
+oiaaaaaadaaaaaaaaaaadaaaaaaadaaaaaaadaaaadaaceaaaaaadaaaaaaaaaaa
+abababaaacacacaaaaacppppfbaaaaafaaaaapkaaaaaaaebaaaaaaaaaaaaaaaa
+aaaaaaaabpaaaaacaaaaaaiaaaaacplabpaaaaacaaaaaaiaabaacdlabpaaaaac
+aaaaaajaaaaiapkabpaaaaacaaaaaajaabaiapkabpaaaaacaaaaaajaacaiapka
+ecaaaaadaaaacpiaabaaoelaacaioekaecaaaaadabaacpiaaaaaoelaaaaioeka
+afaaaaadaaaaciiaaaaappiaaaaaaakaafaaaaadaaaachiaaaaaoeiaaaaappia
+abaaaaacacaacdiaaaaabllaecaaaaadacaacpiaacaaoeiaabaioekaaeaaaaae
+abaacpiaacaaoeiaabaappiaabaaoeiaafaaaaadabaachiaaaaaoeiaabaaoeia
+abaaaaacaaaicpiaabaaoeiappppaaaafdeieefcjaabaaaaeaaaaaaageaaaaaa
+fkaaaaadaagabaaaaaaaaaaafkaaaaadaagabaaaabaaaaaafkaaaaadaagabaaa
+acaaaaaafibiaaaeaahabaaaaaaaaaaaffffaaaafibiaaaeaahabaaaabaaaaaa
+ffffaaaafibiaaaeaahabaaaacaaaaaaffffaaaagcbaaaaddcbabaaaabaaaaaa
+gcbaaaadmcbabaaaabaaaaaagcbaaaaddcbabaaaacaaaaaagfaaaaadpccabaaa
+aaaaaaaagiaaaaacadaaaaaaefaaaaajpcaabaaaaaaaaaaaegbabaaaacaaaaaa
+eghobaaaacaaaaaaaagabaaaacaaaaaadiaaaaahicaabaaaaaaaaaaadkaabaaa
+aaaaaaaaabeaaaaaaaaaaaebdiaaaaahhcaabaaaaaaaaaaaegacbaaaaaaaaaaa
+pgapbaaaaaaaaaaaefaaaaajpcaabaaaabaaaaaaegbabaaaabaaaaaaeghobaaa
+aaaaaaaaaagabaaaaaaaaaaaefaaaaajpcaabaaaacaaaaaaogbkbaaaabaaaaaa
+eghobaaaabaaaaaaaagabaaaabaaaaaadcaaaaajpcaabaaaabaaaaaaegaobaaa
+acaaaaaapgapbaaaabaaaaaaegaobaaaabaaaaaadiaaaaahhccabaaaaaaaaaaa
+egacbaaaaaaaaaaaegacbaaaabaaaaaadgaaaaaficcabaaaaaaaaaaadkaabaaa
+abaaaaaadoaaaaabejfdeheoiaaaaaaaaeaaaaaaaiaaaaaagiaaaaaaaaaaaaaa
+abaaaaaaadaaaaaaaaaaaaaaapaaaaaaheaaaaaaaaaaaaaaaaaaaaaaadaaaaaa
+abaaaaaaadadaaaaheaaaaaaabaaaaaaaaaaaaaaadaaaaaaabaaaaaaamamaaaa
+heaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaaadadaaaafdfgfpfaepfdejfe
+ejepeoaafeeffiedepepfceeaaklklklepfdeheocmaaaaaaabaaaaaaaiaaaaaa
+caaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapaaaaaafdfgfpfegbhcghgf
+heaaklkl"
+}
+}
+ }
+}
+Fallback "AngryBots/Fallback"
+}

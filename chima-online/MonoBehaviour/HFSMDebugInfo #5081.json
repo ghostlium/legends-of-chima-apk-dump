@@ -1,0 +1,21 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 801
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 22
+  },
+  "m_Name": "",
+  "HfsmName": "",
+  "SceenPosition": {
+    "x": 10.0,
+    "y": 10.0
+  },
+  "DisplayBackground": 1,
+  "DisplayOnScreenInfo": 0,
+  "DisplayLogInfo": 0,
+  "StateTimeRecords": []
+}

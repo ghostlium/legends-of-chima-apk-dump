@@ -1,0 +1,23 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 880
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 909
+  },
+  "m_Name": "",
+  "Speed": 3.5,
+  "Acceleration": 8.0,
+  "AngularSpeed": 120.0,
+  "UpdateRotation": 1,
+  "StoppingDistance": 0.0,
+  "SlopeMax": 50.0,
+  "StepMax": 0.3,
+  "InstantTurnAngle": 135.0,
+  "ObstacleAvoidance": 0,
+  "MinimumGridPointWeight": 1,
+  "DebugDisplayPath": 0
+}

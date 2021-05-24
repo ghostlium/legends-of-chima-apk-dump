@@ -1,0 +1,24 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1031
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 935
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_BlockPath": 1,
+  "m_LevelOffset": 0,
+  "m_SFXOpen": "UI_LootChest_Open",
+  "m_SFXClose": "UI_LootChest_Close",
+  "LootDelayInSeconds": 900.0,
+  "MemberOnly": 0
+}

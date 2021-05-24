@@ -1,0 +1,66 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 626
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 640
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "LevelOffset": 0,
+  "Respawn": 1,
+  "RespawnDelay": 0.0,
+  "DestroyVisualOnSpawn": 0,
+  "DestroyIfVisualDestroyed": 0,
+  "DestroyAfterDelay": 0,
+  "DestroyDelay": 0.0,
+  "DetectionCenterOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "SpawnSettings": {
+    "ActivationDelay": 0.0,
+    "SpawnDelay": 0.0,
+    "TriggerType": 0,
+    "ProximityRange": 30.0,
+    "TriggerChanceWeight": 1,
+    "SpawnWaves": 1,
+    "ContinuousSpawn": 0,
+    "WaitSpawnWavedKilled": 0,
+    "OnStopKillActiveSpawns": 0
+  },
+  "BehaviourSettings": {
+    "GuardRadius": 20.0
+  },
+  "ExternalStart": {
+    "MessageObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "TriggerType": 0
+  },
+  "ExternalStop": {
+    "MessageObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "TriggerType": 0
+  },
+  "ExternalReset": {
+    "MessageObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "TriggerType": 0
+  },
+  "DebugDrawGuardRadius": 0
+}

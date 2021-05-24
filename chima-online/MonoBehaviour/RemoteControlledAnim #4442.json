@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1182
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 149
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "GridX": 4,
+  "GridY": 4,
+  "GridOffsetX": 0.0,
+  "GridOffsetY": 0.0,
+  "HazardRange": 0.0,
+  "AffectPathfinding": 0,
+  "Sounds": [
+    "PF_SFX_Hazard_Mine_Explosion",
+    "PF_SFX_Hazard_Mine_Beep"
+  ],
+  "NotInteractableAfterAnim": 0,
+  "ActivateInAnyOrder": 0,
+  "ActivationType": 255,
+  "ActivationCancelType": 255,
+  "ExternalMessages": [],
+  "_refPosition": {
+    "m_FileID": 0,
+    "m_PathID": 1897
+  }
+}

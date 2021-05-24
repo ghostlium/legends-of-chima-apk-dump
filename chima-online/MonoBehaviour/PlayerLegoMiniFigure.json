@@ -1,0 +1,77 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 792
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 309
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Level": 1,
+  "Height": 1.0,
+  "Radius": 1.2,
+  "MovementAttribs": {
+    "MoveType": 0,
+    "StandardSpeed": 1.2,
+    "MaxStandardSpeedRatio": 1.5,
+    "HighSpeed": 4.5,
+    "SpeedSmoothing": 10.0,
+    "RotationSpeed": 800.0,
+    "MinDistToTriggerMovement": 0.5,
+    "TargetDistToTriggerHighSpeed": 1.0,
+    "Gravity": -9.81,
+    "InstantTurnAngle": 135.0,
+    "StopSlideDistance": 1.25
+  },
+  "ExplosionParams": {
+    "ExplosionDistance": 3.0,
+    "ExplosionDirection": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "ExplosionForce": 150.0,
+    "ExplosionLift": 15.0,
+    "ExplosionRadius": 5.0,
+    "ExplosionSpread": 125.0,
+    "LinearDrag": 0.25,
+    "AngularDrag": 3.0,
+    "MinMass": 0.8,
+    "MaxMass": 1.6,
+    "Lifetime": 5.0,
+    "AutoDestruct": 0,
+    "AutoHide": 0
+  },
+  "DamageEffectDuration": 0.15,
+  "AnimObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "PlayIdleBreakers": 1,
+  "EnableNetworkCommands": 1,
+  "_chiigUpPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "DebugUpdateServerCommands": 0,
+  "DebugUpdateServerHFSM": 0,
+  "DebugUpdateLockedTargetsCommand": 0,
+  "IgnoreLayers": {
+    "m_Bits": 4294964735
+  },
+  "MaxDistanceToBuildObject": 10.0,
+  "MoveToTargetPrefab": {
+    "m_FileID": 0,
+    "m_PathID": 348
+  },
+  "SingleClickDelay": 0.5,
+  "GridToDebug": 0
+}

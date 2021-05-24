@@ -1,0 +1,287 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1141
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 235
+  },
+  "m_Name": "",
+  "managed": 0,
+  "manager": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "spriteExecutive": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "drawLayer": 0,
+  "persistent": 0,
+  "plane": 0,
+  "winding": 1,
+  "width": 20.0,
+  "height": 20.0,
+  "bleedCompensation": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "anchor": 4,
+  "pixelPerfect": 0,
+  "autoResize": 0,
+  "billboarded": 0,
+  "offset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "renderCamera": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "pixelsPerUV": {
+    "x": 256.0,
+    "y": 512.0
+  },
+  "hideAtStart": 0,
+  "ignoreClipping": 0,
+  "savedManager": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "ClosestFlashAnim": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "playAnimOnStart": 0,
+  "crossfadeFrames": 0,
+  "defaultAnim": 0,
+  "doNotTrimImages": 0,
+  "animations": [
+    {
+      "name": "Normal",
+      "loopCycles": 0,
+      "loopReverse": 0,
+      "framerate": 15.0,
+      "index": 0,
+      "onAnimEnd": 0
+    },
+    {
+      "name": "Over",
+      "loopCycles": 0,
+      "loopReverse": 0,
+      "framerate": 15.0,
+      "index": 1,
+      "onAnimEnd": 0
+    },
+    {
+      "name": "Active",
+      "loopCycles": 0,
+      "loopReverse": 0,
+      "framerate": 15.0,
+      "index": 2,
+      "onAnimEnd": 0
+    },
+    {
+      "name": "Disabled",
+      "loopCycles": 0,
+      "loopReverse": 0,
+      "framerate": 15.0,
+      "index": 3,
+      "onAnimEnd": 0
+    }
+  ],
+  "text": "",
+  "spriteText": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "textOffsetZ": -0.1,
+  "includeTextInAutoCollider": 1,
+  "detargetOnDisable": 0,
+  "isDraggable": 0,
+  "dropMask": {
+    "m_Bits": 4294967295
+  },
+  "dragOffset": 0.0,
+  "cancelDragEasing": -1,
+  "cancelDragDuration": -1.0,
+  "states": [
+    {
+      "name": "Normal",
+      "loopCycles": 0,
+      "loopReverse": 0,
+      "framerate": 15.0,
+      "onAnimEnd": 0,
+      "framePaths": [],
+      "frameGUIDs": [
+        "49dc165c56df4c14e84698145d0d05fd"
+      ],
+      "spriteFrames": [
+        {
+          "uvs": {
+            "x": 0.0625,
+            "y": 0.3125,
+            "width": 0.625,
+            "height": 0.625
+          },
+          "scaleFactor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "topLeftOffset": {
+            "x": -1.0,
+            "y": 1.0
+          },
+          "bottomRightOffset": {
+            "x": 1.0,
+            "y": -1.0
+          },
+          "rotateUVs": 0
+        }
+      ]
+    },
+    {
+      "name": "Over",
+      "loopCycles": 0,
+      "loopReverse": 0,
+      "framerate": 15.0,
+      "onAnimEnd": 0,
+      "framePaths": [],
+      "frameGUIDs": [],
+      "spriteFrames": []
+    },
+    {
+      "name": "Active",
+      "loopCycles": 0,
+      "loopReverse": 0,
+      "framerate": 15.0,
+      "onAnimEnd": 0,
+      "framePaths": [],
+      "frameGUIDs": [],
+      "spriteFrames": []
+    },
+    {
+      "name": "Disabled",
+      "loopCycles": 0,
+      "loopReverse": 0,
+      "framerate": 15.0,
+      "onAnimEnd": 0,
+      "framePaths": [],
+      "frameGUIDs": [],
+      "spriteFrames": []
+    }
+  ],
+  "transitions": [
+    {
+      "list": [
+        {
+          "name": "From Over",
+          "animationTypes": [],
+          "animParams": [],
+          "initialized": 0
+        },
+        {
+          "name": "From Active",
+          "animationTypes": [],
+          "animParams": [],
+          "initialized": 0
+        },
+        {
+          "name": "From Disabled",
+          "animationTypes": [],
+          "animParams": [],
+          "initialized": 0
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "name": "From Normal",
+          "animationTypes": [],
+          "animParams": [],
+          "initialized": 0
+        },
+        {
+          "name": "From Active",
+          "animationTypes": [],
+          "animParams": [],
+          "initialized": 0
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "name": "From Normal",
+          "animationTypes": [],
+          "animParams": [],
+          "initialized": 0
+        },
+        {
+          "name": "From Over",
+          "animationTypes": [],
+          "animParams": [],
+          "initialized": 0
+        }
+      ]
+    },
+    {
+      "list": [
+        {
+          "name": "From Normal",
+          "animationTypes": [],
+          "animParams": [],
+          "initialized": 0
+        },
+        {
+          "name": "From Over",
+          "animationTypes": [],
+          "animParams": [],
+          "initialized": 0
+        },
+        {
+          "name": "From Active",
+          "animationTypes": [],
+          "animParams": [],
+          "initialized": 0
+        }
+      ]
+    }
+  ],
+  "stateLabels": [
+    "[\"]",
+    "[\"]",
+    "[\"]",
+    "[\"]"
+  ],
+  "layers": [],
+  "scriptWithMethodToInvoke": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "methodToInvoke": "",
+  "messageToSend": "",
+  "messageParameterToSend": "",
+  "whenToInvoke": 3,
+  "delay": 0.0,
+  "soundOnOver": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "soundOnClick": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "repeat": 0,
+  "StateNotif": 0,
+  "MultipleEventsDefinition": [],
+  "alwaysFinishActiveTransition": 0,
+  "DisplayTooltip": 0,
+  "TooltipArrowPosition": 0,
+  "TooltipLocalizationID": "",
+  "CustomOrNoCollider": 1
+}

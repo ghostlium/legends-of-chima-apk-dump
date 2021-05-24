@@ -1,0 +1,19 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1111
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 664
+  },
+  "m_Name": "",
+  "m_soundSmall": "",
+  "m_soundMedium": "",
+  "m_soundLarge": "",
+  "m_Value": 0,
+  "m_GroupID": 0,
+  "m_FreeMovementRadius": 0.0,
+  "AutoPickUp": 0
+}

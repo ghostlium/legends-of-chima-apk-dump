@@ -1,0 +1,228 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 351
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 660
+  },
+  "m_Name": "",
+  "FamilyConfigsIosLowEnd": [
+    {
+      "maxInstancesInFamily": 4,
+      "maxInstancesInPool": 3,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 4,
+      "maxInstancesInPool": 3,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 4,
+      "maxInstancesInPool": 3,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 4,
+      "maxInstancesInPool": 3,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 4,
+      "maxInstancesInPool": 3,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 4,
+      "maxInstancesInPool": 4,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 4,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 20,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 18,
+      "maxInstancesInPool": 6,
+      "timeToLive": 60.0,
+      "preloadCount": 6,
+      "replaceOldest": 0
+    },
+    {
+      "maxInstancesInFamily": 6,
+      "maxInstancesInPool": 1,
+      "timeToLive": 30.0,
+      "preloadCount": 0,
+      "replaceOldest": 0
+    }
+  ],
+  "FamilyConfigsIosHighEnd": [
+    {
+      "maxInstancesInFamily": 7,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 7,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 7,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 7,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 7,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 7,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 7,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 20,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 40,
+      "maxInstancesInPool": 20,
+      "timeToLive": 600.0,
+      "preloadCount": 8,
+      "replaceOldest": 0
+    },
+    {
+      "maxInstancesInFamily": 20,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    }
+  ],
+  "FamilyConfigsHighEnd": [
+    {
+      "maxInstancesInFamily": 17,
+      "maxInstancesInPool": 7,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 17,
+      "maxInstancesInPool": 7,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 20,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 20,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 20,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 20,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 20,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 20,
+      "maxInstancesInPool": 5,
+      "timeToLive": 20.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    },
+    {
+      "maxInstancesInFamily": 40,
+      "maxInstancesInPool": 20,
+      "timeToLive": 600.0,
+      "preloadCount": 0,
+      "replaceOldest": 0
+    },
+    {
+      "maxInstancesInFamily": 16,
+      "maxInstancesInPool": 3,
+      "timeToLive": 60.0,
+      "preloadCount": 0,
+      "replaceOldest": 1
+    }
+  ]
+}

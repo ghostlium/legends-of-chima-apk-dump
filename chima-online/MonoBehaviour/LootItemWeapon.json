@@ -1,0 +1,25 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1124
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 898
+  },
+  "m_Name": "",
+  "m_Handle": 0,
+  "AutoCollect": 0,
+  "m_SFX_Drop": "",
+  "m_SFX_Pickup": "",
+  "m_SFX_PickupUI": "UIHUD_Loot_Inventory",
+  "m_SFX_MeleeObj_Drop": "MLR_Loot_Sword_drop",
+  "m_SFX_RangeObj_Drop": "MLR_Loot_Weapon_drop",
+  "m_SFX_ShoulderObj_Drop": "MLR_Loot_Weapon_drop",
+  "m_SFX_GadgetObj_Drop": "MLR_Loot_Weapon_drop",
+  "m_SFX_MeleeObj_Pickup": "MLR_Loot_Melee_PICKUP",
+  "m_SFX_RangeObj_Pickup": "MLR_Loot_Weapon_PICKUP",
+  "m_SFX_ShoulderObj_Pickup": "MLR_Loot_Weapon_PICKUP",
+  "m_SFX_GadgetObj_Pickup": "MLR_Loot_Weapon_PICKUP"
+}

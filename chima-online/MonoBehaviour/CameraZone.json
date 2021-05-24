@@ -1,0 +1,41 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 996
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 863
+  },
+  "m_Name": "",
+  "CameraSettings": {
+    "Distance": 22.0,
+    "Pitch": 72.0,
+    "Yaw": 270.0,
+    "Roll": 0.0,
+    "Fov": 24.0,
+    "FarClippingPlane": 100.0,
+    "TransitionDuration": 2.0,
+    "OptionalOutTransitionDuration": -1.0,
+    "Offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "FixedPos": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "FollowObjects": [],
+    "StopMouseContinuousGotoOnTransition": 0,
+    "SeasickMode": 0.0,
+    "AllowOrbitting": 1,
+    "OrbitAngluarSpeed": 75.0,
+    "InverseOrbit": 0,
+    "MinimumZoom": 0.5,
+    "MaximumZoom": 1.5,
+    "IgnoreYaw": 0,
+    "IsCutscene": 0
+  }
+}

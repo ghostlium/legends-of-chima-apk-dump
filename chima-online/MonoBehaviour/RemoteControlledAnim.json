@@ -1,0 +1,36 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1162
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 149
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "GridX": 6,
+  "GridY": 2,
+  "GridOffsetX": 3.0,
+  "GridOffsetY": 0.0,
+  "HazardRange": 1.0,
+  "AffectPathfinding": 1,
+  "Sounds": [
+    "SFX_Mover_BridgeDown"
+  ],
+  "NotInteractableAfterAnim": 1,
+  "ActivateInAnyOrder": 0,
+  "ActivationType": 255,
+  "ActivationCancelType": 255,
+  "ExternalMessages": [],
+  "_refPosition": {
+    "m_FileID": 0,
+    "m_PathID": 1874
+  }
+}

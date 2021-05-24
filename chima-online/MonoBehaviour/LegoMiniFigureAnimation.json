@@ -1,0 +1,18 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 792
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 482
+  },
+  "m_Name": "",
+  "IdleBreakerTime": 0.0,
+  "RoFAttackAnimStretchRatio": 0.25,
+  "DebugDisplayAnimHistory": 0,
+  "DebugDisplayPlayingAnims": 0,
+  "DebugDisplayTimeScale": 0,
+  "DebugAnimTraceDepth": 5
+}

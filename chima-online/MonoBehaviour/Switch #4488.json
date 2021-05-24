@@ -1,0 +1,83 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1008
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 103
+  },
+  "m_Name": "",
+  "IsGlobalObject": 0,
+  "DoNotInstantiate": 0,
+  "m_DebugCommandUsage": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "Sounds": [
+    "SFX_Mover_Plate_StepOn",
+    "SFX_Mover_Boss_Switch_Beep"
+  ],
+  "InitData": {
+    "ReplicationID": 0,
+    "PrefabName": "Switch_Boss_01",
+    "PressurePlateRadius": 1.0,
+    "SwitchMode": 0,
+    "SwitchType": 1,
+    "ResetTime": 8.0,
+    "DontResetIfNearPlayer": 0,
+    "TriggerTargetNumber": 1,
+    "ActionsOnTrigger": [
+      {
+        "Target": "",
+        "Anim": "Open_Up",
+        "WrapMode": 8,
+        "Reverse": 0,
+        "AnimTime": 0.0
+      }
+    ],
+    "TriggerAnim": "GP_BossDoorSwitch_StepOn",
+    "TriggerAnimReverse": 0,
+    "TriggerAnimTime": 0.0,
+    "TriggeringAnim": "GP_BossDoorSwitch01_Activate",
+    "TriggeringAnimReverse": 0,
+    "TriggeringAnimLength": 5.016667,
+    "TriggeringAnimTime": 5.0,
+    "MeantimeAnim": "GP_BossDoorSwitch01_Activate",
+    "MeantimeAnimReverse": 0,
+    "MeantimeAnimLength": 12.0166664,
+    "SwitchCommandsOnTriggerNumber": 0,
+    "SwitchCommandsOnTrigger": [
+      {
+        "TargetSwitch": "",
+        "Type": 0,
+        "DeactivatesAfterExec": 1,
+        "AffectsTriggerObjects": 0
+      }
+    ],
+    "SwitchCommandsOnResetNumber": 0,
+    "SwitchCommandsOnReset": [
+      {
+        "TargetSwitch": "",
+        "Type": 0,
+        "DeactivatesAfterExec": 1,
+        "AffectsTriggerObjects": 0
+      }
+    ],
+    "ResetTargetNumber": 1,
+    "ActionsOnReset": [
+      {
+        "Target": "",
+        "Anim": "HZRD_GroundPikes_Out_Static",
+        "WrapMode": 8,
+        "Reverse": 0,
+        "AnimTime": 0.0
+      }
+    ],
+    "ResetAnim": "GP_BossDoorSwitch_StepOn",
+    "ResetAnimReverse": 1,
+    "ResetAnimTime": 0.0,
+    "HighlightOnHover": 1
+  }
+}

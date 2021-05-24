@@ -1,0 +1,156 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1265
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 2,
+    "m_PathID": 954
+  },
+  "m_Name": "",
+  "StateMusicList": [
+    {
+      "State": 1,
+      "MusicsStructures": [
+        {
+          "Music": {
+            "PrefabName": "PF_MUS_Global_Domain_Outpost",
+            "FadeInTime": 1.0
+          },
+          "LowStressMusic": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "HighStressMusic": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "Resolution": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "NumberOfEnemiesToTriggerHighStress": 5,
+          "SilenceAfterResolution": 0.0
+        },
+        {
+          "Music": {
+            "PrefabName": "PF_MUS_Global_Domain_Village",
+            "FadeInTime": 1.0
+          },
+          "LowStressMusic": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "HighStressMusic": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "Resolution": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "NumberOfEnemiesToTriggerHighStress": 5,
+          "SilenceAfterResolution": 0.0
+        },
+        {
+          "Music": {
+            "PrefabName": "PF_MUS_Global_Domain_BricAnnex",
+            "FadeInTime": 1.0
+          },
+          "LowStressMusic": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "HighStressMusic": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "Resolution": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "NumberOfEnemiesToTriggerHighStress": 5,
+          "SilenceAfterResolution": 0.0
+        }
+      ]
+    },
+    {
+      "State": 3,
+      "MusicsStructures": [
+        {
+          "Music": {
+            "PrefabName": "PF_MUS_Mountain_Explo_01",
+            "FadeInTime": 8.0
+          },
+          "LowStressMusic": {
+            "PrefabName": "PF_MUS_Mountain_Stress_Low",
+            "FadeInTime": 1.0
+          },
+          "HighStressMusic": {
+            "PrefabName": "PF_MUS_Mountain_Stress_High",
+            "FadeInTime": 1.0
+          },
+          "Resolution": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "NumberOfEnemiesToTriggerHighStress": 3,
+          "SilenceAfterResolution": 20.0
+        }
+      ]
+    },
+    {
+      "State": 2,
+      "MusicsStructures": [
+        {
+          "Music": {
+            "PrefabName": "PF_MUS_Wilderness_Stress_Low_02_PF",
+            "FadeInTime": 1.0
+          },
+          "LowStressMusic": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "HighStressMusic": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "Resolution": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "NumberOfEnemiesToTriggerHighStress": 0,
+          "SilenceAfterResolution": 0.0
+        }
+      ]
+    },
+    {
+      "State": 7,
+      "MusicsStructures": [
+        {
+          "Music": {
+            "PrefabName": "PF_MUS_Wilderness_Explo_01",
+            "FadeInTime": 1.0
+          },
+          "LowStressMusic": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "HighStressMusic": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "Resolution": {
+            "PrefabName": "",
+            "FadeInTime": 0.0
+          },
+          "NumberOfEnemiesToTriggerHighStress": 0,
+          "SilenceAfterResolution": 0.0
+        }
+      ]
+    }
+  ],
+  "GlobalCrossFadeTime": 2.0,
+  "GlobalFadeOutTime": 2.0
+}
